@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "01_array_traversal",
+  "language": "rust",
+  "backend": "rust",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "bc40f117a5e65c7f62842f3bbb220ea3ccdcdbd63fc56de4748d2436a42eb863",
+  "input_sha256": "bc999de0e3bb2e760b762a09c67dd52d2871ac767199b92864425e3f83766f01",
+  "trial_path": "01_array_traversal/trials/00079-rust-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 784004,
+  "process_cpu_ns": 698000,
+  "peak_rss_bytes": 2080768,
+  "launch_to_ready_ns": 1391447,
+  "execution_cpu_ns": 1168,
+  "execution_wall_ns": 2560,
+  "gc_counter": "not_applicable; ownership and reference counting",
+  "gc_execution": null,
+  "coverage": "gc_not_applicable",
+  "scenario": "17-indexed",
+  "trial": 0
+}

@@ -1,0 +1,45 @@
+Validation on 2026-09-29, Linux aarch64. No accepted performance baseline.
+
+Completed
+  10 accounting/protocol tests passed: wall versus CPU time, worker and waited-child
+  CPU, touched-memory RSS, launcher isolation, exit failure, timeout, result types
+  and malformed/incomplete adapter output. Run test_measure.py through unittest.
+
+  410 reference correctness trials passed across Rust, Go, Python, Node and Bun.
+  Inputs cover empty/small arrays, traversal variants, sorting distributions,
+  malformed JSON/schema boundaries, allocation retention and async fanout.
+  Evidence: measurements/foundation-reference-checks/ and corpus-reference-checks/.
+
+  15 repeated-job trials passed across those runtimes: startup, traversal and
+  allocation, each with 2 warmup calls and 10 measured calls. These check protocol
+  boundaries; they do not establish steady-state performance or sustained GC.
+  Evidence: measurements/reference-protocol-checks/.
+
+  All 7 runnable cases packed and returned the expected result through published
+  BAML 0.20.2-nightly.20260927.a. Packaging uses disabled bytecode/diagnostics caches.
+  Evidence: measurements/published-release-final-checks/. Earlier published checks
+  remain separate because their saved provenance is less complete.
+
+  correctness.baml returned true through that CLI. It checks selected aliasing,
+  iteration, cleanup, integer and suspended-root behavior independently of timings.
+  This semantic check is not evidence of GC activity in a measured workload.
+
+  Python lint and formatting passed. Pinned BAML source references resolve in the
+  release checkout. The Nix flake evaluated and its development shell ran GCC, uv
+  and protoc. Recorded trials used the host support environment, not that shell;
+  their benchmark language executables came from tools.json.
+
+Pending
+  The source-built BAML host did not finish its release link within 110 seconds.
+  No runtime, BTEL completion or GC-coverage result from that host is accepted.
+  Finish the release build, then validate off/low/medium/high with local recordings,
+  recording corruption/failure handling and natural GC during sustained work.
+
+  Freeze workload sizes, warmup, repetitions and host conditions after pilot runs.
+  Measure overhead floors before interpreting tiny jobs. Node/Bun GC activity is
+  unavailable; HTTP service machinery and non-BAML minimal deployment inventories
+  are not implemented. A static comparison report has not been built.
+
+Retained failures
+  measurements/reference-validation/ records a rejected setup with stale source
+  provenance. It ran no trials. Rejected inputs must never become successful rows.

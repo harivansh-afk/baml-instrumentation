@@ -1,0 +1,2 @@
+{"event":"ready"}
+{"event":"result","jobs":1,"result":"[{\"account\":\"a\",\"total_cents\":1}]","execution_wall_ns":234689,"execution_cpu_ns":225000,"gc_execution":null,"gc_counter":"unavailable; no GC claim"}

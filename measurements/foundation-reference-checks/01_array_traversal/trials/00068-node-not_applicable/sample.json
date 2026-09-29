@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "01_array_traversal",
+  "language": "node",
+  "backend": "node",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03",
+  "input_sha256": "cbc9c3018f6d93c91a48a47df10609f031a4b5d71844bb7203915b01aff27fcf",
+  "trial_path": "01_array_traversal/trials/00068-node-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 59572044,
+  "process_cpu_ns": 58956000,
+  "peak_rss_bytes": 68681728,
+  "launch_to_ready_ns": 52858571,
+  "execution_wall_ns": 39760,
+  "execution_cpu_ns": 35000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "1-iterator",
+  "trial": 0
+}

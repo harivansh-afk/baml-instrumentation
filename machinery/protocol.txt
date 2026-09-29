@@ -1,0 +1,33 @@
+Adapter protocol, version 1
+
+compile SOURCE ARTIFACT
+  Produce the runnable artifact and exit nonzero on any compilation error.
+  Toolchain construction and dependency fetching happen before this command.
+
+run ARTIFACT INPUT JOBS WARMUP SINK OUTPUT
+  BAML host interface. Other adapters take INPUT JOBS WARMUP after their fixed
+  executable arguments. Read the fixture, prepare state and emit ready. Warm up
+  in this process. Measure JOBS calls, then emit result. Finish runtime shutdown
+  and telemetry delivery, then emit drained. Write one JSON object per line.
+
+ready
+  {"event":"ready"}
+result
+  {"event":"result","jobs":1,"result":"42","execution_wall_ns":123,
+   "execution_cpu_ns":100,"gc_execution":0,"gc_warmup":0,
+   "gc_counter":"full_collections"}
+drained
+  {"event":"drained","drain_ns":100,"gc_drain":1,
+   "telemetry_ok":true,"delivery_loss":0}
+
+Times above illustrate the schema, not measurements. Result contains the case's
+JSON text. BAML requires drained; other adapters rely on observed process exit.
+Unavailable GC counters are null with gc_counter="unavailable" and a gc_reason.
+They are never zero.
+Only implemented, measured counters may be supplied. Unsupported backend features
+must fail explicitly or remain unavailable; the controller must not synthesize them.
+
+inspect OUTPUT EXPECTED_CALLS LEVEL
+  Decode a completed local recording in a separate process after the runtime exits.
+  Verify structural consistency and the ordinary run() completion count. Emit the
+  evidence as JSON and exit nonzero on failure. File existence is insufficient.

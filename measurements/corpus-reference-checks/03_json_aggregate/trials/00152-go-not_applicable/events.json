@@ -1,0 +1,20 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 2146266
+  },
+  {
+    "allocated_bytes": 6800,
+    "event": "result",
+    "execution_cpu_ns": 22000,
+    "execution_wall_ns": 22176,
+    "gc_counter": "completed_gc_cycles",
+    "gc_execution": 0,
+    "gc_pause_ns": 0,
+    "gc_warmup": 0,
+    "heap_live_bytes": 77736,
+    "jobs": 1,
+    "result": "{\"error\":\"invalid\"}",
+    "received_ns": 2313291
+  }
+]

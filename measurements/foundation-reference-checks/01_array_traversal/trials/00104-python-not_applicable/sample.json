@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "case": "01_array_traversal",
+  "language": "python",
+  "backend": "python",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6",
+  "input_sha256": "0a75eb5192ce074ee702fd0e952c89f415cfd7f8b93c97e6b8c93cb8a4a5fa2b",
+  "trial_path": "01_array_traversal/trials/00104-python-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 172083522,
+  "process_cpu_ns": 171793000,
+  "peak_rss_bytes": 27611136,
+  "launch_to_ready_ns": 162859127,
+  "execution_wall_ns": 18304,
+  "execution_cpu_ns": 14960,
+  "gc_execution": 0,
+  "gc_warmup": 0,
+  "gc_counter": "cyclic_collections; reference-count reclamation excluded",
+  "coverage": "gc_not_observed",
+  "scenario": "257-indexed",
+  "trial": 0
+}

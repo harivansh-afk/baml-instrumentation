@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "kind": "run",
+  "time_utc": "2026-09-29T19:27:10Z",
+  "platform": "Linux-6.17.13-aarch64-with-glibc2.42",
+  "machine": "aarch64",
+  "cpu_affinity": [
+    15,
+    16
+  ],
+  "workers": 2,
+  "runtime_environment": {
+    "PATH": "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.local/share/pnpm:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg00pgOIX:/home/rathi/.codex/tmp/arg0/codex-arg0u7FzUa:/home/rathi/.codex/packages/app-server-daemon/releases/0.158.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0ebZ2aT:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0Ijo33c:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0PLrWEP:/home/rathi/.local/share/npm/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/rathi/.amp/bin:/home/rathi/.bun/bin:/home/rathi/.antigravity/antigravity/bin:/home/rathi/.opencode/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.nix-profile/bin:/run/wrappers/bin:/etc/profiles/per-user/rathi/bin:/run/current-system/sw/bin:/nix/var/nix/profiles/default/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/pnpm:/nix/profile/bin:/home/rathi/.local/state/nix/profile/bin",
+    "HOME": "/home/rathi",
+    "USER": "rathi",
+    "LANG": "C.UTF-8",
+    "NIX_LD": "/run/current-system/sw/share/nix-ld/lib/ld.so",
+    "NIX_LD_LIBRARY_PATH": "/run/current-system/sw/share/nix-ld/lib",
+    "LC_ALL": "C",
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "GOMAXPROCS": "2",
+    "BENCH_WORKERS": "2",
+    "TOKIO_WORKER_THREADS": "2",
+    "BAML_TELEMETRY": "off",
+    "BAML_NO_BYTECODE_CACHE": "1",
+    "BAML_NO_DIAGNOSTICS_CACHE": "1",
+    "BAML_AGENT_SKILL_CHECK": "off",
+    "GOTOOLCHAIN": "local",
+    "CARGO_NET_OFFLINE": "true",
+    "RUSTC": "/home/rathi/.local/share/rustup/toolchains/1.98.1-aarch64-unknown-linux-gnu/bin/rustc"
+  },
+  "observer_sha256": "0041ac5bf3caa4e1db309965a4e2214d89087b21671b19454ae33044023c59a5",
+  "observer_compiler": "clang version 21.1.8\nTarget: aarch64-unknown-linux-gnu\nThread model: posix\nInstalledDir: /nix/store/zhf89z887shi5c32klz954rvlh9l25rp-clang-21.1.8/bin",
+  "pins": {
+    "checked_at": "2026-09-29",
+    "platform": "aarch64-linux",
+    "baml_revision": "340b9085d9427e6d458f1c700409ffc88c58b050",
+    "baml_release": "https://github.com/BoundaryML/baml/releases/tag/baml-language-0.20.2-nightly.20260927.a",
+    "tools": {
+      "baml": {
+        "version": "0.20.2-nightly.20260927.a",
+        "executable": "bin/baml-cli",
+        "filename": "baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/BoundaryML/baml/releases/download/baml-language-0.20.2-nightly.20260927.a/baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "sha256": "a284c71581d66f3ce5488482d0c943c803eb216dd10689c0f014eda8aca59da7"
+      },
+      "go": {
+        "version": "1.27.1",
+        "executable": "go/bin/go",
+        "filename": "go1.27.1.linux-arm64.tar.gz",
+        "url": "https://go.dev/dl/go1.27.1.linux-arm64.tar.gz",
+        "sha256": "3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec"
+      },
+      "python": {
+        "version": "3.14.7",
+        "executable": "python/bin/python3",
+        "filename": "cpython-3.14.7+20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.14.7%2B20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "sha256": "9b8bd45d06fc3fcdc56f2713a62535fe1c019816461ae87c170dd56184dd3f4d"
+      },
+      "bun": {
+        "version": "1.4.2",
+        "executable": "bun-linux-aarch64/bun",
+        "filename": "bun-linux-aarch64.zip",
+        "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-aarch64.zip",
+        "sha256": "54328bbc2d9c8e0c9f892c544d66c57a83b84139e34909e5ee81758f1ac8fda7"
+      },
+      "rust": {
+        "version": "1.98.1",
+        "source": "https://static.rust-lang.org/dist/channel-rust-stable.toml"
+      },
+      "node": {
+        "version": "26.10.0",
+        "executable": "node-v26.10.0-linux-arm64/bin/node",
+        "filename": "node-v26.10.0-linux-arm64.tar.xz",
+        "url": "https://nodejs.org/dist/v26.10.0/node-v26.10.0-linux-arm64.tar.xz",
+        "sha256": "7a6353f63eb3d04765004b4adf172616243e4522434635cb1d26288658b04ab5"
+      }
+    }
+  },
+  "argv": [
+    "machinery/run.py",
+    "run",
+    "--languages",
+    "rust",
+    "go",
+    "python",
+    "node",
+    "bun",
+    "--cases",
+    "00_startup",
+    "01_array_traversal",
+    "04_allocation_retention",
+    "--jobs",
+    "10",
+    "--warmup",
+    "2",
+    "--trials",
+    "1",
+    "--cpus",
+    "15,16",
+    "--workers",
+    "2",
+    "--output",
+    "measurements/reference-protocol-checks"
+  ],
+  "protocol": "serialized job inside child; stdout and controller checks outside execution; ready time is parent-observed",
+  "controller_hash": "42f94beba6e662500673a5aec093dd588302a55b84a9faa9d839caa1aa3237db",
+  "machinery_hashes": {
+    "machinery/correctness.baml": "6185c3fbc08102b3c48327cf7372d51fdbec668590d1703401c304c5c9b3274e",
+    "machinery/Cargo.lock": "1cfb231f2dafc3d43d0a744bfe0908c32a5b184db98ebe47b9ac1a5a131995e5",
+    "machinery/observer.c": "88b512cb16430c7cc844518e2f5b9e5cc1b76f858582e7f3db59b5d0013a37a9",
+    "machinery/pack.py": "15cd32f1923592e7878735550ba0da8529b6fb83a36ea131437466f4ff9c8c6c",
+    "machinery/setup.py": "0792ae0bbfc83942e25c76866c47c2208327526def479ed6f1ab12e2b147c454",
+    "machinery/pyproject.toml": "98213f03ec239b044b3ce73b5ca971f19134845d48e97213504c951215e27c1e",
+    "machinery/flake.nix": "62e761285d0f8b81e5cf35ec74e33568cc4913d101b4d1c490a15a517b67643b",
+    "machinery/flake.lock": "5d201d17534d646159666822729eb0bd296f7e4eb6aee548e08701bb2e9ae4f4",
+    "machinery/tools.json": "a9fa1516e04d2969c86daa13102557e4f5427aafb6b42ef6790a61e5a8ca07b9",
+    "machinery/schema.txt": "64e6fb103259c30293ded50b5265ef4729f79c33e73b55a37895255ab6c8aaf9",
+    "machinery/measure.py": "01dd33319bb9e531531789c82158915cbc957f0019a83629d694592ba4f02a41",
+    "machinery/fixtures.py": "6e54cf24c3ec2df064030a64a70dc237c6af707b4069891d60aa53d817ff3f19",
+    "machinery/README.txt": "2bf4f7f8baa500d2cdfb754e7f60563b4592ee906dd9d6c554de759a33ee203d",
+    "machinery/report.py": "ef85cdc71b5cb805a5d1aca0917e87108a6987ab68a8353a7be0d4fd6a9e36b5",
+    "machinery/probe.c": "a2b0c5f0fa95465e925be0ea24f630f098ee3b60397c126230648a6d6dc47fdf",
+    "machinery/test_measure.py": "fc92a286ec3797ae21775ece053f37622b346d3fdc1ea3157c02a86ab0181e7f",
+    "machinery/Cargo.toml": "c37b1224634c8d3139c52e7ff89bf1ac4c5922c2e1ed7cc8dd704e4267c5077a",
+    "machinery/build_baml.py": "df726be21db165a4932e11cc6c2205fd84912f5913c8861ac2af0f5ae48f2aa2",
+    "machinery/run.py": "42f94beba6e662500673a5aec093dd588302a55b84a9faa9d839caa1aa3237db",
+    "machinery/protocol.txt": "566f126563f2a610faf04067bdac36c4e34e7a94b678d7c101249e460f624d88",
+    "machinery/adapters/main.ts": "a22e357eea36d0a66eb9734f2532f70acd9258c32dfa6dc9cdf5d5099205171c",
+    "machinery/adapters/main.py": "007c0ce38eda6a2a42b982f468dd9a219c74e632ce5164b32cd2b4afeddaab00",
+    "machinery/adapters/main.rs": "2fa9268197e90fe316c511c037953eff8400a899fd328cbf9cbee75ff3df19a4",
+    "machinery/adapters/main.go": "89211c7a128ce848f15244f1dd029fc23ddda1a010d45daa1c7dc04afff706c3",
+    "machinery/adapters/baml.rs": "e695cfa074aa19a44c3921356eff25db6d4704af38194c0c5629c412f45a9540"
+  },
+  "machine_cpuinfo": "processor\t: 0\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 1\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 2\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 3\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 4\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 5\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\nprocessor\t: 6\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\nprocessor\t: 7\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\nprocessor\t: 8\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\nprocessor\t: 9\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\nprocessor\t: 10\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 11\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 12\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 13\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 14\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd87\nCPU revision\t: 1\n\nprocessor\t: 15\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\nprocessor\t: 16\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\nprocessor\t: 17\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\nprocessor\t: 18\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\nprocessor\t: 19\nBogoMIPS\t: 2000.00\nFeatures\t: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt\nCPU implementer\t: 0x41\nCPU architecture: 8\nCPU variant\t: 0x0\nCPU part\t: 0xd85\nCPU revision\t: 1\n\n",
+  "baseline_accepted": false,
+  "status": "passed",
+  "note": "pilot and correctness runs are not a published baseline",
+  "trials": 15
+}

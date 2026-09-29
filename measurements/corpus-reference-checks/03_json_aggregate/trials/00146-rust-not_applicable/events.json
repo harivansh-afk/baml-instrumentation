@@ -1,0 +1,16 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 1511527
+  },
+  {
+    "event": "result",
+    "execution_cpu_ns": 4656,
+    "execution_wall_ns": 6240,
+    "gc_counter": "not_applicable; ownership and reference counting",
+    "gc_execution": null,
+    "jobs": 1,
+    "result": "[{\"account\":\"a\",\"total_cents\":1000000}]",
+    "received_ns": 1521031
+  }
+]

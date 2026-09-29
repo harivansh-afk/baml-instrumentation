@@ -1,0 +1,30 @@
+{
+  "case": "05_async_fanout",
+  "language": "baml",
+  "backend": "published-pack",
+  "level": "off",
+  "status": "ok",
+  "compile_wall_ns": 840889962,
+  "compile_cpu_ns": 756846000,
+  "process_wall_ns": 52644183,
+  "process_cpu_ns": 37084000,
+  "peak_rss_bytes": 46264320,
+  "packed_bytes": 34252296,
+  "artifact_sha256": "ae417e9fd88713f393175b72e3c53c489869e41b7cc76e99a89ebd83ae601d07",
+  "source_sha256": "579feb8280bdb274d9f495bb9b17562bd3f0578d17a9584a5bf4eb9ead54d9f8",
+  "cli_sha256": "db7ab78e7fcc0388461a48132a8aedc6594af2a724e5910c57bf4586730bcc5e",
+  "pack_host_sha256": "eff923416c6883fac17c5af3210a93c35536aee1025be47f3becc807e22d0ca2",
+  "source_revision": "340b9085d9427e6d458f1c700409ffc88c58b050",
+  "gc_coverage": "unknown",
+  "artifact_scope": "published musl host plus Program; single executable; no external runtime",
+  "compile_command": [
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/tools/baml/bin/baml-cli",
+    "pack",
+    "main",
+    "--file",
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/packed/05_async_fanout/main.baml",
+    "-o",
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/packed/05_async_fanout/program"
+  ],
+  "input": "{\"payload_size\":64,\"fanout\":8,\"delay_ms\":10}"
+}

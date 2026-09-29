@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "case": "05_async_fanout",
+  "language": "python",
+  "backend": "python",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6",
+  "input_sha256": "2ff80c6d3ca552be0df010eb0183cde5f8c6439c6bdc4773bc6a17b41af26f80",
+  "trial_path": "05_async_fanout/trials/00006-python-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 174192305,
+  "process_cpu_ns": 171202000,
+  "peak_rss_bytes": 27607040,
+  "launch_to_ready_ns": 162545339,
+  "execution_wall_ns": 2183594,
+  "execution_cpu_ns": 128688,
+  "gc_execution": 0,
+  "gc_warmup": 0,
+  "gc_counter": "cyclic_collections; reference-count reclamation excluded",
+  "coverage": "gc_not_observed",
+  "scenario": "1-0",
+  "trial": 0
+}

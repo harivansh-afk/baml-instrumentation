@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "case": "04_allocation_retention",
+  "language": "python",
+  "backend": "python",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6",
+  "input_sha256": "07d74ef2a6f0467e49ec98a407bfa5c76ad1f445fbb726c1436085ed9b13f8b1",
+  "trial_path": "04_allocation_retention/trials/00092-python-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 170464795,
+  "process_cpu_ns": 170178000,
+  "peak_rss_bytes": 27791360,
+  "launch_to_ready_ns": 161641602,
+  "execution_wall_ns": 33712,
+  "execution_cpu_ns": 30832,
+  "gc_execution": 0,
+  "gc_warmup": 0,
+  "gc_counter": "cyclic_collections; reference-count reclamation excluded",
+  "coverage": "gc_not_observed",
+  "scenario": "5-9-20",
+  "trial": 0
+}

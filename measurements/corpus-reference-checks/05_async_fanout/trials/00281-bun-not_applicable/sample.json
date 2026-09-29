@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "05_async_fanout",
+  "language": "bun",
+  "backend": "bun",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1",
+  "input_sha256": "1f88856ae8e60050443624ef82507f2d0f0216cc3abea590457efac6e14ad44d",
+  "trial_path": "05_async_fanout/trials/00281-bun-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 7298545,
+  "process_cpu_ns": 7155000,
+  "peak_rss_bytes": 20881408,
+  "launch_to_ready_ns": 6595918,
+  "execution_wall_ns": 74865,
+  "execution_cpu_ns": 68000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "0-4",
+  "trial": 0
+}

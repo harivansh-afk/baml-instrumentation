@@ -1,0 +1,30 @@
+{
+  "case": "01_array_traversal",
+  "language": "baml",
+  "backend": "published-pack",
+  "level": "off",
+  "status": "ok",
+  "compile_wall_ns": 568819133,
+  "compile_cpu_ns": 781119000,
+  "process_wall_ns": 34221977,
+  "process_cpu_ns": 33823000,
+  "peak_rss_bytes": 43999232,
+  "packed_bytes": 34249408,
+  "artifact_sha256": "611f78cdd3efa81f353856e12086913f5cb112dcd36722371ddeb84ceec76727",
+  "source_sha256": "87a8f5624e572496947633fffc06f38f531f70de9ddae801e2a083a82813885a",
+  "cli_sha256": "db7ab78e7fcc0388461a48132a8aedc6594af2a724e5910c57bf4586730bcc5e",
+  "pack_host_sha256": "eff923416c6883fac17c5af3210a93c35536aee1025be47f3becc807e22d0ca2",
+  "source_revision": "340b9085d9427e6d458f1c700409ffc88c58b050",
+  "gc_coverage": "unknown",
+  "artifact_scope": "published musl host plus Program; single executable; no external runtime",
+  "compile_command": [
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/tools/baml/bin/baml-cli",
+    "pack",
+    "main",
+    "--file",
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/packed/01_array_traversal/main.baml",
+    "-o",
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/packed/01_array_traversal/program"
+  ],
+  "input": "{\"values\":[685499,927801,47156,430753,525655,479953,177898,699645,61001,191385,910170,306368,545159,380730,916274,909268,300123,217738,981909,869264,947176,163608,891045,766301,575270,524000,6029,643131,479217,388379,415367,371980,775514,720617,752491,798363,430543,652170,369298,575389,233838,421564,859640,59117,602887,55005,875271,931800,740957,634972,102285,986911,568031,874046,966785,395594,938541,761853,637085,597634,991898,829487,312638,368157],\"variant\":\"iterator\"}"
+}

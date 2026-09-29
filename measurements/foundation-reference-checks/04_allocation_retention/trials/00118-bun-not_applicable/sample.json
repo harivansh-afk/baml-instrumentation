@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "04_allocation_retention",
+  "language": "bun",
+  "backend": "bun",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1",
+  "input_sha256": "b0457e9da1892a79028dd32be7ddc895042c8d6daf2c708089aed5e11cb9772c",
+  "trial_path": "04_allocation_retention/trials/00118-bun-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 6879024,
+  "process_cpu_ns": 6984000,
+  "peak_rss_bytes": 20520960,
+  "launch_to_ready_ns": 6377663,
+  "execution_wall_ns": 99616,
+  "execution_cpu_ns": 93000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "default",
+  "trial": 0
+}

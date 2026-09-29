@@ -1,0 +1,30 @@
+{
+  "case": "07_function_calls",
+  "language": "baml",
+  "backend": "published-pack",
+  "level": "off",
+  "status": "ok",
+  "compile_wall_ns": 1103107126,
+  "compile_cpu_ns": 792991000,
+  "process_wall_ns": 38609109,
+  "process_cpu_ns": 37943000,
+  "peak_rss_bytes": 43999232,
+  "packed_bytes": 34248152,
+  "artifact_sha256": "60b3e07869b4f50257217404b371288e2e9ca407ae6b94d15986dbf16e65d887",
+  "source_sha256": "da27dd330b4800e90f3e0e018ac43a5b52ce3e28114c31e50e58a229494ce276",
+  "cli_sha256": "db7ab78e7fcc0388461a48132a8aedc6594af2a724e5910c57bf4586730bcc5e",
+  "pack_host_sha256": "eff923416c6883fac17c5af3210a93c35536aee1025be47f3becc807e22d0ca2",
+  "source_revision": "340b9085d9427e6d458f1c700409ffc88c58b050",
+  "gc_coverage": "unknown",
+  "artifact_scope": "published musl host plus Program; single executable; no external runtime",
+  "compile_command": [
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/tools/baml/bin/baml-cli",
+    "pack",
+    "main",
+    "--file",
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/packed/07_function_calls/main.baml",
+    "-o",
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/packed/07_function_calls/program"
+  ],
+  "input": "{\"count\":64,\"seed\":1729}"
+}

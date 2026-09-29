@@ -1,0 +1,2 @@
+{"event":"ready"}
+{"event":"result","execution_cpu_ns":4656,"execution_wall_ns":6112,"gc_counter":"not_applicable; ownership and reference counting","gc_execution":null,"jobs":1,"result":"[{\"account\":\"__proto__\",\"total_cents\":8}]"}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "01_array_traversal",
+  "language": "bun",
+  "backend": "bun",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1",
+  "input_sha256": "7f788386452671524dc37b2095c0185542f12babe9821c73df060aa16004c1ee",
+  "trial_path": "01_array_traversal/trials/00053-bun-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 10072880,
+  "process_cpu_ns": 6936000,
+  "peak_rss_bytes": 20357120,
+  "launch_to_ready_ns": 6270990,
+  "execution_wall_ns": 55952,
+  "execution_cpu_ns": 49000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "1-build",
+  "trial": 0
+}

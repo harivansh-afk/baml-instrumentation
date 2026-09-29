@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "02_merge_sort",
+  "language": "rust",
+  "backend": "rust",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c",
+  "input_sha256": "01aa2edee05f177905294b841ff549cd62ec11abc440d134279a3c5a57ba6cdd",
+  "trial_path": "02_merge_sort/trials/00175-rust-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 633219,
+  "process_cpu_ns": 529000,
+  "peak_rss_bytes": 2080768,
+  "launch_to_ready_ns": 1074933,
+  "execution_cpu_ns": 1536,
+  "execution_wall_ns": 2240,
+  "gc_counter": "not_applicable; ownership and reference counting",
+  "gc_execution": null,
+  "coverage": "gc_not_applicable",
+  "scenario": "17-duplicates",
+  "trial": 0
+}

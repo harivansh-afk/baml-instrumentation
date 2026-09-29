@@ -1,0 +1,16 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 46449925
+  },
+  {
+    "event": "result",
+    "jobs": 1,
+    "result": "[685499]",
+    "execution_wall_ns": 51360,
+    "execution_cpu_ns": 46000,
+    "gc_execution": null,
+    "gc_counter": "unavailable; no GC claim",
+    "received_ns": 46569894
+  }
+]

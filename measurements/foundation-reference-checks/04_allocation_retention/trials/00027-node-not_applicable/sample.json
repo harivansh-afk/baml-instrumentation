@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "04_allocation_retention",
+  "language": "node",
+  "backend": "node",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03",
+  "input_sha256": "b0457e9da1892a79028dd32be7ddc895042c8d6daf2c708089aed5e11cb9772c",
+  "trial_path": "04_allocation_retention/trials/00027-node-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 58370167,
+  "process_cpu_ns": 58653000,
+  "peak_rss_bytes": 68763648,
+  "launch_to_ready_ns": 51728503,
+  "execution_wall_ns": 424434,
+  "execution_cpu_ns": 235000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "default",
+  "trial": 0
+}

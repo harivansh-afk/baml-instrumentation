@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "case": "02_merge_sort",
+  "language": "python",
+  "backend": "python",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6",
+  "input_sha256": "d6fbe60c820997912e4ac202380732a3a5f9f6d72759e4276ef330dcd6833c42",
+  "trial_path": "02_merge_sort/trials/00252-python-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 174755394,
+  "process_cpu_ns": 171379000,
+  "peak_rss_bytes": 27672576,
+  "launch_to_ready_ns": 166167497,
+  "execution_wall_ns": 13088,
+  "execution_cpu_ns": 10208,
+  "gc_execution": 0,
+  "gc_warmup": 0,
+  "gc_counter": "cyclic_collections; reference-count reclamation excluded",
+  "coverage": "gc_not_observed",
+  "scenario": "0-random",
+  "trial": 0
+}

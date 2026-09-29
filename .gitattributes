@@ -1,0 +1,2 @@
+# Preserve captured output, including CSV CRLF and compiler whitespace.
+measurements/** -text -whitespace

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "04_allocation_retention",
+  "language": "rust",
+  "backend": "rust",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "75b844abe43f3627c147af2682846d94ccb99ff0b6b096655fc9693865adfc24",
+  "input_sha256": "80fb918f985552ed77460204f4de09cfea9d61d543c3cf176ed181042e382931",
+  "trial_path": "04_allocation_retention/trials/00074-rust-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 902852,
+  "process_cpu_ns": 707000,
+  "peak_rss_bytes": 2129920,
+  "launch_to_ready_ns": 1321462,
+  "execution_cpu_ns": 1056,
+  "execution_wall_ns": 1936,
+  "gc_counter": "not_applicable; ownership and reference counting",
+  "gc_execution": null,
+  "coverage": "gc_not_applicable",
+  "scenario": "0-0-0",
+  "trial": 0
+}

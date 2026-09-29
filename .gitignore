@@ -1,6 +1,5 @@
-.build
-results/
-__pycache__/
-.baml/
-target/
+.cache/
 .worktrees/
+__pycache__/
+*.pyc
+measurements/**/recordings/

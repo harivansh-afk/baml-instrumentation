@@ -1,0 +1,37 @@
+Schema 1. One samples.csv row represents one independent process trial.
+
+Identity
+  case, scenario, language, backend, level, sink, trial identify the observation.
+  artifact_sha256 and input_sha256 identify the exact executable/bytecode and input.
+  artifacts.json retains source/adapter hashes, compiler commands, versions and flags.
+  environment.json retains machine, affinity, worker count and controller identity.
+
+Units
+  *_ns: nanoseconds. *_bytes: bytes. jobs and gc_* counts: integer events.
+  Execution times are totals for jobs; divide by jobs for per-job comparisons.
+  Process times include warmup/startup/shutdown; never divide them into steady-state
+  CPU/job without explicitly reporting that different scope.
+  Empty CSV fields and JSON null mean unavailable. Zero is an observed zero.
+
+Validity
+  status=ok means the observed trial passed its implemented checks, not that it
+  establishes the intended performance claim. coverage records GC observation.
+  telemetry_valid covers the documented ordinary-function recording checks only.
+  Failures remain rows and logs. Summary statistics use successful observations
+  and retain the number of failures alongside the sample count.
+
+Files
+  <case>/samples.csv                    trial values for plotting
+  <case>/summary.csv                    derived statistics, including failure counts
+  <case>/trials/<trial>/sample.json      complete observation, including extra counters
+  <case>/trials/<trial>/events.json      adapter events with parent receipt times
+  <case>/trials/<trial>/rss.json         sampled memory timeline
+  <case>/trials/<trial>/stdout.txt       unchanged child stdout
+  <case>/trials/<trial>/stderr.txt       unchanged child stderr
+  <case>/trials/<trial>/telemetry.json   post-run recording validation, when applicable
+  <case>/trials/<trial>.input.json       exact fixture
+
+A future static HTML report reads these files or embeds them verbatim. It groups
+by all identity dimensions, plots separate units, shows failures/coverage and links
+to the measured source. Ratios require matching case, input, work and environment.
+No aggregate score combines time, bytes and throughput.

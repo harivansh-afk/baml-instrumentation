@@ -1,0 +1,30 @@
+{
+  "case": "04_allocation_retention",
+  "language": "baml",
+  "backend": "published-pack",
+  "level": "off",
+  "status": "ok",
+  "compile_wall_ns": 569109070,
+  "compile_cpu_ns": 766892000,
+  "process_wall_ns": 34435130,
+  "process_cpu_ns": 34129000,
+  "peak_rss_bytes": 44003328,
+  "packed_bytes": 34252808,
+  "artifact_sha256": "4b5089317eda20d2833ba17e2e6ef30883b620036e06a64b61614dfcf738d4be",
+  "source_sha256": "e4b86bf450f753d5b6de4648c39aa63a293edc9f8eb7b07b30824f53b235dde1",
+  "cli_sha256": "db7ab78e7fcc0388461a48132a8aedc6594af2a724e5910c57bf4586730bcc5e",
+  "pack_host_sha256": "eff923416c6883fac17c5af3210a93c35536aee1025be47f3becc807e22d0ca2",
+  "source_revision": "340b9085d9427e6d458f1c700409ffc88c58b050",
+  "gc_coverage": "unknown",
+  "artifact_scope": "published musl host plus Program; single executable; no external runtime",
+  "compile_command": [
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/tools/baml/bin/baml-cli",
+    "pack",
+    "main",
+    "--file",
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/packed/04_allocation_retention/main.baml",
+    "-o",
+    "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/packed/04_allocation_retention/program"
+  ],
+  "input": "{\"width\":64,\"batches\":8,\"retain\":2}"
+}
