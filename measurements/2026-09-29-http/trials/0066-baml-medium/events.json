@@ -1,0 +1,3 @@
+[
+  "{\"event\":\"drained\",\"drain_ns\":2768728,\"gc_drain\":1,\"gc_service_lifetime\":1,\"telemetry_ok\":true,\"delivery_loss\":0,\"function_names\":{\"1556\":\"user.handle\",\"1069\":\"ai.<(ai.Agent as ai.Runner)>.run\",\"1553\":\"user.prepare\",\"1558\":\"user.main\",\"1555\":\"user.run\"},\"metadata_ns\":1206442}"
+]

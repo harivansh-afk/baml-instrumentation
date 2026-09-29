@@ -1,0 +1,13 @@
+{
+  "port": 36103,
+  "method": "GET",
+  "path": "/hello",
+  "body": "",
+  "expected": {
+    "message": "Hello, world!"
+  },
+  "rate": 100,
+  "requests": 300,
+  "deadline_s": 10,
+  "max_inflight": 4096
+}

@@ -1,0 +1,32 @@
+{
+  "language": "baml",
+  "level": "low",
+  "scenario": "correctness",
+  "artifact_sha256": "85c3c8990d246bbc92de5f0e3f9c29f80efec17e61abb0eb8bcdacd642440976",
+  "input_sha256": "f11aefe5c3b8cd06d918d0f6fc44e46fcc0407400263ab2aab9f30eee9b16cc4",
+  "status": "telemetry_coverage_failure",
+  "requests": 29,
+  "failed": 0,
+  "event": "drained",
+  "drain_ns": 393265,
+  "gc_drain": 1,
+  "gc_service_lifetime": 0,
+  "telemetry_ok": true,
+  "delivery_loss": 0,
+  "function_names": {
+    "1556": "user.handle",
+    "1553": "user.prepare",
+    "1558": "user.main",
+    "1555": "user.run",
+    "1069": "ai.<(ai.Agent as ai.Runner)>.run"
+  },
+  "metadata_ns": 1351157,
+  "telemetry_valid": false,
+  "recording_bytes": 8332,
+  "process_wall_ns": 143661931,
+  "process_cpu_ns": 42458000,
+  "peak_rss_bytes": 29417472,
+  "launch_to_ready_ns": 87703126,
+  "trial": 0,
+  "trial_path": "trials/0004-baml-low"
+}

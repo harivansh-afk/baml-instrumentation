@@ -1,0 +1,16 @@
+{
+  "language": "go",
+  "level": "not_applicable",
+  "scenario": "correctness",
+  "artifact_sha256": "e861bf0050f59222d7e902d6f67fb728b5bf73394ac13b4704820bbbd418378d",
+  "input_sha256": "f11aefe5c3b8cd06d918d0f6fc44e46fcc0407400263ab2aab9f30eee9b16cc4",
+  "status": "wrong_response",
+  "requests": 29,
+  "failed": 29,
+  "process_wall_ns": 52181556,
+  "process_cpu_ns": 4983000,
+  "peak_rss_bytes": 6017024,
+  "launch_to_ready_ns": 3741741,
+  "trial": 0,
+  "trial_path": "trials/0002-go-not_applicable"
+}

@@ -1,0 +1,30 @@
+{
+  "source_trial": "measurements/2026-09-29-http/trials/0172-baml-medium/sample.json",
+  "host_sha256": "c74d36cc802d774ca4f5476a7c228ea8dd9037f8868c27373f9dfe87a5eec0e6",
+  "checks": [
+    {
+      "name": "correct",
+      "accepted": true,
+      "expected_acceptance": true,
+      "exit_code": 0
+    },
+    {
+      "name": "wrong-count",
+      "accepted": false,
+      "expected_acceptance": false,
+      "exit_code": 1
+    },
+    {
+      "name": "missing-names",
+      "accepted": false,
+      "expected_acceptance": false,
+      "exit_code": 1
+    },
+    {
+      "name": "missing-files",
+      "accepted": false,
+      "expected_acceptance": false,
+      "exit_code": 1
+    }
+  ]
+}

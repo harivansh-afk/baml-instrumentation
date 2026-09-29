@@ -1,0 +1,2 @@
+{"event":"ready"}
+{"allocated_bytes":144,"event":"result","execution_cpu_ns":5000,"execution_wall_ns":5008,"gc_counter":"completed_gc_cycles","gc_execution":0,"gc_pause_ns":0,"gc_warmup":0,"heap_alloc_bytes":73776,"jobs":1,"result":"[685499,927801]"}

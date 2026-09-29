@@ -31,6 +31,19 @@ METRICS = [
 ]
 
 
+def versions_for_cases(manifest, cases):
+    """Unselected cached artifacts cannot decide a collection's version labels."""
+    selected = set(cases)
+    versions = defaultdict(set)
+    for key, record in manifest.items():
+        if key.split("/", 1)[0] in selected:
+            versions[record["language"]].add(record["version"].splitlines()[0])
+    for language, values in versions.items():
+        if len(values) != 1:
+            raise ValueError(f"Mixed {language} versions within one collection")
+    return {language: next(iter(values)) for language, values in versions.items()}
+
+
 def summarize(path):
     groups = defaultdict(list)
     with path.open() as f:

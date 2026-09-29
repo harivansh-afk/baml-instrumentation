@@ -1,0 +1,157 @@
+<svg role="img" aria-labelledby="2026-09-29-extension-10_quick_sort-build-bytes-baml-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="151.2pt" viewBox="0 0 540 151.2" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-extension-10_quick_sort-build-bytes-baml-title">BAML bytecode size. Bars show medians; whiskers show observed minimum and maximum. Unit: KiB.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-figure_1">
+  <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-patch_1">
+   <path d="M 0 151.2 
+L 540 151.2 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-axes_1">
+   <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-patch_2">
+    <path d="M 44.482115 114.940073 
+L 536.99976 114.940073 
+L 536.99976 3.00024 
+L 44.482115 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-matplotlib.axis_1">
+    <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-xtick_1">
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_1">
+      <path d="M 44.482115 114.940073 
+L 44.482115 3.00024 
+" clip-path="url(#2026-09-29-extension-10_quick_sort-build-bytes-baml-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_2">
+      <defs>
+       <path id="2026-09-29-extension-10_quick_sort-build-bytes-baml-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-extension-10_quick_sort-build-bytes-baml-mf02d9a5d8c" x="44.482115" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="44.482115" y="130.298354" transform="rotate(-0 44.482115 130.298354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-xtick_2">
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_3">
+      <path d="M 187.172815 114.940073 
+L 187.172815 3.00024 
+" clip-path="url(#2026-09-29-extension-10_quick_sort-build-bytes-baml-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-extension-10_quick_sort-build-bytes-baml-mf02d9a5d8c" x="187.172815" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="187.172815" y="130.298354" transform="rotate(-0 187.172815 130.298354)">1000</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-xtick_3">
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_5">
+      <path d="M 329.863516 114.940073 
+L 329.863516 3.00024 
+" clip-path="url(#2026-09-29-extension-10_quick_sort-build-bytes-baml-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-extension-10_quick_sort-build-bytes-baml-mf02d9a5d8c" x="329.863516" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="329.863516" y="130.298354" transform="rotate(-0 329.863516 130.298354)">2000</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-xtick_4">
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_7">
+      <path d="M 472.554216 114.940073 
+L 472.554216 3.00024 
+" clip-path="url(#2026-09-29-extension-10_quick_sort-build-bytes-baml-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-extension-10_quick_sort-build-bytes-baml-mf02d9a5d8c" x="472.554216" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="472.554216" y="130.298354" transform="rotate(-0 472.554216 130.298354)">3000</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="145.704135" transform="rotate(-0 536.99976 145.704135)">KiB</text>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-matplotlib.axis_2">
+    <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-ytick_1">
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_9"/>
+     <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="36.482115" y="63.529219" transform="rotate(-0 36.482115 63.529219)">BAML</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-patch_3">
+    <path d="M 44.482115 8.088414 
+L 412.032596 8.088414 
+L 412.032596 109.851898 
+L 44.482115 109.851898 
+z
+" clip-path="url(#2026-09-29-extension-10_quick_sort-build-bytes-baml-pcfe298f9b8)" style="fill: #244bb0"/>
+   </g>
+   <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-patch_4">
+    <path d="M 44.482115 114.940073 
+L 536.99976 114.940073 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-LineCollection_1">
+    <path d="M 412.032596 58.970156 
+L 412.032596 58.970156 
+" clip-path="url(#2026-09-29-extension-10_quick_sort-build-bytes-baml-pcfe298f9b8)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_10">
+    <defs>
+     <path id="2026-09-29-extension-10_quick_sort-build-bytes-baml-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-extension-10_quick_sort-build-bytes-baml-pcfe298f9b8)">
+     <use xlink:href="#2026-09-29-extension-10_quick_sort-build-bytes-baml-md18034b1a6" x="412.032596" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-line2d_11">
+    <g clip-path="url(#2026-09-29-extension-10_quick_sort-build-bytes-baml-pcfe298f9b8)">
+     <use xlink:href="#2026-09-29-extension-10_quick_sort-build-bytes-baml-md18034b1a6" x="412.032596" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-10_quick_sort-build-bytes-baml-text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="421.221358" y="62.005469" transform="rotate(-0 421.221358 62.005469)">2.58e+03</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-extension-10_quick_sort-build-bytes-baml-pcfe298f9b8">
+   <rect x="44.482115" y="3.00024" width="492.517645" height="111.939832"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,333 @@
+<svg role="img" aria-labelledby="2026-09-29-http-http-hello-500-launch_to_ready_ns-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="309.6pt" viewBox="0 0 540 309.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-http-http-hello-500-launch_to_ready_ns-title">Launch to server ready. Bars show medians; whiskers show observed minimum and maximum. Unit: ms.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-figure_1">
+  <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_1">
+   <path d="M 0 309.6 
+L 540 309.6 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-axes_1">
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_2">
+    <path d="M 105.47024 273.340072 
+L 536.99976 273.340072 
+L 536.99976 3.00024 
+L 105.47024 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-matplotlib.axis_1">
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-xtick_1">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_1">
+      <path d="M 105.47024 273.340072 
+L 105.47024 3.00024 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_2">
+      <defs>
+       <path id="2026-09-29-http-http-hello-500-launch_to_ready_ns-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-mf02d9a5d8c" x="105.47024" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="105.47024" y="288.698354" transform="rotate(-0 105.47024 288.698354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-xtick_2">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_3">
+      <path d="M 216.720512 273.340072 
+L 216.720512 3.00024 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-mf02d9a5d8c" x="216.720512" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="216.720512" y="288.698354" transform="rotate(-0 216.720512 288.698354)">150</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-xtick_3">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_5">
+      <path d="M 327.970785 273.340072 
+L 327.970785 3.00024 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-mf02d9a5d8c" x="327.970785" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="327.970785" y="288.698354" transform="rotate(-0 327.970785 288.698354)">300</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-xtick_4">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_7">
+      <path d="M 439.221057 273.340072 
+L 439.221057 3.00024 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-mf02d9a5d8c" x="439.221057" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="439.221057" y="288.698354" transform="rotate(-0 439.221057 288.698354)">450</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="304.104135" transform="rotate(-0 536.99976 304.104135)">ms</text>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-matplotlib.axis_2">
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-ytick_1">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_9"/>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="27.886469" transform="rotate(-0 97.47024 27.886469)">BAML / off</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-ytick_2">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_10"/>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="56.597157" transform="rotate(-0 97.47024 56.597157)">BAML / low</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-ytick_3">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_11"/>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="85.307844" transform="rotate(-0 97.47024 85.307844)">BAML / medium</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-ytick_4">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_12"/>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="114.018531" transform="rotate(-0 97.47024 114.018531)">BAML / high</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-ytick_5">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_13"/>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="142.729219" transform="rotate(-0 97.47024 142.729219)">Rust</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-ytick_6">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_14"/>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="171.439906" transform="rotate(-0 97.47024 171.439906)">Go</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-ytick_7">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_15"/>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_12">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="200.150594" transform="rotate(-0 97.47024 200.150594)">Python</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-ytick_8">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_16"/>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_13">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="228.861281" transform="rotate(-0 97.47024 228.861281)">Node</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-ytick_9">
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_17"/>
+     <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_14">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="257.571968" transform="rotate(-0 97.47024 257.571968)">Bun</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_3">
+    <path d="M 105.47024 15.288414 
+L 116.81033 15.288414 
+L 116.81033 31.366399 
+L 105.47024 31.366399 
+z
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_4">
+    <path d="M 105.47024 43.999102 
+L 169.46589 43.999102 
+L 169.46589 60.077087 
+L 105.47024 60.077087 
+z
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: #365c7b"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_5">
+    <path d="M 105.47024 72.709789 
+L 168.846624 72.709789 
+L 168.846624 88.787774 
+L 105.47024 88.787774 
+z
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: #587c99"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_6">
+    <path d="M 105.47024 101.420476 
+L 173.194043 101.420476 
+L 173.194043 117.498461 
+L 105.47024 117.498461 
+z
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: #7897b0"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_7">
+    <path d="M 105.47024 130.131164 
+L 106.917004 130.131164 
+L 106.917004 146.209149 
+L 105.47024 146.209149 
+z
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: #99502d"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_8">
+    <path d="M 105.47024 158.841851 
+L 107.278914 158.841851 
+L 107.278914 174.919836 
+L 105.47024 174.919836 
+z
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: #087a79"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_9">
+    <path d="M 105.47024 187.552539 
+L 415.297918 187.552539 
+L 415.297918 203.630524 
+L 105.47024 203.630524 
+z
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: #7955a2"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_10">
+    <path d="M 105.47024 216.263226 
+L 161.804813 216.263226 
+L 161.804813 232.341211 
+L 105.47024 232.341211 
+z
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: #427434"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_11">
+    <path d="M 105.47024 244.973913 
+L 119.979975 244.973913 
+L 119.979975 261.051898 
+L 105.47024 261.051898 
+z
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: #596371"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-patch_12">
+    <path d="M 105.47024 273.340072 
+L 536.99976 273.340072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-LineCollection_1">
+    <path d="M 115.137798 23.327407 
+L 118.432959 23.327407 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 168.540318 52.038094 
+L 179.187826 52.038094 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 168.534546 80.748781 
+L 169.666821 80.748781 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 170.109736 109.459469 
+L 180.634514 109.459469 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 106.727538 138.170156 
+L 107.608731 138.170156 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 107.064663 166.880844 
+L 107.431521 166.880844 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 412.968393 195.591531 
+L 427.507195 195.591531 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 159.708462 224.302218 
+L 165.748315 224.302218 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 119.750814 253.012906 
+L 135.908446 253.012906 
+" clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_18">
+    <defs>
+     <path id="2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)">
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="115.137798" y="23.327407" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="168.540318" y="52.038094" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="168.534546" y="80.748781" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="170.109736" y="109.459469" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="106.727538" y="138.170156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="107.064663" y="166.880844" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="412.968393" y="195.591531" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="159.708462" y="224.302218" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="119.750814" y="253.012906" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-line2d_19">
+    <g clip-path="url(#2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788)">
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="118.432959" y="23.327407" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="179.187826" y="52.038094" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="169.666821" y="80.748781" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="180.634514" y="109.459469" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="107.608731" y="138.170156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="107.431521" y="166.880844" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="427.507195" y="195.591531" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="165.748315" y="224.302218" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-500-launch_to_ready_ns-md18034b1a6" x="135.908446" y="253.012906" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_15">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="126.483882" y="26.362719" transform="rotate(-0 126.483882 26.362719)">15.3</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_16">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="187.23875" y="55.073407" transform="rotate(-0 187.23875 55.073407)">86.3</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_17">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="177.717745" y="83.784094" transform="rotate(-0 177.717745 83.784094)">85.5</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_18">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="188.685437" y="112.494781" transform="rotate(-0 188.685437 112.494781)">91.3</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_19">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="115.659654" y="141.205469" transform="rotate(-0 115.659654 141.205469)">1.95</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_20">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="115.482445" y="169.916156" transform="rotate(-0 115.482445 169.916156)">2.44</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_21">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="435.558119" y="198.626844" transform="rotate(-0 435.558119 198.626844)">418</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_22">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="173.799239" y="227.337531" transform="rotate(-0 173.799239 227.337531)">76</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-500-launch_to_ready_ns-text_23">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="143.95937" y="256.048218" transform="rotate(-0 143.95937 256.048218)">19.6</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-http-http-hello-500-launch_to_ready_ns-p85a9244788">
+   <rect x="105.47024" y="3.00024" width="431.52952" height="270.339832"/>
+  </clipPath>
+ </defs>
+</svg>

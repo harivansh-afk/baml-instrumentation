@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "08_stateful_workflow",
+  "language": "rust",
+  "backend": "rust",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "3874042dbeab1933f02a96936035a3dcfebabb461af45f6bc557ab5798618d2f",
+  "input_sha256": "abf92ac8838e085cb508e595b78953dae0b38a167e47a62f51db82d2056d5355",
+  "trial_path": "08_stateful_workflow/trials/00077-rust-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 1100947,
+  "process_cpu_ns": 1020000,
+  "peak_rss_bytes": 2412544,
+  "launch_to_ready_ns": 1504420,
+  "execution_cpu_ns": 143424,
+  "execution_wall_ns": 144208,
+  "gc_counter": "not_applicable; ownership and reference counting",
+  "gc_execution": null,
+  "coverage": "gc_not_applicable",
+  "scenario": "7-33-4-4-0",
+  "trial": 0
+}

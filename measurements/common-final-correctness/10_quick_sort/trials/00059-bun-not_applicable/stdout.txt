@@ -1,0 +1,2 @@
+{"event":"ready"}
+{"event":"result","jobs":1,"result":"[3]","execution_wall_ns":144257,"execution_cpu_ns":137000,"gc_execution":null,"gc_counter":"unavailable; no GC claim"}

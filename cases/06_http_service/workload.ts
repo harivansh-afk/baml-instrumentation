@@ -6,7 +6,7 @@ const { aggregate } = await import(pathToFileURL(process.argv[2]).href);
 const lines = createInterface({input: process.stdin})[Symbol.asyncIterator]();
 const [host, port] = (await lines.next()).value!.split(':');
 const server = http.createServer(async (req,res) => {
-  if (req.method === 'GET' && req.url === '/health') { res.end('42'); return; }
+  if (req.method === 'GET' && req.url === '/hello') { res.writeHead(200, {'content-type':'application/json','connection':'close'}); res.end('{"message":"Hello, world!"}'); return; }
   if (req.method !== 'POST' || req.url !== '/aggregate') { res.writeHead(404); res.end(); return; }
   const chunks: Buffer[] = [];
   let size = 0;

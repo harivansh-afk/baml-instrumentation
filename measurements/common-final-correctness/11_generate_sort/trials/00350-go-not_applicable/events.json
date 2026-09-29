@@ -1,0 +1,20 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 1916439
+  },
+  {
+    "allocated_bytes": 1864,
+    "event": "result",
+    "execution_cpu_ns": 17000,
+    "execution_wall_ns": 15808,
+    "gc_counter": "completed_gc_cycles",
+    "gc_execution": 0,
+    "gc_pause_ns": 0,
+    "gc_warmup": 0,
+    "heap_alloc_bytes": 75416,
+    "jobs": 1,
+    "result": "[48271,1221161,54475126,225412752,234177484,259718217,330089427,331943103,568788743,625328549,746619186,830880007,857965055,898875632,946662225,968765098,981251043]",
+    "received_ns": 2189032
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 4825247
+  },
+  {
+    "event": "result",
+    "execution_cpu_ns": 12736,
+    "execution_wall_ns": 14176,
+    "gc_counter": "not_applicable; ownership and reference counting",
+    "gc_execution": null,
+    "jobs": 1,
+    "result": "{\"processed\":8,\"digest\":731463568,\"response_bytes\":544,\"cache\":[],\"responses\":[{\"seq\":0,\"ok\":true,\"key\":\"key_000\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":1,\"ok\":true,\"key\":\"key_000\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":2,\"ok\":true,\"key\":\"key_002\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":3,\"ok\":true,\"key\":\"key_003\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":4,\"ok\":true,\"key\":\"key_004\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":5,\"ok\":true,\"key\":\"key_005\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":6,\"ok\":true,\"key\":\"key_005\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":7,\"ok\":true,\"key\":\"key_007\",\"total\":0,\"check\":0,\"evicted\":\"\"}]}",
+    "received_ns": 4978144
+  }
+]

@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "purpose": "Stateful and common-workload extension on the same shared host; separate collection, no pooled observations",
+  "cpus": "15,16",
+  "workers": 2,
+  "backend": "baml-release",
+  "compile_trials": 5,
+  "runtime_trials": 20,
+  "seed": 1729,
+  "host_isolation": "shared host, performance governor; no services stopped or cores reserved",
+  "scenarios": [
+    {
+      "name": "workflow-retain-4",
+      "case": "08_stateful_workflow",
+      "claim": "Continuous request stream with a bounded cache; no state reset during a batch",
+      "size": 128,
+      "batches": 768,
+      "retain": 4,
+      "fanout": 1,
+      "delay_ms": 0,
+      "jobs": 1,
+      "warmup": 0,
+      "requires_gc": {
+        "baml": 3,
+        "go": 3
+      }
+    },
+    {
+      "name": "workflow-retain-64",
+      "case": "08_stateful_workflow",
+      "claim": "Continuous request stream with a bounded cache; no state reset during a batch",
+      "size": 128,
+      "batches": 768,
+      "retain": 64,
+      "fanout": 1,
+      "delay_ms": 0,
+      "jobs": 1,
+      "warmup": 0,
+      "requires_gc": {
+        "baml": 3,
+        "go": 3
+      }
+    },
+    {
+      "name": "workflow-tools-1",
+      "case": "08_stateful_workflow",
+      "claim": "Same four payload-bearing timer tools, sequential or concurrent; batch latency includes waiting",
+      "size": 512,
+      "batches": 192,
+      "retain": 4,
+      "fanout": 1,
+      "delay_ms": 1,
+      "jobs": 1,
+      "warmup": 0,
+      "requires_gc": {
+        "baml": 3,
+        "go": 3
+      }
+    },
+    {
+      "name": "workflow-tools-4",
+      "case": "08_stateful_workflow",
+      "claim": "Same four payload-bearing timer tools, sequential or concurrent; batch latency includes waiting",
+      "size": 512,
+      "batches": 192,
+      "retain": 4,
+      "fanout": 4,
+      "delay_ms": 1,
+      "jobs": 1,
+      "warmup": 0,
+      "requires_gc": {
+        "baml": 3,
+        "go": 3
+      }
+    },
+    {
+      "name": "json-hello",
+      "case": "09_json_hello",
+      "claim": "Tiny object serialization through the adapter; batch average is not request latency",
+      "jobs": 4096,
+      "warmup": 16
+    },
+    {
+      "name": "merge-random",
+      "case": "02_merge_sort",
+      "claim": "Identical prepared integers; copy, handwritten sort and full serialization",
+      "size": 1024,
+      "variant": "random",
+      "jobs": 32,
+      "warmup": 4
+    },
+    {
+      "name": "merge-sorted",
+      "case": "02_merge_sort",
+      "claim": "Identical prepared integers; copy, handwritten sort and full serialization",
+      "size": 1024,
+      "variant": "sorted",
+      "jobs": 32,
+      "warmup": 4
+    },
+    {
+      "name": "merge-reverse",
+      "case": "02_merge_sort",
+      "claim": "Identical prepared integers; copy, handwritten sort and full serialization",
+      "size": 1024,
+      "variant": "reverse",
+      "jobs": 32,
+      "warmup": 4
+    },
+    {
+      "name": "merge-duplicates",
+      "case": "02_merge_sort",
+      "claim": "Identical prepared integers; copy, handwritten sort and full serialization",
+      "size": 1024,
+      "variant": "duplicates",
+      "jobs": 32,
+      "warmup": 4
+    },
+    {
+      "name": "quick-random",
+      "case": "10_quick_sort",
+      "claim": "Identical prepared integers; copy, handwritten sort and full serialization",
+      "size": 1024,
+      "variant": "random",
+      "jobs": 32,
+      "warmup": 4
+    },
+    {
+      "name": "quick-sorted",
+      "case": "10_quick_sort",
+      "claim": "Identical prepared integers; copy, handwritten sort and full serialization",
+      "size": 1024,
+      "variant": "sorted",
+      "jobs": 32,
+      "warmup": 4
+    },
+    {
+      "name": "quick-reverse",
+      "case": "10_quick_sort",
+      "claim": "Identical prepared integers; copy, handwritten sort and full serialization",
+      "size": 1024,
+      "variant": "reverse",
+      "jobs": 32,
+      "warmup": 4
+    },
+    {
+      "name": "quick-duplicates",
+      "case": "10_quick_sort",
+      "claim": "Identical prepared integers; copy, handwritten sort and full serialization",
+      "size": 1024,
+      "variant": "duplicates",
+      "jobs": 32,
+      "warmup": 4
+    },
+    {
+      "name": "generate-sort",
+      "case": "11_generate_sort",
+      "claim": "Generate 8192 deterministic integers, use native numeric sort, serialize all values",
+      "size": 8192,
+      "jobs": 32,
+      "warmup": 4
+    }
+  ]
+}

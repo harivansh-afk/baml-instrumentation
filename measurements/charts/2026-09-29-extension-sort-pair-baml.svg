@@ -1,0 +1,311 @@
+<svg role="img" aria-labelledby="2026-09-29-extension-sort-pair-baml-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="280.8pt" viewBox="0 0 540 280.8" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-extension-sort-pair-baml-title">BAML · merge vs quicksort. Bars show medians; whiskers show observed minimum and maximum. Unit: µs / job.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-extension-sort-pair-baml-figure_1">
+  <g id="2026-09-29-extension-sort-pair-baml-patch_1">
+   <path d="M 0 280.8 
+L 540 280.8 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-extension-sort-pair-baml-axes_1">
+   <g id="2026-09-29-extension-sort-pair-baml-patch_2">
+    <path d="M 123.03899 244.540073 
+L 536.99976 244.540073 
+L 536.99976 3.00024 
+L 123.03899 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-matplotlib.axis_1">
+    <g id="2026-09-29-extension-sort-pair-baml-xtick_1">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_1">
+      <path d="M 123.03899 244.540073 
+L 123.03899 3.00024 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_2">
+      <defs>
+       <path id="2026-09-29-extension-sort-pair-baml-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-extension-sort-pair-baml-mf02d9a5d8c" x="123.03899" y="244.540073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-baml-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="123.03899" y="259.898354" transform="rotate(-0 123.03899 259.898354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-xtick_2">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_3">
+      <path d="M 228.121408 244.540073 
+L 228.121408 3.00024 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-extension-sort-pair-baml-mf02d9a5d8c" x="228.121408" y="244.540073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-baml-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="228.121408" y="259.898354" transform="rotate(-0 228.121408 259.898354)">500</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-xtick_3">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_5">
+      <path d="M 333.203825 244.540073 
+L 333.203825 3.00024 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-extension-sort-pair-baml-mf02d9a5d8c" x="333.203825" y="244.540073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-baml-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="333.203825" y="259.898354" transform="rotate(-0 333.203825 259.898354)">1000</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-xtick_4">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_7">
+      <path d="M 438.286243 244.540073 
+L 438.286243 3.00024 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-extension-sort-pair-baml-mf02d9a5d8c" x="438.286243" y="244.540073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-baml-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="438.286243" y="259.898354" transform="rotate(-0 438.286243 259.898354)">1500</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="275.304135" transform="rotate(-0 536.99976 275.304135)">µs / job</text>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-matplotlib.axis_2">
+    <g id="2026-09-29-extension-sort-pair-baml-ytick_1">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_9"/>
+     <g id="2026-09-29-extension-sort-pair-baml-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="26.67104" transform="rotate(-0 115.03899 26.67104)">random · merge</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-ytick_2">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_10"/>
+     <g id="2026-09-29-extension-sort-pair-baml-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="55.716234" transform="rotate(-0 115.03899 55.716234)">random · quick</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-ytick_3">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_11"/>
+     <g id="2026-09-29-extension-sort-pair-baml-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="84.761428" transform="rotate(-0 115.03899 84.761428)">sorted · merge</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-ytick_4">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_12"/>
+     <g id="2026-09-29-extension-sort-pair-baml-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="113.806622" transform="rotate(-0 115.03899 113.806622)">sorted · quick</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-ytick_5">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_13"/>
+     <g id="2026-09-29-extension-sort-pair-baml-text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="142.851816" transform="rotate(-0 115.03899 142.851816)">reverse · merge</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-ytick_6">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_14"/>
+     <g id="2026-09-29-extension-sort-pair-baml-text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="171.89701" transform="rotate(-0 115.03899 171.89701)">reverse · quick</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-ytick_7">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_15"/>
+     <g id="2026-09-29-extension-sort-pair-baml-text_12">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="200.942204" transform="rotate(-0 115.03899 200.942204)">duplicates · merge</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-baml-ytick_8">
+     <g id="2026-09-29-extension-sort-pair-baml-line2d_16"/>
+     <g id="2026-09-29-extension-sort-pair-baml-text_13">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="229.987397" transform="rotate(-0 115.03899 229.987397)">duplicates · quick</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-patch_3">
+    <path d="M 123.03899 13.979323 
+L 400.262577 13.979323 
+L 400.262577 30.244632 
+L 123.03899 30.244632 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-patch_4">
+    <path d="M 123.03899 43.024517 
+L 429.257102 43.024517 
+L 429.257102 59.289826 
+L 123.03899 59.289826 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: #c27738"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-patch_5">
+    <path d="M 123.03899 72.069711 
+L 372.029743 72.069711 
+L 372.029743 88.33502 
+L 123.03899 88.33502 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-patch_6">
+    <path d="M 123.03899 101.114905 
+L 386.039928 101.114905 
+L 386.039928 117.380214 
+L 123.03899 117.380214 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: #c27738"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-patch_7">
+    <path d="M 123.03899 130.160099 
+L 376.795729 130.160099 
+L 376.795729 146.425407 
+L 123.03899 146.425407 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-patch_8">
+    <path d="M 123.03899 159.205293 
+L 384.233818 159.205293 
+L 384.233818 175.470601 
+L 123.03899 175.470601 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: #c27738"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-patch_9">
+    <path d="M 123.03899 188.250487 
+L 394.50546 188.250487 
+L 394.50546 204.515795 
+L 123.03899 204.515795 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-patch_10">
+    <path d="M 123.03899 217.295681 
+L 256.281315 217.295681 
+L 256.281315 233.560989 
+L 123.03899 233.560989 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: #c27738"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-patch_11">
+    <path d="M 123.03899 244.540073 
+L 536.99976 244.540073 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-LineCollection_1">
+    <path d="M 398.257276 22.111978 
+L 401.919208 22.111978 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 426.785399 51.157171 
+L 431.964938 51.157171 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 370.237142 80.202365 
+L 379.474976 80.202365 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 384.418914 109.247559 
+L 387.521597 109.247559 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 375.384308 138.292753 
+L 391.032098 138.292753 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 383.006816 167.337947 
+L 386.49925 167.337947 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 392.961845 196.383141 
+L 398.895035 196.383141 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 254.101525 225.428335 
+L 258.357389 225.428335 
+" clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-line2d_17">
+    <defs>
+     <path id="2026-09-29-extension-sort-pair-baml-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)">
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="398.257276" y="22.111978" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="426.785399" y="51.157171" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="370.237142" y="80.202365" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="384.418914" y="109.247559" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="375.384308" y="138.292753" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="383.006816" y="167.337947" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="392.961845" y="196.383141" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="254.101525" y="225.428335" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-line2d_18">
+    <g clip-path="url(#2026-09-29-extension-sort-pair-baml-p0347f7e469)">
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="401.919208" y="22.111978" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="431.964938" y="51.157171" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="379.474976" y="80.202365" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="387.521597" y="109.247559" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="391.032098" y="138.292753" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="386.49925" y="167.337947" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="398.895035" y="196.383141" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-baml-md18034b1a6" x="258.357389" y="225.428335" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-text_14">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="409.642357" y="25.14729" transform="rotate(-0 409.642357 25.14729)">1.32e+03</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-text_15">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="439.688086" y="54.192484" transform="rotate(-0 439.688086 54.192484)">1.46e+03</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-text_16">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="387.198125" y="83.237678" transform="rotate(-0 387.198125 83.237678)">1.18e+03</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-text_17">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="395.244745" y="112.282872" transform="rotate(-0 395.244745 112.282872)">1.25e+03</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-text_18">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="398.755247" y="141.328066" transform="rotate(-0 398.755247 141.328066)">1.21e+03</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-text_19">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="394.222399" y="170.37326" transform="rotate(-0 394.222399 170.37326)">1.24e+03</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-text_20">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="406.618183" y="199.418454" transform="rotate(-0 406.618183 199.418454)">1.29e+03</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-baml-text_21">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="266.080538" y="228.463647" transform="rotate(-0 266.080538 228.463647)">634</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-extension-sort-pair-baml-p0347f7e469">
+   <rect x="123.03899" y="3.00024" width="413.96077" height="241.539832"/>
+  </clipPath>
+ </defs>
+</svg>

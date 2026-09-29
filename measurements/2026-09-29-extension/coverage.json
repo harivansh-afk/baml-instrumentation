@@ -1,0 +1,1262 @@
+[
+  {
+    "scenario": "workflow-retain-4",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-4",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-4",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-4",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-4",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-retain-4",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 16,
+    "gc_maximum": 45,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-4",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 1,
+    "gc_maximum": 1,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-retain-4",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-retain-4",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-retain-64",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-64",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-64",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-64",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-64",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-retain-64",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 15,
+    "gc_maximum": 32,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-retain-64",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 9,
+    "gc_maximum": 9,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-retain-64",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-retain-64",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-tools-1",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-1",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-1",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-1",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-1",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-tools-1",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 13,
+    "gc_maximum": 15,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-1",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 3,
+    "gc_maximum": 3,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-tools-1",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-tools-1",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-tools-4",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-4",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-4",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-4",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 5,
+    "gc_maximum": 5,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-4",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-tools-4",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 13,
+    "gc_maximum": 14,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "workflow-tools-4",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 3,
+    "gc_maximum": 3,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-tools-4",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "workflow-tools-4",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-hello",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-hello",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-hello",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-hello",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-hello",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-hello",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-hello",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-hello",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-hello",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-random",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-random",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-random",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-random",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-random",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-random",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-random",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-random",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-random",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-sorted",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-sorted",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-sorted",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-sorted",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-sorted",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-sorted",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-sorted",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-sorted",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-sorted",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-reverse",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-reverse",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-reverse",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-reverse",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-reverse",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-reverse",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-reverse",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-reverse",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-reverse",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-duplicates",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-duplicates",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-duplicates",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-duplicates",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-duplicates",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-duplicates",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-duplicates",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-duplicates",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "merge-duplicates",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-random",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-random",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-random",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-random",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-random",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-random",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-random",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-random",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-random",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-sorted",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-sorted",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-sorted",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-sorted",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-sorted",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-sorted",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-sorted",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-sorted",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-sorted",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-reverse",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-reverse",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-reverse",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-reverse",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-reverse",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-reverse",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-reverse",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-reverse",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-reverse",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-duplicates",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-duplicates",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-duplicates",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-duplicates",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-duplicates",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-duplicates",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-duplicates",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-duplicates",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "quick-duplicates",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "generate-sort",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "generate-sort",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "generate-sort",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "generate-sort",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "generate-sort",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "generate-sort",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 2,
+    "gc_maximum": 5,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "generate-sort",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "generate-sort",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "generate-sort",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  }
+]

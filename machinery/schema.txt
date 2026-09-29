@@ -2,7 +2,9 @@ Schema 1. One samples.csv row represents one independent process trial.
 
 Identity
   case, scenario, language, backend, level, sink, trial identify the observation.
-  artifact_sha256 and input_sha256 identify the exact executable/bytecode and input.
+  artifact_sha256 identifies the native executable, BAML bytecode, or interpreter
+  binary for scripts. Source hashes identify script/adapter contents separately.
+  input_sha256 identifies the exact fixture.
   artifacts.json retains source/adapter hashes, compiler commands, versions and flags.
   environment.json retains machine, affinity, worker count and controller identity.
 
@@ -39,7 +41,7 @@ Files
   <case>/trials/<trial>/telemetry.json   post-run recording validation, when applicable
   <case>/trials/<trial>.input.json       exact fixture
 
-A future static HTML report reads these files or embeds them verbatim. It groups
+The static HTML report reads these files and embeds derived plots and raw CSVs. It groups
 by all identity dimensions, plots separate units, shows failures/coverage and links
 to the measured source. Ratios require matching case, input, work and environment.
 No aggregate score combines time, bytes and throughput.
@@ -51,3 +53,28 @@ BASELINE.txt is generated from those CSVs; it does not replace raw evidence.
 producer/ preserves the executed measurement sources; producer.json records their
 hashes. The first shared-host collection's archived files match its run provenance,
 including the original Go counter spelling. Reporting changes do not rewrite trials.
+
+HTTP collection schema
+  http.csv has one row per fresh server process. trials/<trial>/requests.json
+  retains every scheduled request; requests.input.json retains the offered load,
+  exact body, response oracle, deadline and in-flight cap. Warmup is separate.
+  scheduled_ns, dispatch_ns and completed_ns share the client's monotonic clock;
+  their absolute values are not UTC timestamps. For unsuccessful requests,
+  completed_ns marks the observed error/deadline, not a successful response.
+  latency_ns is scheduled-to-completion; service_ns is dispatch-to-completion;
+  lag_ns is max(0, dispatch minus schedule). Timing ends before JSON validation.
+  latency_p50/p95/p99 and service_p95 use successful responses only. They are
+  nearest-rank percentiles within one process, never pooled across processes.
+  throughput is correct responses / max(planned duration, final completion time
+  minus first scheduled arrival). Its denominator includes timed-out requests.
+  failed counts wrong responses, transport errors, deadlines and client-capacity
+  rejections. No scheduled request silently disappears when the cap is reached.
+  client_schedule_valid compares p99 lag with the frozen protocol's limit.
+  Performance bars accept ok and request_failure trials with valid schedules;
+  incomplete telemetry and other harness failures are excluded and counted.
+  gc_service_lifetime is BAML full collections during main; gc_drain covers its
+  subsequent metadata/shutdown interval. Neither is a request pause measurement.
+  Server CPU and peak RSS come from wait4 over the whole server lifecycle;
+  they exclude the separate load-client process. All units remain ns/bytes.
+  HTTP input_sha256 covers the canonical request configuration excluding the
+  ephemeral port. Source/lockfile hashes accompany the artifact identity.

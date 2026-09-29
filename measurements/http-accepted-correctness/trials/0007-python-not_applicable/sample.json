@@ -1,0 +1,16 @@
+{
+  "language": "python",
+  "level": "not_applicable",
+  "scenario": "correctness",
+  "artifact_sha256": "dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6",
+  "input_sha256": "f11aefe5c3b8cd06d918d0f6fc44e46fcc0407400263ab2aab9f30eee9b16cc4",
+  "status": "ok",
+  "requests": 29,
+  "failed": 0,
+  "process_wall_ns": 512491502,
+  "process_cpu_ns": 446156000,
+  "peak_rss_bytes": 47812608,
+  "launch_to_ready_ns": 413830085,
+  "trial": 0,
+  "trial_path": "trials/0007-python-not_applicable"
+}

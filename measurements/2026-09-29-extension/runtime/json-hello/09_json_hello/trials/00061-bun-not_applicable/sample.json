@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "09_json_hello",
+  "language": "bun",
+  "backend": "bun",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 4096,
+  "warmup": 16,
+  "artifact_sha256": "616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1",
+  "input_sha256": "3cede4b820d4327dcdadbc0e26ea1944dc0ef5f9738995c6cae2264d7fc79d5c",
+  "trial_path": "09_json_hello/trials/00061-bun-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 10505039,
+  "process_cpu_ns": 8657000,
+  "peak_rss_bytes": 25821184,
+  "launch_to_ready_ns": 9667451,
+  "execution_wall_ns": 1243654,
+  "execution_cpu_ns": 1525000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "json-hello",
+  "trial": 14
+}

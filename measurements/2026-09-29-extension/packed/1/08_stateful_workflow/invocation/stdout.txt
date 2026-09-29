@@ -1,0 +1,1 @@
+"{\"processed\":8,\"digest\":436784494,\"response_bytes\":653,\"cache\":[{\"key\":\"key_005\",\"total\":53741,\"check\":1783178,\"count\":64},{\"key\":\"key_007\",\"total\":54332,\"check\":1802824,\"count\":64}],\"responses\":[]}"

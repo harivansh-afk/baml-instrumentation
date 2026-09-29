@@ -1,0 +1,34 @@
+[
+  {
+    "event": "ready",
+    "load_ns": 7467109,
+    "setup_ns": 76325272,
+    "received_ns": 85779986
+  },
+  {
+    "event": "result",
+    "jobs": 1,
+    "execution_wall_ns": 10129773,
+    "execution_cpu_ns": 11162048,
+    "result": "{\"processed\":33,\"digest\":427148356,\"response_bytes\":2489,\"cache\":[{\"key\":\"key_000\",\"total\":14279,\"check\":29301,\"count\":7},{\"key\":\"key_002\",\"total\":6138,\"check\":24046,\"count\":7},{\"key\":\"key_003\",\"total\":5952,\"check\":26003,\"count\":7},{\"key\":\"key_004\",\"total\":6118,\"check\":25829,\"count\":7},{\"key\":\"key_005\",\"total\":6198,\"check\":24096,\"count\":7},{\"key\":\"key_007\",\"total\":6384,\"check\":25576,\"count\":7},{\"key\":\"key_008\",\"total\":6167,\"check\":24522,\"count\":7},{\"key\":\"key_009\",\"total\":6330,\"check\":27707,\"count\":7},{\"key\":\"key_010\",\"total\":12913,\"check\":21381,\"count\":7},{\"key\":\"key_012\",\"total\":6950,\"check\":29643,\"count\":7},{\"key\":\"key_013\",\"total\":5803,\"check\":25085,\"count\":7},{\"key\":\"key_014\",\"total\":7063,\"check\":28934,\"count\":7},{\"key\":\"key_015\",\"total\":6697,\"check\":26190,\"count\":7},{\"key\":\"key_017\",\"total\":5944,\"check\":26656,\"count\":7},{\"key\":\"key_018\",\"total\":6202,\"check\":26691,\"count\":7},{\"key\":\"key_019\",\"total\":6081,\"check\":25213,\"count\":7},{\"key\":\"key_020\",\"total\":6669,\"check\":26513,\"count\":7},{\"key\":\"key_022\",\"total\":5713,\"check\":23506,\"count\":7},{\"key\":\"key_023\",\"total\":6142,\"check\":24306,\"count\":7},{\"key\":\"key_024\",\"total\":6928,\"check\":26192,\"count\":7},{\"key\":\"key_025\",\"total\":11536,\"check\":22888,\"count\":7},{\"key\":\"key_027\",\"total\":7151,\"check\":30045,\"count\":7},{\"key\":\"key_028\",\"total\":5658,\"check\":25632,\"count\":7},{\"key\":\"key_029\",\"total\":6463,\"check\":25138,\"count\":7},{\"key\":\"key_030\",\"total\":11483,\"check\":21715,\"count\":7},{\"key\":\"key_032\",\"total\":6578,\"check\":26917,\"count\":7}],\"responses\":[{\"seq\":0,\"ok\":true,\"key\":\"key_000\",\"total\":7146,\"check\":30208,\"evicted\":\"\"},{\"seq\":1,\"ok\":true,\"key\":\"key_000\",\"total\":14279,\"check\":29301,\"evicted\":\"\"},{\"seq\":2,\"ok\":true,\"key\":\"key_002\",\"total\":6138,\"check\":24046,\"evicted\":\"\"},{\"seq\":3,\"ok\":true,\"key\":\"key_003\",\"total\":5952,\"check\":26003,\"evicted\":\"\"},{\"seq\":4,\"ok\":true,\"key\":\"key_004\",\"total\":6118,\"check\":25829,\"evicted\":\"\"},{\"seq\":5,\"ok\":true,\"key\":\"key_005\",\"total\":7375,\"check\":30225,\"evicted\":\"\"},{\"seq\":6,\"ok\":true,\"key\":\"key_005\",\"total\":6198,\"check\":24096,\"evicted\":\"\"},{\"seq\":7,\"ok\":true,\"key\":\"key_007\",\"total\":6384,\"check\":25576,\"evicted\":\"\"},{\"seq\":8,\"ok\":true,\"key\":\"key_008\",\"total\":6167,\"check\":24522,\"evicted\":\"\"},{\"seq\":9,\"ok\":true,\"key\":\"key_009\",\"total\":6330,\"check\":27707,\"evicted\":\"\"},{\"seq\":10,\"ok\":true,\"key\":\"key_010\",\"total\":7627,\"check\":29972,\"evicted\":\"\"},{\"seq\":11,\"ok\":true,\"key\":\"key_010\",\"total\":12913,\"check\":21381,\"evicted\":\"\"},{\"seq\":12,\"ok\":true,\"key\":\"key_012\",\"total\":6950,\"check\":29643,\"evicted\":\"\"},{\"seq\":13,\"ok\":true,\"key\":\"key_013\",\"total\":5803,\"check\":25085,\"evicted\":\"\"},{\"seq\":14,\"ok\":true,\"key\":\"key_014\",\"total\":7063,\"check\":28934,\"evicted\":\"\"},{\"seq\":15,\"ok\":true,\"key\":\"key_015\",\"total\":6697,\"check\":26190,\"evicted\":\"\"},{\"seq\":16,\"ok\":false,\"key\":\"\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":17,\"ok\":true,\"key\":\"key_017\",\"total\":5944,\"check\":26656,\"evicted\":\"\"},{\"seq\":18,\"ok\":true,\"key\":\"key_018\",\"total\":6202,\"check\":26691,\"evicted\":\"\"},{\"seq\":19,\"ok\":true,\"key\":\"key_019\",\"total\":6081,\"check\":25213,\"evicted\":\"\"},{\"seq\":20,\"ok\":true,\"key\":\"key_020\",\"total\":5668,\"check\":22788,\"evicted\":\"\"},{\"seq\":21,\"ok\":true,\"key\":\"key_020\",\"total\":6669,\"check\":26513,\"evicted\":\"\"},{\"seq\":22,\"ok\":true,\"key\":\"key_022\",\"total\":5713,\"check\":23506,\"evicted\":\"\"},{\"seq\":23,\"ok\":true,\"key\":\"key_023\",\"total\":6142,\"check\":24306,\"evicted\":\"\"},{\"seq\":24,\"ok\":true,\"key\":\"key_024\",\"total\":6928,\"check\":26192,\"evicted\":\"\"},{\"seq\":25,\"ok\":true,\"key\":\"key_025\",\"total\":5737,\"check\":24674,\"evicted\":\"\"},{\"seq\":26,\"ok\":true,\"key\":\"key_025\",\"total\":11536,\"check\":22888,\"evicted\":\"\"},{\"seq\":27,\"ok\":true,\"key\":\"key_027\",\"total\":7151,\"check\":30045,\"evicted\":\"\"},{\"seq\":28,\"ok\":true,\"key\":\"key_028\",\"total\":5658,\"check\":25632,\"evicted\":\"\"},{\"seq\":29,\"ok\":true,\"key\":\"key_029\",\"total\":6463,\"check\":25138,\"evicted\":\"\"},{\"seq\":30,\"ok\":true,\"key\":\"key_030\",\"total\":6402,\"check\":24200,\"evicted\":\"\"},{\"seq\":31,\"ok\":true,\"key\":\"key_030\",\"total\":11483,\"check\":21715,\"evicted\":\"\"},{\"seq\":32,\"ok\":true,\"key\":\"key_032\",\"total\":6578,\"check\":26917,\"evicted\":\"\"}]}",
+    "gc_execution": 0,
+    "gc_warmup": 0,
+    "gc_counter": "full_collections",
+    "workers": 2,
+    "received_ns": 95981919
+  },
+  {
+    "event": "drained",
+    "drain_ns": 595746,
+    "gc_drain": 1,
+    "telemetry_ok": true,
+    "delivery_loss": 0,
+    "function_names": {
+      "1559": "user.run",
+      "1553": "user.prepare",
+      "1069": "ai.<(ai.Agent as ai.Runner)>.run"
+    },
+    "metadata_ns": 1193651,
+    "received_ns": 97701092
+  }
+]

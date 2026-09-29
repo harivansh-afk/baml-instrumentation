@@ -1,7 +1,7 @@
 function handle(req: baml.http.Request) -> baml.http.Response throws never {
     let body = "{\"error\":\"not_found\"}";
     let status = 404;
-    if (req.method == "GET" && req.url == "/health") { body = "42"; status = 200; }
+    if (req.method == "GET" && req.url == "/hello") { body = "{\"message\":\"Hello, world!\"}"; status = 200; }
     if (req.method == "POST" && req.url == "/aggregate") {
         body = run(prepare(req.body));
         status = 200;

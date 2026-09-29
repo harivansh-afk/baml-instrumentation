@@ -1,0 +1,157 @@
+<svg role="img" aria-labelledby="2026-09-29-shared-host-05_async_fanout-build-wall-baml-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="151.2pt" viewBox="0 0 540 151.2" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-title">BAML source → bytecode wall. Bars show medians; whiskers show observed minimum and maximum. Unit: ms.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-figure_1">
+  <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-patch_1">
+   <path d="M 0 151.2 
+L 540 151.2 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-axes_1">
+   <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-patch_2">
+    <path d="M 44.482115 114.940073 
+L 536.99976 114.940073 
+L 536.99976 3.00024 
+L 44.482115 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-matplotlib.axis_1">
+    <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-xtick_1">
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_1">
+      <path d="M 44.482115 114.940073 
+L 44.482115 3.00024 
+" clip-path="url(#2026-09-29-shared-host-05_async_fanout-build-wall-baml-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_2">
+      <defs>
+       <path id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-05_async_fanout-build-wall-baml-mf02d9a5d8c" x="44.482115" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="44.482115" y="130.298354" transform="rotate(-0 44.482115 130.298354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-xtick_2">
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_3">
+      <path d="M 173.671999 114.940073 
+L 173.671999 3.00024 
+" clip-path="url(#2026-09-29-shared-host-05_async_fanout-build-wall-baml-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-05_async_fanout-build-wall-baml-mf02d9a5d8c" x="173.671999" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="173.671999" y="130.298354" transform="rotate(-0 173.671999 130.298354)">250</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-xtick_3">
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_5">
+      <path d="M 302.861884 114.940073 
+L 302.861884 3.00024 
+" clip-path="url(#2026-09-29-shared-host-05_async_fanout-build-wall-baml-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-05_async_fanout-build-wall-baml-mf02d9a5d8c" x="302.861884" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="302.861884" y="130.298354" transform="rotate(-0 302.861884 130.298354)">500</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-xtick_4">
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_7">
+      <path d="M 432.051768 114.940073 
+L 432.051768 3.00024 
+" clip-path="url(#2026-09-29-shared-host-05_async_fanout-build-wall-baml-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-05_async_fanout-build-wall-baml-mf02d9a5d8c" x="432.051768" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="432.051768" y="130.298354" transform="rotate(-0 432.051768 130.298354)">750</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="145.704135" transform="rotate(-0 536.99976 145.704135)">ms</text>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-matplotlib.axis_2">
+    <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-ytick_1">
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_9"/>
+     <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="36.482115" y="63.529219" transform="rotate(-0 36.482115 63.529219)">BAML</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-patch_3">
+    <path d="M 44.482115 8.088414 
+L 405.815547 8.088414 
+L 405.815547 109.851898 
+L 44.482115 109.851898 
+z
+" clip-path="url(#2026-09-29-shared-host-05_async_fanout-build-wall-baml-pcfe298f9b8)" style="fill: #244bb0"/>
+   </g>
+   <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-patch_4">
+    <path d="M 44.482115 114.940073 
+L 536.99976 114.940073 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-LineCollection_1">
+    <path d="M 390.379538 58.970156 
+L 412.032596 58.970156 
+" clip-path="url(#2026-09-29-shared-host-05_async_fanout-build-wall-baml-pcfe298f9b8)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_10">
+    <defs>
+     <path id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-shared-host-05_async_fanout-build-wall-baml-pcfe298f9b8)">
+     <use xlink:href="#2026-09-29-shared-host-05_async_fanout-build-wall-baml-md18034b1a6" x="390.379538" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-line2d_11">
+    <g clip-path="url(#2026-09-29-shared-host-05_async_fanout-build-wall-baml-pcfe298f9b8)">
+     <use xlink:href="#2026-09-29-shared-host-05_async_fanout-build-wall-baml-md18034b1a6" x="412.032596" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="421.221358" y="62.005469" transform="rotate(-0 421.221358 62.005469)">699</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-shared-host-05_async_fanout-build-wall-baml-pcfe298f9b8">
+   <rect x="44.482115" y="3.00024" width="492.517645" height="111.939832"/>
+  </clipPath>
+ </defs>
+</svg>

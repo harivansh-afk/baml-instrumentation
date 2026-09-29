@@ -1,0 +1,151 @@
+repeat,case,language,backend,artifact_kind,artifact_bytes,shared_host_bytes,runtime_executable_bytes,artifact_sha256,status,process_wall_ns,process_cpu_ns,peak_rss_bytes
+0,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,d84cb0d65818a533efa6170909e49ae9787ef864eea2ba1c9e261022a14e1c21,ok,3958430458,6512232000,280006656
+0,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,6200981217,10662782000,322527232
+0,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,693466858,1001151000,227700736
+0,08_stateful_workflow,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2659959,27338480,,69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9,ok,677475702,1010175000,232415232
+0,08_stateful_workflow,rust,rust,native executable plus measurement adapter,594680,,,e1cd29b7578925dca3376be331fee4a847b29197f9f33c846c006989f26e36fb,ok,6702103386,11416096000,322351104
+0,08_stateful_workflow,go,go,native executable plus measurement adapter,2556064,,,12e991af1a797a2cf6d0df44aaa5b28caff3a4dde0c48f0eb8fe433dcf1e994d,ok,4029390424,6653641000,287178752
+0,08_stateful_workflow,python,python,source and measurement adapter; interpreter is shared,5630,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,08_stateful_workflow,node,node,source and measurement adapter; interpreter is shared,4306,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,08_stateful_workflow,bun,bun,source and measurement adapter; interpreter is shared,4306,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,09_json_hello,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632214,27338480,,08097f7134ec6b8272a4443e2d5737f1d5ae4543bf369aed249d3a239e85cf32,ok,681045939,1000121000,227393536
+0,09_json_hello,rust,rust,native executable plus measurement adapter,529136,,,4014dbe8effade89c4b0d09f190200881a57770e97ba783667260bbd696fa67d,ok,5776689859,10516564000,322486272
+0,09_json_hello,go,go,native executable plus measurement adapter,2556064,,,2b562e9d0a29812b21a5432bac0f4cb454266842154f58e866a5e91b25e1bc8e,ok,3947510659,6532900000,289587200
+0,09_json_hello,python,python,source and measurement adapter; interpreter is shared,1626,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,09_json_hello,node,node,source and measurement adapter; interpreter is shared,1053,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,09_json_hello,bun,bun,source and measurement adapter; interpreter is shared,1053,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,10_quick_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637675,27338480,,3e9e15a20b27b5689492624df1fcbc81a4a8b8e467c7e9e4bc6711b8a068b325,ok,701370338,1006645000,228012032
+0,10_quick_sort,rust,rust,native executable plus measurement adapter,529136,,,6898dad5237947d75b2760587a127dbc66e6d9daf773c2c3f1ae259726221cd5,ok,6108128880,10658130000,322732032
+0,10_quick_sort,go,go,native executable plus measurement adapter,2556064,,,3f98cb4671945b7a9d148a209a4bdeda2d8be24c598f8f9ee54d16c58c4e184f,ok,3984193731,6541787000,275787776
+0,10_quick_sort,python,python,source and measurement adapter; interpreter is shared,2521,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,10_quick_sort,node,node,source and measurement adapter; interpreter is shared,1612,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,10_quick_sort,bun,bun,source and measurement adapter; interpreter is shared,1612,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,11_generate_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633220,27338480,,8fd055e4071b56ae0b3d538f87682a0f9a0e22bc92ea52084ffbbeb63ff7626f,ok,701856733,1001963000,227762176
+0,11_generate_sort,rust,rust,native executable plus measurement adapter,529136,,,3d5d158c32a356147cd6aeead50063609d4171d393103227adb2ba11824f8586,ok,6074377675,10660205000,322637824
+0,11_generate_sort,go,go,native executable plus measurement adapter,2556064,,,7607f4c9a0b9a2a23a87e1cd8c9337ffb4f0ee705d5d4db3fceec0ad470dadfe,ok,4003920119,6519982000,275775488
+0,11_generate_sort,python,python,source and measurement adapter; interpreter is shared,1727,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,11_generate_sort,node,node,source and measurement adapter; interpreter is shared,1150,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,11_generate_sort,bun,bun,source and measurement adapter; interpreter is shared,1150,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,d84cb0d65818a533efa6170909e49ae9787ef864eea2ba1c9e261022a14e1c21,ok,3951410637,6487479000,273477632
+1,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,6000728003,10627754000,322719744
+1,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,702161723,996063000,228024320
+1,08_stateful_workflow,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2659959,27338480,,69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9,ok,697541357,1018379000,232656896
+1,08_stateful_workflow,rust,rust,native executable plus measurement adapter,594680,,,e1cd29b7578925dca3376be331fee4a847b29197f9f33c846c006989f26e36fb,ok,6724297581,11484380000,322887680
+1,08_stateful_workflow,go,go,native executable plus measurement adapter,2556064,,,12e991af1a797a2cf6d0df44aaa5b28caff3a4dde0c48f0eb8fe433dcf1e994d,ok,4039665016,6632513000,288886784
+1,08_stateful_workflow,python,python,source and measurement adapter; interpreter is shared,5630,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,08_stateful_workflow,node,node,source and measurement adapter; interpreter is shared,4306,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,08_stateful_workflow,bun,bun,source and measurement adapter; interpreter is shared,4306,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,09_json_hello,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632214,27338480,,08097f7134ec6b8272a4443e2d5737f1d5ae4543bf369aed249d3a239e85cf32,ok,695024021,1006564000,227586048
+1,09_json_hello,rust,rust,native executable plus measurement adapter,529136,,,4014dbe8effade89c4b0d09f190200881a57770e97ba783667260bbd696fa67d,ok,5935737086,10591258000,322498560
+1,09_json_hello,go,go,native executable plus measurement adapter,2556064,,,2b562e9d0a29812b21a5432bac0f4cb454266842154f58e866a5e91b25e1bc8e,ok,4015767301,6564138000,283615232
+1,09_json_hello,python,python,source and measurement adapter; interpreter is shared,1626,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,09_json_hello,node,node,source and measurement adapter; interpreter is shared,1053,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,09_json_hello,bun,bun,source and measurement adapter; interpreter is shared,1053,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,10_quick_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637675,27338480,,3e9e15a20b27b5689492624df1fcbc81a4a8b8e467c7e9e4bc6711b8a068b325,ok,966532134,1000407000,227729408
+1,10_quick_sort,rust,rust,native executable plus measurement adapter,529136,,,6898dad5237947d75b2760587a127dbc66e6d9daf773c2c3f1ae259726221cd5,ok,6020435823,10650928000,322351104
+1,10_quick_sort,go,go,native executable plus measurement adapter,2556064,,,3f98cb4671945b7a9d148a209a4bdeda2d8be24c598f8f9ee54d16c58c4e184f,ok,3936033190,6505439000,273121280
+1,10_quick_sort,python,python,source and measurement adapter; interpreter is shared,2521,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,10_quick_sort,node,node,source and measurement adapter; interpreter is shared,1612,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,10_quick_sort,bun,bun,source and measurement adapter; interpreter is shared,1612,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,11_generate_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633220,27338480,,8fd055e4071b56ae0b3d538f87682a0f9a0e22bc92ea52084ffbbeb63ff7626f,ok,678603425,994292000,227459072
+1,11_generate_sort,rust,rust,native executable plus measurement adapter,529136,,,3d5d158c32a356147cd6aeead50063609d4171d393103227adb2ba11824f8586,ok,6197302459,10645313000,322252800
+1,11_generate_sort,go,go,native executable plus measurement adapter,2556064,,,7607f4c9a0b9a2a23a87e1cd8c9337ffb4f0ee705d5d4db3fceec0ad470dadfe,ok,3960628148,6572357000,271851520
+1,11_generate_sort,python,python,source and measurement adapter; interpreter is shared,1727,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,11_generate_sort,node,node,source and measurement adapter; interpreter is shared,1150,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,11_generate_sort,bun,bun,source and measurement adapter; interpreter is shared,1150,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,d84cb0d65818a533efa6170909e49ae9787ef864eea2ba1c9e261022a14e1c21,ok,3922045815,6564392000,292093952
+2,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,5882572039,10537430000,322490368
+2,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,700131197,1002244000,227926016
+2,08_stateful_workflow,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2659959,27338480,,69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9,ok,763121811,1019295000,232599552
+2,08_stateful_workflow,rust,rust,native executable plus measurement adapter,594680,,,e1cd29b7578925dca3376be331fee4a847b29197f9f33c846c006989f26e36fb,ok,6702488507,11413572000,322351104
+2,08_stateful_workflow,go,go,native executable plus measurement adapter,2556064,,,12e991af1a797a2cf6d0df44aaa5b28caff3a4dde0c48f0eb8fe433dcf1e994d,ok,3950457693,6498287000,266928128
+2,08_stateful_workflow,python,python,source and measurement adapter; interpreter is shared,5630,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,08_stateful_workflow,node,node,source and measurement adapter; interpreter is shared,4306,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,08_stateful_workflow,bun,bun,source and measurement adapter; interpreter is shared,4306,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,09_json_hello,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632214,27338480,,08097f7134ec6b8272a4443e2d5737f1d5ae4543bf369aed249d3a239e85cf32,ok,712927261,1009278000,227553280
+2,09_json_hello,rust,rust,native executable plus measurement adapter,529136,,,4014dbe8effade89c4b0d09f190200881a57770e97ba783667260bbd696fa67d,ok,6120630929,10566788000,322383872
+2,09_json_hello,go,go,native executable plus measurement adapter,2556064,,,2b562e9d0a29812b21a5432bac0f4cb454266842154f58e866a5e91b25e1bc8e,ok,4077249364,6494065000,277065728
+2,09_json_hello,python,python,source and measurement adapter; interpreter is shared,1626,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,09_json_hello,node,node,source and measurement adapter; interpreter is shared,1053,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,09_json_hello,bun,bun,source and measurement adapter; interpreter is shared,1053,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,10_quick_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637675,27338480,,3e9e15a20b27b5689492624df1fcbc81a4a8b8e467c7e9e4bc6711b8a068b325,ok,666480978,1000677000,227958784
+2,10_quick_sort,rust,rust,native executable plus measurement adapter,529136,,,6898dad5237947d75b2760587a127dbc66e6d9daf773c2c3f1ae259726221cd5,ok,5902162925,10552103000,322600960
+2,10_quick_sort,go,go,native executable plus measurement adapter,2556064,,,3f98cb4671945b7a9d148a209a4bdeda2d8be24c598f8f9ee54d16c58c4e184f,ok,4061640715,6496508000,271360000
+2,10_quick_sort,python,python,source and measurement adapter; interpreter is shared,2521,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,10_quick_sort,node,node,source and measurement adapter; interpreter is shared,1612,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,10_quick_sort,bun,bun,source and measurement adapter; interpreter is shared,1612,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,11_generate_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633220,27338480,,8fd055e4071b56ae0b3d538f87682a0f9a0e22bc92ea52084ffbbeb63ff7626f,ok,669171760,1007368000,227819520
+2,11_generate_sort,rust,rust,native executable plus measurement adapter,529136,,,3d5d158c32a356147cd6aeead50063609d4171d393103227adb2ba11824f8586,ok,6072720609,10622250000,322691072
+2,11_generate_sort,go,go,native executable plus measurement adapter,2556064,,,7607f4c9a0b9a2a23a87e1cd8c9337ffb4f0ee705d5d4db3fceec0ad470dadfe,ok,3928026297,6486448000,272334848
+2,11_generate_sort,python,python,source and measurement adapter; interpreter is shared,1727,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,11_generate_sort,node,node,source and measurement adapter; interpreter is shared,1150,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,11_generate_sort,bun,bun,source and measurement adapter; interpreter is shared,1150,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,d84cb0d65818a533efa6170909e49ae9787ef864eea2ba1c9e261022a14e1c21,ok,3939764718,6492652000,259215360
+3,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,5931973888,10556746000,322494464
+3,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,686073912,999190000,227897344
+3,08_stateful_workflow,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2659959,27338480,,69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9,ok,701455078,1017099000,232497152
+3,08_stateful_workflow,rust,rust,native executable plus measurement adapter,594680,,,e1cd29b7578925dca3376be331fee4a847b29197f9f33c846c006989f26e36fb,ok,6644097753,11450544000,322666496
+3,08_stateful_workflow,go,go,native executable plus measurement adapter,2556064,,,12e991af1a797a2cf6d0df44aaa5b28caff3a4dde0c48f0eb8fe433dcf1e994d,ok,3960939676,6616269000,284307456
+3,08_stateful_workflow,python,python,source and measurement adapter; interpreter is shared,5630,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,08_stateful_workflow,node,node,source and measurement adapter; interpreter is shared,4306,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,08_stateful_workflow,bun,bun,source and measurement adapter; interpreter is shared,4306,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,09_json_hello,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632214,27338480,,08097f7134ec6b8272a4443e2d5737f1d5ae4543bf369aed249d3a239e85cf32,ok,679906421,1009947000,227426304
+3,09_json_hello,rust,rust,native executable plus measurement adapter,529136,,,4014dbe8effade89c4b0d09f190200881a57770e97ba783667260bbd696fa67d,ok,6052931252,10548571000,322367488
+3,09_json_hello,go,go,native executable plus measurement adapter,2556064,,,2b562e9d0a29812b21a5432bac0f4cb454266842154f58e866a5e91b25e1bc8e,ok,3847013487,6515057000,285036544
+3,09_json_hello,python,python,source and measurement adapter; interpreter is shared,1626,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,09_json_hello,node,node,source and measurement adapter; interpreter is shared,1053,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,09_json_hello,bun,bun,source and measurement adapter; interpreter is shared,1053,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,10_quick_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637675,27338480,,3e9e15a20b27b5689492624df1fcbc81a4a8b8e467c7e9e4bc6711b8a068b325,ok,688192484,1007477000,227762176
+3,10_quick_sort,rust,rust,native executable plus measurement adapter,529136,,,6898dad5237947d75b2760587a127dbc66e6d9daf773c2c3f1ae259726221cd5,ok,5900854477,10549752000,322392064
+3,10_quick_sort,go,go,native executable plus measurement adapter,2556064,,,3f98cb4671945b7a9d148a209a4bdeda2d8be24c598f8f9ee54d16c58c4e184f,ok,3903698351,6564915000,282079232
+3,10_quick_sort,python,python,source and measurement adapter; interpreter is shared,2521,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,10_quick_sort,node,node,source and measurement adapter; interpreter is shared,1612,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,10_quick_sort,bun,bun,source and measurement adapter; interpreter is shared,1612,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,11_generate_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633220,27338480,,8fd055e4071b56ae0b3d538f87682a0f9a0e22bc92ea52084ffbbeb63ff7626f,ok,671962134,1002811000,227700736
+3,11_generate_sort,rust,rust,native executable plus measurement adapter,529136,,,3d5d158c32a356147cd6aeead50063609d4171d393103227adb2ba11824f8586,ok,6038629056,10641013000,322527232
+3,11_generate_sort,go,go,native executable plus measurement adapter,2556064,,,7607f4c9a0b9a2a23a87e1cd8c9337ffb4f0ee705d5d4db3fceec0ad470dadfe,ok,3902922001,6503276000,283213824
+3,11_generate_sort,python,python,source and measurement adapter; interpreter is shared,1727,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,11_generate_sort,node,node,source and measurement adapter; interpreter is shared,1150,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,11_generate_sort,bun,bun,source and measurement adapter; interpreter is shared,1150,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,d84cb0d65818a533efa6170909e49ae9787ef864eea2ba1c9e261022a14e1c21,ok,3817092463,6465035000,273481728
+4,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,6003184310,10546815000,322605056
+4,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,705761075,1010967000,227954688
+4,08_stateful_workflow,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2659959,27338480,,69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9,ok,680009631,1015719000,232955904
+4,08_stateful_workflow,rust,rust,native executable plus measurement adapter,594680,,,e1cd29b7578925dca3376be331fee4a847b29197f9f33c846c006989f26e36fb,ok,6583546031,11449139000,322600960
+4,08_stateful_workflow,go,go,native executable plus measurement adapter,2556064,,,12e991af1a797a2cf6d0df44aaa5b28caff3a4dde0c48f0eb8fe433dcf1e994d,ok,3937290871,6555475000,273825792
+4,08_stateful_workflow,python,python,source and measurement adapter; interpreter is shared,5630,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,08_stateful_workflow,node,node,source and measurement adapter; interpreter is shared,4306,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,08_stateful_workflow,bun,bun,source and measurement adapter; interpreter is shared,4306,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,09_json_hello,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632214,27338480,,08097f7134ec6b8272a4443e2d5737f1d5ae4543bf369aed249d3a239e85cf32,ok,670226662,1006873000,227618816
+4,09_json_hello,rust,rust,native executable plus measurement adapter,529136,,,4014dbe8effade89c4b0d09f190200881a57770e97ba783667260bbd696fa67d,ok,5943146337,10545655000,322719744
+4,09_json_hello,go,go,native executable plus measurement adapter,2556064,,,2b562e9d0a29812b21a5432bac0f4cb454266842154f58e866a5e91b25e1bc8e,ok,3925934752,6551126000,298373120
+4,09_json_hello,python,python,source and measurement adapter; interpreter is shared,1626,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,09_json_hello,node,node,source and measurement adapter; interpreter is shared,1053,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,09_json_hello,bun,bun,source and measurement adapter; interpreter is shared,1053,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,10_quick_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637675,27338480,,3e9e15a20b27b5689492624df1fcbc81a4a8b8e467c7e9e4bc6711b8a068b325,ok,665844848,1006265000,227950592
+4,10_quick_sort,rust,rust,native executable plus measurement adapter,529136,,,6898dad5237947d75b2760587a127dbc66e6d9daf773c2c3f1ae259726221cd5,ok,5851965851,10598592000,322727936
+4,10_quick_sort,go,go,native executable plus measurement adapter,2556064,,,3f98cb4671945b7a9d148a209a4bdeda2d8be24c598f8f9ee54d16c58c4e184f,ok,3934354857,6444956000,269258752
+4,10_quick_sort,python,python,source and measurement adapter; interpreter is shared,2521,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,10_quick_sort,node,node,source and measurement adapter; interpreter is shared,1612,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,10_quick_sort,bun,bun,source and measurement adapter; interpreter is shared,1612,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,11_generate_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633220,27338480,,8fd055e4071b56ae0b3d538f87682a0f9a0e22bc92ea52084ffbbeb63ff7626f,ok,710648961,1009116000,227577856
+4,11_generate_sort,rust,rust,native executable plus measurement adapter,529136,,,3d5d158c32a356147cd6aeead50063609d4171d393103227adb2ba11824f8586,ok,6086202560,10678173000,322461696
+4,11_generate_sort,go,go,native executable plus measurement adapter,2556064,,,7607f4c9a0b9a2a23a87e1cd8c9337ffb4f0ee705d5d4db3fceec0ad470dadfe,ok,3982902026,6597329000,284737536
+4,11_generate_sort,python,python,source and measurement adapter; interpreter is shared,1727,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,11_generate_sort,node,node,source and measurement adapter; interpreter is shared,1150,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,11_generate_sort,bun,bun,source and measurement adapter; interpreter is shared,1150,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,

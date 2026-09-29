@@ -1,0 +1,1 @@
+{"valid":true,"recordings":1,"recording_end":false,"issues":[],"handler_count":29,"prepare_count":28,"root_completions":30,"span_handler_count":0,"expected_handler_count":29,"function_counts":{"user.prepare":28,"user.main":1,"user.run":28,"user.handle":29},"scope":"structural validation, runtime metadata, root completions and exact handler counts; value capture is not exercised"}

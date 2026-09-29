@@ -7,7 +7,7 @@ from collections import defaultdict
 from pathlib import Path
 import statistics
 
-from report import summarize
+from report import summarize, versions_for_cases
 from run import FIELDS, csv_write, write
 
 
@@ -35,7 +35,7 @@ def main():
     root = a.collection.resolve()
     protocol = json.loads((root / "protocol.json").read_text())
     manifest = json.loads((root / "compilation/0/manifest.json").read_text())
-    versions = {r["language"]: r["version"].splitlines()[0] for r in manifest.values()}
+    versions = versions_for_cases(manifest, [s["case"] for s in protocol["scenarios"]])
     rows = []
     groups = defaultdict(list)
     for path in sorted(root.glob("runtime/*/*/samples.csv")):

@@ -1,0 +1,1 @@
+Diagnostic only; excluded from baseline charts. Ten fresh Bun node:http processes, 1500 requests at 500/s, ten warmup requests. Client records the last socket-read phase; server counts connection events, handler entries and response finish events. These added diagnostics change the implementation and timing. Source and full client observations are retained.

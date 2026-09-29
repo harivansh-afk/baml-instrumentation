@@ -1,0 +1,85 @@
+{
+  "port": 39669,
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    }
+  ]
+}

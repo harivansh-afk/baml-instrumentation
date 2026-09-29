@@ -1,0 +1,245 @@
+<svg role="img" aria-labelledby="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="194.4pt" viewBox="0 0 540 194.4" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-title">Reference runtimes · Execution CPU / job. Bars show medians; whiskers show observed minimum and maximum. Unit: µs / job.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-figure_1">
+  <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-patch_1">
+   <path d="M 0 194.4 
+L 540 194.4 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-axes_1">
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-patch_2">
+    <path d="M 52.59524 158.140073 
+L 536.99976 158.140073 
+L 536.99976 3.00024 
+L 52.59524 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-matplotlib.axis_1">
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-xtick_1">
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_1">
+      <path d="M 52.59524 158.140073 
+L 52.59524 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_2">
+      <defs>
+       <path id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-mf02d9a5d8c" x="52.59524" y="158.140073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="52.59524" y="173.498354" transform="rotate(-0 52.59524 173.498354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-xtick_2">
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_3">
+      <path d="M 187.093625 158.140073 
+L 187.093625 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-mf02d9a5d8c" x="187.093625" y="158.140073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="187.093625" y="173.498354" transform="rotate(-0 187.093625 173.498354)">80000</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-xtick_3">
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_5">
+      <path d="M 321.592011 158.140073 
+L 321.592011 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-mf02d9a5d8c" x="321.592011" y="158.140073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="321.592011" y="173.498354" transform="rotate(-0 321.592011 173.498354)">160000</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-xtick_4">
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_7">
+      <path d="M 456.090396 158.140073 
+L 456.090396 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-mf02d9a5d8c" x="456.090396" y="158.140073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="456.090396" y="173.498354" transform="rotate(-0 456.090396 173.498354)">240000</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="188.904135" transform="rotate(-0 536.99976 188.904135)">µs / job</text>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-matplotlib.axis_2">
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-ytick_1">
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_9"/>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="44.59524" y="23.271231" transform="rotate(-0 44.59524 23.271231)">Rust</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-ytick_2">
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_10"/>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="44.59524" y="54.200225" transform="rotate(-0 44.59524 54.200225)">Go</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-ytick_3">
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_11"/>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="44.59524" y="85.129219" transform="rotate(-0 44.59524 85.129219)">Python</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-ytick_4">
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_12"/>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="44.59524" y="116.058212" transform="rotate(-0 44.59524 116.058212)">Node</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-ytick_5">
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_13"/>
+     <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="44.59524" y="146.987206" transform="rotate(-0 44.59524 146.987206)">Bun</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-patch_3">
+    <path d="M 52.59524 10.052051 
+L 103.386551 10.052051 
+L 103.386551 27.372287 
+L 52.59524 27.372287 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: #99502d"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-patch_4">
+    <path d="M 52.59524 40.981044 
+L 242.480901 40.981044 
+L 242.480901 58.301281 
+L 52.59524 58.301281 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: #087a79"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-patch_5">
+    <path d="M 52.59524 71.910038 
+L 409.614802 71.910038 
+L 409.614802 89.230274 
+L 52.59524 89.230274 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: #7955a2"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-patch_6">
+    <path d="M 52.59524 102.839032 
+L 153.15548 102.839032 
+L 153.15548 120.159268 
+L 52.59524 120.159268 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: #427434"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-patch_7">
+    <path d="M 52.59524 133.768025 
+L 164.565146 133.768025 
+L 164.565146 151.088262 
+L 52.59524 151.088262 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: #596371"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-patch_8">
+    <path d="M 52.59524 158.140073 
+L 536.99976 158.140073 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-LineCollection_1">
+    <path d="M 103.196599 18.712169 
+L 103.743443 18.712169 
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 235.90309 49.641163 
+L 268.182702 49.641163 
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 408.049053 80.570156 
+L 414.09115 80.570156 
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 149.987202 111.49915 
+L 164.491172 111.49915 
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 155.156984 142.428144 
+L 173.874115 142.428144 
+" clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_14">
+    <defs>
+     <path id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)">
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="103.196599" y="18.712169" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="235.90309" y="49.641163" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="408.049053" y="80.570156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="149.987202" y="111.49915" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="155.156984" y="142.428144" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-line2d_15">
+    <g clip-path="url(#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab)">
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="103.743443" y="18.712169" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="268.182702" y="49.641163" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="414.09115" y="80.570156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="164.491172" y="111.49915" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-md18034b1a6" x="173.874115" y="142.428144" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="112.78084" y="21.747481" transform="rotate(-0 112.78084 21.747481)">3.02e+04</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="277.2201" y="52.676475" transform="rotate(-0 277.2201 52.676475)">1.13e+05</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="423.128548" y="83.605469" transform="rotate(-0 423.128548 83.605469)">2.12e+05</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_14">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="173.52857" y="114.534462" transform="rotate(-0 173.52857 114.534462)">5.98e+04</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-text_15">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="182.911513" y="145.463456" transform="rotate(-0 182.911513 145.463456)">6.66e+04</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-extension-workflow-retain-4-execution_cpu_ns-reference-zoom-p18d59294ab">
+   <rect x="52.59524" y="3.00024" width="484.40452" height="155.139833"/>
+  </clipPath>
+ </defs>
+</svg>

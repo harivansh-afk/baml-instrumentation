@@ -1,0 +1,223 @@
+<svg role="img" aria-labelledby="2026-09-29-extension-workflow-retain-64-drain_ns-btel-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="165.6pt" viewBox="0 0 540 165.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-title">BTEL modes · BAML drain. Bars show medians; whiskers show observed minimum and maximum. Unit: ms.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-figure_1">
+  <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-patch_1">
+   <path d="M 0 165.6 
+L 540 165.6 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-axes_1">
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-patch_2">
+    <path d="M 105.47024 129.340072 
+L 530.476821 129.340072 
+L 530.476821 3.00024 
+L 105.47024 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-matplotlib.axis_1">
+    <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-xtick_1">
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_1">
+      <path d="M 105.47024 129.340072 
+L 105.47024 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_2">
+      <defs>
+       <path id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-mf02d9a5d8c" x="105.47024" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="105.47024" y="144.698354" transform="rotate(-0 105.47024 144.698354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-xtick_2">
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_3">
+      <path d="M 246.980494 129.340072 
+L 246.980494 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-mf02d9a5d8c" x="246.980494" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="246.980494" y="144.698354" transform="rotate(-0 246.980494 144.698354)">4</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-xtick_3">
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_5">
+      <path d="M 388.490748 129.340072 
+L 388.490748 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-mf02d9a5d8c" x="388.490748" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="388.490748" y="144.698354" transform="rotate(-0 388.490748 144.698354)">8</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-xtick_4">
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_7">
+      <path d="M 530.001002 129.340072 
+L 530.001002 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-mf02d9a5d8c" x="530.001002" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="530.001002" y="144.698354" transform="rotate(-0 530.001002 144.698354)">12</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="530.476821" y="160.104135" transform="rotate(-0 530.476821 160.104135)">ms</text>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-matplotlib.axis_2">
+    <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-ytick_1">
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_9"/>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="22.335514" transform="rotate(-0 97.47024 22.335514)">BAML / off</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-ytick_2">
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_10"/>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="54.597984" transform="rotate(-0 97.47024 54.597984)">BAML / low</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-ytick_3">
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_11"/>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="86.860454" transform="rotate(-0 97.47024 86.860454)">BAML / medium</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-ytick_4">
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_12"/>
+     <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="119.122924" transform="rotate(-0 97.47024 119.122924)">BAML / high</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-patch_3">
+    <path d="M 105.47024 8.74296 
+L 214.424645 8.74296 
+L 214.424645 26.809943 
+L 105.47024 26.809943 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-patch_4">
+    <path d="M 105.47024 41.00543 
+L 225.585576 41.00543 
+L 225.585576 59.072413 
+L 105.47024 59.072413 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: #365c7b"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-patch_5">
+    <path d="M 105.47024 73.2679 
+L 225.88618 73.2679 
+L 225.88618 91.334883 
+L 105.47024 91.334883 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: #587c99"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-patch_6">
+    <path d="M 105.47024 105.53037 
+L 233.991356 105.53037 
+L 233.991356 123.597353 
+L 105.47024 123.597353 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: #7897b0"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-patch_7">
+    <path d="M 105.47024 129.340072 
+L 530.476821 129.340072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-LineCollection_1">
+    <path d="M 212.511391 17.776451 
+L 279.88085 17.776451 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 221.692081 50.038921 
+L 422.63933 50.038921 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 223.186995 82.301391 
+L 352.943478 82.301391 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 227.33551 114.563861 
+L 309.538675 114.563861 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_13">
+    <defs>
+     <path id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)">
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-md18034b1a6" x="212.511391" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-md18034b1a6" x="221.692081" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-md18034b1a6" x="223.186995" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-md18034b1a6" x="227.33551" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-line2d_14">
+    <g clip-path="url(#2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de)">
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-md18034b1a6" x="279.88085" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-md18034b1a6" x="422.63933" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-md18034b1a6" x="352.943478" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-drain_ns-btel-md18034b1a6" x="309.538675" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="287.810077" y="20.811764" transform="rotate(-0 287.810077 20.811764)">3.08</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="430.568557" y="53.074234" transform="rotate(-0 430.568557 53.074234)">3.4</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="360.872705" y="85.336704" transform="rotate(-0 360.872705 85.336704)">3.4</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="317.467902" y="117.599174" transform="rotate(-0 317.467902 117.599174)">3.63</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-extension-workflow-retain-64-drain_ns-btel-peaa885b9de">
+   <rect x="105.47024" y="3.00024" width="425.006581" height="126.339832"/>
+  </clipPath>
+ </defs>
+</svg>

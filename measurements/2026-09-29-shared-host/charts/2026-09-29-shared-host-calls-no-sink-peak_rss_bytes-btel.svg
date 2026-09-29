@@ -1,0 +1,223 @@
+<svg role="img" aria-labelledby="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="165.6pt" viewBox="0 0 540 165.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-title">BTEL modes · Peak process RSS. Bars show medians; whiskers show observed minimum and maximum. Unit: MiB.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-figure_1">
+  <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-patch_1">
+   <path d="M 0 165.6 
+L 540 165.6 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-axes_1">
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-patch_2">
+    <path d="M 159.81149 129.340072 
+L 536.99976 129.340072 
+L 536.99976 3.00024 
+L 159.81149 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-matplotlib.axis_1">
+    <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-xtick_1">
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_1">
+      <path d="M 159.81149 129.340072 
+L 159.81149 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_2">
+      <defs>
+       <path id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-mf02d9a5d8c" x="159.81149" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="159.81149" y="144.698354" transform="rotate(-0 159.81149 144.698354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-xtick_2">
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_3">
+      <path d="M 265.2958 129.340072 
+L 265.2958 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-mf02d9a5d8c" x="265.2958" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="265.2958" y="144.698354" transform="rotate(-0 265.2958 144.698354)">15</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-xtick_3">
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_5">
+      <path d="M 370.780111 129.340072 
+L 370.780111 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-mf02d9a5d8c" x="370.780111" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="370.780111" y="144.698354" transform="rotate(-0 370.780111 144.698354)">30</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-xtick_4">
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_7">
+      <path d="M 476.264421 129.340072 
+L 476.264421 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-mf02d9a5d8c" x="476.264421" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="476.264421" y="144.698354" transform="rotate(-0 476.264421 144.698354)">45</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="160.104135" transform="rotate(-0 536.99976 160.104135)">MiB</text>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-matplotlib.axis_2">
+    <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-ytick_1">
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_9"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="22.335514" transform="rotate(-0 151.81149 22.335514)">BAML / off · no sink</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-ytick_2">
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_10"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="54.597984" transform="rotate(-0 151.81149 54.597984)">BAML / low · no sink</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-ytick_3">
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_11"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="86.860454" transform="rotate(-0 151.81149 86.860454)">BAML / medium · no sink</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-ytick_4">
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_12"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="119.122924" transform="rotate(-0 151.81149 119.122924)">BAML / high · no sink</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-patch_3">
+    <path d="M 159.81149 8.74296 
+L 424.483712 8.74296 
+L 424.483712 26.809943 
+L 159.81149 26.809943 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-patch_4">
+    <path d="M 159.81149 41.00543 
+L 428.384434 41.00543 
+L 428.384434 59.072413 
+L 159.81149 59.072413 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: #365c7b"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-patch_5">
+    <path d="M 159.81149 73.2679 
+L 439.578407 73.2679 
+L 439.578407 91.334883 
+L 159.81149 91.334883 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: #587c99"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-patch_6">
+    <path d="M 159.81149 105.53037 
+L 440.649732 105.53037 
+L 440.649732 123.597353 
+L 159.81149 123.597353 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: #7897b0"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-patch_7">
+    <path d="M 159.81149 129.340072 
+L 536.99976 129.340072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-LineCollection_1">
+    <path d="M 423.137688 17.776451 
+L 424.483712 17.776451 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 425.362748 50.038921 
+L 429.20853 50.038921 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 438.520816 82.301391 
+L 439.94925 82.301391 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 439.372383 114.563861 
+L 441.295274 114.563861 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_13">
+    <defs>
+     <path id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)">
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-md18034b1a6" x="423.137688" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-md18034b1a6" x="425.362748" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-md18034b1a6" x="438.520816" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-md18034b1a6" x="439.372383" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-line2d_14">
+    <g clip-path="url(#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461)">
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-md18034b1a6" x="424.483712" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-md18034b1a6" x="429.20853" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-md18034b1a6" x="439.94925" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-md18034b1a6" x="441.295274" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="431.520806" y="20.811764" transform="rotate(-0 431.520806 20.811764)">37.6</text>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="436.245624" y="53.074234" transform="rotate(-0 436.245624 53.074234)">38.2</text>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="446.986344" y="85.336704" transform="rotate(-0 446.986344 85.336704)">39.8</text>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="448.332368" y="117.599174" transform="rotate(-0 448.332368 117.599174)">39.9</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-shared-host-calls-no-sink-peak_rss_bytes-btel-p849e438461">
+   <rect x="159.81149" y="3.00024" width="377.18827" height="126.339832"/>
+  </clipPath>
+ </defs>
+</svg>

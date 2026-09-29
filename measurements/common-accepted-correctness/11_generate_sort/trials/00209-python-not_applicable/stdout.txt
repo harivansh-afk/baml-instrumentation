@@ -1,0 +1,2 @@
+{"event": "ready"}
+{"event": "result", "jobs": 1, "execution_wall_ns": 18496, "execution_cpu_ns": 15360, "result": "[18748964,31234909,53337782,101124375,142034952,169120000,253380821,374671458,431211264,668056904,669910580,740281790,765822523,774587255,945524881,998778846,999951736]", "gc_execution": 0, "gc_warmup": 0, "gc_counter": "cyclic_collections; reference-count reclamation excluded"}

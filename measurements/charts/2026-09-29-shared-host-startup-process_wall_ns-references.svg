@@ -1,0 +1,267 @@
+<svg role="img" aria-labelledby="2026-09-29-shared-host-startup-process_wall_ns-references-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="223.2pt" viewBox="0 0 540 223.2" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-shared-host-startup-process_wall_ns-references-title">Language comparison · Whole-process wall. Bars show medians; whiskers show observed minimum and maximum. Unit: ms.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-shared-host-startup-process_wall_ns-references-figure_1">
+  <g id="2026-09-29-shared-host-startup-process_wall_ns-references-patch_1">
+   <path d="M 0 223.2 
+L 540 223.2 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-shared-host-startup-process_wall_ns-references-axes_1">
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-patch_2">
+    <path d="M 71.943365 186.940073 
+L 536.99976 186.940073 
+L 536.99976 3.00024 
+L 71.943365 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-matplotlib.axis_1">
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-xtick_1">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_1">
+      <path d="M 71.943365 186.940073 
+L 71.943365 3.00024 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_2">
+      <defs>
+       <path id="2026-09-29-shared-host-startup-process_wall_ns-references-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-mf02d9a5d8c" x="71.943365" y="186.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="71.943365" y="202.298354" transform="rotate(-0 71.943365 202.298354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-xtick_2">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_3">
+      <path d="M 220.231839 186.940073 
+L 220.231839 3.00024 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-mf02d9a5d8c" x="220.231839" y="186.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="220.231839" y="202.298354" transform="rotate(-0 220.231839 202.298354)">80</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-xtick_3">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_5">
+      <path d="M 368.520312 186.940073 
+L 368.520312 3.00024 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-mf02d9a5d8c" x="368.520312" y="186.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="368.520312" y="202.298354" transform="rotate(-0 368.520312 202.298354)">160</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-xtick_4">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_7">
+      <path d="M 516.808786 186.940073 
+L 516.808786 3.00024 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-mf02d9a5d8c" x="516.808786" y="186.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="516.808786" y="202.298354" transform="rotate(-0 516.808786 202.298354)">240</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="217.704135" transform="rotate(-0 536.99976 217.704135)">ms</text>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-matplotlib.axis_2">
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-ytick_1">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_9"/>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="63.943365" y="24.341256" transform="rotate(-0 63.943365 24.341256)">BAML / off</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-ytick_2">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_10"/>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="63.943365" y="54.416441" transform="rotate(-0 63.943365 54.416441)">Rust</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-ytick_3">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_11"/>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="63.943365" y="84.491626" transform="rotate(-0 63.943365 84.491626)">Go</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-ytick_4">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_12"/>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="63.943365" y="114.566811" transform="rotate(-0 63.943365 114.566811)">Python</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-ytick_5">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_13"/>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="63.943365" y="144.641997" transform="rotate(-0 63.943365 144.641997)">Node</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-startup-process_wall_ns-references-ytick_6">
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_14"/>
+     <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="63.943365" y="174.717182" transform="rotate(-0 63.943365 174.717182)">Bun</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-patch_3">
+    <path d="M 71.943365 11.361141 
+L 109.930501 11.361141 
+L 109.930501 28.203245 
+L 71.943365 28.203245 
+z
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: #244bb0"/>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-patch_4">
+    <path d="M 71.943365 41.436327 
+L 73.593291 41.436327 
+L 73.593291 58.27843 
+L 71.943365 58.27843 
+z
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: #99502d"/>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-patch_5">
+    <path d="M 71.943365 71.511512 
+L 75.582372 71.511512 
+L 75.582372 88.353616 
+L 71.943365 88.353616 
+z
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: #087a79"/>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-patch_6">
+    <path d="M 71.943365 101.586697 
+L 387.787004 101.586697 
+L 387.787004 118.428801 
+L 71.943365 118.428801 
+z
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: #7955a2"/>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-patch_7">
+    <path d="M 71.943365 131.661882 
+L 180.875052 131.661882 
+L 180.875052 148.503986 
+L 71.943365 148.503986 
+z
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: #427434"/>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-patch_8">
+    <path d="M 71.943365 161.737067 
+L 86.244835 161.737067 
+L 86.244835 178.579171 
+L 71.943365 178.579171 
+z
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: #596371"/>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-patch_9">
+    <path d="M 71.943365 186.940073 
+L 536.99976 186.940073 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-LineCollection_1">
+    <path d="M 106.86622 19.782193 
+L 128.384607 19.782193 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 73.21459 49.857378 
+L 76.384008 49.857378 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 74.512033 79.932564 
+L 86.695041 79.932564 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 377.892604 110.007749 
+L 419.000376 110.007749 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 170.560535 140.082934 
+L 202.017097 140.082934 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 83.771339 170.158119 
+L 102.91241 170.158119 
+" clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_15">
+    <defs>
+     <path id="2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)">
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="106.86622" y="19.782193" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="73.21459" y="49.857378" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="74.512033" y="79.932564" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="377.892604" y="110.007749" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="170.560535" y="140.082934" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="83.771339" y="170.158119" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-line2d_16">
+    <g clip-path="url(#2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea)">
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="128.384607" y="19.782193" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="76.384008" y="49.857378" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="86.695041" y="79.932564" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="419.000376" y="110.007749" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="202.017097" y="140.082934" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-startup-process_wall_ns-references-md18034b1a6" x="102.91241" y="170.158119" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="137.061032" y="22.817506" transform="rotate(-0 137.061032 22.817506)">20.5</text>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="85.060433" y="52.892691" transform="rotate(-0 85.060433 52.892691)">0.89</text>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_14">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="95.371466" y="82.967876" transform="rotate(-0 95.371466 82.967876)">1.96</text>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_15">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="427.676801" y="113.043061" transform="rotate(-0 427.676801 113.043061)">170</text>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_16">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="210.693522" y="143.118247" transform="rotate(-0 210.693522 143.118247)">58.8</text>
+   </g>
+   <g id="2026-09-29-shared-host-startup-process_wall_ns-references-text_17">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="111.588835" y="173.193432" transform="rotate(-0 111.588835 173.193432)">7.72</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-shared-host-startup-process_wall_ns-references-p4539ec43ea">
+   <rect x="71.943365" y="3.00024" width="465.056395" height="183.939833"/>
+  </clipPath>
+ </defs>
+</svg>

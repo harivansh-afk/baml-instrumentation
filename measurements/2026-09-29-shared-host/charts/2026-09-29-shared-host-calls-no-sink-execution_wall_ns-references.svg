@@ -1,0 +1,157 @@
+<svg role="img" aria-labelledby="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="151.2pt" viewBox="0 0 540 151.2" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-title">Language comparison · Execution wall / job. Bars show medians; whiskers show observed minimum and maximum. Unit: µs / job.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-figure_1">
+  <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-patch_1">
+   <path d="M 0 151.2 
+L 540 151.2 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-axes_1">
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-patch_2">
+    <path d="M 126.284615 114.940073 
+L 536.99976 114.940073 
+L 536.99976 3.00024 
+L 126.284615 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-matplotlib.axis_1">
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-xtick_1">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_1">
+      <path d="M 126.284615 114.940073 
+L 126.284615 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-pe093fb9ee5)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_2">
+      <defs>
+       <path id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-mf02d9a5d8c" x="126.284615" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="126.284615" y="130.298354" transform="rotate(-0 126.284615 130.298354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-xtick_2">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_3">
+      <path d="M 246.877011 114.940073 
+L 246.877011 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-pe093fb9ee5)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-mf02d9a5d8c" x="246.877011" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="246.877011" y="130.298354" transform="rotate(-0 246.877011 130.298354)">5</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-xtick_3">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_5">
+      <path d="M 367.469407 114.940073 
+L 367.469407 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-pe093fb9ee5)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-mf02d9a5d8c" x="367.469407" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="367.469407" y="130.298354" transform="rotate(-0 367.469407 130.298354)">10</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-xtick_4">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_7">
+      <path d="M 488.061803 114.940073 
+L 488.061803 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-pe093fb9ee5)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-mf02d9a5d8c" x="488.061803" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="488.061803" y="130.298354" transform="rotate(-0 488.061803 130.298354)">15</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="145.704135" transform="rotate(-0 536.99976 145.704135)">µs / job</text>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-matplotlib.axis_2">
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-ytick_1">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_9"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="118.284615" y="63.529219" transform="rotate(-0 118.284615 63.529219)">BAML / off · no sink</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-patch_3">
+    <path d="M 126.284615 8.088414 
+L 393.747276 8.088414 
+L 393.747276 109.851898 
+L 126.284615 109.851898 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-pe093fb9ee5)" style="fill: #244bb0"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-patch_4">
+    <path d="M 126.284615 114.940073 
+L 536.99976 114.940073 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-LineCollection_1">
+    <path d="M 383.25027 58.970156 
+L 432.788455 58.970156 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-pe093fb9ee5)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_10">
+    <defs>
+     <path id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-pe093fb9ee5)">
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-md18034b1a6" x="383.25027" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-line2d_11">
+    <g clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-pe093fb9ee5)">
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-md18034b1a6" x="432.788455" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="440.451051" y="62.005469" transform="rotate(-0 440.451051 62.005469)">11.1</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-references-pe093fb9ee5">
+   <rect x="126.284615" y="3.00024" width="410.715145" height="111.939832"/>
+  </clipPath>
+ </defs>
+</svg>

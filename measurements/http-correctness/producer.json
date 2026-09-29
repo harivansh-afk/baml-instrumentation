@@ -1,0 +1,22 @@
+{
+  "machinery/http/Cargo.lock": "54bf9f98a5eead0ada7e972e3f2e02a75b11e7257bf6acffc51e73cf14b48f6a",
+  "machinery/http/requirements.in": "f704e8c58f3af0d045bfd6c52956e94c09990e3684e3e66262b253cb3a8bfca6",
+  "machinery/http/client.py": "9dc79d6218557e57200f17db54d214266454bf20b9d4dccaff1bd6ebaf7d6856",
+  "machinery/http/requirements.txt": "9f17fc8b7361c52ec2123141b9d36340c4f4b4b1e76b818a31b6994c5cfa6e91",
+  "machinery/http/protocol.json": "f919a9a871028f91184d86254eaff2d5c81f969712f4e502d965c1f7b8eecade",
+  "machinery/http/Cargo.toml": "7ae4f8c16acb4728c21de2e43bd71a43e03fdc77753bc2df368addb8c9063d78",
+  "machinery/http/run.py": "45cb6d85e0611e74765c84720ae6cd7ea25dcfc7a81eabf967e36a8cc6270289",
+  "machinery/adapters/baml_http.rs": "7fab804934f3758845d359b83d6f4bc6e79377411e496535a818f387bfb05d00",
+  "machinery/observer.c": "88b512cb16430c7cc844518e2f5b9e5cc1b76f858582e7f3db59b5d0013a37a9",
+  "machinery/fixtures.py": "7f5149f5b777e1793beccef5566132e955391ae9290a5fb9770f036f7a094325",
+  "cases/06_http_service/workload.rs": "a78ad2873a85e07efd3fafd1daf526f6edd6d86211b3b8e8e9f06817f7e514b9",
+  "cases/06_http_service/workload.go": "5122e03ca4cbbf0e1c061c6edf0c66437cd676791dab7516ae903827ec5ff332",
+  "cases/06_http_service/workload.baml": "5dbdaf30bbd68a6954a3ca737d6fa3266818419b1111c63101822853a45f2eb1",
+  "cases/06_http_service/workload.ts": "659339552676c4c2c711c9f5ea921eb5ec1fa1cb075131f6a32e6dade43c6636",
+  "cases/06_http_service/workload.py": "3b30432a19a972cbc231c05a250f7f910b82783beb812126a14b69fa4cc135f5",
+  "cases/03_json_aggregate/workload.rs": "55e618e8a206a3920aae5a8623c5c12525ff066a2f37615276f69df69d5cf214",
+  "cases/03_json_aggregate/workload.go": "d448b29e2682b060ca02afe56b0066ebd3a30d5ca0452ce604f1544d82a9eb9d",
+  "cases/03_json_aggregate/workload.baml": "ac00d5419dd4c57348a7beb68017876e28b783f4f8e06052d63905981679f2a4",
+  "cases/03_json_aggregate/workload.ts": "adbc05632f32c79bd728334edba674a02b02fc67ab1320af77b1669ffc30809e",
+  "cases/03_json_aggregate/workload.py": "19e52bcc8ebe41812d4cb71121c6e0f9cb6a07b2b4e74e8747bd2ca428516181"
+}

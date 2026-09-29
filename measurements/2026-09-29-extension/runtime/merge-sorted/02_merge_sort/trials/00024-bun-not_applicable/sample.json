@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "02_merge_sort",
+  "language": "bun",
+  "backend": "bun",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 32,
+  "warmup": 4,
+  "artifact_sha256": "616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1",
+  "input_sha256": "ba15e03e7b2253648c46bdef5c210d79cbed969ca2a6caf7b94231f456b98e09",
+  "trial_path": "02_merge_sort/trials/00024-bun-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 10599951,
+  "process_cpu_ns": 13523000,
+  "peak_rss_bytes": 32026624,
+  "launch_to_ready_ns": 7146336,
+  "execution_wall_ns": 2819901,
+  "execution_cpu_ns": 5162000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "merge-sorted",
+  "trial": 19
+}

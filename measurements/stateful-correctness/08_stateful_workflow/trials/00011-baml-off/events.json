@@ -1,0 +1,34 @@
+[
+  {
+    "event": "ready",
+    "load_ns": 7310517,
+    "setup_ns": 5955953,
+    "received_ns": 14902650
+  },
+  {
+    "event": "result",
+    "jobs": 1,
+    "execution_wall_ns": 341585,
+    "execution_cpu_ns": 339616,
+    "result": "{\"processed\":8,\"digest\":731463568,\"response_bytes\":544,\"cache\":[],\"responses\":[{\"seq\":0,\"ok\":true,\"key\":\"key_000\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":1,\"ok\":true,\"key\":\"key_000\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":2,\"ok\":true,\"key\":\"key_002\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":3,\"ok\":true,\"key\":\"key_003\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":4,\"ok\":true,\"key\":\"key_004\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":5,\"ok\":true,\"key\":\"key_005\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":6,\"ok\":true,\"key\":\"key_005\",\"total\":0,\"check\":0,\"evicted\":\"\"},{\"seq\":7,\"ok\":true,\"key\":\"key_007\",\"total\":0,\"check\":0,\"evicted\":\"\"}]}",
+    "gc_execution": 0,
+    "gc_warmup": 0,
+    "gc_counter": "full_collections",
+    "workers": 2,
+    "received_ns": 15119179
+  },
+  {
+    "event": "drained",
+    "drain_ns": 137440,
+    "gc_drain": 1,
+    "telemetry_ok": true,
+    "delivery_loss": 0,
+    "function_names": {
+      "1559": "user.run",
+      "1069": "ai.<(ai.Agent as ai.Runner)>.run",
+      "1553": "user.prepare"
+    },
+    "metadata_ns": 1105955,
+    "received_ns": 16517743
+  }
+]

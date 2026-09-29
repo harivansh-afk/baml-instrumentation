@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "08_stateful_workflow",
+  "language": "node",
+  "backend": "node",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03",
+  "input_sha256": "6e4d4958650f5f7b033f3a7d1161160d68b015aef20817e555ee9c3362fd3e4f",
+  "trial_path": "08_stateful_workflow/trials/00002-node-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 372145977,
+  "process_cpu_ns": 183886000,
+  "peak_rss_bytes": 118337536,
+  "launch_to_ready_ns": 83291929,
+  "execution_wall_ns": 275119878,
+  "execution_cpu_ns": 88092000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "workflow-tools-4",
+  "trial": 6
+}

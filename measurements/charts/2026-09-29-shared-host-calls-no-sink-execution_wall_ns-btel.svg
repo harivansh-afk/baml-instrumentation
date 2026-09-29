@@ -1,0 +1,223 @@
+<svg role="img" aria-labelledby="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="165.6pt" viewBox="0 0 540 165.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-title">BTEL modes · Execution wall / job. Bars show medians; whiskers show observed minimum and maximum. Unit: µs / job.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-figure_1">
+  <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-patch_1">
+   <path d="M 0 165.6 
+L 540 165.6 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-axes_1">
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-patch_2">
+    <path d="M 159.81149 129.340072 
+L 536.99976 129.340072 
+L 536.99976 3.00024 
+L 159.81149 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-matplotlib.axis_1">
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-xtick_1">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_1">
+      <path d="M 159.81149 129.340072 
+L 159.81149 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_2">
+      <defs>
+       <path id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-mf02d9a5d8c" x="159.81149" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="159.81149" y="144.698354" transform="rotate(-0 159.81149 144.698354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-xtick_2">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_3">
+      <path d="M 271.398289 129.340072 
+L 271.398289 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-mf02d9a5d8c" x="271.398289" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="271.398289" y="144.698354" transform="rotate(-0 271.398289 144.698354)">10</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-xtick_3">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_5">
+      <path d="M 382.985088 129.340072 
+L 382.985088 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-mf02d9a5d8c" x="382.985088" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="382.985088" y="144.698354" transform="rotate(-0 382.985088 144.698354)">20</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-xtick_4">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_7">
+      <path d="M 494.571887 129.340072 
+L 494.571887 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-mf02d9a5d8c" x="494.571887" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="494.571887" y="144.698354" transform="rotate(-0 494.571887 144.698354)">30</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="160.104135" transform="rotate(-0 536.99976 160.104135)">µs / job</text>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-matplotlib.axis_2">
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-ytick_1">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_9"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="22.335514" transform="rotate(-0 151.81149 22.335514)">BAML / off · no sink</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-ytick_2">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_10"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="54.597984" transform="rotate(-0 151.81149 54.597984)">BAML / low · no sink</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-ytick_3">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_11"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="86.860454" transform="rotate(-0 151.81149 86.860454)">BAML / medium · no sink</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-ytick_4">
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_12"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="119.122924" transform="rotate(-0 151.81149 119.122924)">BAML / high · no sink</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-patch_3">
+    <path d="M 159.81149 8.74296 
+L 283.556034 8.74296 
+L 283.556034 26.809943 
+L 159.81149 26.809943 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-patch_4">
+    <path d="M 159.81149 41.00543 
+L 326.951961 41.00543 
+L 326.951961 59.072413 
+L 159.81149 59.072413 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: #365c7b"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-patch_5">
+    <path d="M 159.81149 73.2679 
+L 353.284155 73.2679 
+L 353.284155 91.334883 
+L 159.81149 91.334883 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: #587c99"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-patch_6">
+    <path d="M 159.81149 105.53037 
+L 368.02238 105.53037 
+L 368.02238 123.597353 
+L 159.81149 123.597353 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: #7897b0"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-patch_7">
+    <path d="M 159.81149 129.340072 
+L 536.99976 129.340072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-LineCollection_1">
+    <path d="M 278.699479 17.776451 
+L 301.618865 17.776451 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 306.368652 50.038921 
+L 366.064129 50.038921 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 336.432154 82.301391 
+L 391.264085 82.301391 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 343.736766 114.563861 
+L 441.295274 114.563861 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_13">
+    <defs>
+     <path id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)">
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-md18034b1a6" x="278.699479" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-md18034b1a6" x="306.368652" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-md18034b1a6" x="336.432154" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-md18034b1a6" x="343.736766" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-line2d_14">
+    <g clip-path="url(#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461)">
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-md18034b1a6" x="301.618865" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-md18034b1a6" x="366.064129" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-md18034b1a6" x="391.264085" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-md18034b1a6" x="441.295274" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="308.65596" y="20.811764" transform="rotate(-0 308.65596 20.811764)">11.1</text>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="373.101224" y="53.074234" transform="rotate(-0 373.101224 53.074234)">15</text>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="398.301179" y="85.336704" transform="rotate(-0 398.301179 85.336704)">17.3</text>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="448.332368" y="117.599174" transform="rotate(-0 448.332368 117.599174)">18.7</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-shared-host-calls-no-sink-execution_wall_ns-btel-p849e438461">
+   <rect x="159.81149" y="3.00024" width="377.18827" height="126.339832"/>
+  </clipPath>
+ </defs>
+</svg>

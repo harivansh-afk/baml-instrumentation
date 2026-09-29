@@ -84,7 +84,13 @@ def collect(args, output, cpus, t, rows):
         build = measure.run(command, output / case / "build", e, cpus)
         if build["status"] != "ok":
             raise RuntimeError(f"pack failed: {output / case}")
-        raw = fixture(case, size=64, batches=8, retain=2)
+        raw = fixture(
+            case,
+            size=64,
+            batches=8,
+            retain=2,
+            fanout=1 if case == "08_stateful_workflow" else 8,
+        )
         arguments = artifact / "arguments.json"
         write(arguments, dict(raw=raw))
         write(output / case / "arguments.json", dict(raw=raw))

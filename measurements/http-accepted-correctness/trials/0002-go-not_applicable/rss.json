@@ -1,0 +1,26 @@
+[
+  {
+    "elapsed_ns": 10669755,
+    "rss_bytes": 5656576
+  },
+  {
+    "elapsed_ns": 20890208,
+    "rss_bytes": 5656576
+  },
+  {
+    "elapsed_ns": 31125301,
+    "rss_bytes": 5656576
+  },
+  {
+    "elapsed_ns": 41353770,
+    "rss_bytes": 5656576
+  },
+  {
+    "elapsed_ns": 51665456,
+    "rss_bytes": 5656576
+  },
+  {
+    "elapsed_ns": 61961030,
+    "rss_bytes": 6377472
+  }
+]

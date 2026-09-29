@@ -1,0 +1,223 @@
+<svg role="img" aria-labelledby="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="165.6pt" viewBox="0 0 540 165.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-title">BTEL modes · Execution wall / job. Bars show medians; whiskers show observed minimum and maximum. Unit: µs / job.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-figure_1">
+  <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-patch_1">
+   <path d="M 0 165.6 
+L 540 165.6 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-axes_1">
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-patch_2">
+    <path d="M 105.47024 129.340072 
+L 536.99976 129.340072 
+L 536.99976 3.00024 
+L 105.47024 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-matplotlib.axis_1">
+    <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-xtick_1">
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_1">
+      <path d="M 105.47024 129.340072 
+L 105.47024 3.00024 
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_2">
+      <defs>
+       <path id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-mf02d9a5d8c" x="105.47024" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="105.47024" y="144.698354" transform="rotate(-0 105.47024 144.698354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-xtick_2">
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_3">
+      <path d="M 221.783787 129.340072 
+L 221.783787 3.00024 
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-mf02d9a5d8c" x="221.783787" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="221.783787" y="144.698354" transform="rotate(-0 221.783787 144.698354)">800</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-xtick_3">
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_5">
+      <path d="M 338.097333 129.340072 
+L 338.097333 3.00024 
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-mf02d9a5d8c" x="338.097333" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="338.097333" y="144.698354" transform="rotate(-0 338.097333 144.698354)">1600</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-xtick_4">
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_7">
+      <path d="M 454.41088 129.340072 
+L 454.41088 3.00024 
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-mf02d9a5d8c" x="454.41088" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="454.41088" y="144.698354" transform="rotate(-0 454.41088 144.698354)">2400</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="160.104135" transform="rotate(-0 536.99976 160.104135)">µs / job</text>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-matplotlib.axis_2">
+    <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-ytick_1">
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_9"/>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="22.335514" transform="rotate(-0 97.47024 22.335514)">BAML / off</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-ytick_2">
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_10"/>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="54.597984" transform="rotate(-0 97.47024 54.597984)">BAML / low</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-ytick_3">
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_11"/>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="86.860454" transform="rotate(-0 97.47024 86.860454)">BAML / medium</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-ytick_4">
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_12"/>
+     <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="119.122924" transform="rotate(-0 97.47024 119.122924)">BAML / high</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-patch_3">
+    <path d="M 105.47024 8.74296 
+L 353.303439 8.74296 
+L 353.303439 26.809943 
+L 105.47024 26.809943 
+z
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-patch_4">
+    <path d="M 105.47024 41.00543 
+L 353.374832 41.00543 
+L 353.374832 59.072413 
+L 105.47024 59.072413 
+z
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: #365c7b"/>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-patch_5">
+    <path d="M 105.47024 73.2679 
+L 377.647857 73.2679 
+L 377.647857 91.334883 
+L 105.47024 91.334883 
+z
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: #587c99"/>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-patch_6">
+    <path d="M 105.47024 105.53037 
+L 412.757161 105.53037 
+L 412.757161 123.597353 
+L 105.47024 123.597353 
+z
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: #7897b0"/>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-patch_7">
+    <path d="M 105.47024 129.340072 
+L 536.99976 129.340072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-LineCollection_1">
+    <path d="M 351.777202 17.776451 
+L 356.729867 17.776451 
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 352.810717 50.038921 
+L 355.07607 50.038921 
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 373.051008 82.301391 
+L 386.026654 82.301391 
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 402.959314 114.563861 
+L 427.507195 114.563861 
+" clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_13">
+    <defs>
+     <path id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)">
+     <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-md18034b1a6" x="351.777202" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-md18034b1a6" x="352.810717" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-md18034b1a6" x="373.051008" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-md18034b1a6" x="402.959314" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-line2d_14">
+    <g clip-path="url(#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2)">
+     <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-md18034b1a6" x="356.729867" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-md18034b1a6" x="355.07607" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-md18034b1a6" x="386.026654" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-md18034b1a6" x="427.507195" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="364.780791" y="20.811764" transform="rotate(-0 364.780791 20.811764)">1.7e+03</text>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="363.126994" y="53.074234" transform="rotate(-0 363.126994 53.074234)">1.71e+03</text>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="394.077578" y="85.336704" transform="rotate(-0 394.077578 85.336704)">1.87e+03</text>
+   </g>
+   <g id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="435.558119" y="117.599174" transform="rotate(-0 435.558119 117.599174)">2.11e+03</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-shared-host-array-iterator-execution_wall_ns-btel-p15edf818d2">
+   <rect x="105.47024" y="3.00024" width="431.52952" height="126.339832"/>
+  </clipPath>
+ </defs>
+</svg>

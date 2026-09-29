@@ -1,0 +1,62 @@
+Shared-host measurements, not an idle-machine baseline.
+
+2520 runtime process trials; 0 failed.
+Linux aarch64; CPUs 15,16; 2 runtime workers where supported.
+baml: 0.20.2-nightly.20260927.a; rust: rustc 1.98.1 (48a229cea 2026-09-01); go: go version go1.27.1 linux/arm64; python: Python 3.14.7; node: v26.10.0; bun: 1.4.2
+BAML uses the source-built release probe; published packed-executable results are separate.
+20 randomized process trials per configuration. Warmup/work counts are fixed in protocol.json.
+These finite batches do not establish JIT convergence or persistent-service behavior.
+
+Execution wall time: median microseconds per serialized job. No startup/drain time is subtracted.
+Each sample divides a timed batch by its job count; these are batch-average costs, not per-call latency percentiles.
+Startup uses one job; use the separate process-time table to assess its lifecycle cost.
+scenario                           baml/off     baml/low  baml/medium    baml/high         rust           go       python         node          bun
+workflow-retain-4               2628187.361  2625459.073  2795651.044  3111439.598    30261.244   120123.681   212397.790    53151.221    53401.443
+workflow-retain-64              2677439.017  2681124.373  2844780.125  3140974.202    31169.595   109372.836   219863.326    76521.626    55517.253
+workflow-tools-1                4437787.804  4457247.353  4640783.431  4861205.718  1650201.090   947261.653  1089901.334   921201.387   907498.488
+workflow-tools-4                3082648.655  3090517.510  3246577.066  3563056.042   433368.926   328696.924   439967.255   277660.633   262132.947
+json-hello                            7.688       11.353       11.565       11.011        0.016        0.125        1.039        0.352        0.276
+merge-random                       1319.077     1322.052     1348.263     1383.574       15.199       44.555      622.597      106.380       97.787
+merge-sorted                       1184.740     1190.448     1210.315     1255.033       13.218       43.073      518.692      123.095       87.281
+merge-reverse                      1207.418     1214.661     1237.609     1292.169       13.677       43.445      541.976      117.534       84.911
+merge-duplicates                   1291.684     1301.088     1325.438     1369.422       12.451       35.799      573.526      119.090      114.996
+quick-random                       1457.038     1457.515     1486.259     1522.730       14.965       37.177      658.548      191.144      319.112
+quick-sorted                       1251.403     1256.831     1282.761     1331.853       12.452       33.810      525.359      209.638      279.168
+quick-reverse                      1242.809     1247.333     1271.786     1314.130       12.159       33.888      521.676      206.774      275.958
+quick-duplicates                    633.990      639.913      661.946      725.185        5.369       20.098      149.693      198.179      258.984
+generate-sort                      1931.550     1928.583     1938.878     1923.172      109.508      440.108     1004.236     1391.570     1256.047
+
+Fresh startup: median whole-process wall milliseconds and peak RSS MiB.
+configuration            wall_ms       RSS_MiB
+
+Clean compiler-process wall seconds: median of 5 builds; filesystem caches uncontrolled.
+BAML: source -> Program bytecode. Rust: native executable + dependencies. Go: native executable + stdlib.
+Python/Node/Bun: separate compilation unavailable; parsing/JIT stays in runtime observations.
+case                                    BAML          Rust            Go
+08_stateful_workflow                0.697541      6.702103      3.960940
+09_json_hello                       0.681046      5.943146      3.947511
+02_merge_sort                       0.700131      6.000728      3.939765
+10_quick_sort                       0.688192      5.902163      3.936033
+11_generate_sort                    0.678603      6.074378      3.960628
+
+Artifact sizes in bytes; different payloads, not interchangeable deployment totals.
+case                             BAML bytecode    Rust+adapter      Go+adapter     BAML packed
+08_stateful_workflow                   2659959          594680         2556064        34275160
+09_json_hello                          2632214          529136         2556064        34247416
+02_merge_sort                          2636179          529136         2556064        34251384
+10_quick_sort                          2637675          529136         2556064        34252880
+11_generate_sort                       2633220          529136         2556064        34248424
+
+Limits
+  Background services remained active. Affinity is not CPU isolation; host.json records each trial's conditions.
+  Execution includes adapter entry, allocation/reclamation and result serialization. Empty cases expose a floor; never subtract it.
+  BAML whole-process figures include post-execution metadata diagnostics; the packed path does not.
+  BAML/Go sustained-allocation claims require at least three execution-phase collections in every trial.
+  Python counts cyclic GC only; Rust uses ownership/reference counting; Node/Bun GC coverage is unknown.
+  BAML shared host, scripts and interpreter sizes are in artifacts.json/compilation.csv. Non-BAML full deployment inventories are unavailable.
+  HTTP, cloud telemetry and LLM capture are not covered. The optimizer may remove source-level calls.
+
+Data
+  runtime.csv and summary.csv retain per-scenario identities, successful sample counts, failures, ranges and coverage.
+  compilation.csv retains every build observation. packed/ retains published CLI packaging and invocation observations.
+  coverage.json checks the collection requirement; sources, exact inputs and logs remain in each runtime directory.

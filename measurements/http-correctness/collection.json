@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "baseline_accepted": false,
+  "trials": 9,
+  "failures": 5,
+  "client_schedule_failures": 0
+}

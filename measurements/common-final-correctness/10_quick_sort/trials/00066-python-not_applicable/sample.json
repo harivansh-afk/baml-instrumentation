@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "case": "10_quick_sort",
+  "language": "python",
+  "backend": "python",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6",
+  "input_sha256": "54c71722c6b736b2d27e1be5c3145c79db17693efb7b8679fc33f951aa13a339",
+  "trial_path": "10_quick_sort/trials/00066-python-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 175721762,
+  "process_cpu_ns": 172399000,
+  "peak_rss_bytes": 27648000,
+  "launch_to_ready_ns": 166900037,
+  "execution_wall_ns": 13568,
+  "execution_cpu_ns": 10848,
+  "gc_execution": 0,
+  "gc_warmup": 0,
+  "gc_counter": "cyclic_collections; reference-count reclamation excluded",
+  "coverage": "gc_not_observed",
+  "scenario": "0-duplicates",
+  "trial": 0
+}

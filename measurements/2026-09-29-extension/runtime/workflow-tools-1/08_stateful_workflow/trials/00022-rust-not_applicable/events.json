@@ -1,0 +1,16 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 11421928
+  },
+  {
+    "event": "result",
+    "execution_cpu_ns": 36739504,
+    "execution_wall_ns": 1637618022,
+    "gc_counter": "not_applicable; ownership and reference counting",
+    "gc_execution": null,
+    "jobs": 1,
+    "result": "{\"processed\":192,\"digest\":294585151,\"response_bytes\":16644,\"cache\":[{\"key\":\"key_059\",\"total\":426563,\"check\":110648389,\"count\":512},{\"key\":\"key_060\",\"total\":858750,\"check\":110777249,\"count\":512},{\"key\":\"key_062\",\"total\":431133,\"check\":109935780,\"count\":512},{\"key\":\"key_063\",\"total\":421124,\"check\":107097982,\"count\":512}],\"responses\":[]}",
+    "received_ns": 1649193583
+  }
+]

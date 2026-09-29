@@ -1,0 +1,201 @@
+<svg role="img" aria-labelledby="2026-09-29-shared-host-00_startup-build-bytes-python-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="151.2pt" viewBox="0 0 540 151.2" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-shared-host-00_startup-build-bytes-python-title">Script + adapter source size. Bars show medians; whiskers show observed minimum and maximum. Unit: KiB.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-shared-host-00_startup-build-bytes-python-figure_1">
+  <g id="2026-09-29-shared-host-00_startup-build-bytes-python-patch_1">
+   <path d="M 0 151.2 
+L 540 151.2 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-shared-host-00_startup-build-bytes-python-axes_1">
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-patch_2">
+    <path d="M 52.59524 114.940073 
+L 536.99976 114.940073 
+L 536.99976 3.00024 
+L 52.59524 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-matplotlib.axis_1">
+    <g id="2026-09-29-shared-host-00_startup-build-bytes-python-xtick_1">
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_1">
+      <path d="M 52.59524 114.940073 
+L 52.59524 3.00024 
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_2">
+      <defs>
+       <path id="2026-09-29-shared-host-00_startup-build-bytes-python-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-mf02d9a5d8c" x="52.59524" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="52.59524" y="130.298354" transform="rotate(-0 52.59524 130.298354)">0.0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-00_startup-build-bytes-python-xtick_2">
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_3">
+      <path d="M 193.792371 114.940073 
+L 193.792371 3.00024 
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-mf02d9a5d8c" x="193.792371" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="193.792371" y="130.298354" transform="rotate(-0 193.792371 130.298354)">0.6</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-00_startup-build-bytes-python-xtick_3">
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_5">
+      <path d="M 334.989502 114.940073 
+L 334.989502 3.00024 
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-mf02d9a5d8c" x="334.989502" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="334.989502" y="130.298354" transform="rotate(-0 334.989502 130.298354)">1.2</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-00_startup-build-bytes-python-xtick_4">
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_7">
+      <path d="M 476.186634 114.940073 
+L 476.186634 3.00024 
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-mf02d9a5d8c" x="476.186634" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="476.186634" y="130.298354" transform="rotate(-0 476.186634 130.298354)">1.8</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="145.704135" transform="rotate(-0 536.99976 145.704135)">KiB</text>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-matplotlib.axis_2">
+    <g id="2026-09-29-shared-host-00_startup-build-bytes-python-ytick_1">
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_9"/>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="44.59524" y="23.777858" transform="rotate(-0 44.59524 23.777858)">Python</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-00_startup-build-bytes-python-ytick_2">
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_10"/>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="44.59524" y="63.529219" transform="rotate(-0 44.59524 63.529219)">Node</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-00_startup-build-bytes-python-ytick_3">
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_11"/>
+     <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="44.59524" y="103.28058" transform="rotate(-0 44.59524 103.28058)">Bun</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-patch_3">
+    <path d="M 52.59524 8.088414 
+L 414.09115 8.088414 
+L 414.09115 30.349176 
+L 52.59524 30.349176 
+z
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: #7955a2"/>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-patch_4">
+    <path d="M 52.59524 47.839775 
+L 291.370988 47.839775 
+L 291.370988 70.100537 
+L 52.59524 70.100537 
+z
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: #427434"/>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-patch_5">
+    <path d="M 52.59524 87.591136 
+L 291.370988 87.591136 
+L 291.370988 109.851898 
+L 52.59524 109.851898 
+z
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: #596371"/>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-patch_6">
+    <path d="M 52.59524 114.940073 
+L 536.99976 114.940073 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-LineCollection_1">
+    <path d="M 414.09115 19.218795 
+L 414.09115 19.218795 
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 291.370988 58.970156 
+L 291.370988 58.970156 
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 291.370988 98.721517 
+L 291.370988 98.721517 
+" clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_12">
+    <defs>
+     <path id="2026-09-29-shared-host-00_startup-build-bytes-python-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)">
+     <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-md18034b1a6" x="414.09115" y="19.218795" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-md18034b1a6" x="291.370988" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-md18034b1a6" x="291.370988" y="98.721517" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-line2d_13">
+    <g clip-path="url(#2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59)">
+     <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-md18034b1a6" x="414.09115" y="19.218795" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-md18034b1a6" x="291.370988" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-00_startup-build-bytes-python-md18034b1a6" x="291.370988" y="98.721517" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="423.128548" y="22.254108" transform="rotate(-0 423.128548 22.254108)">1.54</text>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="300.408385" y="62.005469" transform="rotate(-0 300.408385 62.005469)">1.01</text>
+   </g>
+   <g id="2026-09-29-shared-host-00_startup-build-bytes-python-text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="300.408385" y="101.75683" transform="rotate(-0 300.408385 101.75683)">1.01</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-shared-host-00_startup-build-bytes-python-p9126f3fe59">
+   <rect x="52.59524" y="3.00024" width="484.40452" height="111.939832"/>
+  </clipPath>
+ </defs>
+</svg>

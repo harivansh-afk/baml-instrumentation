@@ -1,0 +1,333 @@
+<svg role="img" aria-labelledby="2026-09-29-http-http-aggregate-200-peak_rss_bytes-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="309.6pt" viewBox="0 0 540 309.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-title">Peak server RSS. Bars show medians; whiskers show observed minimum and maximum. Unit: MiB.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-figure_1">
+  <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_1">
+   <path d="M 0 309.6 
+L 540 309.6 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-axes_1">
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_2">
+    <path d="M 105.47024 273.340072 
+L 536.99976 273.340072 
+L 536.99976 3.00024 
+L 105.47024 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-matplotlib.axis_1">
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-xtick_1">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_1">
+      <path d="M 105.47024 273.340072 
+L 105.47024 3.00024 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_2">
+      <defs>
+       <path id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-mf02d9a5d8c" x="105.47024" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="105.47024" y="288.698354" transform="rotate(-0 105.47024 288.698354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-xtick_2">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_3">
+      <path d="M 222.172594 273.340072 
+L 222.172594 3.00024 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-mf02d9a5d8c" x="222.172594" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="222.172594" y="288.698354" transform="rotate(-0 222.172594 288.698354)">40</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-xtick_3">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_5">
+      <path d="M 338.874948 273.340072 
+L 338.874948 3.00024 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-mf02d9a5d8c" x="338.874948" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="338.874948" y="288.698354" transform="rotate(-0 338.874948 288.698354)">80</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-xtick_4">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_7">
+      <path d="M 455.577302 273.340072 
+L 455.577302 3.00024 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-mf02d9a5d8c" x="455.577302" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="455.577302" y="288.698354" transform="rotate(-0 455.577302 288.698354)">120</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="304.104135" transform="rotate(-0 536.99976 304.104135)">MiB</text>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-matplotlib.axis_2">
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-ytick_1">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_9"/>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="27.886469" transform="rotate(-0 97.47024 27.886469)">BAML / off</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-ytick_2">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_10"/>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="56.597157" transform="rotate(-0 97.47024 56.597157)">BAML / low</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-ytick_3">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_11"/>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="85.307844" transform="rotate(-0 97.47024 85.307844)">BAML / medium</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-ytick_4">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_12"/>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="114.018531" transform="rotate(-0 97.47024 114.018531)">BAML / high</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-ytick_5">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_13"/>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="142.729219" transform="rotate(-0 97.47024 142.729219)">Rust</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-ytick_6">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_14"/>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="171.439906" transform="rotate(-0 97.47024 171.439906)">Go</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-ytick_7">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_15"/>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_12">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="200.150594" transform="rotate(-0 97.47024 200.150594)">Python</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-ytick_8">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_16"/>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_13">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="228.861281" transform="rotate(-0 97.47024 228.861281)">Node</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-ytick_9">
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_17"/>
+     <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_14">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="257.571968" transform="rotate(-0 97.47024 257.571968)">Bun</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_3">
+    <path d="M 105.47024 15.288414 
+L 415.597629 15.288414 
+L 415.597629 31.366399 
+L 105.47024 31.366399 
+z
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_4">
+    <path d="M 105.47024 43.999102 
+L 417.010821 43.999102 
+L 417.010821 60.077087 
+L 105.47024 60.077087 
+z
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: #365c7b"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_5">
+    <path d="M 105.47024 72.709789 
+L 425.432993 72.709789 
+L 425.432993 88.787774 
+L 105.47024 88.787774 
+z
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: #587c99"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_6">
+    <path d="M 105.47024 101.420476 
+L 427.051327 101.420476 
+L 427.051327 117.498461 
+L 105.47024 117.498461 
+z
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: #7897b0"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_7">
+    <path d="M 105.47024 130.131164 
+L 113.368163 130.131164 
+L 113.368163 146.209149 
+L 105.47024 146.209149 
+z
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: #99502d"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_8">
+    <path d="M 105.47024 158.841851 
+L 138.999373 158.841851 
+L 138.999373 174.919836 
+L 105.47024 174.919836 
+z
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: #087a79"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_9">
+    <path d="M 105.47024 187.552539 
+L 238.526879 187.552539 
+L 238.526879 203.630524 
+L 105.47024 203.630524 
+z
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: #7955a2"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_10">
+    <path d="M 105.47024 216.263226 
+L 390.41089 216.263226 
+L 390.41089 232.341211 
+L 105.47024 232.341211 
+z
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: #427434"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_11">
+    <path d="M 105.47024 244.973913 
+L 264.066916 244.973913 
+L 264.066916 261.051898 
+L 105.47024 261.051898 
+z
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: #596371"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-patch_12">
+    <path d="M 105.47024 273.340072 
+L 536.99976 273.340072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-LineCollection_1">
+    <path d="M 415.255727 23.327407 
+L 416.064894 23.327407 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 416.77149 52.038094 
+L 417.261549 52.038094 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 425.307629 80.748781 
+L 425.774895 80.748781 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 426.777806 109.459469 
+L 427.507195 109.459469 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 112.957881 138.170156 
+L 113.949395 138.170156 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 138.589092 166.880844 
+L 139.409655 166.880844 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 238.481292 195.591531 
+L 238.526879 195.591531 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 386.866512 224.302218 
+L 392.678836 224.302218 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 263.200766 253.012906 
+L 271.714111 253.012906 
+" clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_18">
+    <defs>
+     <path id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)">
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="415.255727" y="23.327407" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="416.77149" y="52.038094" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="425.307629" y="80.748781" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="426.777806" y="109.459469" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="112.957881" y="138.170156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="138.589092" y="166.880844" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="238.481292" y="195.591531" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="386.866512" y="224.302218" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="263.200766" y="253.012906" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-line2d_19">
+    <g clip-path="url(#2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652)">
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="416.064894" y="23.327407" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="417.261549" y="52.038094" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="425.774895" y="80.748781" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="427.507195" y="109.459469" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="113.949395" y="138.170156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="139.409655" y="166.880844" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="238.526879" y="195.591531" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="392.678836" y="224.302218" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-aggregate-200-peak_rss_bytes-md18034b1a6" x="271.714111" y="253.012906" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_15">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="424.115818" y="26.362719" transform="rotate(-0 424.115818 26.362719)">106</text>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_16">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="425.312473" y="55.073407" transform="rotate(-0 425.312473 55.073407)">107</text>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_17">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="433.825819" y="83.784094" transform="rotate(-0 433.825819 83.784094)">110</text>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_18">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="435.558119" y="112.494781" transform="rotate(-0 435.558119 112.494781)">110</text>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_19">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="122.000319" y="141.205469" transform="rotate(-0 122.000319 141.205469)">2.71</text>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_20">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="147.460579" y="169.916156" transform="rotate(-0 147.460579 169.916156)">11.5</text>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_21">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="246.577803" y="198.626844" transform="rotate(-0 246.577803 198.626844)">45.6</text>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_22">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="400.72976" y="227.337531" transform="rotate(-0 400.72976 227.337531)">97.7</text>
+   </g>
+   <g id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-text_23">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="279.765035" y="256.048218" transform="rotate(-0 279.765035 256.048218)">54.4</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-http-http-aggregate-200-peak_rss_bytes-p73d4b8f652">
+   <rect x="105.47024" y="3.00024" width="431.52952" height="270.339832"/>
+  </clipPath>
+ </defs>
+</svg>

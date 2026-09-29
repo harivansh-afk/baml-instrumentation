@@ -1,0 +1,1355 @@
+{
+  "port": 37593,
+  "checks": [
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false},{\"account\":\"account_0048\",\"amount_cents\":938541,\"active\":true},{\"account\":\"account_0038\",\"amount_cents\":368157,\"active\":true},{\"account\":\"account_0000\",\"amount_cents\":594833,\"active\":false},{\"account\":\"account_0037\",\"amount_cents\":602062,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":895582,\"active\":true},{\"account\":\"account_0061\",\"amount_cents\":433576,\"active\":false},{\"account\":\"account_0057\",\"amount_cents\":455630,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":6556,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":412393,\"active\":false},{\"account\":\"account_0014\",\"amount_cents\":956428,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":181729,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":304072,\"active\":false},{\"account\":\"account_0059\",\"amount_cents\":111091,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":911136,\"active\":true},{\"account\":\"account_0018\",\"amount_cents\":678199,\"active\":false},{\"account\":\"account_0047\",\"amount_cents\":286930,\"active\":true},{\"account\":\"account_0056\",\"amount_cents\":470075,\"active\":true},{\"account\":\"account_0027\",\"amount_cents\":343646,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":61190,\"active\":true},{\"account\":\"account_0062\",\"amount_cents\":50215,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":387786,\"active\":false},{\"account\":\"account_0053\",\"amount_cents\":182547,\"active\":true},{\"account\":\"account_0020\",\"amount_cents\":746519,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":473820,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":466690,\"active\":true},{\"account\":\"account_0033\",\"amount_cents\":532562,\"active\":true},{\"account\":\"account_0059\",\"amount_cents\":535100,\"active\":false},{\"account\":\"account_0015\",\"amount_cents\":275677,\"active\":true},{\"account\":\"account_0054\",\"amount_cents\":751974,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":69959,\"active\":false},{\"account\":\"account_0060\",\"amount_cents\":763232,\"active\":true},{\"account\":\"account_0035\",\"amount_cents\":596518,\"active\":true},{\"account\":\"account_0002\",\"amount_cents\":663690,\"active\":false},{\"account\":\"account_0034\",\"amount_cents\":303478,\"active\":true},{\"account\":\"account_0004\",\"amount_cents\":190747,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":287268,\"active\":false},{\"account\":\"account_0029\",\"amount_cents\":199203,\"active\":true},{\"account\":\"account_0011\",\"amount_cents\":322789,\"active\":true},{\"account\":\"account_0060\",\"amount_cents\":299851,\"active\":false},{\"account\":\"account_0032\",\"amount_cents\":454589,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":520877,\"active\":true},{\"account\":\"account_0049\",\"amount_cents\":988475,\"active\":false},{\"account\":\"account_0000\",\"amount_cents\":766622,\"active\":true},{\"account\":\"account_0029\",\"amount_cents\":723622,\"active\":true},{\"account\":\"account_0015\",\"amount_cents\":326525,\"active\":false},{\"account\":\"account_0022\",\"amount_cents\":196440,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":947320,\"active\":true},{\"account\":\"account_0032\",\"amount_cents\":762580,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0000",
+          "total_cents": 766622
+        },
+        {
+          "account": "account_0004",
+          "total_cents": 190747
+        },
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0011",
+          "total_cents": 322789
+        },
+        {
+          "account": "account_0014",
+          "total_cents": 956428
+        },
+        {
+          "account": "account_0015",
+          "total_cents": 336867
+        },
+        {
+          "account": "account_0020",
+          "total_cents": 746519
+        },
+        {
+          "account": "account_0022",
+          "total_cents": 663130
+        },
+        {
+          "account": "account_0027",
+          "total_cents": 181729
+        },
+        {
+          "account": "account_0029",
+          "total_cents": 929381
+        },
+        {
+          "account": "account_0032",
+          "total_cents": 454589
+        },
+        {
+          "account": "account_0033",
+          "total_cents": 532562
+        },
+        {
+          "account": "account_0034",
+          "total_cents": 303478
+        },
+        {
+          "account": "account_0035",
+          "total_cents": 596518
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 1165058
+        },
+        {
+          "account": "account_0037",
+          "total_cents": 1122939
+        },
+        {
+          "account": "account_0038",
+          "total_cents": 368157
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0047",
+          "total_cents": 286930
+        },
+        {
+          "account": "account_0048",
+          "total_cents": 938541
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0053",
+          "total_cents": 182547
+        },
+        {
+          "account": "account_0054",
+          "total_cents": 751974
+        },
+        {
+          "account": "account_0056",
+          "total_cents": 1381211
+        },
+        {
+          "account": "account_0057",
+          "total_cents": 455630
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 1461859
+        },
+        {
+          "account": "account_0059",
+          "total_cents": 111091
+        },
+        {
+          "account": "account_0060",
+          "total_cents": 763232
+        },
+        {
+          "account": "account_0062",
+          "total_cents": 50215
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ]
+    }
+  ]
+}

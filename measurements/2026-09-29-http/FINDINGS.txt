@@ -1,0 +1,39 @@
+Observed failures and comparison eligibility
+
+180 process trials issued 114750 measured requests, plus 1800 warmup requests.
+The collection completed its schedule. Its status remains failed: completing the
+schedule does not turn failed delivery or failed requests into successful tests.
+
+BAML medium, http-hello-500, trial 0
+  trials/0033-baml-medium/ served all 1500 measured requests correctly. The BTEL
+  worker and processor panicked with TransportFailed; telemetry_ok was false.
+  The recording contains 1443 handler calls instead of 1510, and 1443 successful
+  roots instead of 1511. Expected counts include ten warmup requests and main.
+  This trial is excluded from every HTTP performance bar. It cannot establish
+  the cost of successfully delivered, complete telemetry.
+  stderr.txt and telemetry.json retain the failure. The panic occurs in the
+  worker-binding error path; these logs do not establish which SetupError caused it.
+
+Bun node:http, http-hello-500, trial 3
+  trials/0081-bun-not_applicable/ contains five request timeouts out of 1500.
+  Client dispatch p99 remained below the 10 ms limit. The remaining 1495 responses
+  passed validation. This is retained as a request outcome, including its full
+  deadline-extended throughput denominator. Successful-response percentiles do
+  not include timed-out requests; the failure counts must be read beside them.
+  Ten additional diagnostic processes, each with 1500 measured requests and ten
+  warmups, did not reproduce the timeout. Their server connection, handler and
+  finish counters each reached 1510. Added instrumentation changes behavior;
+  this does not disprove the original observation or identify its cause.
+  Diagnostic sources and observations: ../http-timeout-diagnostic/.
+
+Driver scheduling exclusions
+  trials/0062-go-not_applicable/: aggregate-50, p99 dispatch lag 13.155716 ms.
+  trials/0078-baml-low/: hello-100, p99 dispatch lag 48.516335 ms.
+  Both exceed the predeclared 10 ms limit and are excluded from performance bars.
+  They remain in the raw CSV and exclusion tables. No replacement trials were
+  substituted. Three configurations therefore have four eligible observations;
+  the other configurations retain five, including the Bun request-failure trial.
+
+References
+  https://github.com/BoundaryML/baml/blob/340b9085d9427e6d458f1c700409ffc88c58b050/baml_language/crates/btel_processor/src/runtime.rs#L291
+  https://github.com/BoundaryML/baml/blob/340b9085d9427e6d458f1c700409ffc88c58b050/baml_language/crates/bex_chunkedringbuffer/src/lib.rs#L390

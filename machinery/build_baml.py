@@ -26,6 +26,7 @@ def main():
         "--timeout", type=int, default=0, help="seconds; 0 disables the cutoff"
     )
     p.add_argument("--worktree-name")
+    p.add_argument("--probe", choices=["runtime", "http"], default="runtime")
     a = p.parse_args()
     pins = json.loads((ROOT / "machinery/tools.json").read_text())
     tools = json.loads((ROOT / ".cache/tools.local.json").read_text())
@@ -64,9 +65,14 @@ def main():
     ).strip()
     if dirty:
         raise ValueError("source worktree has tracked modifications")
-    probe = ROOT / "machinery/adapters/baml.rs"
+    example = "instrumentation_http" if a.probe == "http" else "instrumentation"
+    probe = (
+        ROOT
+        / "machinery/adapters"
+        / ("baml_http.rs" if a.probe == "http" else "baml.rs")
+    )
     shutil.copy(
-        probe, work / "baml_language/crates/bex_engine/examples/instrumentation.rs"
+        probe, work / "baml_language/crates/bex_engine/examples" / (example + ".rs")
     )
     target = checkout / "baml_language/target"
     e = dict(os.environ, RUSTC=tools["rustc"], CARGO_TARGET_DIR=str(target))
@@ -86,7 +92,7 @@ def main():
         "-p",
         "bex_engine",
         "--example",
-        "instrumentation",
+        example,
         "--locked",
         "--jobs",
         str(a.jobs),
@@ -107,9 +113,10 @@ def main():
     built = (
         target
         / ("release" if a.profile == "release" else "debug")
-        / "examples/instrumentation"
+        / "examples"
+        / example
     )
-    binary = ROOT / ".cache/hosts" / revision / a.profile / "instrumentation"
+    binary = ROOT / ".cache/hosts" / revision / a.profile / example
     binary.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(built, binary)
     metadata = dict(

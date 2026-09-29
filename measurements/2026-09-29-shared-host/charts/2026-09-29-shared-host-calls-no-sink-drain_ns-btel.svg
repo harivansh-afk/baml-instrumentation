@@ -1,0 +1,223 @@
+<svg role="img" aria-labelledby="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="165.6pt" viewBox="0 0 540 165.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-title">BTEL modes · BAML drain. Bars show medians; whiskers show observed minimum and maximum. Unit: ms.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-figure_1">
+  <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-patch_1">
+   <path d="M 0 165.6 
+L 540 165.6 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-axes_1">
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-patch_2">
+    <path d="M 159.81149 129.340072 
+L 535.028207 129.340072 
+L 535.028207 3.00024 
+L 159.81149 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-matplotlib.axis_1">
+    <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-xtick_1">
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_1">
+      <path d="M 159.81149 129.340072 
+L 159.81149 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_2">
+      <defs>
+       <path id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-mf02d9a5d8c" x="159.81149" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="159.81149" y="144.698354" transform="rotate(-0 159.81149 144.698354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-xtick_2">
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_3">
+      <path d="M 284.374693 129.340072 
+L 284.374693 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-mf02d9a5d8c" x="284.374693" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="284.374693" y="144.698354" transform="rotate(-0 284.374693 144.698354)">2</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-xtick_3">
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_5">
+      <path d="M 408.937896 129.340072 
+L 408.937896 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-mf02d9a5d8c" x="408.937896" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="408.937896" y="144.698354" transform="rotate(-0 408.937896 144.698354)">4</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-xtick_4">
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_7">
+      <path d="M 533.501099 129.340072 
+L 533.501099 3.00024 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-mf02d9a5d8c" x="533.501099" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="533.501099" y="144.698354" transform="rotate(-0 533.501099 144.698354)">6</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="535.028207" y="160.104135" transform="rotate(-0 535.028207 160.104135)">ms</text>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-matplotlib.axis_2">
+    <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-ytick_1">
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_9"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="22.335514" transform="rotate(-0 151.81149 22.335514)">BAML / off · no sink</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-ytick_2">
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_10"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="54.597984" transform="rotate(-0 151.81149 54.597984)">BAML / low · no sink</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-ytick_3">
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_11"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="86.860454" transform="rotate(-0 151.81149 86.860454)">BAML / medium · no sink</text>
+     </g>
+    </g>
+    <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-ytick_4">
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_12"/>
+     <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="151.81149" y="119.122924" transform="rotate(-0 151.81149 119.122924)">BAML / high · no sink</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-patch_3">
+    <path d="M 159.81149 8.74296 
+L 219.485548 8.74296 
+L 219.485548 26.809943 
+L 159.81149 26.809943 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-patch_4">
+    <path d="M 159.81149 41.00543 
+L 236.465069 41.00543 
+L 236.465069 59.072413 
+L 159.81149 59.072413 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: #365c7b"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-patch_5">
+    <path d="M 159.81149 73.2679 
+L 235.40678 73.2679 
+L 235.40678 91.334883 
+L 159.81149 91.334883 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: #587c99"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-patch_6">
+    <path d="M 159.81149 105.53037 
+L 237.012649 105.53037 
+L 237.012649 123.597353 
+L 159.81149 123.597353 
+z
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: #7897b0"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-patch_7">
+    <path d="M 159.81149 129.340072 
+L 535.028207 129.340072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-LineCollection_1">
+    <path d="M 215.100923 17.776451 
+L 423.370598 17.776451 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 232.151196 50.038921 
+L 439.823965 50.038921 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 230.092354 82.301391 
+L 289.951761 82.301391 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 229.65196 114.563861 
+L 437.713366 114.563861 
+" clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_13">
+    <defs>
+     <path id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)">
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-md18034b1a6" x="215.100923" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-md18034b1a6" x="232.151196" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-md18034b1a6" x="230.092354" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-md18034b1a6" x="229.65196" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-line2d_14">
+    <g clip-path="url(#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a)">
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-md18034b1a6" x="423.370598" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-md18034b1a6" x="439.823965" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-md18034b1a6" x="289.951761" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-shared-host-calls-no-sink-drain_ns-btel-md18034b1a6" x="437.713366" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="430.37091" y="20.811764" transform="rotate(-0 430.37091 20.811764)">0.958</text>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="446.824277" y="53.074234" transform="rotate(-0 446.824277 53.074234)">1.23</text>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="296.952073" y="85.336704" transform="rotate(-0 296.952073 85.336704)">1.21</text>
+   </g>
+   <g id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="444.713678" y="117.599174" transform="rotate(-0 444.713678 117.599174)">1.24</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-shared-host-calls-no-sink-drain_ns-btel-pe106d0016a">
+   <rect x="159.81149" y="3.00024" width="375.216717" height="126.339832"/>
+  </clipPath>
+ </defs>
+</svg>

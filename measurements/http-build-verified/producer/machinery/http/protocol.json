@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "purpose": "Loopback HTTP/1.1 connection-close stack comparison on a shared host; not maximum throughput",
+  "server_cpus": [15,16], "client_cpus": "17,18", "workers": 2,
+  "seed": 1729, "trials": 5, "duration_s": 3, "warmup_requests": 10,
+  "request_deadline_s": 10, "max_inflight": 4096, "max_client_lag_ms": 10,
+  "scenarios": [
+    {"name":"http-hello-100", "path":"/hello", "rate":100},
+    {"name":"http-hello-500", "path":"/hello", "rate":500},
+    {"name":"http-aggregate-50", "path":"/aggregate", "rate":50, "size":64},
+    {"name":"http-aggregate-200", "path":"/aggregate", "rate":200, "size":64}
+  ]
+}

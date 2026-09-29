@@ -1,0 +1,2 @@
+{"event":"ready"}
+{"event":"result","jobs":1,"result":"{\"processed\":768,\"digest\":32343129,\"response_bytes\":65460,\"cache\":[{\"key\":\"key_123\",\"total\":107810,\"check\":6786734,\"count\":128},{\"key\":\"key_124\",\"total\":108760,\"check\":7021328,\"count\":128},{\"key\":\"key_125\",\"total\":106437,\"check\":6899706,\"count\":128},{\"key\":\"key_127\",\"total\":101184,\"check\":6472898,\"count\":128}],\"responses\":[]}","execution_wall_ns":44381061,"execution_cpu_ns":61004000,"gc_execution":null,"gc_counter":"unavailable; no GC claim"}

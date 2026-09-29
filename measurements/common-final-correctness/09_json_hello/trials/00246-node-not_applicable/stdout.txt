@@ -1,0 +1,2 @@
+{"event":"ready"}
+{"event":"result","jobs":1,"result":"{\"message\":\"quote\\\"\\\\newline\\n\"}","execution_wall_ns":25312,"execution_cpu_ns":19000,"gc_execution":null,"gc_counter":"unavailable; no GC claim"}

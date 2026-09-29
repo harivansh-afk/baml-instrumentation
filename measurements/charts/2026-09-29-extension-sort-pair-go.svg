@@ -1,0 +1,311 @@
+<svg role="img" aria-labelledby="2026-09-29-extension-sort-pair-go-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="280.8pt" viewBox="0 0 540 280.8" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-extension-sort-pair-go-title">Go · merge vs quicksort. Bars show medians; whiskers show observed minimum and maximum. Unit: µs / job.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-extension-sort-pair-go-figure_1">
+  <g id="2026-09-29-extension-sort-pair-go-patch_1">
+   <path d="M 0 280.8 
+L 540 280.8 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-extension-sort-pair-go-axes_1">
+   <g id="2026-09-29-extension-sort-pair-go-patch_2">
+    <path d="M 123.03899 244.540073 
+L 536.99976 244.540073 
+L 536.99976 3.00024 
+L 123.03899 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-matplotlib.axis_1">
+    <g id="2026-09-29-extension-sort-pair-go-xtick_1">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_1">
+      <path d="M 123.03899 244.540073 
+L 123.03899 3.00024 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-go-line2d_2">
+      <defs>
+       <path id="2026-09-29-extension-sort-pair-go-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-extension-sort-pair-go-mf02d9a5d8c" x="123.03899" y="244.540073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-go-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="123.03899" y="259.898354" transform="rotate(-0 123.03899 259.898354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-xtick_2">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_3">
+      <path d="M 246.306388 244.540073 
+L 246.306388 3.00024 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-go-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-extension-sort-pair-go-mf02d9a5d8c" x="246.306388" y="244.540073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-go-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="246.306388" y="259.898354" transform="rotate(-0 246.306388 259.898354)">60</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-xtick_3">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_5">
+      <path d="M 369.573786 244.540073 
+L 369.573786 3.00024 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-go-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-extension-sort-pair-go-mf02d9a5d8c" x="369.573786" y="244.540073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-go-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="369.573786" y="259.898354" transform="rotate(-0 369.573786 259.898354)">120</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-xtick_4">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_7">
+      <path d="M 492.841184 244.540073 
+L 492.841184 3.00024 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-go-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-extension-sort-pair-go-mf02d9a5d8c" x="492.841184" y="244.540073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-sort-pair-go-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="492.841184" y="259.898354" transform="rotate(-0 492.841184 259.898354)">180</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="275.304135" transform="rotate(-0 536.99976 275.304135)">µs / job</text>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-matplotlib.axis_2">
+    <g id="2026-09-29-extension-sort-pair-go-ytick_1">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_9"/>
+     <g id="2026-09-29-extension-sort-pair-go-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="26.67104" transform="rotate(-0 115.03899 26.67104)">random · merge</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-ytick_2">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_10"/>
+     <g id="2026-09-29-extension-sort-pair-go-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="55.716234" transform="rotate(-0 115.03899 55.716234)">random · quick</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-ytick_3">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_11"/>
+     <g id="2026-09-29-extension-sort-pair-go-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="84.761428" transform="rotate(-0 115.03899 84.761428)">sorted · merge</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-ytick_4">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_12"/>
+     <g id="2026-09-29-extension-sort-pair-go-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="113.806622" transform="rotate(-0 115.03899 113.806622)">sorted · quick</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-ytick_5">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_13"/>
+     <g id="2026-09-29-extension-sort-pair-go-text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="142.851816" transform="rotate(-0 115.03899 142.851816)">reverse · merge</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-ytick_6">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_14"/>
+     <g id="2026-09-29-extension-sort-pair-go-text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="171.89701" transform="rotate(-0 115.03899 171.89701)">reverse · quick</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-ytick_7">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_15"/>
+     <g id="2026-09-29-extension-sort-pair-go-text_12">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="200.942204" transform="rotate(-0 115.03899 200.942204)">duplicates · merge</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-sort-pair-go-ytick_8">
+     <g id="2026-09-29-extension-sort-pair-go-line2d_16"/>
+     <g id="2026-09-29-extension-sort-pair-go-text_13">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="115.03899" y="229.987397" transform="rotate(-0 115.03899 229.987397)">duplicates · quick</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-patch_3">
+    <path d="M 123.03899 13.979323 
+L 214.576268 13.979323 
+L 214.576268 30.244632 
+L 123.03899 30.244632 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-patch_4">
+    <path d="M 123.03899 43.024517 
+L 199.417332 43.024517 
+L 199.417332 59.289826 
+L 123.03899 59.289826 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: #c27738"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-patch_5">
+    <path d="M 123.03899 72.069711 
+L 211.531532 72.069711 
+L 211.531532 88.33502 
+L 123.03899 88.33502 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-patch_6">
+    <path d="M 123.03899 101.114905 
+L 192.499463 101.114905 
+L 192.499463 117.380214 
+L 123.03899 117.380214 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: #c27738"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-patch_7">
+    <path d="M 123.03899 130.160099 
+L 212.295244 130.160099 
+L 212.295244 146.425407 
+L 123.03899 146.425407 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-patch_8">
+    <path d="M 123.03899 159.205293 
+L 192.661251 159.205293 
+L 192.661251 175.470601 
+L 123.03899 175.470601 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: #c27738"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-patch_9">
+    <path d="M 123.03899 188.250487 
+L 196.586804 188.250487 
+L 196.586804 204.515795 
+L 123.03899 204.515795 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-patch_10">
+    <path d="M 123.03899 217.295681 
+L 164.329138 217.295681 
+L 164.329138 233.560989 
+L 123.03899 233.560989 
+z
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: #c27738"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-patch_11">
+    <path d="M 123.03899 244.540073 
+L 536.99976 244.540073 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-LineCollection_1">
+    <path d="M 205.111836 22.111978 
+L 230.182499 22.111978 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 192.373114 51.157171 
+L 256.700462 51.157171 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 195.837955 80.202365 
+L 431.964938 80.202365 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 182.945148 109.247559 
+L 388.34144 109.247559 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 203.121068 138.292753 
+L 215.005072 138.292753 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 186.338083 167.337947 
+L 198.366991 167.337947 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 186.266177 196.383141 
+L 386.998853 196.383141 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 157.378398 225.428335 
+L 170.826935 225.428335 
+" clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-line2d_17">
+    <defs>
+     <path id="2026-09-29-extension-sort-pair-go-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)">
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="205.111836" y="22.111978" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="192.373114" y="51.157171" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="195.837955" y="80.202365" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="182.945148" y="109.247559" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="203.121068" y="138.292753" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="186.338083" y="167.337947" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="186.266177" y="196.383141" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="157.378398" y="225.428335" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-line2d_18">
+    <g clip-path="url(#2026-09-29-extension-sort-pair-go-p0347f7e469)">
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="230.182499" y="22.111978" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="256.700462" y="51.157171" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="431.964938" y="80.202365" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="388.34144" y="109.247559" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="215.005072" y="138.292753" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="198.366991" y="167.337947" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="386.998853" y="196.383141" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-sort-pair-go-md18034b1a6" x="170.826935" y="225.428335" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-text_14">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="237.905648" y="25.14729" transform="rotate(-0 237.905648 25.14729)">44.6</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-text_15">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="264.423611" y="54.192484" transform="rotate(-0 264.423611 54.192484)">37.2</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-text_16">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="439.688086" y="83.237678" transform="rotate(-0 439.688086 83.237678)">43.1</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-text_17">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="396.064589" y="112.282872" transform="rotate(-0 396.064589 112.282872)">33.8</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-text_18">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="222.728221" y="141.328066" transform="rotate(-0 222.728221 141.328066)">43.4</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-text_19">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="206.090139" y="170.37326" transform="rotate(-0 206.090139 170.37326)">33.9</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-text_20">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="394.722001" y="199.418454" transform="rotate(-0 394.722001 199.418454)">35.8</text>
+   </g>
+   <g id="2026-09-29-extension-sort-pair-go-text_21">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="178.550084" y="228.463647" transform="rotate(-0 178.550084 228.463647)">20.1</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-extension-sort-pair-go-p0347f7e469">
+   <rect x="123.03899" y="3.00024" width="413.96077" height="241.539832"/>
+  </clipPath>
+ </defs>
+</svg>

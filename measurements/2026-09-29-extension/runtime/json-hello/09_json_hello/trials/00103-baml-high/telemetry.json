@@ -1,0 +1,1 @@
+{"valid":true,"recordings":1,"recording_end":false,"issues":[],"run_count":4112,"prepare_count":1,"root_completions":4113,"span_run_count":4112,"expected_run_count":4112,"function_counts":{"user.run":4112,"user.prepare":1},"scope":"structural validation, runtime metadata, root completions and exact prepare/run counts; value capture is not exercised"}

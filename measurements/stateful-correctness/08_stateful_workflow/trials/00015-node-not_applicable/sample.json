@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "08_stateful_workflow",
+  "language": "node",
+  "backend": "node",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03",
+  "input_sha256": "ef66ccc5ce7a2a0a5d1ff5d141a478b744952b2d3a10e0f80c5fd31ec814dd3e",
+  "trial_path": "08_stateful_workflow/trials/00015-node-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 97562259,
+  "process_cpu_ns": 77678000,
+  "peak_rss_bytes": 79712256,
+  "launch_to_ready_ns": 53096982,
+  "execution_wall_ns": 38367388,
+  "execution_cpu_ns": 11980000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "7-8-4-1-1",
+  "trial": 0
+}

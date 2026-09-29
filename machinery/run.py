@@ -402,7 +402,7 @@ def trial(record, raw, case, lang, level, sink, jobs, warmup, directory, args):
     if row["status"] == "ok":
         try:
             correct = (
-                matches(json.loads(value["result"]), oracle(case, raw))
+                matches(json.loads(value["result"]), oracle(case, raw, jobs, warmup))
                 and value["jobs"] == jobs
             )
         except (ValueError, KeyError, TypeError):

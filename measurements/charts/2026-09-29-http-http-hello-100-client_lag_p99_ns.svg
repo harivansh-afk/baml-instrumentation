@@ -1,0 +1,333 @@
+<svg role="img" aria-labelledby="2026-09-29-http-http-hello-100-client_lag_p99_ns-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="309.6pt" viewBox="0 0 540 309.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-http-http-hello-100-client_lag_p99_ns-title">Client dispatch delay p99. Bars show medians; whiskers show observed minimum and maximum. Unit: ms.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-figure_1">
+  <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_1">
+   <path d="M 0 309.6 
+L 540 309.6 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-axes_1">
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_2">
+    <path d="M 105.47024 273.340072 
+L 536.99976 273.340072 
+L 536.99976 3.00024 
+L 105.47024 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-matplotlib.axis_1">
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-xtick_1">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_1">
+      <path d="M 105.47024 273.340072 
+L 105.47024 3.00024 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_2">
+      <defs>
+       <path id="2026-09-29-http-http-hello-100-client_lag_p99_ns-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-mf02d9a5d8c" x="105.47024" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="105.47024" y="288.698354" transform="rotate(-0 105.47024 288.698354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-xtick_2">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_3">
+      <path d="M 238.224272 273.340072 
+L 238.224272 3.00024 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-mf02d9a5d8c" x="238.224272" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="238.224272" y="288.698354" transform="rotate(-0 238.224272 288.698354)">20</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-xtick_3">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_5">
+      <path d="M 370.978305 273.340072 
+L 370.978305 3.00024 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-mf02d9a5d8c" x="370.978305" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="370.978305" y="288.698354" transform="rotate(-0 370.978305 288.698354)">40</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-xtick_4">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_7">
+      <path d="M 503.732337 273.340072 
+L 503.732337 3.00024 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-mf02d9a5d8c" x="503.732337" y="273.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="503.732337" y="288.698354" transform="rotate(-0 503.732337 288.698354)">60</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="304.104135" transform="rotate(-0 536.99976 304.104135)">ms</text>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-matplotlib.axis_2">
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-ytick_1">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_9"/>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="27.886469" transform="rotate(-0 97.47024 27.886469)">BAML / off</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-ytick_2">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_10"/>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="56.597157" transform="rotate(-0 97.47024 56.597157)">BAML / low</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-ytick_3">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_11"/>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="85.307844" transform="rotate(-0 97.47024 85.307844)">BAML / medium</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-ytick_4">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_12"/>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="114.018531" transform="rotate(-0 97.47024 114.018531)">BAML / high</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-ytick_5">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_13"/>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="142.729219" transform="rotate(-0 97.47024 142.729219)">Rust</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-ytick_6">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_14"/>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="171.439906" transform="rotate(-0 97.47024 171.439906)">Go</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-ytick_7">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_15"/>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_12">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="200.150594" transform="rotate(-0 97.47024 200.150594)">Python</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-ytick_8">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_16"/>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_13">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="228.861281" transform="rotate(-0 97.47024 228.861281)">Node</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-ytick_9">
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_17"/>
+     <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_14">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="257.571968" transform="rotate(-0 97.47024 257.571968)">Bun</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_3">
+    <path d="M 105.47024 15.288414 
+L 134.185906 15.288414 
+L 134.185906 31.366399 
+L 105.47024 31.366399 
+z
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_4">
+    <path d="M 105.47024 43.999102 
+L 134.179242 43.999102 
+L 134.179242 60.077087 
+L 105.47024 60.077087 
+z
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: #365c7b"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_5">
+    <path d="M 105.47024 72.709789 
+L 135.578284 72.709789 
+L 135.578284 88.787774 
+L 105.47024 88.787774 
+z
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: #587c99"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_6">
+    <path d="M 105.47024 101.420476 
+L 134.284894 101.420476 
+L 134.284894 117.498461 
+L 105.47024 117.498461 
+z
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: #7897b0"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_7">
+    <path d="M 105.47024 130.131164 
+L 134.508054 130.131164 
+L 134.508054 146.209149 
+L 105.47024 146.209149 
+z
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: #99502d"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_8">
+    <path d="M 105.47024 158.841851 
+L 132.025268 158.841851 
+L 132.025268 174.919836 
+L 105.47024 174.919836 
+z
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: #087a79"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_9">
+    <path d="M 105.47024 187.552539 
+L 131.030144 187.552539 
+L 131.030144 203.630524 
+L 105.47024 203.630524 
+z
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: #7955a2"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_10">
+    <path d="M 105.47024 216.263226 
+L 133.091509 216.263226 
+L 133.091509 232.341211 
+L 105.47024 232.341211 
+z
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: #427434"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_11">
+    <path d="M 105.47024 244.973913 
+L 131.955433 244.973913 
+L 131.955433 261.051898 
+L 105.47024 261.051898 
+z
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: #596371"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-patch_12">
+    <path d="M 105.47024 273.340072 
+L 536.99976 273.340072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-LineCollection_1">
+    <path d="M 132.057906 23.327407 
+L 138.222671 23.327407 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 130.440311 52.038094 
+L 427.507195 52.038094 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 130.270797 80.748781 
+L 143.454793 80.748781 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 131.030569 109.459469 
+L 139.124735 109.459469 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 127.939378 138.170156 
+L 136.37589 138.170156 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 130.660696 166.880844 
+L 133.738406 166.880844 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 130.474376 195.591531 
+L 134.373501 195.591531 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 131.421702 224.302218 
+L 148.874994 224.302218 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 130.420663 253.012906 
+L 134.046767 253.012906 
+" clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_18">
+    <defs>
+     <path id="2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)">
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="132.057906" y="23.327407" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="130.440311" y="52.038094" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="130.270797" y="80.748781" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="131.030569" y="109.459469" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="127.939378" y="138.170156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="130.660696" y="166.880844" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="130.474376" y="195.591531" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="131.421702" y="224.302218" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="130.420663" y="253.012906" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-line2d_19">
+    <g clip-path="url(#2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652)">
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="138.222671" y="23.327407" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="427.507195" y="52.038094" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="143.454793" y="80.748781" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="139.124735" y="109.459469" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="136.37589" y="138.170156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="133.738406" y="166.880844" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="134.373501" y="195.591531" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="148.874994" y="224.302218" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-http-hello-100-client_lag_p99_ns-md18034b1a6" x="134.046767" y="253.012906" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_15">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="146.273595" y="26.362719" transform="rotate(-0 146.273595 26.362719)">4.33</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_16">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="435.558119" y="55.073407" transform="rotate(-0 435.558119 55.073407)">4.33</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_17">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="151.505717" y="83.784094" transform="rotate(-0 151.505717 83.784094)">4.54</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_18">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="147.175659" y="112.494781" transform="rotate(-0 147.175659 112.494781)">4.34</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_19">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="144.426814" y="141.205469" transform="rotate(-0 144.426814 141.205469)">4.37</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_20">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="141.78933" y="169.916156" transform="rotate(-0 141.78933 169.916156)">4</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_21">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="142.424425" y="198.626844" transform="rotate(-0 142.424425 198.626844)">3.85</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_22">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="156.925918" y="227.337531" transform="rotate(-0 156.925918 227.337531)">4.16</text>
+   </g>
+   <g id="2026-09-29-http-http-hello-100-client_lag_p99_ns-text_23">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="142.097691" y="256.048218" transform="rotate(-0 142.097691 256.048218)">3.99</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-http-http-hello-100-client_lag_p99_ns-p73d4b8f652">
+   <rect x="105.47024" y="3.00024" width="431.52952" height="270.339832"/>
+  </clipPath>
+ </defs>
+</svg>

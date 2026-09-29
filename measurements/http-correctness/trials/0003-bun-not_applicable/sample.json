@@ -1,0 +1,16 @@
+{
+  "language": "bun",
+  "level": "not_applicable",
+  "scenario": "correctness",
+  "artifact_sha256": "616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1",
+  "input_sha256": "f11aefe5c3b8cd06d918d0f6fc44e46fcc0407400263ab2aab9f30eee9b16cc4",
+  "status": "ok",
+  "requests": 29,
+  "failed": 0,
+  "process_wall_ns": 82864782,
+  "process_cpu_ns": 39303000,
+  "peak_rss_bytes": 41594880,
+  "launch_to_ready_ns": 18585408,
+  "trial": 0,
+  "trial_path": "trials/0003-bun-not_applicable"
+}

@@ -1,0 +1,309 @@
+{
+  "port": 44555,
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/hello",
+      "body": "",
+      "expected": {
+        "message": "Hello, world!"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"account_0005\",\"amount_cents\":430753,\"active\":false},{\"account\":\"account_0058\",\"amount_cents\":177898,\"active\":true},{\"account\":\"account_0007\",\"amount_cents\":191385,\"active\":true},{\"account\":\"account_0037\",\"amount_cents\":545159,\"active\":false},{\"account\":\"account_0046\",\"amount_cents\":916274,\"active\":true},{\"account\":\"account_0036\",\"amount_cents\":217738,\"active\":true},{\"account\":\"account_0019\",\"amount_cents\":891045,\"active\":false},{\"account\":\"account_0063\",\"amount_cents\":6029,\"active\":true},{\"account\":\"account_0058\",\"amount_cents\":388379,\"active\":true},{\"account\":\"account_0050\",\"amount_cents\":371980,\"active\":false},{\"account\":\"account_0052\",\"amount_cents\":652170,\"active\":true},{\"account\":\"account_0045\",\"amount_cents\":575389,\"active\":true},{\"account\":\"account_0028\",\"amount_cents\":421564,\"active\":false},{\"account\":\"account_0007\",\"amount_cents\":602887,\"active\":true},{\"account\":\"account_0006\",\"amount_cents\":875271,\"active\":true},{\"account\":\"account_0012\",\"amount_cents\":986911,\"active\":false}]",
+      "expected": [
+        {
+          "account": "account_0006",
+          "total_cents": 875271
+        },
+        {
+          "account": "account_0007",
+          "total_cents": 794272
+        },
+        {
+          "account": "account_0036",
+          "total_cents": 217738
+        },
+        {
+          "account": "account_0045",
+          "total_cents": 575389
+        },
+        {
+          "account": "account_0046",
+          "total_cents": 916274
+        },
+        {
+          "account": "account_0052",
+          "total_cents": 652170
+        },
+        {
+          "account": "account_0058",
+          "total_cents": 566277
+        },
+        {
+          "account": "account_0063",
+          "total_cents": 6029
+        }
+      ],
+      "expected_status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[]",
+      "expected": [],
+      "expected_status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":1.0,\"active\":true}]",
+      "expected": [
+        {
+          "account": "a",
+          "total_cents": 1
+        }
+      ],
+      "expected_status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":1000000,\"active\":true,\"ignored\":5}]",
+      "expected": [
+        {
+          "account": "a",
+          "total_cents": 1000000
+        }
+      ],
+      "expected_status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"\",\"amount_cents\":0,\"active\":true}]",
+      "expected": [
+        {
+          "account": "",
+          "total_cents": 0
+        }
+      ],
+      "expected_status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"__proto__\",\"amount_cents\":8,\"active\":true}]",
+      "expected": [
+        {
+          "account": "__proto__",
+          "total_cents": 8
+        }
+      ],
+      "expected_status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "null",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "{}",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[null]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[false]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":null,\"amount_cents\":1,\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":4,\"amount_cents\":1,\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"\\u00e9\",\"amount_cents\":1,\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"amount_cents\":1,\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":true,\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":\"1\",\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":-1,\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":1.5,\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":1000001,\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":null,\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"active\":true}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":1,\"active\":null}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":1,\"active\":1}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":1,\"active\":\"true\"}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":1}]",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[] []",
+      "expected": {
+        "error": "invalid"
+      },
+      "expected_status": 400
+    },
+    {
+      "method": "POST",
+      "path": "/aggregate",
+      "body": "[{\"account\":\"a\",\"amount_cents\":1e2,\"active\":true}]",
+      "expected": [
+        {
+          "account": "a",
+          "total_cents": 100
+        }
+      ],
+      "expected_status": 200
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+repeat,language,status,artifact_kind,artifact_bytes,artifact_sha256,shared_host_bytes,runtime_executable_bytes,process_wall_ns,process_cpu_ns,peak_rss_bytes
+0,baml,ok,BAML Program bytecode; shared HTTP host excluded,2644076,85c3c8990d246bbc92de5f0e3f9c29f80efec17e61abb0eb8bcdacd642440976,27338480,,756891057,1023169000,231641088
+0,rust,ok,native executable with axum 0.8.9 and Tokio,1119344,7d1757afbf46f10e62b2ca07bf636157e51da9e5600ce6ba67455c6fe3bb7af5,,,14038230375,23615784000,433360896
+0,go,ok,native executable with net/http,6095008,8572b5b36faf7b305b02b9d2e69f71191e0c97c5045fafbe22dc8c6d2aed4df5,,,8200778971,14756993000,263905280
+0,python,,service and aggregation source; shared interpreter excluded,2064,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,23081824,,,
+0,node,,service and aggregation source; shared interpreter excluded,2268,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,149852768,,,
+0,bun,,service and aggregation source; shared interpreter excluded,2268,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,79420872,,,
+1,baml,ok,BAML Program bytecode; shared HTTP host excluded,2644076,85c3c8990d246bbc92de5f0e3f9c29f80efec17e61abb0eb8bcdacd642440976,27338480,,760738243,1011737000,231698432
+1,rust,ok,native executable with axum 0.8.9 and Tokio,1119344,7d1757afbf46f10e62b2ca07bf636157e51da9e5600ce6ba67455c6fe3bb7af5,,,14079389021,23466063000,430260224
+1,go,ok,native executable with net/http,6095008,8572b5b36faf7b305b02b9d2e69f71191e0c97c5045fafbe22dc8c6d2aed4df5,,,8236655441,14801781000,284241920
+1,python,,service and aggregation source; shared interpreter excluded,2064,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,23081824,,,
+1,node,,service and aggregation source; shared interpreter excluded,2268,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,149852768,,,
+1,bun,,service and aggregation source; shared interpreter excluded,2268,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,79420872,,,
+2,baml,ok,BAML Program bytecode; shared HTTP host excluded,2644076,85c3c8990d246bbc92de5f0e3f9c29f80efec17e61abb0eb8bcdacd642440976,27338480,,720645774,1004884000,231870464
+2,rust,ok,native executable with axum 0.8.9 and Tokio,1119344,7d1757afbf46f10e62b2ca07bf636157e51da9e5600ce6ba67455c6fe3bb7af5,,,14219340074,23440411000,431972352
+2,go,ok,native executable with net/http,6095008,8572b5b36faf7b305b02b9d2e69f71191e0c97c5045fafbe22dc8c6d2aed4df5,,,8190332683,14793355000,284061696
+2,python,,service and aggregation source; shared interpreter excluded,2064,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,23081824,,,
+2,node,,service and aggregation source; shared interpreter excluded,2268,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,149852768,,,
+2,bun,,service and aggregation source; shared interpreter excluded,2268,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,79420872,,,
+3,baml,ok,BAML Program bytecode; shared HTTP host excluded,2644076,85c3c8990d246bbc92de5f0e3f9c29f80efec17e61abb0eb8bcdacd642440976,27338480,,683924597,998798000,231727104
+3,rust,ok,native executable with axum 0.8.9 and Tokio,1119344,7d1757afbf46f10e62b2ca07bf636157e51da9e5600ce6ba67455c6fe3bb7af5,,,14146275693,23475681000,432545792
+3,go,ok,native executable with net/http,6095008,8572b5b36faf7b305b02b9d2e69f71191e0c97c5045fafbe22dc8c6d2aed4df5,,,8257389111,14827787000,287535104
+3,python,,service and aggregation source; shared interpreter excluded,2064,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,23081824,,,
+3,node,,service and aggregation source; shared interpreter excluded,2268,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,149852768,,,
+3,bun,,service and aggregation source; shared interpreter excluded,2268,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,79420872,,,
+4,baml,ok,BAML Program bytecode; shared HTTP host excluded,2644076,85c3c8990d246bbc92de5f0e3f9c29f80efec17e61abb0eb8bcdacd642440976,27338480,,726315937,1000902000,231550976
+4,rust,ok,native executable with axum 0.8.9 and Tokio,1119344,7d1757afbf46f10e62b2ca07bf636157e51da9e5600ce6ba67455c6fe3bb7af5,,,14160199286,23475037000,431632384
+4,go,ok,native executable with net/http,6095008,8572b5b36faf7b305b02b9d2e69f71191e0c97c5045fafbe22dc8c6d2aed4df5,,,8191128364,14736981000,270610432
+4,python,,service and aggregation source; shared interpreter excluded,2064,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,23081824,,,
+4,node,,service and aggregation source; shared interpreter excluded,2268,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,149852768,,,
+4,bun,,service and aggregation source; shared interpreter excluded,2268,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,79420872,,,

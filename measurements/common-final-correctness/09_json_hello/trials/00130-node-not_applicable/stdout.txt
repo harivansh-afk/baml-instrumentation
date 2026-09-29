@@ -1,0 +1,2 @@
+{"event":"ready"}
+{"event":"result","jobs":1,"result":"{\"message\":\"é雪\"}","execution_wall_ns":252065,"execution_cpu_ns":66000,"gc_execution":null,"gc_counter":"unavailable; no GC claim"}

@@ -1,0 +1,34 @@
+[
+  {
+    "elapsed_ns": 11183432,
+    "rss_bytes": 20197376
+  },
+  {
+    "elapsed_ns": 21413244,
+    "rss_bytes": 25800704
+  },
+  {
+    "elapsed_ns": 31646976,
+    "rss_bytes": 25800704
+  },
+  {
+    "elapsed_ns": 41885124,
+    "rss_bytes": 25800704
+  },
+  {
+    "elapsed_ns": 52114664,
+    "rss_bytes": 25800704
+  },
+  {
+    "elapsed_ns": 62369948,
+    "rss_bytes": 25800704
+  },
+  {
+    "elapsed_ns": 72584240,
+    "rss_bytes": 27734016
+  },
+  {
+    "elapsed_ns": 82775636,
+    "rss_bytes": 28061696
+  }
+]

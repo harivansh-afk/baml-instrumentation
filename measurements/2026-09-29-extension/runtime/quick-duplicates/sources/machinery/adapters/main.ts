@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import { pathToFileURL } from 'node:url';
+const [source, fixture, jobsText, warmupText] = process.argv.slice(2);
+const jobs = Number(jobsText), warmup = Number(warmupText);
+const workload = await import(pathToFileURL(source).href);
+const state = workload.prepare(fs.readFileSync(fixture, 'utf8'));
+const emit = value => console.log(JSON.stringify(value));
+emit({event:'ready'});
+for(let i=0;i<warmup;i++) await workload.run(state);
+const wall=process.hrtime.bigint(), cpu=process.cpuUsage();
+let result;
+for(let i=0;i<jobs;i++) result=await workload.run(state);
+const elapsedCPU=process.cpuUsage(cpu), elapsedWall=process.hrtime.bigint()-wall;
+emit({event:'result',jobs,result,execution_wall_ns:Number(elapsedWall),execution_cpu_ns:(elapsedCPU.user+elapsedCPU.system)*1000,gc_execution:null,gc_counter:'unavailable; no GC claim'});

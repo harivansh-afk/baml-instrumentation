@@ -1,26 +1,28 @@
-No accepted performance baseline exists yet.
+Open index.html for the combined, static visual report.
 
-2026-09-29-shared-host/ contains the first frozen comparison protocol, repeated
-builds and runtime trials. Open index.html in that directory for the portable visual
-report, or read BASELINE.txt. Both carry the host-load limits;
-these observations do not establish an idle-machine or per-call tail-latency baseline.
+2026-09-29-shared-host/   Original batch suite; raw observations unchanged.
+2026-09-29-extension/     Stateful workflow, JSON hello, sorting distributions,
+                          quicksort, and generated-number library sorting.
+2026-09-29-http/          Persistent HTTP request observations and process totals.
+2026-09-29-http-builds/   Five clean HTTP builds per compiled language.
 
-Each directory is a separate run. Case directories contain raw trials and CSVs;
-environment.json and artifacts.json identify the experiment and measured code.
-summary.csv is derived from samples.csv with machinery/report.py.
+Each collection retains its own protocol and artifact identities. They are
+shared-host observations, not a pooled distribution or idle-machine baseline.
+Correctness and sizing directories are validation evidence, not performance
+samples for these collections. Rejected runs remain distinguishable by status.
+BTEL recording binaries remain local under each trial's recordings/ directory;
+Git includes their byte counts and structural/coverage validation summaries.
 
-foundation-reference-checks/ and corpus-reference-checks/ test input/output
-correctness on the pinned Rust, Go, Python, Node and Bun runtimes.
-published-release-validation/ and published-release-corpus-checks/ check the
-published BAML executable path. published-release-final-checks/ repeats all seven
-with recorded cache policy and source snapshots. reference-protocol-checks/ checks
-warmup and repeated jobs. reference-validation/ preserves a rejected setup.
-These checks are not latency comparisons, sustained-GC evidence or a frozen baseline.
+Rebuild the combined document from saved observations:
+  uv run machinery/html_report.py \
+    measurements/2026-09-29-shared-host measurements/2026-09-29-extension \
+    --http measurements/2026-09-29-http \
+    --http-build measurements/2026-09-29-http-builds \
+    --output measurements/index.html
 
-baml-release-verified/ checks all four telemetry levels. baml-recording-guardrails/
-checks rejection paths. gc-sizing/, retention-sizing/ and workload-sizing/ are
-pilots used to choose the frozen protocol. baml-release-checks/ retains the failed
-validator assumptions that were corrected before collecting the comparison.
+This command reads saved results; it never reruns a workload. The HTML embeds
+its SVGs, data and downloads. charts/ also holds the individual static SVGs.
 
-See machinery/VALIDATION.txt for verified scope and remaining gaps. The HTML report
-retains run identity, failures, unavailable metrics and collection coverage.
+See machinery/VALIDATION.txt for correctness controls and retained setup failures.
+2026-09-29-http/FINDINGS.txt explains the recording failure, request timeouts and
+scheduling exclusions. baseline_accepted remains false for every collection.

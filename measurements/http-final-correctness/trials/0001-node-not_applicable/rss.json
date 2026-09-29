@@ -1,0 +1,62 @@
+[
+  {
+    "elapsed_ns": 10833974,
+    "rss_bytes": 33869824
+  },
+  {
+    "elapsed_ns": 21087114,
+    "rss_bytes": 51347456
+  },
+  {
+    "elapsed_ns": 31351614,
+    "rss_bytes": 60231680
+  },
+  {
+    "elapsed_ns": 41609202,
+    "rss_bytes": 63279104
+  },
+  {
+    "elapsed_ns": 51835542,
+    "rss_bytes": 71471104
+  },
+  {
+    "elapsed_ns": 62066602,
+    "rss_bytes": 78942208
+  },
+  {
+    "elapsed_ns": 72323279,
+    "rss_bytes": 87494656
+  },
+  {
+    "elapsed_ns": 82531331,
+    "rss_bytes": 87494656
+  },
+  {
+    "elapsed_ns": 92808743,
+    "rss_bytes": 87494656
+  },
+  {
+    "elapsed_ns": 103100491,
+    "rss_bytes": 87494656
+  },
+  {
+    "elapsed_ns": 113335247,
+    "rss_bytes": 87494656
+  },
+  {
+    "elapsed_ns": 123658164,
+    "rss_bytes": 88641536
+  },
+  {
+    "elapsed_ns": 133881496,
+    "rss_bytes": 89624576
+  },
+  {
+    "elapsed_ns": 144110156,
+    "rss_bytes": 89788416
+  },
+  {
+    "elapsed_ns": 154325424,
+    "rss_bytes": 0
+  }
+]

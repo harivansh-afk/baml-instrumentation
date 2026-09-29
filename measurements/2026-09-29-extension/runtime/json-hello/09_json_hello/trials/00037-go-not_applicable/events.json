@@ -1,0 +1,20 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 1988505
+  },
+  {
+    "allocated_bytes": 262144,
+    "event": "result",
+    "execution_cpu_ns": 509000,
+    "execution_wall_ns": 510754,
+    "gc_counter": "completed_gc_cycles",
+    "gc_execution": 0,
+    "gc_pause_ns": 0,
+    "gc_warmup": 0,
+    "heap_alloc_bytes": 341056,
+    "jobs": 4096,
+    "result": "{\"message\":\"Hello, world!\"}",
+    "received_ns": 2658540
+  }
+]

@@ -1,0 +1,17 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.26
+   Compiling quote v1.0.47
+   Compiling serde_core v1.0.228
+   Compiling syn v2.0.119
+   Compiling libc v0.2.177
+   Compiling serde_json v1.0.145
+   Compiling serde v1.0.228
+   Compiling pin-project-lite v0.2.17
+   Compiling itoa v1.0.18
+   Compiling ryu v1.0.23
+   Compiling memchr v2.8.3
+   Compiling serde_derive v1.0.228
+   Compiling tokio-macros v2.5.0
+   Compiling tokio v1.47.1
+   Compiling workload v0.1.0 (/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/rust)
+    Finished `release` profile [optimized] target(s) in 6.57s

@@ -1,0 +1,16 @@
+case,language,backend,status,process_wall_ns,process_cpu_ns,peak_rss_bytes
+08_stateful_workflow,baml,baml-release,ok,697541357,1018379000,232656896
+08_stateful_workflow,rust,rust,ok,6724297581,11484380000,322887680
+08_stateful_workflow,go,go,ok,4039665016,6632513000,288886784
+09_json_hello,baml,baml-release,ok,695024021,1006564000,227586048
+09_json_hello,rust,rust,ok,5935737086,10591258000,322498560
+09_json_hello,go,go,ok,4015767301,6564138000,283615232
+02_merge_sort,baml,baml-release,ok,702161723,996063000,228024320
+02_merge_sort,rust,rust,ok,6000728003,10627754000,322719744
+02_merge_sort,go,go,ok,3951410637,6487479000,273477632
+10_quick_sort,baml,baml-release,ok,966532134,1000407000,227729408
+10_quick_sort,rust,rust,ok,6020435823,10650928000,322351104
+10_quick_sort,go,go,ok,3936033190,6505439000,273121280
+11_generate_sort,baml,baml-release,ok,678603425,994292000,227459072
+11_generate_sort,rust,rust,ok,6197302459,10645313000,322252800
+11_generate_sort,go,go,ok,3960628148,6572357000,271851520

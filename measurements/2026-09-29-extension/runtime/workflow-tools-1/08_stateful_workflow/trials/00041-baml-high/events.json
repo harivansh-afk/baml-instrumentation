@@ -1,0 +1,34 @@
+[
+  {
+    "event": "ready",
+    "load_ns": 7576613,
+    "setup_ns": 88133853,
+    "received_ns": 97699468
+  },
+  {
+    "event": "result",
+    "jobs": 1,
+    "execution_wall_ns": 5087851314,
+    "execution_cpu_ns": 3498781584,
+    "result": "{\"processed\":192,\"digest\":294585151,\"response_bytes\":16644,\"cache\":[{\"key\":\"key_059\",\"total\":426563,\"check\":110648389,\"count\":512},{\"key\":\"key_060\",\"total\":858750,\"check\":110777249,\"count\":512},{\"key\":\"key_062\",\"total\":431133,\"check\":109935780,\"count\":512},{\"key\":\"key_063\",\"total\":421124,\"check\":107097982,\"count\":512}],\"responses\":[]}",
+    "gc_execution": 5,
+    "gc_warmup": 0,
+    "gc_counter": "full_collections",
+    "workers": 2,
+    "received_ns": 5185565261
+  },
+  {
+    "event": "drained",
+    "drain_ns": 2053450,
+    "gc_drain": 1,
+    "telemetry_ok": true,
+    "delivery_loss": 0,
+    "function_names": {
+      "1553": "user.prepare",
+      "1559": "user.run",
+      "1069": "ai.<(ai.Agent as ai.Runner)>.run"
+    },
+    "metadata_ns": 1075973,
+    "received_ns": 5188828925
+  }
+]

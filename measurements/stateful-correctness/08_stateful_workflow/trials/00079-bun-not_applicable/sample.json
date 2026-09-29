@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "08_stateful_workflow",
+  "language": "bun",
+  "backend": "bun",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1",
+  "input_sha256": "abf92ac8838e085cb508e595b78953dae0b38a167e47a62f51db82d2056d5355",
+  "trial_path": "08_stateful_workflow/trials/00079-bun-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 10901614,
+  "process_cpu_ns": 10437000,
+  "peak_rss_bytes": 27144192,
+  "launch_to_ready_ns": 6646242,
+  "execution_wall_ns": 4208924,
+  "execution_cpu_ns": 4289000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "7-33-4-4-0",
+  "trial": 0
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "case": "08_stateful_workflow",
+  "language": "python",
+  "backend": "python",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 1,
+  "warmup": 0,
+  "artifact_sha256": "dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6",
+  "input_sha256": "06b4b39c15f575ab93c9efcf85adff44c563eb9fa5fc366c87b5ae0fd891ba9b",
+  "trial_path": "08_stateful_workflow/trials/00042-python-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 180420396,
+  "process_cpu_ns": 169583000,
+  "peak_rss_bytes": 27529216,
+  "launch_to_ready_ns": 160370259,
+  "execution_wall_ns": 11114479,
+  "execution_cpu_ns": 645488,
+  "gc_execution": 0,
+  "gc_warmup": 0,
+  "gc_counter": "cyclic_collections; reference-count reclamation excluded",
+  "coverage": "gc_not_observed",
+  "scenario": "7-8-4-4-1",
+  "trial": 0
+}

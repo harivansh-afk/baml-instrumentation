@@ -71,3 +71,78 @@ class ReportTests(TestCase):
                 self.assertRaises(ValueError),
             ):
                 report.collect(root)
+
+    def test_http_rejects_mixed_request_identity(self):
+        rows = [
+            {
+                "trial_path": "a",
+                "scenario": "hello",
+                "language": "baml",
+                "level": "off",
+                "status": "ok",
+                "artifact_sha256": "same",
+                "input_sha256": "one",
+                "requests": "300",
+                "offered_rate": "100",
+            },
+            {
+                "trial_path": "b",
+                "scenario": "hello",
+                "language": "baml",
+                "level": "off",
+                "status": "ok",
+                "artifact_sha256": "same",
+                "input_sha256": "two",
+                "requests": "300",
+                "offered_rate": "100",
+            },
+        ]
+        with (
+            mock.patch.object(report, "read_csv", return_value=rows),
+            self.assertRaisesRegex(ValueError, "Mixed HTTP input_sha256"),
+        ):
+            report.http_rows(report.ROOT)
+
+    def test_http_rejects_duplicate_trial(self):
+        row = {
+            "trial_path": "a",
+            "scenario": "hello",
+            "language": "baml",
+            "level": "off",
+            "status": "ok",
+        }
+        with (
+            mock.patch.object(report, "read_csv", return_value=[row, row]),
+            self.assertRaisesRegex(ValueError, "Duplicate HTTP trial"),
+        ):
+            report.http_rows(report.ROOT)
+
+    def test_http_failures_and_schedule_exclusions_stay_distinct(self):
+        base = {
+            "status": "ok",
+            "client_schedule_valid": "True",
+            "client_lag_p99_ns": "500000",
+            "failed": "0",
+        }
+        timeout = base | {"status": "request_failure", "failed": "5"}
+        bad_schedule = base | {
+            "client_schedule_valid": "False",
+            "client_lag_p99_ns": "20000000",
+        }
+        bad_recording = base | {"status": "telemetry_coverage_failure"}
+        self.assertTrue(report.http_metric_eligible(timeout, "throughput"))
+        for row in (bad_schedule, bad_recording):
+            self.assertFalse(report.http_metric_eligible(row, "throughput"))
+            self.assertTrue(report.http_metric_eligible(row, "client_lag_p99_ns"))
+            self.assertTrue(report.http_metric_eligible(row, "failed"))
+
+    def test_versions_come_from_selected_cases_only(self):
+        manifest = {
+            "selected/baml": {"language": "baml", "version": "new"},
+            "unselected/baml": {"language": "baml", "version": "old"},
+        }
+        self.assertEqual(
+            report.versions_for_cases(manifest, ["selected"]), {"baml": "new"}
+        )
+        with self.assertRaisesRegex(ValueError, "Mixed baml versions"):
+            report.versions_for_cases(manifest, ["selected", "unselected"])

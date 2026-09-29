@@ -1,18 +1,27 @@
 Run on Linux aarch64. Python commands use uv; benchmark Python is separately pinned.
 
 Visual report
-  Open measurements/2026-09-29-shared-host/index.html directly in a browser.
-  Rebuild: uv run machinery/html_report.py measurements/2026-09-29-shared-host
-  The script pins Plotly 6.3.0 and embeds its library, observations and downloads.
-  No server or network is needed to view the report. Rebuilding reads the saved
-  collection; it never reruns benchmarks or changes raw observations.
-  The overview compares each scenario separately. Per-case plots show every
-  successful process observation, its median and observed min-max, with exact
-  values and failures in tables. Min-max is not a confidence interval.
-  Metric selectors preserve unit and lifecycle boundaries; missing counters stay
-  unavailable. Compile targets and size scopes remain explicitly different.
-  The page uses a white reading surface, blue measurement graphics, per-language
-  colors and native controls. No external fonts, images or tracking are loaded.
+  Open measurements/index.html directly in a browser. It combines separately
+  identified collections without pooling samples, and includes HTTP results.
+  Rebuild with the command in measurements/README.txt.
+  html_report.py pins matplotlib 3.10.6 and embeds static SVG charts and downloads.
+  charts/ contains standalone SVGs for reuse. No JavaScript, server or network
+  is needed to view the HTML; each chart has a labelled, zero-based linear axis.
+  Bars show medians; whiskers show observed min-max, not confidence intervals.
+  Tables retain sample counts and failures. Metric units and deployment scopes
+  stay separate; unavailable counters are never replaced with zero.
+  Per-workload charts compare languages with BAML off and compare BAML's four
+  telemetry modes separately. Sorting has additional algorithm-pair charts.
+  The overview is a table of individual workloads, not an aggregate winner score.
+
+Stateful and service cases
+  08_stateful_workflow keeps cache, request cursor and digest across invocations.
+  Its oracle applies both warmup and measured calls; preparation resets a fresh
+  process only. Trace fixtures check each response and surviving cached payloads.
+  extension-protocol.json freezes the added batch cases, including JSON hello,
+  quicksort, generated-number sorting and four distributions for merge sort.
+  HTTP uses separate lifecycle machinery and protocol under machinery/http/;
+  read http/README.txt for commands and cases/06_http_service/README.txt for scope.
 
 Setup
   uv run --no-project machinery/setup.py
@@ -174,3 +183,18 @@ Pinned build environment
   flake.lock pins support tools. tools.json pins benchmark language distributions;
   changing either requires new provenance. The validation record states which
   environment actually ran the checks; merely evaluating a flake is not using it.
+
+Audit saved numbers
+  uv run machinery/audit.py --batch measurements/2026-09-29-shared-host \
+    measurements/2026-09-29-extension --http measurements/2026-09-29-http \
+    --http-build measurements/2026-09-29-http-builds
+  Verify producer snapshots, input hashes, trial counts, raw-versus-exported
+  fields, wait4 accounting, required GC counts and exact recording coverage.
+  For HTTP, also reconstruct every scheduled arrival, duration, percentile and
+  throughput denominator from request records. HTTP request failures are valid
+  recorded outcomes; incomplete measurements and invalid schedules are not.
+  Missing local recording binaries are explicitly counted. Their saved validation
+  summaries can be audited after a clone, but the binaries cannot be re-decoded.
+  The first HTML render also freezes case explanations under each collection's
+  report-docs/, with content hashes. Later report rebuilds use those snapshots so
+  changed case documentation cannot silently reinterpret older measurements.

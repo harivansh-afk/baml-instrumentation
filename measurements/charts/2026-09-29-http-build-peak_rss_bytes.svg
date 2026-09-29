@@ -1,0 +1,201 @@
+<svg role="img" aria-labelledby="2026-09-29-http-build-peak_rss_bytes-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="151.2pt" viewBox="0 0 540 151.2" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-http-build-peak_rss_bytes-title">HTTP compiler peak RSS. Bars show medians; whiskers show observed minimum and maximum. Unit: MiB.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-http-build-peak_rss_bytes-figure_1">
+  <g id="2026-09-29-http-build-peak_rss_bytes-patch_1">
+   <path d="M 0 151.2 
+L 540 151.2 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-http-build-peak_rss_bytes-axes_1">
+   <g id="2026-09-29-http-build-peak_rss_bytes-patch_2">
+    <path d="M 44.482115 114.940073 
+L 536.99976 114.940073 
+L 536.99976 3.00024 
+L 44.482115 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-matplotlib.axis_1">
+    <g id="2026-09-29-http-build-peak_rss_bytes-xtick_1">
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_1">
+      <path d="M 44.482115 114.940073 
+L 44.482115 3.00024 
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_2">
+      <defs>
+       <path id="2026-09-29-http-build-peak_rss_bytes-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-mf02d9a5d8c" x="44.482115" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-build-peak_rss_bytes-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="44.482115" y="130.298354" transform="rotate(-0 44.482115 130.298354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-build-peak_rss_bytes-xtick_2">
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_3">
+      <path d="M 177.882919 114.940073 
+L 177.882919 3.00024 
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-mf02d9a5d8c" x="177.882919" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-build-peak_rss_bytes-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="177.882919" y="130.298354" transform="rotate(-0 177.882919 130.298354)">150</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-build-peak_rss_bytes-xtick_3">
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_5">
+      <path d="M 311.283723 114.940073 
+L 311.283723 3.00024 
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-mf02d9a5d8c" x="311.283723" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-build-peak_rss_bytes-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="311.283723" y="130.298354" transform="rotate(-0 311.283723 130.298354)">300</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-build-peak_rss_bytes-xtick_4">
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_7">
+      <path d="M 444.684528 114.940073 
+L 444.684528 3.00024 
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-mf02d9a5d8c" x="444.684528" y="114.940073" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-http-build-peak_rss_bytes-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="444.684528" y="130.298354" transform="rotate(-0 444.684528 130.298354)">450</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-build-peak_rss_bytes-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="145.704135" transform="rotate(-0 536.99976 145.704135)">MiB</text>
+    </g>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-matplotlib.axis_2">
+    <g id="2026-09-29-http-build-peak_rss_bytes-ytick_1">
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_9"/>
+     <g id="2026-09-29-http-build-peak_rss_bytes-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="36.482115" y="23.777858" transform="rotate(-0 36.482115 23.777858)">BAML</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-build-peak_rss_bytes-ytick_2">
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_10"/>
+     <g id="2026-09-29-http-build-peak_rss_bytes-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="36.482115" y="63.529219" transform="rotate(-0 36.482115 63.529219)">Rust</text>
+     </g>
+    </g>
+    <g id="2026-09-29-http-build-peak_rss_bytes-ytick_3">
+     <g id="2026-09-29-http-build-peak_rss_bytes-line2d_11"/>
+     <g id="2026-09-29-http-build-peak_rss_bytes-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="36.482115" y="103.28058" transform="rotate(-0 36.482115 103.28058)">Go</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-patch_3">
+    <path d="M 44.482115 8.088414 
+L 240.994701 8.088414 
+L 240.994701 30.349176 
+L 44.482115 30.349176 
+z
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: #244bb0"/>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-patch_4">
+    <path d="M 44.482115 47.839775 
+L 410.854917 47.839775 
+L 410.854917 70.100537 
+L 44.482115 70.100537 
+z
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: #99502d"/>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-patch_5">
+    <path d="M 44.482115 87.591136 
+L 285.406052 87.591136 
+L 285.406052 109.851898 
+L 44.482115 109.851898 
+z
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: #087a79"/>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-patch_6">
+    <path d="M 44.482115 114.940073 
+L 536.99976 114.940073 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-LineCollection_1">
+    <path d="M 240.869637 19.218795 
+L 241.140608 19.218795 
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 409.402794 58.970156 
+L 412.032596 58.970156 
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 268.3106 98.721517 
+L 288.351986 98.721517 
+" clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-line2d_12">
+    <defs>
+     <path id="2026-09-29-http-build-peak_rss_bytes-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)">
+     <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-md18034b1a6" x="240.869637" y="19.218795" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-md18034b1a6" x="409.402794" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-md18034b1a6" x="268.3106" y="98.721517" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-line2d_13">
+    <g clip-path="url(#2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8)">
+     <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-md18034b1a6" x="241.140608" y="19.218795" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-md18034b1a6" x="412.032596" y="58.970156" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-http-build-peak_rss_bytes-md18034b1a6" x="288.351986" y="98.721517" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="250.32937" y="22.254108" transform="rotate(-0 250.32937 22.254108)">221</text>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="421.221358" y="62.005469" transform="rotate(-0 421.221358 62.005469)">412</text>
+   </g>
+   <g id="2026-09-29-http-build-peak_rss_bytes-text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="297.540748" y="101.75683" transform="rotate(-0 297.540748 101.75683)">271</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-http-build-peak_rss_bytes-pcfe298f9b8">
+   <rect x="44.482115" y="3.00024" width="492.517645" height="111.939832"/>
+  </clipPath>
+ </defs>
+</svg>

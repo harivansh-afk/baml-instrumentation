@@ -1,0 +1,223 @@
+<svg role="img" aria-labelledby="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-title" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="165.6pt" viewBox="0 0 540 165.6" xmlns="http://www.w3.org/2000/svg" version="1.1"><title id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-title">BTEL modes · BTEL recording size. Bars show medians; whiskers show observed minimum and maximum. Unit: MiB.</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>instrumentation / matplotlib 3.10.6</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-figure_1">
+  <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-patch_1">
+   <path d="M 0 165.6 
+L 540 165.6 
+L 540 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-axes_1">
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-patch_2">
+    <path d="M 105.47024 129.340072 
+L 536.99976 129.340072 
+L 536.99976 3.00024 
+L 105.47024 3.00024 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-matplotlib.axis_1">
+    <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-xtick_1">
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_1">
+      <path d="M 105.47024 129.340072 
+L 105.47024 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_2">
+      <defs>
+       <path id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-mf02d9a5d8c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-mf02d9a5d8c" x="105.47024" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="105.47024" y="144.698354" transform="rotate(-0 105.47024 144.698354)">0</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-xtick_2">
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_3">
+      <path d="M 243.99969 129.340072 
+L 243.99969 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_4">
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-mf02d9a5d8c" x="243.99969" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="243.99969" y="144.698354" transform="rotate(-0 243.99969 144.698354)">200</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-xtick_3">
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_5">
+      <path d="M 382.52914 129.340072 
+L 382.52914 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_6">
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-mf02d9a5d8c" x="382.52914" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="382.52914" y="144.698354" transform="rotate(-0 382.52914 144.698354)">400</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-xtick_4">
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_7">
+      <path d="M 521.05859 129.340072 
+L 521.05859 3.00024 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: none; stroke: #e6e9ed; stroke-width: 0.6; stroke-linecap: square"/>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_8">
+      <g>
+       <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-mf02d9a5d8c" x="521.05859" y="129.340072" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: middle" x="521.05859" y="144.698354" transform="rotate(-0 521.05859 144.698354)">600</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="536.99976" y="160.104135" transform="rotate(-0 536.99976 160.104135)">MiB</text>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-matplotlib.axis_2">
+    <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-ytick_1">
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_9"/>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_6">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="22.335514" transform="rotate(-0 97.47024 22.335514)">BAML / off</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-ytick_2">
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_10"/>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_7">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="54.597984" transform="rotate(-0 97.47024 54.597984)">BAML / low</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-ytick_3">
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_11"/>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="86.860454" transform="rotate(-0 97.47024 86.860454)">BAML / medium</text>
+     </g>
+    </g>
+    <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-ytick_4">
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_12"/>
+     <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: end" x="97.47024" y="119.122924" transform="rotate(-0 97.47024 119.122924)">BAML / high</text>
+     </g>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-patch_3">
+    <path d="M 105.47024 8.74296 
+L 105.47024 8.74296 
+L 105.47024 26.809943 
+L 105.47024 26.809943 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: #254e70"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-patch_4">
+    <path d="M 105.47024 41.00543 
+L 105.470636 41.00543 
+L 105.470636 59.072413 
+L 105.47024 59.072413 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: #365c7b"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-patch_5">
+    <path d="M 105.47024 73.2679 
+L 105.473209 73.2679 
+L 105.473209 91.334883 
+L 105.47024 91.334883 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: #587c99"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-patch_6">
+    <path d="M 105.47024 105.53037 
+L 427.507194 105.53037 
+L 427.507194 123.597353 
+L 105.47024 123.597353 
+z
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: #7897b0"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-patch_7">
+    <path d="M 105.47024 129.340072 
+L 536.99976 129.340072 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-LineCollection_1">
+    <path d="M 105.47024 17.776451 
+L 105.47024 17.776451 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 105.470636 50.038921 
+L 105.470638 50.038921 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 105.473209 82.301391 
+L 105.47321 82.301391 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+    <path d="M 427.507182 114.563861 
+L 427.507195 114.563861 
+" clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)" style="fill: none; stroke: #192d3d; stroke-width: 0.8"/>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_13">
+    <defs>
+     <path id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-md18034b1a6" d="M 0 2 
+L 0 -2 
+" style="stroke: #192d3d"/>
+    </defs>
+    <g clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)">
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-md18034b1a6" x="105.47024" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-md18034b1a6" x="105.470636" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-md18034b1a6" x="105.473209" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-md18034b1a6" x="427.507182" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-line2d_14">
+    <g clip-path="url(#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2)">
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-md18034b1a6" x="105.47024" y="17.776451" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-md18034b1a6" x="105.470638" y="50.038921" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-md18034b1a6" x="105.47321" y="82.301391" style="fill: #1f77b4; stroke: #192d3d"/>
+     <use xlink:href="#2026-09-29-extension-workflow-retain-64-recording_bytes-btel-md18034b1a6" x="427.507195" y="114.563861" style="fill: #1f77b4; stroke: #192d3d"/>
+    </g>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="113.521164" y="20.811764" transform="rotate(-0 113.521164 20.811764)">0</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="113.521562" y="53.074234" transform="rotate(-0 113.521562 53.074234)">0.000572</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="113.524134" y="85.336704" transform="rotate(-0 113.524134 85.336704)">0.00429</text>
+   </g>
+   <g id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #172b3c" x="435.558119" y="117.599174" transform="rotate(-0 435.558119 117.599174)">465</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="2026-09-29-extension-workflow-retain-64-recording_bytes-btel-p15edf818d2">
+   <rect x="105.47024" y="3.00024" width="431.52952" height="126.339832"/>
+  </clipPath>
+ </defs>
+</svg>

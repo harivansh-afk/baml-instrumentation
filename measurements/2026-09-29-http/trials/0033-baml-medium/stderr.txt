@@ -1,0 +1,8 @@
+
+thread 'tokio-rt-worker' (2708322) panicked at crates/btel_processor/src/runtime.rs:297:17:
+Box<dyn Any>
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'btel-processor' (2708324) panicked at crates/bex_chunkedringbuffer/src/lib.rs:158:5:
+Box<dyn Any>
+Error: telemetry delivery failed

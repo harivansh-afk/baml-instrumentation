@@ -1,0 +1,622 @@
+{
+  "08_stateful_workflow/baml": {
+    "language": "baml",
+    "backend": "baml-release",
+    "sources": {
+      "cases/08_stateful_workflow/workload.baml": "9d42542c21fc96d542ef9f73c9b836a826d2e6e443fac3c9ce02347781b3ee4e",
+      "machinery/adapters/baml.rs": "b31761b182f7b38061b8fdcdfd83e7a5004ec1e474e99cb5076ae787be68bdcd"
+    },
+    "cache_policy": "empty application and dependency compilation caches; dependencies fetched before timer",
+    "host_provenance": {
+      "revision": "340b9085d9427e6d458f1c700409ffc88c58b050",
+      "profile": "release",
+      "command": [
+        "/home/rathi/.local/share/rustup/toolchains/1.98.1-aarch64-unknown-linux-gnu/bin/cargo",
+        "build",
+        "--manifest-path",
+        "/home/rathi/Documents/Git/boundary/baml/.worktrees/instrumentation-release/baml_language/Cargo.toml",
+        "-p",
+        "bex_engine",
+        "--example",
+        "instrumentation",
+        "--locked",
+        "--jobs",
+        "8",
+        "--release"
+      ],
+      "compiler": "rustc 1.98.1 (48a229cea 2026-09-01)\nbinary: rustc\ncommit-hash: 48a229ceaefd4985c50990b14116b6d856af0985\ncommit-date: 2026-09-01\nhost: aarch64-unknown-linux-gnu\nrelease: 1.98.1\nLLVM version: 22.1.8\n",
+      "probe_sha256": "b31761b182f7b38061b8fdcdfd83e7a5004ec1e474e99cb5076ae787be68bdcd",
+      "binary_sha256": "8881a0a5e3577fdce21e320ff90265fa330f8b05104adb1f1f9c0af9e4f0edbe",
+      "cargo_lock_sha256": "b04d239bcb8e940d73e37ae99f7d3731f6b5935bc6b4eba3197b186881ae4d47",
+      "source_changes": "added measurement example only"
+    },
+    "shared_host_bytes": 27338480,
+    "host": "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+    "host_sha256": "8881a0a5e3577fdce21e320ff90265fa330f8b05104adb1f1f9c0af9e4f0edbe",
+    "source_revision": "340b9085d9427e6d458f1c700409ffc88c58b050",
+    "profile": "release",
+    "artifact_kind": "BAML Program bytecode; shared measurement host excluded",
+    "version": "0.20.2-nightly.20260927.a",
+    "compile": {
+      "event_order": [],
+      "malformed_lines": 0,
+      "status": "ok",
+      "exit_code": 0,
+      "process_wall_ns": 693051208,
+      "process_cpu_ns": 1002663000,
+      "peak_rss_bytes": 232394752,
+      "launch_to_ready_ns": null,
+      "result": null,
+      "drain": null
+    },
+    "compile_command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "compile",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/cases/08_stateful_workflow/workload.baml",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/baml/program"
+    ],
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "run",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/baml/program"
+    ],
+    "build_environment": {
+      "PATH": "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.local/share/pnpm:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg04bqafF:/home/rathi/.codex/tmp/arg0/codex-arg04wpqCe:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0u7FzUa:/home/rathi/.codex/packages/app-server-daemon/releases/0.158.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0ebZ2aT:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0Ijo33c:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0PLrWEP:/home/rathi/.local/share/npm/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/rathi/.amp/bin:/home/rathi/.bun/bin:/home/rathi/.antigravity/antigravity/bin:/home/rathi/.opencode/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.nix-profile/bin:/run/wrappers/bin:/etc/profiles/per-user/rathi/bin:/run/current-system/sw/bin:/nix/var/nix/profiles/default/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/pnpm:/nix/profile/bin:/home/rathi/.local/state/nix/profile/bin",
+      "HOME": "/home/rathi",
+      "USER": "rathi",
+      "LANG": "C.UTF-8",
+      "NIX_LD": "/run/current-system/sw/share/nix-ld/lib/ld.so",
+      "NIX_LD_LIBRARY_PATH": "/run/current-system/sw/share/nix-ld/lib",
+      "LC_ALL": "C",
+      "PYTHONHASHSEED": "0",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "GOMAXPROCS": "2",
+      "BENCH_WORKERS": "2",
+      "TOKIO_WORKER_THREADS": "2",
+      "BAML_TELEMETRY": "off",
+      "BAML_NO_BYTECODE_CACHE": "1",
+      "BAML_NO_DIAGNOSTICS_CACHE": "1",
+      "BAML_AGENT_SKILL_CHECK": "off",
+      "GOTOOLCHAIN": "local",
+      "CARGO_NET_OFFLINE": "true",
+      "RUSTC": "/home/rathi/.local/share/rustup/toolchains/1.98.1-aarch64-unknown-linux-gnu/bin/rustc"
+    },
+    "artifact": "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/baml/program",
+    "artifact_sha256": "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9",
+    "artifact_bytes": 2659959,
+    "source_bytes": 4909,
+    "tools": {
+      "baml": {
+        "version": "0.20.2-nightly.20260927.a",
+        "executable": "bin/baml-cli",
+        "filename": "baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/BoundaryML/baml/releases/download/baml-language-0.20.2-nightly.20260927.a/baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "sha256": "a284c71581d66f3ce5488482d0c943c803eb216dd10689c0f014eda8aca59da7"
+      },
+      "go": {
+        "version": "1.27.1",
+        "executable": "go/bin/go",
+        "filename": "go1.27.1.linux-arm64.tar.gz",
+        "url": "https://go.dev/dl/go1.27.1.linux-arm64.tar.gz",
+        "sha256": "3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec"
+      },
+      "python": {
+        "version": "3.14.7",
+        "executable": "python/bin/python3",
+        "filename": "cpython-3.14.7+20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.14.7%2B20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "sha256": "9b8bd45d06fc3fcdc56f2713a62535fe1c019816461ae87c170dd56184dd3f4d"
+      },
+      "bun": {
+        "version": "1.4.2",
+        "executable": "bun-linux-aarch64/bun",
+        "filename": "bun-linux-aarch64.zip",
+        "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-aarch64.zip",
+        "sha256": "54328bbc2d9c8e0c9f892c544d66c57a83b84139e34909e5ee81758f1ac8fda7"
+      },
+      "rust": {
+        "version": "1.98.1",
+        "source": "https://static.rust-lang.org/dist/channel-rust-stable.toml"
+      },
+      "node": {
+        "version": "26.10.0",
+        "executable": "node-v26.10.0-linux-arm64/bin/node",
+        "filename": "node-v26.10.0-linux-arm64.tar.xz",
+        "url": "https://nodejs.org/dist/v26.10.0/node-v26.10.0-linux-arm64.tar.xz",
+        "sha256": "7a6353f63eb3d04765004b4adf172616243e4522434635cb1d26288658b04ab5"
+      }
+    },
+    "cpu_affinity": [
+      15,
+      16
+    ],
+    "workers": 2
+  },
+  "08_stateful_workflow/rust": {
+    "language": "rust",
+    "backend": "rust",
+    "sources": {
+      "cases/08_stateful_workflow/workload.rs": "40476420e9ded8cf3e96bd7f596fd1f738314beeca9f4f2946e0b0eebb6ab333",
+      "machinery/adapters/main.rs": "2fa9268197e90fe316c511c037953eff8400a899fd328cbf9cbee75ff3df19a4",
+      "machinery/Cargo.toml": "c37b1224634c8d3139c52e7ff89bf1ac4c5922c2e1ed7cc8dd704e4267c5077a",
+      "machinery/Cargo.lock": "1cfb231f2dafc3d43d0a744bfe0908c32a5b184db98ebe47b9ac1a5a131995e5"
+    },
+    "cache_policy": "empty application and dependency compilation caches; dependencies fetched before timer",
+    "version": "rustc 1.98.1 (48a229cea 2026-09-01)\nbinary: rustc\ncommit-hash: 48a229ceaefd4985c50990b14116b6d856af0985\ncommit-date: 2026-09-01\nhost: aarch64-unknown-linux-gnu\nrelease: 1.98.1\nLLVM version: 22.1.8",
+    "artifact_kind": "native executable plus measurement adapter",
+    "compile": {
+      "event_order": [],
+      "malformed_lines": 0,
+      "status": "ok",
+      "exit_code": 0,
+      "process_wall_ns": 6608616236,
+      "process_cpu_ns": 11340425000,
+      "peak_rss_bytes": 322224128,
+      "launch_to_ready_ns": null,
+      "result": null,
+      "drain": null
+    },
+    "compile_command": [
+      "/home/rathi/.local/share/rustup/toolchains/1.98.1-aarch64-unknown-linux-gnu/bin/cargo",
+      "build",
+      "--release",
+      "--locked",
+      "--offline",
+      "--jobs",
+      "2",
+      "--manifest-path",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/rust/Cargo.toml"
+    ],
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/rust/target/release/workload"
+    ],
+    "build_environment": {
+      "PATH": "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.local/share/pnpm:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg04bqafF:/home/rathi/.codex/tmp/arg0/codex-arg04wpqCe:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0u7FzUa:/home/rathi/.codex/packages/app-server-daemon/releases/0.158.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0ebZ2aT:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0Ijo33c:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0PLrWEP:/home/rathi/.local/share/npm/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/rathi/.amp/bin:/home/rathi/.bun/bin:/home/rathi/.antigravity/antigravity/bin:/home/rathi/.opencode/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.nix-profile/bin:/run/wrappers/bin:/etc/profiles/per-user/rathi/bin:/run/current-system/sw/bin:/nix/var/nix/profiles/default/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/pnpm:/nix/profile/bin:/home/rathi/.local/state/nix/profile/bin",
+      "HOME": "/home/rathi",
+      "USER": "rathi",
+      "LANG": "C.UTF-8",
+      "NIX_LD": "/run/current-system/sw/share/nix-ld/lib/ld.so",
+      "NIX_LD_LIBRARY_PATH": "/run/current-system/sw/share/nix-ld/lib",
+      "LC_ALL": "C",
+      "PYTHONHASHSEED": "0",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "GOMAXPROCS": "2",
+      "BENCH_WORKERS": "2",
+      "TOKIO_WORKER_THREADS": "2",
+      "BAML_TELEMETRY": "off",
+      "BAML_NO_BYTECODE_CACHE": "1",
+      "BAML_NO_DIAGNOSTICS_CACHE": "1",
+      "BAML_AGENT_SKILL_CHECK": "off",
+      "GOTOOLCHAIN": "local",
+      "CARGO_NET_OFFLINE": "true",
+      "RUSTC": "/home/rathi/.local/share/rustup/toolchains/1.98.1-aarch64-unknown-linux-gnu/bin/rustc"
+    },
+    "artifact": "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/rust/target/release/workload",
+    "artifact_sha256": "e1cd29b7578925dca3376be331fee4a847b29197f9f33c846c006989f26e36fb",
+    "artifact_bytes": 594680,
+    "source_bytes": 5988,
+    "tools": {
+      "baml": {
+        "version": "0.20.2-nightly.20260927.a",
+        "executable": "bin/baml-cli",
+        "filename": "baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/BoundaryML/baml/releases/download/baml-language-0.20.2-nightly.20260927.a/baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "sha256": "a284c71581d66f3ce5488482d0c943c803eb216dd10689c0f014eda8aca59da7"
+      },
+      "go": {
+        "version": "1.27.1",
+        "executable": "go/bin/go",
+        "filename": "go1.27.1.linux-arm64.tar.gz",
+        "url": "https://go.dev/dl/go1.27.1.linux-arm64.tar.gz",
+        "sha256": "3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec"
+      },
+      "python": {
+        "version": "3.14.7",
+        "executable": "python/bin/python3",
+        "filename": "cpython-3.14.7+20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.14.7%2B20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "sha256": "9b8bd45d06fc3fcdc56f2713a62535fe1c019816461ae87c170dd56184dd3f4d"
+      },
+      "bun": {
+        "version": "1.4.2",
+        "executable": "bun-linux-aarch64/bun",
+        "filename": "bun-linux-aarch64.zip",
+        "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-aarch64.zip",
+        "sha256": "54328bbc2d9c8e0c9f892c544d66c57a83b84139e34909e5ee81758f1ac8fda7"
+      },
+      "rust": {
+        "version": "1.98.1",
+        "source": "https://static.rust-lang.org/dist/channel-rust-stable.toml"
+      },
+      "node": {
+        "version": "26.10.0",
+        "executable": "node-v26.10.0-linux-arm64/bin/node",
+        "filename": "node-v26.10.0-linux-arm64.tar.xz",
+        "url": "https://nodejs.org/dist/v26.10.0/node-v26.10.0-linux-arm64.tar.xz",
+        "sha256": "7a6353f63eb3d04765004b4adf172616243e4522434635cb1d26288658b04ab5"
+      }
+    },
+    "cpu_affinity": [
+      15,
+      16
+    ],
+    "workers": 2
+  },
+  "08_stateful_workflow/go": {
+    "language": "go",
+    "backend": "go",
+    "sources": {
+      "cases/08_stateful_workflow/workload.go": "731c01361a6e6932f84b07770b06dd01bc36703b0c2b37dcaf4e9f09fc9551af",
+      "machinery/adapters/main.go": "14f9cd5847a7ace7d9d1073b03e1db4d8c46a5907445deae58f1534ea18bb4e6"
+    },
+    "cache_policy": "empty application and dependency compilation caches; dependencies fetched before timer",
+    "version": "go version go1.27.1 linux/arm64",
+    "artifact_kind": "native executable plus measurement adapter",
+    "compile": {
+      "event_order": [],
+      "malformed_lines": 0,
+      "status": "ok",
+      "exit_code": 0,
+      "process_wall_ns": 3997429259,
+      "process_cpu_ns": 6581190000,
+      "peak_rss_bytes": 272838656,
+      "launch_to_ready_ns": null,
+      "result": null,
+      "drain": null
+    },
+    "compile_command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/tools/go/go/bin/go",
+      "build",
+      "-trimpath",
+      "-ldflags=-s -w",
+      "-o",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/go/program",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/go/main.go",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/go/workload.go"
+    ],
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/go/program"
+    ],
+    "build_environment": {
+      "PATH": "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.local/share/pnpm:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg04bqafF:/home/rathi/.codex/tmp/arg0/codex-arg04wpqCe:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0u7FzUa:/home/rathi/.codex/packages/app-server-daemon/releases/0.158.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0ebZ2aT:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0Ijo33c:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0PLrWEP:/home/rathi/.local/share/npm/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/rathi/.amp/bin:/home/rathi/.bun/bin:/home/rathi/.antigravity/antigravity/bin:/home/rathi/.opencode/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.nix-profile/bin:/run/wrappers/bin:/etc/profiles/per-user/rathi/bin:/run/current-system/sw/bin:/nix/var/nix/profiles/default/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/pnpm:/nix/profile/bin:/home/rathi/.local/state/nix/profile/bin",
+      "HOME": "/home/rathi",
+      "USER": "rathi",
+      "LANG": "C.UTF-8",
+      "NIX_LD": "/run/current-system/sw/share/nix-ld/lib/ld.so",
+      "NIX_LD_LIBRARY_PATH": "/run/current-system/sw/share/nix-ld/lib",
+      "LC_ALL": "C",
+      "PYTHONHASHSEED": "0",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "GOMAXPROCS": "2",
+      "BENCH_WORKERS": "2",
+      "TOKIO_WORKER_THREADS": "2",
+      "BAML_TELEMETRY": "off",
+      "BAML_NO_BYTECODE_CACHE": "1",
+      "BAML_NO_DIAGNOSTICS_CACHE": "1",
+      "BAML_AGENT_SKILL_CHECK": "off",
+      "GOTOOLCHAIN": "local",
+      "CARGO_NET_OFFLINE": "true",
+      "RUSTC": "/home/rathi/.local/share/rustup/toolchains/1.98.1-aarch64-unknown-linux-gnu/bin/rustc",
+      "GOCACHE": "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/go/go-cache",
+      "GO111MODULE": "off",
+      "CGO_ENABLED": "0"
+    },
+    "artifact": "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/.cache/build/baml-release/08_stateful_workflow/go/program",
+    "artifact_sha256": "12e991af1a797a2cf6d0df44aaa5b28caff3a4dde0c48f0eb8fe433dcf1e994d",
+    "artifact_bytes": 2556064,
+    "source_bytes": 4926,
+    "tools": {
+      "baml": {
+        "version": "0.20.2-nightly.20260927.a",
+        "executable": "bin/baml-cli",
+        "filename": "baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/BoundaryML/baml/releases/download/baml-language-0.20.2-nightly.20260927.a/baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "sha256": "a284c71581d66f3ce5488482d0c943c803eb216dd10689c0f014eda8aca59da7"
+      },
+      "go": {
+        "version": "1.27.1",
+        "executable": "go/bin/go",
+        "filename": "go1.27.1.linux-arm64.tar.gz",
+        "url": "https://go.dev/dl/go1.27.1.linux-arm64.tar.gz",
+        "sha256": "3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec"
+      },
+      "python": {
+        "version": "3.14.7",
+        "executable": "python/bin/python3",
+        "filename": "cpython-3.14.7+20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.14.7%2B20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "sha256": "9b8bd45d06fc3fcdc56f2713a62535fe1c019816461ae87c170dd56184dd3f4d"
+      },
+      "bun": {
+        "version": "1.4.2",
+        "executable": "bun-linux-aarch64/bun",
+        "filename": "bun-linux-aarch64.zip",
+        "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-aarch64.zip",
+        "sha256": "54328bbc2d9c8e0c9f892c544d66c57a83b84139e34909e5ee81758f1ac8fda7"
+      },
+      "rust": {
+        "version": "1.98.1",
+        "source": "https://static.rust-lang.org/dist/channel-rust-stable.toml"
+      },
+      "node": {
+        "version": "26.10.0",
+        "executable": "node-v26.10.0-linux-arm64/bin/node",
+        "filename": "node-v26.10.0-linux-arm64.tar.xz",
+        "url": "https://nodejs.org/dist/v26.10.0/node-v26.10.0-linux-arm64.tar.xz",
+        "sha256": "7a6353f63eb3d04765004b4adf172616243e4522434635cb1d26288658b04ab5"
+      }
+    },
+    "cpu_affinity": [
+      15,
+      16
+    ],
+    "workers": 2
+  },
+  "08_stateful_workflow/python": {
+    "language": "python",
+    "backend": "python",
+    "sources": {
+      "cases/08_stateful_workflow/workload.py": "8f2f7747eba438bdecffb5a655bc3a33d22e0a95450f0037946b7127e37f7e6c",
+      "machinery/adapters/main.py": "007c0ce38eda6a2a42b982f468dd9a219c74e632ce5164b32cd2b4afeddaab00"
+    },
+    "cache_policy": "empty application and dependency compilation caches; dependencies fetched before timer",
+    "version": "Python 3.14.7",
+    "artifact_kind": "source and measurement adapter; interpreter is shared",
+    "compile_status": "not_applicable",
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/tools/python/python/bin/python3",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/machinery/adapters/main.py",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/cases/08_stateful_workflow/workload.py"
+    ],
+    "build_environment": {
+      "PATH": "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.local/share/pnpm:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg04bqafF:/home/rathi/.codex/tmp/arg0/codex-arg04wpqCe:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0u7FzUa:/home/rathi/.codex/packages/app-server-daemon/releases/0.158.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0ebZ2aT:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0Ijo33c:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0PLrWEP:/home/rathi/.local/share/npm/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/rathi/.amp/bin:/home/rathi/.bun/bin:/home/rathi/.antigravity/antigravity/bin:/home/rathi/.opencode/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.nix-profile/bin:/run/wrappers/bin:/etc/profiles/per-user/rathi/bin:/run/current-system/sw/bin:/nix/var/nix/profiles/default/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/pnpm:/nix/profile/bin:/home/rathi/.local/state/nix/profile/bin",
+      "HOME": "/home/rathi",
+      "USER": "rathi",
+      "LANG": "C.UTF-8",
+      "NIX_LD": "/run/current-system/sw/share/nix-ld/lib/ld.so",
+      "NIX_LD_LIBRARY_PATH": "/run/current-system/sw/share/nix-ld/lib",
+      "LC_ALL": "C",
+      "PYTHONHASHSEED": "0",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "GOMAXPROCS": "2",
+      "BENCH_WORKERS": "2",
+      "TOKIO_WORKER_THREADS": "2",
+      "BAML_TELEMETRY": "off",
+      "BAML_NO_BYTECODE_CACHE": "1",
+      "BAML_NO_DIAGNOSTICS_CACHE": "1",
+      "BAML_AGENT_SKILL_CHECK": "off",
+      "GOTOOLCHAIN": "local",
+      "CARGO_NET_OFFLINE": "true",
+      "RUSTC": "/home/rathi/.local/share/rustup/toolchains/1.98.1-aarch64-unknown-linux-gnu/bin/rustc"
+    },
+    "artifact": "/home/rathi/Documents/Git/boundary/instrumentation/.cache/tools/python/python/bin/python3",
+    "artifact_sha256": "dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6",
+    "artifact_bytes": 5630,
+    "source_bytes": 4159,
+    "tools": {
+      "baml": {
+        "version": "0.20.2-nightly.20260927.a",
+        "executable": "bin/baml-cli",
+        "filename": "baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/BoundaryML/baml/releases/download/baml-language-0.20.2-nightly.20260927.a/baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "sha256": "a284c71581d66f3ce5488482d0c943c803eb216dd10689c0f014eda8aca59da7"
+      },
+      "go": {
+        "version": "1.27.1",
+        "executable": "go/bin/go",
+        "filename": "go1.27.1.linux-arm64.tar.gz",
+        "url": "https://go.dev/dl/go1.27.1.linux-arm64.tar.gz",
+        "sha256": "3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec"
+      },
+      "python": {
+        "version": "3.14.7",
+        "executable": "python/bin/python3",
+        "filename": "cpython-3.14.7+20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.14.7%2B20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "sha256": "9b8bd45d06fc3fcdc56f2713a62535fe1c019816461ae87c170dd56184dd3f4d"
+      },
+      "bun": {
+        "version": "1.4.2",
+        "executable": "bun-linux-aarch64/bun",
+        "filename": "bun-linux-aarch64.zip",
+        "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-aarch64.zip",
+        "sha256": "54328bbc2d9c8e0c9f892c544d66c57a83b84139e34909e5ee81758f1ac8fda7"
+      },
+      "rust": {
+        "version": "1.98.1",
+        "source": "https://static.rust-lang.org/dist/channel-rust-stable.toml"
+      },
+      "node": {
+        "version": "26.10.0",
+        "executable": "node-v26.10.0-linux-arm64/bin/node",
+        "filename": "node-v26.10.0-linux-arm64.tar.xz",
+        "url": "https://nodejs.org/dist/v26.10.0/node-v26.10.0-linux-arm64.tar.xz",
+        "sha256": "7a6353f63eb3d04765004b4adf172616243e4522434635cb1d26288658b04ab5"
+      }
+    },
+    "cpu_affinity": [
+      15,
+      16
+    ],
+    "workers": 2,
+    "runtime_executable_bytes": 23081824
+  },
+  "08_stateful_workflow/node": {
+    "language": "node",
+    "backend": "node",
+    "sources": {
+      "cases/08_stateful_workflow/workload.ts": "ddaa5dc7c3f75897408952c6bfe58209dc4559da5788034600bcc15db8e1c447",
+      "machinery/adapters/main.ts": "a22e357eea36d0a66eb9734f2532f70acd9258c32dfa6dc9cdf5d5099205171c"
+    },
+    "cache_policy": "empty application and dependency compilation caches; dependencies fetched before timer",
+    "version": "v26.10.0",
+    "artifact_kind": "source and measurement adapter; interpreter is shared",
+    "compile_status": "not_applicable",
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/tools/node/node-v26.10.0-linux-arm64/bin/node",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/machinery/adapters/main.ts",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/cases/08_stateful_workflow/workload.ts"
+    ],
+    "build_environment": {
+      "PATH": "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.local/share/pnpm:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg04bqafF:/home/rathi/.codex/tmp/arg0/codex-arg04wpqCe:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0u7FzUa:/home/rathi/.codex/packages/app-server-daemon/releases/0.158.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0ebZ2aT:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0Ijo33c:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0PLrWEP:/home/rathi/.local/share/npm/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/rathi/.amp/bin:/home/rathi/.bun/bin:/home/rathi/.antigravity/antigravity/bin:/home/rathi/.opencode/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.nix-profile/bin:/run/wrappers/bin:/etc/profiles/per-user/rathi/bin:/run/current-system/sw/bin:/nix/var/nix/profiles/default/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/pnpm:/nix/profile/bin:/home/rathi/.local/state/nix/profile/bin",
+      "HOME": "/home/rathi",
+      "USER": "rathi",
+      "LANG": "C.UTF-8",
+      "NIX_LD": "/run/current-system/sw/share/nix-ld/lib/ld.so",
+      "NIX_LD_LIBRARY_PATH": "/run/current-system/sw/share/nix-ld/lib",
+      "LC_ALL": "C",
+      "PYTHONHASHSEED": "0",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "GOMAXPROCS": "2",
+      "BENCH_WORKERS": "2",
+      "TOKIO_WORKER_THREADS": "2",
+      "BAML_TELEMETRY": "off",
+      "BAML_NO_BYTECODE_CACHE": "1",
+      "BAML_NO_DIAGNOSTICS_CACHE": "1",
+      "BAML_AGENT_SKILL_CHECK": "off",
+      "GOTOOLCHAIN": "local",
+      "CARGO_NET_OFFLINE": "true",
+      "RUSTC": "/home/rathi/.local/share/rustup/toolchains/1.98.1-aarch64-unknown-linux-gnu/bin/rustc"
+    },
+    "artifact": "/home/rathi/Documents/Git/boundary/instrumentation/.cache/tools/node/node-v26.10.0-linux-arm64/bin/node",
+    "artifact_sha256": "71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03",
+    "artifact_bytes": 4306,
+    "source_bytes": 3448,
+    "tools": {
+      "baml": {
+        "version": "0.20.2-nightly.20260927.a",
+        "executable": "bin/baml-cli",
+        "filename": "baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/BoundaryML/baml/releases/download/baml-language-0.20.2-nightly.20260927.a/baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "sha256": "a284c71581d66f3ce5488482d0c943c803eb216dd10689c0f014eda8aca59da7"
+      },
+      "go": {
+        "version": "1.27.1",
+        "executable": "go/bin/go",
+        "filename": "go1.27.1.linux-arm64.tar.gz",
+        "url": "https://go.dev/dl/go1.27.1.linux-arm64.tar.gz",
+        "sha256": "3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec"
+      },
+      "python": {
+        "version": "3.14.7",
+        "executable": "python/bin/python3",
+        "filename": "cpython-3.14.7+20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.14.7%2B20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "sha256": "9b8bd45d06fc3fcdc56f2713a62535fe1c019816461ae87c170dd56184dd3f4d"
+      },
+      "bun": {
+        "version": "1.4.2",
+        "executable": "bun-linux-aarch64/bun",
+        "filename": "bun-linux-aarch64.zip",
+        "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-aarch64.zip",
+        "sha256": "54328bbc2d9c8e0c9f892c544d66c57a83b84139e34909e5ee81758f1ac8fda7"
+      },
+      "rust": {
+        "version": "1.98.1",
+        "source": "https://static.rust-lang.org/dist/channel-rust-stable.toml"
+      },
+      "node": {
+        "version": "26.10.0",
+        "executable": "node-v26.10.0-linux-arm64/bin/node",
+        "filename": "node-v26.10.0-linux-arm64.tar.xz",
+        "url": "https://nodejs.org/dist/v26.10.0/node-v26.10.0-linux-arm64.tar.xz",
+        "sha256": "7a6353f63eb3d04765004b4adf172616243e4522434635cb1d26288658b04ab5"
+      }
+    },
+    "cpu_affinity": [
+      15,
+      16
+    ],
+    "workers": 2,
+    "runtime_executable_bytes": 149852768
+  },
+  "08_stateful_workflow/bun": {
+    "language": "bun",
+    "backend": "bun",
+    "sources": {
+      "cases/08_stateful_workflow/workload.ts": "ddaa5dc7c3f75897408952c6bfe58209dc4559da5788034600bcc15db8e1c447",
+      "machinery/adapters/main.ts": "a22e357eea36d0a66eb9734f2532f70acd9258c32dfa6dc9cdf5d5099205171c"
+    },
+    "cache_policy": "empty application and dependency compilation caches; dependencies fetched before timer",
+    "version": "1.4.2",
+    "artifact_kind": "source and measurement adapter; interpreter is shared",
+    "compile_status": "not_applicable",
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/tools/bun/bun-linux-aarch64/bun",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/machinery/adapters/main.ts",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/stateful-baseline/cases/08_stateful_workflow/workload.ts"
+    ],
+    "build_environment": {
+      "PATH": "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.local/share/pnpm:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg04bqafF:/home/rathi/.codex/tmp/arg0/codex-arg04wpqCe:/home/rathi/.codex/packages/app-server-daemon/releases/0.159.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0u7FzUa:/home/rathi/.codex/packages/app-server-daemon/releases/0.158.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0ebZ2aT:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.1-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0Ijo33c:/home/rathi/.codex/packages/app-server-daemon/releases/0.157.0-aarch64-unknown-linux-musl/codex-path:/home/rathi/.codex/tmp/arg0/codex-arg0PLrWEP:/home/rathi/.local/share/npm/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-arm64/vendor/aarch64-unknown-linux-musl/codex-path:/home/rathi/.amp/bin:/home/rathi/.bun/bin:/home/rathi/.antigravity/antigravity/bin:/home/rathi/.opencode/bin:/home/rathi/.local/share/npm/bin:/home/rathi/.nix-profile/bin:/run/wrappers/bin:/etc/profiles/per-user/rathi/bin:/run/current-system/sw/bin:/nix/var/nix/profiles/default/bin:/home/rathi/.local/bin:/home/rathi/.local/share/cargo/bin:/home/rathi/.local/share/go/bin:/home/rathi/.local/share/pnpm:/nix/profile/bin:/home/rathi/.local/state/nix/profile/bin",
+      "HOME": "/home/rathi",
+      "USER": "rathi",
+      "LANG": "C.UTF-8",
+      "NIX_LD": "/run/current-system/sw/share/nix-ld/lib/ld.so",
+      "NIX_LD_LIBRARY_PATH": "/run/current-system/sw/share/nix-ld/lib",
+      "LC_ALL": "C",
+      "PYTHONHASHSEED": "0",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "GOMAXPROCS": "2",
+      "BENCH_WORKERS": "2",
+      "TOKIO_WORKER_THREADS": "2",
+      "BAML_TELEMETRY": "off",
+      "BAML_NO_BYTECODE_CACHE": "1",
+      "BAML_NO_DIAGNOSTICS_CACHE": "1",
+      "BAML_AGENT_SKILL_CHECK": "off",
+      "GOTOOLCHAIN": "local",
+      "CARGO_NET_OFFLINE": "true",
+      "RUSTC": "/home/rathi/.local/share/rustup/toolchains/1.98.1-aarch64-unknown-linux-gnu/bin/rustc"
+    },
+    "artifact": "/home/rathi/Documents/Git/boundary/instrumentation/.cache/tools/bun/bun-linux-aarch64/bun",
+    "artifact_sha256": "616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1",
+    "artifact_bytes": 4306,
+    "source_bytes": 3448,
+    "tools": {
+      "baml": {
+        "version": "0.20.2-nightly.20260927.a",
+        "executable": "bin/baml-cli",
+        "filename": "baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/BoundaryML/baml/releases/download/baml-language-0.20.2-nightly.20260927.a/baml-language-0.20.2-nightly.20260927.a-aarch64-unknown-linux-musl.tar.gz",
+        "sha256": "a284c71581d66f3ce5488482d0c943c803eb216dd10689c0f014eda8aca59da7"
+      },
+      "go": {
+        "version": "1.27.1",
+        "executable": "go/bin/go",
+        "filename": "go1.27.1.linux-arm64.tar.gz",
+        "url": "https://go.dev/dl/go1.27.1.linux-arm64.tar.gz",
+        "sha256": "3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec"
+      },
+      "python": {
+        "version": "3.14.7",
+        "executable": "python/bin/python3",
+        "filename": "cpython-3.14.7+20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260929/cpython-3.14.7%2B20260929-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+        "sha256": "9b8bd45d06fc3fcdc56f2713a62535fe1c019816461ae87c170dd56184dd3f4d"
+      },
+      "bun": {
+        "version": "1.4.2",
+        "executable": "bun-linux-aarch64/bun",
+        "filename": "bun-linux-aarch64.zip",
+        "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-aarch64.zip",
+        "sha256": "54328bbc2d9c8e0c9f892c544d66c57a83b84139e34909e5ee81758f1ac8fda7"
+      },
+      "rust": {
+        "version": "1.98.1",
+        "source": "https://static.rust-lang.org/dist/channel-rust-stable.toml"
+      },
+      "node": {
+        "version": "26.10.0",
+        "executable": "node-v26.10.0-linux-arm64/bin/node",
+        "filename": "node-v26.10.0-linux-arm64.tar.xz",
+        "url": "https://nodejs.org/dist/v26.10.0/node-v26.10.0-linux-arm64.tar.xz",
+        "sha256": "7a6353f63eb3d04765004b4adf172616243e4522434635cb1d26288658b04ab5"
+      }
+    },
+    "cpu_affinity": [
+      15,
+      16
+    ],
+    "workers": 2,
+    "runtime_executable_bytes": 79420872
+  }
+}
