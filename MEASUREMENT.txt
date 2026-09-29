@@ -1,0 +1,58 @@
+What the runner measures
+
+Compilation/packing occurs before all execution timers. Source preparation and
+fixture generation are not timed. Build latency and incremental compilation are
+NOT measured by this runner; existing compiler_benchmark is a separate starting
+point. A future Nix setup should pin tools/flags, not merge these different clocks.
+
+The child reads input, prepares state and emits @ready. It warms up in the SAME
+process, then receives a batch count, performs jobs and emits every complete result
+and @done. The parent validates after the batch. No forced GC in timed cases.
+
+ready_s: launch -> loaded/prepared child, including fixture delivery.
+batch.wall_s: parent monotonic clock, command delivery -> @done receipt.
+  Includes work, output serialization, pipe transfer/backpressure and marker cost.
+  NOT a pure VM kernel timer. Small jobs must be batched or treated as harness floor.
+batch.cpu_s_ticks: process-wide /proc CPU delta, all child threads; tick-resolution.
+  Quantization is recorded. A zero/tiny delta does NOT mean zero/free work.
+  Use batches consuming many ticks; do not divide a one-tick observation into
+  apparently precise nanoseconds. Sampling adds overhead; compare unprofiled runs
+  before accepting small differences.
+completion_offsets_s: receipt times; useful for observing stalls, NOT GC pauses
+  or open-loop request latency. Multiple lines can arrive in one OS read.
+invocation.cpu_s: wait4 user+system CPU for the entire child, including startup,
+  warmup, work, protocol and shutdown. Do not label this steady-state CPU/job.
+invocation.wall_s: launch -> reaped exit, including parent validation/idle time.
+invocation.peak_rss_bytes: Linux wait4 high-water RSS for this child, in bytes.
+invocation.samples: ~5ms best-effort process CPU/RSS samples. Peak RSS is not
+  the largest sample; use wait4. Neither is live-heap bytes.
+shutdown_wall_s: stop command -> exit, including runtime cleanup/telemetry drain.
+  Background work may run during every phase. Do not add overlapping CPU and wall.
+
+HTTP uses a separate child process and fixed scheduled arrivals. The parent is the
+load generator. Request latency includes delay from intended arrival; completions
+do not control the next arrival. Report errors and late responses alongside goodput.
+Server CPU includes unsuccessful work; divide by correct completions when comparing.
+Client CPU is separate. A saturated client invalidates a server-capacity inference;
+inspect dispatch lag and repeat from another host for production capacity claims.
+Library stacks and effective concurrency differ; pin affinity/worker settings and
+report them. A request-handling VM thread is not necessarily an OS thread.
+
+Telemetry is requested via BAML_TELEMETRY=medium/off. Medium is the proposed product
+configuration; other languages have no equivalent BAML instrumentation. This is
+a product comparison, not equal-instrumentation backend attribution. The packed
+runtime owns its default local sink and shutdown. stderr is retained and a reported
+recording failure invalidates a trial. Exit success/file existence does NOT prove
+required events were captured or durably flushed. Inspect records before accepting
+a telemetry-on performance claim. The old validation binary writes profiles-v1;
+the inspected checkout uses btel, so do not transfer sink semantics between them.
+
+Manifest executable_bytes is only artifact inventory, never total shipped size.
+For deployment comparisons separately inventory required runtimes/libraries,
+feature sets, architecture, stripping/linkage and compressed/raw payload bytes.
+This harness includes JSON and async support even in its constant-return case.
+
+Defaults and smoke tests establish executability, not reliable performance ranks.
+Choose trial length, warmup, resource limits and latency/memory budgets first.
+Retain raw process trials, interleave variants, and report variation. Exact build
+revision is separate from source checkout HEAD; unknown remains unknown.
