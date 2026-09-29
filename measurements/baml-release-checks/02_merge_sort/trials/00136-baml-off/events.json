@@ -1,0 +1,28 @@
+[
+  {
+    "event": "ready",
+    "load_ns": 7956177,
+    "setup_ns": 5171909,
+    "received_ns": 14533995
+  },
+  {
+    "event": "result",
+    "jobs": 1,
+    "execution_wall_ns": 63056,
+    "execution_cpu_ns": 64512,
+    "result": "[0,1,1,1,1,1,2,2,2,2,3,3,4,4,5,7,7]",
+    "gc_execution": 0,
+    "gc_warmup": 0,
+    "gc_counter": "full_collections",
+    "workers": 2,
+    "received_ns": 14662924
+  },
+  {
+    "event": "drained",
+    "drain_ns": 128609,
+    "gc_drain": 1,
+    "telemetry_ok": true,
+    "delivery_loss": 0,
+    "received_ns": 14719180
+  }
+]

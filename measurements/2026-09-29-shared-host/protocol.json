@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "purpose": "First shared-host comparison; not an idle-machine or steady-state claim",
+  "cpus": "15,16",
+  "workers": 2,
+  "backend": "baml-release",
+  "compile_trials": 5,
+  "runtime_trials": 20,
+  "seed": 1729,
+  "host_isolation": "shared host, performance governor; no services stopped or cores reserved",
+  "scenarios": [
+    {"name":"startup","case":"00_startup","jobs":1,"warmup":0,"claim":"Fresh measurement-adapter process; inspect whole-process time"},
+    {"name":"array-empty","case":"01_array_traversal","size":0,"jobs":4096,"warmup":16,"claim":"Entry, loop check and result serialization floor; do not subtract it"},
+    {"name":"array-small","case":"01_array_traversal","size":128,"jobs":4096,"warmup":16,"claim":"Short immutable traversal"},
+    {"name":"array-iterator","case":"01_array_traversal","size":8192,"variant":"iterator","jobs":128,"warmup":4,"claim":"Iterator traversal"},
+    {"name":"array-indexed","case":"01_array_traversal","size":8192,"variant":"indexed","jobs":128,"warmup":4,"claim":"Indexed traversal of identical values"},
+    {"name":"array-build","case":"01_array_traversal","size":8192,"variant":"build","jobs":128,"warmup":4,"claim":"Append copy and traversal; backing-store allocation differs by runtime"},
+    {"name":"sort-random","case":"02_merge_sort","size":1024,"variant":"random","jobs":32,"warmup":4,"claim":"Copy, merge sort and full-result serialization"},
+    {"name":"json-aggregate","case":"03_json_aggregate","size":1024,"jobs":32,"warmup":4,"claim":"Parse, validate, group, sort and encode"},
+    {"name":"allocation-low-retention","case":"04_allocation_retention","size":2048,"batches":128,"retain":4,"jobs":8,"warmup":1,"requires_gc":{"baml":3,"go":3},"claim":"Natural collection under churn; retain 4 of 128 batches per job"},
+    {"name":"allocation-high-retention","case":"04_allocation_retention","size":2048,"batches":128,"retain":64,"jobs":8,"warmup":1,"requires_gc":{"baml":3,"go":3},"claim":"Same churn with 16 times as many retained batches"},
+    {"name":"async-fanout","case":"05_async_fanout","size":1024,"fanout":16,"delay_ms":1,"jobs":16,"warmup":4,"claim":"Concurrent timer waiting and retained payload; no parallel CPU scaling claim"},
+    {"name":"calls-empty","case":"07_function_calls","size":0,"jobs":4096,"warmup":16,"claim":"Loop-entry and result-string cost with no leaf calls"},
+    {"name":"calls","case":"07_function_calls","size":128,"jobs":4096,"warmup":16,"claim":"Source-level leaf-call loop; optimizer may inline or remove calls"},
+    {"name":"calls-no-sink","case":"07_function_calls","size":128,"jobs":4096,"warmup":16,"languages":["baml"],"sink":"none","claim":"Same work with BTEL processing and no recording destination"}
+  ]
+}

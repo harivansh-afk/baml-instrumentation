@@ -1,0 +1,2 @@
+{"event":"ready"}
+{"event":"result","execution_cpu_ns":719184,"execution_wall_ns":37500728,"gc_counter":"not_applicable; ownership and reference counting","gc_execution":null,"jobs":16,"result":"[523776,524800,525824,526848,527872,528896,529920,530944,531968,532992,534016,535040,536064,537088,538112,539136]"}

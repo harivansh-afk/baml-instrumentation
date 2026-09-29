@@ -51,10 +51,14 @@ FIELDS = [
     "launch_to_ready_ns",
     "peak_rss_bytes",
     "drain_ns",
+    "metadata_ns",
     "gc_execution",
     "gc_warmup",
     "gc_drain",
     "gc_counter",
+    "allocated_bytes",
+    "heap_alloc_bytes",
+    "gc_pause_ns",
     "telemetry_valid",
     "telemetry_run_count",
     "recording_bytes",
@@ -422,11 +426,18 @@ def trial(record, raw, case, lang, level, sink, jobs, warmup, directory, args):
             row["status"] = "telemetry_failure"
         if sink == "local" and level != "off" and row["status"] == "ok":
             check = subprocess.run(
-                [record["host"], "inspect", str(recordings), str(jobs + warmup), level],
+                [
+                    record["host"],
+                    "inspect",
+                    str(recordings),
+                    str(jobs + warmup),
+                    level,
+                    json.dumps(drain.get("function_names", {})),
+                ],
                 capture_output=True,
                 text=True,
                 env=e,
-                timeout=args.timeout,
+                timeout=args.timeout or None,
             )
             (directory / "telemetry.json").write_text(check.stdout)
             (directory / "telemetry.stderr.txt").write_text(check.stderr)
@@ -542,7 +553,7 @@ def execute(args):
                 directory,
                 args,
             )
-        except Exception as error:
+        except (Exception, KeyboardInterrupt) as error:
             row = dict(
                 schema=1,
                 case=case,
@@ -550,8 +561,15 @@ def execute(args):
                 backend=record["backend"],
                 level=level,
                 sink=sink,
-                status="harness_error",
+                status="interrupted"
+                if isinstance(error, KeyboardInterrupt)
+                else "harness_error",
                 error=str(error),
+                jobs=1 if args.action == "verify" else args.jobs,
+                warmup=0 if args.action == "verify" else args.warmup,
+                input_sha256=hashlib.sha256(raw.encode()).hexdigest(),
+                artifact_sha256=record["artifact_sha256"],
+                trial_path=str(directory.relative_to(args.output)),
             )
             write(directory / "sample.json", row)
         row.update(scenario=label, trial=repeat)
@@ -566,6 +584,10 @@ def execute(args):
             f"{n + 1}/{len(schedule)} {case}/{lang}/{level}/{label}: {row['status']} {row.get('coverage', '')}",
             flush=True,
         )
+        if row["status"] == "interrupted":
+            metadata.update(status="interrupted", trials=len(rows))
+            write(args.output / "environment.json", metadata)
+            raise KeyboardInterrupt
     failed = any(r["status"] != "ok" for r in rows)
     metadata.update(status="failed" if failed else "passed", trials=len(rows))
     write(args.output / "environment.json", metadata)
@@ -593,7 +615,9 @@ def main():
         default=[min(os.sched_getaffinity(0))],
     )
     p.add_argument("--workers", type=int, default=1)
-    p.add_argument("--timeout", type=float, default=110)
+    p.add_argument(
+        "--timeout", type=float, default=0, help="seconds; 0 disables the cutoff"
+    )
     p.add_argument("--output", type=Path)
     p.add_argument(
         "--levels",
@@ -639,12 +663,17 @@ def main():
         args.created_output = False
         try:
             execute(args)
-        except Exception as error:
+        except (Exception, KeyboardInterrupt) as error:
             metadata_path = args.output / "environment.json"
             if args.created_output and metadata_path.exists():
                 metadata = json.loads(metadata_path.read_text())
                 if metadata.get("status") == "running":
-                    metadata.update(status="setup_error", error=str(error))
+                    metadata.update(
+                        status="interrupted"
+                        if isinstance(error, KeyboardInterrupt)
+                        else "setup_error",
+                        error=str(error),
+                    )
                     write(metadata_path, metadata)
             raise
 

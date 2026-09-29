@@ -1,0 +1,1212 @@
+[
+  {
+    "scenario": "startup",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "startup",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "startup",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "startup",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "startup",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "startup",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "startup",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "startup",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "startup",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-empty",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-empty",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-empty",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-empty",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-empty",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-empty",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-empty",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-empty",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-empty",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-small",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-small",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-small",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-small",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-small",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-small",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-small",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-small",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-small",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-iterator",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-iterator",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-iterator",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-iterator",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-iterator",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-iterator",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-iterator",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-iterator",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-iterator",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-indexed",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-indexed",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-indexed",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-indexed",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-indexed",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-indexed",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-indexed",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-indexed",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-indexed",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-build",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-build",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-build",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-build",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-build",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-build",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 8,
+    "gc_maximum": 11,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-build",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-build",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "array-build",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "sort-random",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "sort-random",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "sort-random",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "sort-random",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "sort-random",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "sort-random",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "sort-random",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "sort-random",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "sort-random",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-aggregate",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-aggregate",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-aggregate",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-aggregate",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-aggregate",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-aggregate",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 6,
+    "gc_maximum": 7,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-aggregate",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-aggregate",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "json-aggregate",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "allocation-low-retention",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 8,
+    "gc_maximum": 8,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-low-retention",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 8,
+    "gc_maximum": 8,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-low-retention",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 8,
+    "gc_maximum": 8,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-low-retention",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 8,
+    "gc_maximum": 8,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-low-retention",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "allocation-low-retention",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 71,
+    "gc_maximum": 79,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-low-retention",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 2048,
+    "gc_maximum": 2048,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "allocation-low-retention",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "allocation-low-retention",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "allocation-high-retention",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 6,
+    "gc_maximum": 6,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-high-retention",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 6,
+    "gc_maximum": 6,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-high-retention",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 6,
+    "gc_maximum": 6,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-high-retention",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 6,
+    "gc_maximum": 6,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-high-retention",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "allocation-high-retention",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 17,
+    "gc_maximum": 26,
+    "required_gc_minimum": 3,
+    "gc_requirement_passed": true
+  },
+  {
+    "scenario": "allocation-high-retention",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 2072,
+    "gc_maximum": 2072,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "allocation-high-retention",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "allocation-high-retention",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "async-fanout",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "async-fanout",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "async-fanout",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "async-fanout",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "async-fanout",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "async-fanout",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 2,
+    "gc_maximum": 2,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "async-fanout",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "async-fanout",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "async-fanout",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-empty",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-empty",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-empty",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-empty",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-empty",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-empty",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-empty",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-empty",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-empty",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls",
+    "configuration": "rust",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls",
+    "configuration": "go",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls",
+    "configuration": "python",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls",
+    "configuration": "node",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls",
+    "configuration": "bun",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": null,
+    "gc_maximum": null,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-no-sink",
+    "configuration": "baml/off",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-no-sink",
+    "configuration": "baml/low",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-no-sink",
+    "configuration": "baml/medium",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  },
+  {
+    "scenario": "calls-no-sink",
+    "configuration": "baml/high",
+    "observations": 20,
+    "failed": 0,
+    "gc_minimum": 0,
+    "gc_maximum": 0,
+    "required_gc_minimum": null,
+    "gc_requirement_passed": null
+  }
+]

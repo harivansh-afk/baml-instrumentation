@@ -1,0 +1,16 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 1863435
+  },
+  {
+    "event": "result",
+    "execution_cpu_ns": 1152,
+    "execution_wall_ns": 2736,
+    "gc_counter": "not_applicable; ownership and reference counting",
+    "gc_execution": null,
+    "jobs": 1,
+    "result": "42",
+    "received_ns": 1873723
+  }
+]

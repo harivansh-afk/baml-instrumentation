@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "protocol_sha256": "78f7a09e4bb0523535bbce4276ecb3304e9984be708b4009724ef7edd6ab54ca",
+  "baseline_accepted": false,
+  "previous_attempts": [
+    {
+      "status": "failed",
+      "protocol_sha256": "78f7a09e4bb0523535bbce4276ecb3304e9984be708b4009724ef7edd6ab54ca",
+      "baseline_accepted": false,
+      "error": "Command '['/home/rathi/.local/share/uv/python/cpython-3.12-linux-aarch64-gnu/bin/python3.12', '/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/machinery/report.py', '/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/measurements/2026-09-29-shared-host/runtime/startup']' returned non-zero exit status 1."
+    }
+  ],
+  "failed_scenarios": []
+}

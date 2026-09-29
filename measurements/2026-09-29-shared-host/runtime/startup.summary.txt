@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/machinery/report.py", line 7, in <module>
+    import statistics
+  File "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/lib/python3.12/statistics.py", line 135, in <module>
+    from fractions import Fraction
+  File "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/lib/python3.12/fractions.py", line 6, in <module>
+    from decimal import Decimal
+  File "/home/rathi/.local/share/uv/python/cpython-3.12.13-linux-aarch64-gnu/lib/python3.12/decimal.py", line 102, in <module>
+    from _decimal import *
+AttributeError: module 'numbers' has no attribute 'Number'

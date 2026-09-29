@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "05_async_fanout",
+  "language": "node",
+  "backend": "node",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 32,
+  "warmup": 4,
+  "artifact_sha256": "71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03",
+  "input_sha256": "6f638decd94bc8c665d8ec7660cbb94cf86c8ef14bf60f4ffa1a69a4585584eb",
+  "trial_path": "05_async_fanout/trials/00029-node-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 111830570,
+  "process_cpu_ns": 75596000,
+  "peak_rss_bytes": 79020032,
+  "launch_to_ready_ns": 57845381,
+  "execution_wall_ns": 40291163,
+  "execution_cpu_ns": 9774000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "pilot",
+  "trial": 0
+}

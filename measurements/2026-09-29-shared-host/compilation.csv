@@ -1,0 +1,211 @@
+repeat,case,language,backend,artifact_kind,artifact_bytes,shared_host_bytes,runtime_executable_bytes,artifact_sha256,status,process_wall_ns,process_cpu_ns,peak_rss_bytes
+0,00_startup,python,python,source and measurement adapter; interpreter is shared,1573,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,00_startup,go,go,native executable plus measurement adapter,2556064,,,66ebf0cc754fd8ab248b16b28f1568e1df5aad41e50192c313e5cf2104b85ee9,ok,4036436166,6582579000,282124288
+0,00_startup,rust,rust,native executable plus measurement adapter,529136,,,790d4411a0e25fe3eeba28c338fd33594fda7655b48fbb1645bba5bdf81edb08,ok,6221499110,10602474000,322109440
+0,00_startup,node,node,source and measurement adapter; interpreter is shared,1039,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,00_startup,bun,bun,source and measurement adapter; interpreter is shared,1039,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,01_array_traversal,python,python,source and measurement adapter; interpreter is shared,1991,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,01_array_traversal,go,go,native executable plus measurement adapter,2556064,,,a71e95ab3c91a20b97ad3f5e74da1483577d6fd3a371d4258d27eb33525fa5bd,ok,3885740554,6453352000,269438976
+0,01_array_traversal,rust,rust,native executable plus measurement adapter,529136,,,bc40f117a5e65c7f62842f3bbb220ea3ccdcdbd63fc56de4748d2436a42eb863,ok,5790329423,10520478000,322404352
+0,01_array_traversal,node,node,source and measurement adapter; interpreter is shared,1413,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,01_array_traversal,bun,bun,source and measurement adapter; interpreter is shared,1413,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,04_allocation_retention,python,python,source and measurement adapter; interpreter is shared,2366,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,04_allocation_retention,go,go,native executable plus measurement adapter,2556064,,,26689b08c2d422321f236693b19c088342f0d85b9759d7ad79d9f29b389782f4,ok,3869113876,6501750000,265797632
+0,04_allocation_retention,rust,rust,native executable plus measurement adapter,529136,,,75b844abe43f3627c147af2682846d94ccb99ff0b6b096655fc9693865adfc24,ok,6202437611,10679429000,322355200
+0,04_allocation_retention,node,node,source and measurement adapter; interpreter is shared,1809,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,04_allocation_retention,bun,bun,source and measurement adapter; interpreter is shared,1809,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,37a8e5a50d0debdfc516347fdfe6d9c56be7e639bac52985903bc2265591938a,ok,3899801851,6502034000,278978560
+0,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,5869099000,10564166000,322695168
+0,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,03_json_aggregate,python,python,source and measurement adapter; interpreter is shared,2519,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,03_json_aggregate,go,go,native executable plus measurement adapter,2556064,,,27e8c16760c590e68f46459f5b68020651ef6dbb71a4cbae520edebf4253cc76,ok,3883635917,6584652000,274747392
+0,03_json_aggregate,rust,rust,native executable plus measurement adapter,529136,,,e322e91171cbf92177cbe8e169dbd93f9a7e53e618a7a601eb78d02f9e694f1c,ok,6120692372,10588701000,322310144
+0,03_json_aggregate,node,node,source and measurement adapter; interpreter is shared,1853,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,03_json_aggregate,bun,bun,source and measurement adapter; interpreter is shared,1853,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,05_async_fanout,python,python,source and measurement adapter; interpreter is shared,1945,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,05_async_fanout,go,go,native executable plus measurement adapter,2556064,,,f4725f3b4a49fa5272897c57de63412dbaca507fc42daaacd210e8d0202b30a1,ok,3935833208,6445792000,275599360
+0,05_async_fanout,rust,rust,native executable plus measurement adapter,529144,,,e998da5f8393cfa40766ec463063a41ae6ff68d546d6330e10c271c98b99c8a3,ok,5981653796,10809262000,322486272
+0,05_async_fanout,node,node,source and measurement adapter; interpreter is shared,1592,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,05_async_fanout,bun,bun,source and measurement adapter; interpreter is shared,1592,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,07_function_calls,python,python,source and measurement adapter; interpreter is shared,1706,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+0,07_function_calls,go,go,native executable plus measurement adapter,2556064,,,eb0220c814141df156c86a9cc27b410ea65fa3a615d6a7ed245fcaa9471dea7e,ok,3945383142,6516825000,279793664
+0,07_function_calls,rust,rust,native executable plus measurement adapter,529136,,,6b450ee7086da0b0dfb4f1ef8f1785e461f4c0c8b8a02a57d31fa2b588b5665a,ok,6215348660,10612372000,322203648
+0,07_function_calls,node,node,source and measurement adapter; interpreter is shared,1211,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+0,07_function_calls,bun,bun,source and measurement adapter; interpreter is shared,1211,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+0,00_startup,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632079,27338480,,e74e6703b237784565940be54c58aaa45ed6684c605282b5b35ed70ac96cbbd7,ok,726486958,1016020000,230805504
+0,01_array_traversal,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2634360,27338480,,0b16e3775422840b4b3e5736cabb701f0d320bc714bb3e51c73a79d342e782ad,ok,695615163,1000388000,227311616
+0,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,662695343,1000370000,227901440
+0,03_json_aggregate,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2639232,27338480,,93e62c9bb9f5aec2d7a77e236ea5f44a70b1bb344205983cce71c5c97018844d,ok,687716907,1008187000,231432192
+0,04_allocation_retention,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637607,27338480,,757b2480d4d5db66acb672a7123ba38ef4df7dfd6663ecd13995e42e143055c5,ok,701987594,1006869000,228007936
+0,05_async_fanout,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636979,27338480,,c0c477949676dfaa7a013f42c8137101135382a91c279aae3ba3133e5b9f4367,ok,699229343,1003776000,231096320
+0,07_function_calls,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633107,27338480,,ebe71358676c25fcc209982c335a8804d48bcca4b8cf8255b21e2685b6e5f229,ok,685779094,1004590000,227606528
+1,00_startup,python,python,source and measurement adapter; interpreter is shared,1573,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,00_startup,go,go,native executable plus measurement adapter,2556064,,,66ebf0cc754fd8ab248b16b28f1568e1df5aad41e50192c313e5cf2104b85ee9,ok,3868303988,6486949000,266313728
+1,00_startup,rust,rust,native executable plus measurement adapter,529136,,,790d4411a0e25fe3eeba28c338fd33594fda7655b48fbb1645bba5bdf81edb08,ok,6096039587,10556246000,322408448
+1,00_startup,node,node,source and measurement adapter; interpreter is shared,1039,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,00_startup,bun,bun,source and measurement adapter; interpreter is shared,1039,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,01_array_traversal,python,python,source and measurement adapter; interpreter is shared,1991,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,01_array_traversal,go,go,native executable plus measurement adapter,2556064,,,a71e95ab3c91a20b97ad3f5e74da1483577d6fd3a371d4258d27eb33525fa5bd,ok,4036641370,6548053000,284405760
+1,01_array_traversal,rust,rust,native executable plus measurement adapter,529136,,,bc40f117a5e65c7f62842f3bbb220ea3ccdcdbd63fc56de4748d2436a42eb863,ok,6054822459,10565493000,322547712
+1,01_array_traversal,node,node,source and measurement adapter; interpreter is shared,1413,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,01_array_traversal,bun,bun,source and measurement adapter; interpreter is shared,1413,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,04_allocation_retention,python,python,source and measurement adapter; interpreter is shared,2366,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,04_allocation_retention,go,go,native executable plus measurement adapter,2556064,,,26689b08c2d422321f236693b19c088342f0d85b9759d7ad79d9f29b389782f4,ok,3840054031,6509789000,279379968
+1,04_allocation_retention,rust,rust,native executable plus measurement adapter,529136,,,75b844abe43f3627c147af2682846d94ccb99ff0b6b096655fc9693865adfc24,ok,6084400802,10591816000,322355200
+1,04_allocation_retention,node,node,source and measurement adapter; interpreter is shared,1809,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,04_allocation_retention,bun,bun,source and measurement adapter; interpreter is shared,1809,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,37a8e5a50d0debdfc516347fdfe6d9c56be7e639bac52985903bc2265591938a,ok,3958074255,6516467000,281501696
+1,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,5938354400,10558675000,321818624
+1,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,03_json_aggregate,python,python,source and measurement adapter; interpreter is shared,2519,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,03_json_aggregate,go,go,native executable plus measurement adapter,2556064,,,27e8c16760c590e68f46459f5b68020651ef6dbb71a4cbae520edebf4253cc76,ok,3996009319,6630191000,289751040
+1,03_json_aggregate,rust,rust,native executable plus measurement adapter,529136,,,e322e91171cbf92177cbe8e169dbd93f9a7e53e618a7a601eb78d02f9e694f1c,ok,5922880486,10552488000,322207744
+1,03_json_aggregate,node,node,source and measurement adapter; interpreter is shared,1853,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,03_json_aggregate,bun,bun,source and measurement adapter; interpreter is shared,1853,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,05_async_fanout,python,python,source and measurement adapter; interpreter is shared,1945,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,05_async_fanout,go,go,native executable plus measurement adapter,2556064,,,f4725f3b4a49fa5272897c57de63412dbaca507fc42daaacd210e8d0202b30a1,ok,3870030677,6447183000,269545472
+1,05_async_fanout,rust,rust,native executable plus measurement adapter,529144,,,e998da5f8393cfa40766ec463063a41ae6ff68d546d6330e10c271c98b99c8a3,ok,6004566147,10747767000,322162688
+1,05_async_fanout,node,node,source and measurement adapter; interpreter is shared,1592,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,05_async_fanout,bun,bun,source and measurement adapter; interpreter is shared,1592,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,07_function_calls,python,python,source and measurement adapter; interpreter is shared,1706,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+1,07_function_calls,go,go,native executable plus measurement adapter,2556064,,,eb0220c814141df156c86a9cc27b410ea65fa3a615d6a7ed245fcaa9471dea7e,ok,3957542717,6542304000,273547264
+1,07_function_calls,rust,rust,native executable plus measurement adapter,529136,,,6b450ee7086da0b0dfb4f1ef8f1785e461f4c0c8b8a02a57d31fa2b588b5665a,ok,6112560318,10553136000,322555904
+1,07_function_calls,node,node,source and measurement adapter; interpreter is shared,1211,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+1,07_function_calls,bun,bun,source and measurement adapter; interpreter is shared,1211,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+1,00_startup,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632079,27338480,,e74e6703b237784565940be54c58aaa45ed6684c605282b5b35ed70ac96cbbd7,ok,682263497,999312000,231038976
+1,01_array_traversal,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2634360,27338480,,0b16e3775422840b4b3e5736cabb701f0d320bc714bb3e51c73a79d342e782ad,ok,667776635,1000894000,227733504
+1,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,678093945,1011201000,227880960
+1,03_json_aggregate,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2639232,27338480,,93e62c9bb9f5aec2d7a77e236ea5f44a70b1bb344205983cce71c5c97018844d,ok,736644420,1016013000,231448576
+1,04_allocation_retention,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637607,27338480,,757b2480d4d5db66acb672a7123ba38ef4df7dfd6663ecd13995e42e143055c5,ok,700321578,1007513000,228069376
+1,05_async_fanout,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636979,27338480,,c0c477949676dfaa7a013f42c8137101135382a91c279aae3ba3133e5b9f4367,ok,669358566,1003788000,231186432
+1,07_function_calls,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633107,27338480,,ebe71358676c25fcc209982c335a8804d48bcca4b8cf8255b21e2685b6e5f229,ok,689509341,999609000,227651584
+2,00_startup,python,python,source and measurement adapter; interpreter is shared,1573,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,00_startup,go,go,native executable plus measurement adapter,2556064,,,66ebf0cc754fd8ab248b16b28f1568e1df5aad41e50192c313e5cf2104b85ee9,ok,3877867314,6490472000,280973312
+2,00_startup,rust,rust,native executable plus measurement adapter,529136,,,790d4411a0e25fe3eeba28c338fd33594fda7655b48fbb1645bba5bdf81edb08,ok,5903437337,10511533000,322031616
+2,00_startup,node,node,source and measurement adapter; interpreter is shared,1039,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,00_startup,bun,bun,source and measurement adapter; interpreter is shared,1039,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,01_array_traversal,python,python,source and measurement adapter; interpreter is shared,1991,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,01_array_traversal,go,go,native executable plus measurement adapter,2556064,,,a71e95ab3c91a20b97ad3f5e74da1483577d6fd3a371d4258d27eb33525fa5bd,ok,3826485653,6424689000,269651968
+2,01_array_traversal,rust,rust,native executable plus measurement adapter,529136,,,bc40f117a5e65c7f62842f3bbb220ea3ccdcdbd63fc56de4748d2436a42eb863,ok,6128594970,10569756000,322535424
+2,01_array_traversal,node,node,source and measurement adapter; interpreter is shared,1413,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,01_array_traversal,bun,bun,source and measurement adapter; interpreter is shared,1413,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,04_allocation_retention,python,python,source and measurement adapter; interpreter is shared,2366,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,04_allocation_retention,go,go,native executable plus measurement adapter,2556064,,,26689b08c2d422321f236693b19c088342f0d85b9759d7ad79d9f29b389782f4,ok,3889518409,6505033000,272277504
+2,04_allocation_retention,rust,rust,native executable plus measurement adapter,529136,,,75b844abe43f3627c147af2682846d94ccb99ff0b6b096655fc9693865adfc24,ok,6168703855,10588506000,322330624
+2,04_allocation_retention,node,node,source and measurement adapter; interpreter is shared,1809,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,04_allocation_retention,bun,bun,source and measurement adapter; interpreter is shared,1809,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,37a8e5a50d0debdfc516347fdfe6d9c56be7e639bac52985903bc2265591938a,ok,3925172560,6534844000,279744512
+2,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,5932711347,10618099000,322211840
+2,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,03_json_aggregate,python,python,source and measurement adapter; interpreter is shared,2519,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,03_json_aggregate,go,go,native executable plus measurement adapter,2556064,,,27e8c16760c590e68f46459f5b68020651ef6dbb71a4cbae520edebf4253cc76,ok,3932794004,6538668000,272683008
+2,03_json_aggregate,rust,rust,native executable plus measurement adapter,529136,,,e322e91171cbf92177cbe8e169dbd93f9a7e53e618a7a601eb78d02f9e694f1c,ok,6074890334,10562698000,322269184
+2,03_json_aggregate,node,node,source and measurement adapter; interpreter is shared,1853,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,03_json_aggregate,bun,bun,source and measurement adapter; interpreter is shared,1853,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,05_async_fanout,python,python,source and measurement adapter; interpreter is shared,1945,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,05_async_fanout,go,go,native executable plus measurement adapter,2556064,,,f4725f3b4a49fa5272897c57de63412dbaca507fc42daaacd210e8d0202b30a1,ok,3846633785,6494396000,286314496
+2,05_async_fanout,rust,rust,native executable plus measurement adapter,529144,,,e998da5f8393cfa40766ec463063a41ae6ff68d546d6330e10c271c98b99c8a3,ok,6193798681,10771973000,322351104
+2,05_async_fanout,node,node,source and measurement adapter; interpreter is shared,1592,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,05_async_fanout,bun,bun,source and measurement adapter; interpreter is shared,1592,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,07_function_calls,python,python,source and measurement adapter; interpreter is shared,1706,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+2,07_function_calls,go,go,native executable plus measurement adapter,2556064,,,eb0220c814141df156c86a9cc27b410ea65fa3a615d6a7ed245fcaa9471dea7e,ok,3922817578,6477373000,268623872
+2,07_function_calls,rust,rust,native executable plus measurement adapter,529136,,,6b450ee7086da0b0dfb4f1ef8f1785e461f4c0c8b8a02a57d31fa2b588b5665a,ok,5997092830,10513027000,322527232
+2,07_function_calls,node,node,source and measurement adapter; interpreter is shared,1211,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+2,07_function_calls,bun,bun,source and measurement adapter; interpreter is shared,1211,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+2,00_startup,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632079,27338480,,e74e6703b237784565940be54c58aaa45ed6684c605282b5b35ed70ac96cbbd7,ok,709496103,1009546000,231100416
+2,01_array_traversal,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2634360,27338480,,0b16e3775422840b4b3e5736cabb701f0d320bc714bb3e51c73a79d342e782ad,ok,655453847,1011130000,227844096
+2,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,659862567,1007868000,227737600
+2,03_json_aggregate,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2639232,27338480,,93e62c9bb9f5aec2d7a77e236ea5f44a70b1bb344205983cce71c5c97018844d,ok,708702592,999927000,231354368
+2,04_allocation_retention,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637607,27338480,,757b2480d4d5db66acb672a7123ba38ef4df7dfd6663ecd13995e42e143055c5,ok,744510319,1009797000,227598336
+2,05_async_fanout,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636979,27338480,,c0c477949676dfaa7a013f42c8137101135382a91c279aae3ba3133e5b9f4367,ok,711260179,1004789000,231002112
+2,07_function_calls,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633107,27338480,,ebe71358676c25fcc209982c335a8804d48bcca4b8cf8255b21e2685b6e5f229,ok,802660459,1009500000,227643392
+3,00_startup,python,python,source and measurement adapter; interpreter is shared,1573,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,00_startup,go,go,native executable plus measurement adapter,2556064,,,66ebf0cc754fd8ab248b16b28f1568e1df5aad41e50192c313e5cf2104b85ee9,ok,3820155523,6535018000,292118528
+3,00_startup,rust,rust,native executable plus measurement adapter,529136,,,790d4411a0e25fe3eeba28c338fd33594fda7655b48fbb1645bba5bdf81edb08,ok,5808903022,10489629000,322019328
+3,00_startup,node,node,source and measurement adapter; interpreter is shared,1039,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,00_startup,bun,bun,source and measurement adapter; interpreter is shared,1039,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,01_array_traversal,python,python,source and measurement adapter; interpreter is shared,1991,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,01_array_traversal,go,go,native executable plus measurement adapter,2556064,,,a71e95ab3c91a20b97ad3f5e74da1483577d6fd3a371d4258d27eb33525fa5bd,ok,3838346080,6427498000,269352960
+3,01_array_traversal,rust,rust,native executable plus measurement adapter,529136,,,bc40f117a5e65c7f62842f3bbb220ea3ccdcdbd63fc56de4748d2436a42eb863,ok,6200748390,10620270000,322048000
+3,01_array_traversal,node,node,source and measurement adapter; interpreter is shared,1413,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,01_array_traversal,bun,bun,source and measurement adapter; interpreter is shared,1413,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,04_allocation_retention,python,python,source and measurement adapter; interpreter is shared,2366,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,04_allocation_retention,go,go,native executable plus measurement adapter,2556064,,,26689b08c2d422321f236693b19c088342f0d85b9759d7ad79d9f29b389782f4,ok,3996891944,6576275000,285589504
+3,04_allocation_retention,rust,rust,native executable plus measurement adapter,529136,,,75b844abe43f3627c147af2682846d94ccb99ff0b6b096655fc9693865adfc24,ok,6059581191,10584775000,322035712
+3,04_allocation_retention,node,node,source and measurement adapter; interpreter is shared,1809,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,04_allocation_retention,bun,bun,source and measurement adapter; interpreter is shared,1809,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,37a8e5a50d0debdfc516347fdfe6d9c56be7e639bac52985903bc2265591938a,ok,3946794978,6537346000,277606400
+3,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,5989881311,10577582000,322420736
+3,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,03_json_aggregate,python,python,source and measurement adapter; interpreter is shared,2519,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,03_json_aggregate,go,go,native executable plus measurement adapter,2556064,,,27e8c16760c590e68f46459f5b68020651ef6dbb71a4cbae520edebf4253cc76,ok,3874501636,6548114000,279674880
+3,03_json_aggregate,rust,rust,native executable plus measurement adapter,529136,,,e322e91171cbf92177cbe8e169dbd93f9a7e53e618a7a601eb78d02f9e694f1c,ok,5957617263,10564101000,322535424
+3,03_json_aggregate,node,node,source and measurement adapter; interpreter is shared,1853,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,03_json_aggregate,bun,bun,source and measurement adapter; interpreter is shared,1853,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,05_async_fanout,python,python,source and measurement adapter; interpreter is shared,1945,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,05_async_fanout,go,go,native executable plus measurement adapter,2556064,,,f4725f3b4a49fa5272897c57de63412dbaca507fc42daaacd210e8d0202b30a1,ok,3926132266,6522486000,282513408
+3,05_async_fanout,rust,rust,native executable plus measurement adapter,529144,,,e998da5f8393cfa40766ec463063a41ae6ff68d546d6330e10c271c98b99c8a3,ok,6143753609,10810181000,322338816
+3,05_async_fanout,node,node,source and measurement adapter; interpreter is shared,1592,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,05_async_fanout,bun,bun,source and measurement adapter; interpreter is shared,1592,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,07_function_calls,python,python,source and measurement adapter; interpreter is shared,1706,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+3,07_function_calls,go,go,native executable plus measurement adapter,2556064,,,eb0220c814141df156c86a9cc27b410ea65fa3a615d6a7ed245fcaa9471dea7e,ok,3938464398,6521796000,278347776
+3,07_function_calls,rust,rust,native executable plus measurement adapter,529136,,,6b450ee7086da0b0dfb4f1ef8f1785e461f4c0c8b8a02a57d31fa2b588b5665a,ok,5945036867,10540626000,322093056
+3,07_function_calls,node,node,source and measurement adapter; interpreter is shared,1211,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+3,07_function_calls,bun,bun,source and measurement adapter; interpreter is shared,1211,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+3,00_startup,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632079,27338480,,e74e6703b237784565940be54c58aaa45ed6684c605282b5b35ed70ac96cbbd7,ok,682816066,999203000,231014400
+3,01_array_traversal,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2634360,27338480,,0b16e3775422840b4b3e5736cabb701f0d320bc714bb3e51c73a79d342e782ad,ok,724452116,1000406000,227835904
+3,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,698948084,1006579000,227704832
+3,03_json_aggregate,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2639232,27338480,,93e62c9bb9f5aec2d7a77e236ea5f44a70b1bb344205983cce71c5c97018844d,ok,682374079,1016120000,231428096
+3,04_allocation_retention,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637607,27338480,,757b2480d4d5db66acb672a7123ba38ef4df7dfd6663ecd13995e42e143055c5,ok,714396289,1002827000,227823616
+3,05_async_fanout,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636979,27338480,,c0c477949676dfaa7a013f42c8137101135382a91c279aae3ba3133e5b9f4367,ok,700019787,995263000,231198720
+3,07_function_calls,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633107,27338480,,ebe71358676c25fcc209982c335a8804d48bcca4b8cf8255b21e2685b6e5f229,ok,674923221,1004660000,227573760
+4,00_startup,python,python,source and measurement adapter; interpreter is shared,1573,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,00_startup,go,go,native executable plus measurement adapter,2556064,,,66ebf0cc754fd8ab248b16b28f1568e1df5aad41e50192c313e5cf2104b85ee9,ok,3947041358,6499154000,278499328
+4,00_startup,rust,rust,native executable plus measurement adapter,529136,,,790d4411a0e25fe3eeba28c338fd33594fda7655b48fbb1645bba5bdf81edb08,ok,6074123194,10579210000,322072576
+4,00_startup,node,node,source and measurement adapter; interpreter is shared,1039,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,00_startup,bun,bun,source and measurement adapter; interpreter is shared,1039,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,01_array_traversal,python,python,source and measurement adapter; interpreter is shared,1991,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,01_array_traversal,go,go,native executable plus measurement adapter,2556064,,,a71e95ab3c91a20b97ad3f5e74da1483577d6fd3a371d4258d27eb33525fa5bd,ok,3918982940,6546677000,288026624
+4,01_array_traversal,rust,rust,native executable plus measurement adapter,529136,,,bc40f117a5e65c7f62842f3bbb220ea3ccdcdbd63fc56de4748d2436a42eb863,ok,6116778833,10610988000,322138112
+4,01_array_traversal,node,node,source and measurement adapter; interpreter is shared,1413,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,01_array_traversal,bun,bun,source and measurement adapter; interpreter is shared,1413,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,04_allocation_retention,python,python,source and measurement adapter; interpreter is shared,2366,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,04_allocation_retention,go,go,native executable plus measurement adapter,2556064,,,26689b08c2d422321f236693b19c088342f0d85b9759d7ad79d9f29b389782f4,ok,3865648301,6507485000,273399808
+4,04_allocation_retention,rust,rust,native executable plus measurement adapter,529136,,,75b844abe43f3627c147af2682846d94ccb99ff0b6b096655fc9693865adfc24,ok,6046272861,10581102000,322383872
+4,04_allocation_retention,node,node,source and measurement adapter; interpreter is shared,1809,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,04_allocation_retention,bun,bun,source and measurement adapter; interpreter is shared,1809,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,02_merge_sort,python,python,source and measurement adapter; interpreter is shared,2186,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,02_merge_sort,go,go,native executable plus measurement adapter,2556064,,,37a8e5a50d0debdfc516347fdfe6d9c56be7e639bac52985903bc2265591938a,ok,3973116629,6532070000,277106688
+4,02_merge_sort,rust,rust,native executable plus measurement adapter,529136,,,1a8841efb76568287375a85e59f89db0b06803cf4b75b3b4ecfe2ed7e1db761c,ok,6126750994,10639657000,322088960
+4,02_merge_sort,node,node,source and measurement adapter; interpreter is shared,1551,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,02_merge_sort,bun,bun,source and measurement adapter; interpreter is shared,1551,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,03_json_aggregate,python,python,source and measurement adapter; interpreter is shared,2519,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,03_json_aggregate,go,go,native executable plus measurement adapter,2556064,,,27e8c16760c590e68f46459f5b68020651ef6dbb71a4cbae520edebf4253cc76,ok,3912382706,6597300000,266162176
+4,03_json_aggregate,rust,rust,native executable plus measurement adapter,529136,,,e322e91171cbf92177cbe8e169dbd93f9a7e53e618a7a601eb78d02f9e694f1c,ok,6171190936,10556635000,322203648
+4,03_json_aggregate,node,node,source and measurement adapter; interpreter is shared,1853,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,03_json_aggregate,bun,bun,source and measurement adapter; interpreter is shared,1853,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,05_async_fanout,python,python,source and measurement adapter; interpreter is shared,1945,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,05_async_fanout,go,go,native executable plus measurement adapter,2556064,,,f4725f3b4a49fa5272897c57de63412dbaca507fc42daaacd210e8d0202b30a1,ok,3887487159,6503582000,278548480
+4,05_async_fanout,rust,rust,native executable plus measurement adapter,529144,,,e998da5f8393cfa40766ec463063a41ae6ff68d546d6330e10c271c98b99c8a3,ok,6285377205,10822385000,322174976
+4,05_async_fanout,node,node,source and measurement adapter; interpreter is shared,1592,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,05_async_fanout,bun,bun,source and measurement adapter; interpreter is shared,1592,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,07_function_calls,python,python,source and measurement adapter; interpreter is shared,1706,,23081824,dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6,,,,
+4,07_function_calls,go,go,native executable plus measurement adapter,2556064,,,eb0220c814141df156c86a9cc27b410ea65fa3a615d6a7ed245fcaa9471dea7e,ok,3863866037,6510356000,279076864
+4,07_function_calls,rust,rust,native executable plus measurement adapter,529136,,,6b450ee7086da0b0dfb4f1ef8f1785e461f4c0c8b8a02a57d31fa2b588b5665a,ok,5874090859,10555707000,322355200
+4,07_function_calls,node,node,source and measurement adapter; interpreter is shared,1211,,149852768,71b004f18a82f3ea8f26109798564a12e5e4c7989a4c35b93851830b5815dd03,,,,
+4,07_function_calls,bun,bun,source and measurement adapter; interpreter is shared,1211,,79420872,616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1,,,,
+4,00_startup,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2632079,27338480,,e74e6703b237784565940be54c58aaa45ed6684c605282b5b35ed70ac96cbbd7,ok,739553845,1006453000,230993920
+4,01_array_traversal,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2634360,27338480,,0b16e3775422840b4b3e5736cabb701f0d320bc714bb3e51c73a79d342e782ad,ok,731638603,1007363000,227598336
+4,02_merge_sort,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636179,27338480,,9f729d04172e54949069ba451856a255d7999f65eaeeda60d303d575d8e87639,ok,702838610,1005223000,227868672
+4,03_json_aggregate,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2639232,27338480,,93e62c9bb9f5aec2d7a77e236ea5f44a70b1bb344205983cce71c5c97018844d,ok,685044365,1004795000,231497728
+4,04_allocation_retention,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2637607,27338480,,757b2480d4d5db66acb672a7123ba38ef4df7dfd6663ecd13995e42e143055c5,ok,702658770,1006537000,227729408
+4,05_async_fanout,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2636979,27338480,,c0c477949676dfaa7a013f42c8137101135382a91c279aae3ba3133e5b9f4367,ok,687744513,1011625000,231075840
+4,07_function_calls,baml,baml-release,BAML Program bytecode; shared measurement host excluded,2633107,27338480,,ebe71358676c25fcc209982c335a8804d48bcca4b8cf8255b21e2685b6e5f229,ok,871532703,1001307000,227704832

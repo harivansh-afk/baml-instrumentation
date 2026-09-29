@@ -1,0 +1,7 @@
+00_startup ok
+01_array_traversal ok
+02_merge_sort ok
+03_json_aggregate ok
+04_allocation_retention ok
+05_async_fanout ok
+07_function_calls ok

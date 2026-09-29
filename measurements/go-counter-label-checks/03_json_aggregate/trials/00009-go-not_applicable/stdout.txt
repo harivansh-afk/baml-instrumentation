@@ -1,0 +1,2 @@
+{"event":"ready"}
+{"allocated_bytes":9240,"event":"result","execution_cpu_ns":39000,"execution_wall_ns":35584,"gc_counter":"completed_gc_cycles","gc_execution":0,"gc_pause_ns":0,"gc_warmup":0,"heap_alloc_bytes":80192,"jobs":1,"result":"[{\"account\":\"a\",\"total_cents\":1000000}]"}

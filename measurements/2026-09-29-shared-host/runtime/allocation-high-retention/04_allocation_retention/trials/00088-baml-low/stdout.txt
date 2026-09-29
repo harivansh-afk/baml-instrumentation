@@ -1,0 +1,3 @@
+{"event":"ready","load_ns":6826450,"setup_ns":77075361}
+{"event":"result","jobs":8,"execution_wall_ns":1950648138,"execution_cpu_ns":1951191728,"result":"[553779200,281083904]","gc_execution":6,"gc_warmup":1,"gc_counter":"full_collections","workers":2}
+{"event":"drained","drain_ns":15800159,"gc_drain":1,"telemetry_ok":true,"delivery_loss":0,"function_names":{"1069":"ai.<(ai.Agent as ai.Runner)>.run","1554":"user.run","1553":"user.prepare"},"metadata_ns":1139894}

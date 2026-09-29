@@ -1,0 +1,77 @@
+[
+  {
+    "check": "valid",
+    "expected_acceptance": true,
+    "accepted": true,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-negative-checks/valid/recordings",
+      "1",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 0
+  },
+  {
+    "check": "wrong_count",
+    "expected_acceptance": false,
+    "accepted": false,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-negative-checks/wrong_count/recordings",
+      "2",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 1
+  },
+  {
+    "check": "missing",
+    "expected_acceptance": false,
+    "accepted": false,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-negative-checks/missing/recordings",
+      "1",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 1
+  },
+  {
+    "check": "truncated",
+    "expected_acceptance": false,
+    "accepted": false,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-negative-checks/truncated/recordings",
+      "1",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 1
+  },
+  {
+    "check": "duplicate_sequence",
+    "expected_acceptance": false,
+    "accepted": false,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-negative-checks/duplicate_sequence/recordings",
+      "1",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 1
+  }
+]

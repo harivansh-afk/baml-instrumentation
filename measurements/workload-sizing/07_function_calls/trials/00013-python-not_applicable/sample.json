@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "case": "07_function_calls",
+  "language": "python",
+  "backend": "python",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 32,
+  "warmup": 4,
+  "artifact_sha256": "dcf58825ea084cdfff2fd28e8a7b44805bf04dc453e0ba2f65042c8c0acd90d6",
+  "input_sha256": "70a95901ae938f98521b2a72a95287d4b2a8bd7dd75337ff6e2d9d80becc29b4",
+  "trial_path": "07_function_calls/trials/00013-python-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 175763912,
+  "process_cpu_ns": 170086000,
+  "peak_rss_bytes": 27361280,
+  "launch_to_ready_ns": 166552289,
+  "execution_wall_ns": 788291,
+  "execution_cpu_ns": 785520,
+  "gc_execution": 0,
+  "gc_warmup": 0,
+  "gc_counter": "cyclic_collections; reference-count reclamation excluded",
+  "coverage": "gc_not_observed",
+  "scenario": "pilot",
+  "trial": 0
+}

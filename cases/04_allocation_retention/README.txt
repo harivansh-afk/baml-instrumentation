@@ -21,6 +21,8 @@ Claim
   Allocation under the stated retention pattern. Sweep churn at fixed
   retention, then retention at fixed churn. Slots exclude backing payload bytes;
   RSS is not live heap. Rust preserves aliasing with Rc<RefCell<Cell>>.
+  Higher retention also increases the final checksum traversal. A timing change
+  therefore does not isolate the collector's copying cost.
 
 References
   https://github.com/BoundaryML/baml/blob/340b9085d9427e6d458f1c700409ffc88c58b050/baml_language/crates/bex_heap/src/tlab.rs

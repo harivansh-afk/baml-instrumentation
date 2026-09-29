@@ -1,0 +1,3 @@
+{"event":"ready","load_ns":11408927,"setup_ns":79948824}
+{"event":"result","jobs":1,"execution_wall_ns":5886008,"execution_cpu_ns":84368,"result":"139531379","gc_execution":0,"gc_warmup":0,"gc_counter":"full_collections","workers":2}
+{"event":"drained","drain_ns":2993084,"gc_drain":1,"telemetry_ok":true,"delivery_loss":0}

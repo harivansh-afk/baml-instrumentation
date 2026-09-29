@@ -8,6 +8,10 @@ machinery/      Pinned tools, adapters, resource observer and validation.
 Start with machinery/README.txt. Results are data first: samples.csv and
 summary.csv support a later single-file HTML report without copying numbers.
 
+Collected results: measurements/2026-09-29-shared-host/BASELINE.txt.
+The 2420 runtime trials passed; background workloads prevent treating these
+observations as an idle-machine baseline.
+
 The previous suite is preserved at Git commit 10fe4d7. Its measurements are not
 part of this baseline. No absolute latency, memory or compile-time budget has
 been agreed; collecting a result does not establish that it meets a product goal.

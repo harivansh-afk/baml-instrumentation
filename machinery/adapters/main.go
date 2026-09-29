@@ -54,5 +54,5 @@ func main() {
 	cpu = cpuNS() - cpu
 	wall := time.Since(start).Nanoseconds()
 	runtime.ReadMemStats(&c)
-	emit(map[string]any{"event": "result", "jobs": jobs, "result": result, "execution_wall_ns": wall, "execution_cpu_ns": cpu, "gc_execution": c.NumGC - b.NumGC, "gc_warmup": b.NumGC - a.NumGC, "gc_counter": "completed_gc_cycles", "allocated_bytes": c.TotalAlloc - b.TotalAlloc, "heap_live_bytes": c.HeapAlloc, "gc_pause_ns": c.PauseTotalNs - b.PauseTotalNs})
+	emit(map[string]any{"event": "result", "jobs": jobs, "result": result, "execution_wall_ns": wall, "execution_cpu_ns": cpu, "gc_execution": c.NumGC - b.NumGC, "gc_warmup": b.NumGC - a.NumGC, "gc_counter": "completed_gc_cycles", "allocated_bytes": c.TotalAlloc - b.TotalAlloc, "heap_alloc_bytes": c.HeapAlloc, "gc_pause_ns": c.PauseTotalNs - b.PauseTotalNs})
 }

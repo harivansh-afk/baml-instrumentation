@@ -15,7 +15,7 @@ BAML host
   The host uses existing compiler/engine/heap/recording APIs; it does not change
   collector policy. Its binary hash and build profile belong to every artifact.
   The published CLI and the source-built measurement host are distinct artifacts.
-  Build timeout defaults to 110 seconds; --timeout changes it. A timeout is not a
+  Build timeout is disabled by default; --timeout sets seconds. A timeout is not a
   successful build. Completed hosts are retained separately by revision/profile.
 
 Build
@@ -43,6 +43,9 @@ Pilot
   evidence to freeze sizes, warmup, work counts and trial counts before comparison.
   Run one trial at a time on the same host. CPU affinity permits placement; it
   does not reserve cores or prevent other services from competing for resources.
+  Every process observation saves host.json with CPU ticks, scheduler pressure,
+  load and selected-core frequency settings before/after the child. These readings
+  document interference; they neither eliminate it nor prove exclusive execution.
 
 Boundaries
   Execution wall/CPU: inside the child, around repeated run(state) calls.
@@ -52,6 +55,9 @@ Boundaries
   one current-thread Tokio runtime; BAML uses the declared Tokio worker count.
   Python/JS adapters await each call; their entry overhead remains in the result.
   Small jobs need a workload-size sweep to establish the measurement floor.
+  BAML takes a function-ID metadata snapshot after execution for recording checks.
+  metadata_ns reports its wall time. Whole-process CPU/RSS includes this diagnostic;
+  execution timing and the published packed-executable path exclude it.
 
   Process wall: native observer fork -> child reaped, including actual shutdown.
   Process CPU: wait4 user + system time, including threads and waited descendants.
@@ -91,8 +97,10 @@ BTEL
   off disables globally; low/medium/high select automatic policies. Destination
   is independently none/local. Cloud delivery is outside this first harness.
   Local files use the release defaults and no fsync durability guarantee.
-  After measured shutdown, a separate reader validates files/references/end marker
-  and exact run() completion totals (zero at low; warmup + jobs at medium/high).
+  After measured shutdown, a separate reader validates files/references, root
+  completions and exact run() totals (zero at low; warmup + jobs at medium/high).
+  High additionally requires one run() span per call. This release does not emit
+  RecordingEnd or function names; resolve IDs using the measured engine's metadata.
   This checks these ordinary functions, not LLM value capture or every event type.
   A failed output, delivery, decode or completion check remains a failed trial.
 
@@ -119,12 +127,26 @@ Output
   Each new run has its own directory under measurements/, then one directory per
   case. This preserves earlier baselines when an implementation or setting changes.
 
+Frozen collection
+  uv run --no-project machinery/collect.py --protocol machinery/baseline.json \
+    --baml-host /absolute/path/to/instrumentation --output measurements/<new-run>
+  uv run --no-project machinery/results.py measurements/<new-run>
+  This first protocol uses five fresh builds and twenty randomized runtime trials
+  per configuration. Pilot runs selected sizes; measurements/gc-sizing/ and
+  retention-sizing/ demonstrate natural collections in the allocation workloads.
+  The resulting BASELINE.txt is a shared-host comparison, not an idle-machine
+  or JIT-converged baseline. Keep its scope attached to every exported figure.
+
 References (pinned BAML release source)
   https://github.com/BoundaryML/baml/tree/340b9085d9427e6d458f1c700409ffc88c58b050/baml_language/crates/bex_engine/examples/resource_workloads
   https://github.com/BoundaryML/baml/blob/340b9085d9427e6d458f1c700409ffc88c58b050/baml_language/crates/bex_heap/src/gc_profile.rs
   https://github.com/BoundaryML/baml/blob/340b9085d9427e6d458f1c700409ffc88c58b050/baml_language/crates/btel_settings/src/mode.rs
+  https://github.com/BoundaryML/baml/blob/340b9085d9427e6d458f1c700409ffc88c58b050/baml_language/crates/bex_engine/tests/telemetry_recording.rs
   https://go.dev/doc/gc-guide
   https://docs.python.org/3.14/library/gc.html
+  https://man7.org/linux/man-pages/man2/getrusage.2.html
+  https://man7.org/linux/man-pages/man2/clock_gettime.2.html
+  https://man7.org/linux/man-pages/man2/wait4.2.html
 
 Published executable
   uv run --no-project machinery/pack.py --output measurements/<new-run>

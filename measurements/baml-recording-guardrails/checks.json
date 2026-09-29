@@ -1,0 +1,107 @@
+[
+  {
+    "check": "valid",
+    "expected_acceptance": true,
+    "accepted": true,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-guardrails/valid/recordings",
+      "1",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 0
+  },
+  {
+    "check": "wrong_count",
+    "expected_acceptance": false,
+    "accepted": false,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-guardrails/wrong_count/recordings",
+      "2",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 1
+  },
+  {
+    "check": "wrong_names",
+    "expected_acceptance": false,
+    "accepted": false,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-guardrails/wrong_names/recordings",
+      "1",
+      "high",
+      "{}"
+    ],
+    "exit_code": 1
+  },
+  {
+    "check": "missing",
+    "expected_acceptance": false,
+    "accepted": false,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-guardrails/missing/recordings",
+      "1",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 1
+  },
+  {
+    "check": "truncated",
+    "expected_acceptance": false,
+    "accepted": false,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-guardrails/truncated/recordings",
+      "1",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 1
+  },
+  {
+    "check": "duplicate_sequence",
+    "expected_acceptance": false,
+    "accepted": false,
+    "passed": true,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "inspect",
+      "measurements/baml-recording-guardrails/duplicate_sequence/recordings",
+      "1",
+      "high",
+      "{\"1554\": \"user.run\", \"1069\": \"ai.<(ai.Agent as ai.Runner)>.run\", \"1553\": \"user.prepare\"}"
+    ],
+    "exit_code": 1
+  },
+  {
+    "check": "unwritable_destination",
+    "passed": true,
+    "exit_code": 1,
+    "command": [
+      "/home/rathi/Documents/Git/boundary/instrumentation/.cache/hosts/340b9085d9427e6d458f1c700409ffc88c58b050/release/instrumentation",
+      "run",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/.cache/build/baml-release/00_startup/baml/program",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/measurements/baml-release-verified/00_startup/trials/00284-baml-high.input.json",
+      "1",
+      "0",
+      "local",
+      "/home/rathi/Documents/Git/boundary/instrumentation/.worktrees/rebuild/measurements/baml-recording-guardrails/blocked-destination"
+    ]
+  }
+]

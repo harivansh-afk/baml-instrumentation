@@ -27,7 +27,9 @@ They are never zero.
 Only implemented, measured counters may be supplied. Unsupported backend features
 must fail explicitly or remain unavailable; the controller must not synthesize them.
 
-inspect OUTPUT EXPECTED_CALLS LEVEL
+inspect OUTPUT EXPECTED_CALLS LEVEL FUNCTION_NAMES_JSON
   Decode a completed local recording in a separate process after the runtime exits.
-  Verify structural consistency and the ordinary run() completion count. Emit the
+  FUNCTION_NAMES_JSON maps runtime function IDs to names, supplied in drained after
+  the measured engine takes a post-execution metadata snapshot. Verify structural
+  consistency, root completions and ordinary prepare()/run() counts. Emit the
   evidence as JSON and exit nonzero on failure. File existence is insufficient.

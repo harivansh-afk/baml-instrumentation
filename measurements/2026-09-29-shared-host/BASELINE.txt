@@ -1,0 +1,75 @@
+Shared-host measurements, not an idle-machine baseline.
+
+2420 runtime process trials; 0 failed.
+Linux aarch64; CPUs 15,16; 2 runtime workers where supported.
+baml: 0.20.2-nightly.20260927.a; rust: rustc 1.98.1 (48a229cea 2026-09-01); go: go version go1.27.1 linux/arm64; python: Python 3.14.7; node: v26.10.0; bun: 1.4.2
+BAML uses the source-built release probe; published packed-executable results are separate.
+20 randomized process trials per configuration. Warmup/work counts are fixed in protocol.json.
+These finite batches do not establish JIT convergence or persistent-service behavior.
+
+Execution wall time: median microseconds per serialized job. No startup/drain time is subtracted.
+Each sample divides a timed batch by its job count; these are batch-average costs, not per-call latency percentiles.
+Startup uses one job; use the separate process-time table to assess its lifecycle cost.
+scenario                           baml/off     baml/low  baml/medium    baml/high         rust           go       python         node          bun
+startup                              35.744       36.736       42.105       36.288        2.744        2.304        8.328       24.752       24.416
+array-empty                           8.032       12.000       13.814       13.224        0.010        0.003        0.213        0.386        0.234
+array-small                          34.768       38.308       40.317       44.576        0.024        0.050        1.716        0.876        0.710
+array-iterator                     1704.587     1705.078     1872.027     2113.507        1.071        2.281      141.940       50.105       26.007
+array-indexed                       284.463      291.042      291.054      291.819        1.071        2.248      286.159       13.602       34.817
+array-build                        2797.326     2809.346     2951.214     3199.351        5.418       51.127      509.388       67.300       78.149
+sort-random                        1317.941     1322.821     1347.489     1399.981       15.093       44.238      623.448      115.491       97.099
+json-aggregate                     5820.536     5828.068     5950.806     6152.957      214.158      888.434      404.074      188.103      200.058
+allocation-low-retention         220263.345   220485.478   227446.402   237843.434     4706.992    13833.468    71555.561    10001.563     5840.502
+allocation-high-retention        243727.813   243900.877   251832.397   267577.331     7409.434    13780.317   101018.786    12562.395    10061.699
+async-fanout                       5303.405     5359.054     5675.365     6484.226     2224.387     1396.072     1752.909     1367.639     1345.083
+calls-empty                           5.898       10.287       10.909        9.891        0.010        0.011        0.217        0.341        0.189
+calls                                11.149       14.919       17.055       18.845        0.010        0.047        2.941        0.588        0.571
+calls-no-sink                        11.090       14.979       17.338       18.659          N/A          N/A          N/A          N/A          N/A
+
+Fresh startup: median whole-process wall milliseconds and peak RSS MiB.
+configuration            wall_ms       RSS_MiB
+baml/off                  20.494        25.660
+baml/low                  90.827        25.748
+baml/medium               90.883        25.818
+baml/high                 90.623        25.744
+rust                       0.890         1.984
+go                         1.963         2.871
+python                   170.394        26.254
+node                      58.767        65.762
+bun                        7.715        19.574
+
+Clean compiler-process wall seconds: median of 5 builds; filesystem caches uncontrolled.
+BAML: source -> Program bytecode. Rust: native executable + dependencies. Go: native executable + stdlib.
+Python/Node/Bun: separate compilation unavailable; parsing/JIT stays in runtime observations.
+case                                    BAML          Rust            Go
+00_startup                          0.709496      6.074123      3.877867
+01_array_traversal                  0.695615      6.116779      3.885741
+02_merge_sort                       0.678094      5.938354      3.946795
+03_json_aggregate                   0.687717      6.074890      3.912383
+04_allocation_retention             0.702659      6.084401      3.869114
+05_async_fanout                     0.699229      6.143754      3.887487
+07_function_calls                   0.689509      5.997093      3.938464
+
+Artifact sizes in bytes; different payloads, not interchangeable deployment totals.
+case                             BAML bytecode    Rust+adapter      Go+adapter     BAML packed
+00_startup                             2632079          529136         2556064        34247120
+01_array_traversal                     2634360          529136         2556064        34249408
+02_merge_sort                          2636179          529136         2556064        34251384
+03_json_aggregate                      2639232          529136         2556064        34254000
+04_allocation_retention                2637607          529136         2556064        34252808
+05_async_fanout                        2636979          529144         2556064        34252296
+07_function_calls                      2633107          529136         2556064        34248152
+
+Limits
+  Background services remained active. Affinity is not CPU isolation; host.json records each trial's conditions.
+  Execution includes adapter entry, allocation/reclamation and result serialization. Empty cases expose a floor; never subtract it.
+  BAML whole-process figures include post-execution metadata diagnostics; the packed path does not.
+  BAML/Go sustained-allocation claims require at least three execution-phase collections in every trial.
+  Python counts cyclic GC only; Rust uses ownership/reference counting; Node/Bun GC coverage is unknown.
+  BAML shared host, scripts and interpreter sizes are in artifacts.json/compilation.csv. Non-BAML full deployment inventories are unavailable.
+  HTTP, cloud telemetry and LLM capture are not covered. The optimizer may remove source-level calls.
+
+Data
+  runtime.csv and summary.csv retain per-scenario identities, successful sample counts, failures, ranges and coverage.
+  compilation.csv retains every build observation. packed/ retains published CLI packaging and invocation observations.
+  coverage.json checks the collection requirement; sources, exact inputs and logs remain in each runtime directory.

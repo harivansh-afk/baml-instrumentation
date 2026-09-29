@@ -1,0 +1,17 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 167368595
+  },
+  {
+    "event": "result",
+    "jobs": 128,
+    "execution_wall_ns": 36504251,
+    "execution_cpu_ns": 36500192,
+    "result": "4161259236",
+    "gc_execution": 0,
+    "gc_warmup": 0,
+    "gc_counter": "cyclic_collections; reference-count reclamation excluded",
+    "received_ns": 205044357
+  }
+]

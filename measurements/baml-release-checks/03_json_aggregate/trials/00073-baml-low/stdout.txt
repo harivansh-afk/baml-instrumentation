@@ -1,0 +1,3 @@
+{"event":"ready","load_ns":7122029,"setup_ns":75600838}
+{"event":"result","jobs":1,"execution_wall_ns":146081,"execution_cpu_ns":186464,"result":"[{\"account\":\"__proto__\",\"total_cents\":8}]","gc_execution":0,"gc_warmup":0,"gc_counter":"full_collections","workers":2}
+{"event":"drained","drain_ns":363825,"gc_drain":1,"telemetry_ok":true,"delivery_loss":0}

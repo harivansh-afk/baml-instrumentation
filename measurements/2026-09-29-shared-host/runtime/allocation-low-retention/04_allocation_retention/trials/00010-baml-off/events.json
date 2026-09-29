@@ -1,0 +1,34 @@
+[
+  {
+    "event": "ready",
+    "load_ns": 22271208,
+    "setup_ns": 5436877,
+    "received_ns": 29096972
+  },
+  {
+    "event": "result",
+    "jobs": 8,
+    "execution_wall_ns": 1768451295,
+    "execution_cpu_ns": 1768636704,
+    "result": "[553779200,17813504]",
+    "gc_execution": 8,
+    "gc_warmup": 1,
+    "gc_counter": "full_collections",
+    "workers": 2,
+    "received_ns": 1980758894
+  },
+  {
+    "event": "drained",
+    "drain_ns": 550899,
+    "gc_drain": 1,
+    "telemetry_ok": true,
+    "delivery_loss": 0,
+    "function_names": {
+      "1553": "user.prepare",
+      "1554": "user.run",
+      "1069": "ai.<(ai.Agent as ai.Runner)>.run"
+    },
+    "metadata_ns": 1099782,
+    "received_ns": 1982380663
+  }
+]

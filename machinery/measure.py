@@ -8,6 +8,8 @@ import signal
 import subprocess
 import time
 
+import host
+
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / ".cache"
 
@@ -33,13 +35,14 @@ def observer():
     return binary
 
 
-def run(command, directory, env, cpus, timeout=110, stdin=None):
+def run(command, directory, env, cpus, timeout=None, stdin=None):
     directory.mkdir(parents=True, exist_ok=False)
     usage, pidfile = directory / "usage.json", directory / "pid.txt"
     sampler = selectors.DefaultSelector()
     samples, events = [], []
     malformed = 0
     executable = observer()
+    host_before = host.snapshot(cpus)
     start = time.monotonic_ns()
     with (
         (directory / "stderr.txt").open("wb") as stderr,
@@ -73,7 +76,7 @@ def run(command, directory, env, cpus, timeout=110, stdin=None):
         try:
             while sampler.get_map() or child.poll() is None:
                 now = time.monotonic_ns()
-                if (now - start) / 1e9 > timeout:
+                if timeout and (now - start) / 1e9 > timeout:
                     status = "timeout"
                     os.killpg(child.pid, signal.SIGKILL)
                     break
@@ -134,6 +137,10 @@ def run(command, directory, env, cpus, timeout=110, stdin=None):
             child.stdout.close()
             sampler.close()
     observed = json.loads(usage.read_text()) if usage.exists() else {}
+    (directory / "host.json").write_text(
+        json.dumps({"before": host_before, "after": host.snapshot(cpus)}, indent=2)
+        + "\n"
+    )
     (directory / "rss.json").write_text(json.dumps(samples) + "\n")
     (directory / "events.json").write_text(json.dumps(events, indent=2) + "\n")
     return {

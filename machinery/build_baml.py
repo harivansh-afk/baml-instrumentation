@@ -22,7 +22,9 @@ def main():
     p.add_argument("--revision")
     p.add_argument("--profile", choices=["release", "dev"], default="release")
     p.add_argument("--jobs", type=int, default=8)
-    p.add_argument("--timeout", type=int, default=110)
+    p.add_argument(
+        "--timeout", type=int, default=0, help="seconds; 0 disables the cutoff"
+    )
     p.add_argument("--worktree-name")
     a = p.parse_args()
     pins = json.loads((ROOT / "machinery/tools.json").read_text())
@@ -93,7 +95,7 @@ def main():
         command += ["--release"]
     process = subprocess.Popen(command, env=e, start_new_session=True)
     try:
-        code = process.wait(timeout=a.timeout)
+        code = process.wait(timeout=a.timeout or None)
     except subprocess.TimeoutExpired:
         os.killpg(process.pid, signal.SIGKILL)
         process.wait()

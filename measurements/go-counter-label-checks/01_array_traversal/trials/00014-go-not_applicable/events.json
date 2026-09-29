@@ -1,0 +1,20 @@
+[
+  {
+    "event": "ready",
+    "received_ns": 1595320
+  },
+  {
+    "allocated_bytes": 464,
+    "event": "result",
+    "execution_cpu_ns": 3000,
+    "execution_wall_ns": 2528,
+    "gc_counter": "completed_gc_cycles",
+    "gc_execution": 0,
+    "gc_pause_ns": 0,
+    "gc_warmup": 0,
+    "heap_alloc_bytes": 85256,
+    "jobs": 1,
+    "result": "8494838",
+    "received_ns": 1748745
+  }
+]

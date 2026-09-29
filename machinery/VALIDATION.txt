@@ -1,4 +1,4 @@
-Validation on 2026-09-29, Linux aarch64. No accepted performance baseline.
+Validation on 2026-09-29, Linux aarch64. Shared-host collection uses baseline.json.
 
 Completed
   10 accounting/protocol tests passed: wall versus CPU time, worker and waited-child
@@ -30,16 +30,54 @@ Completed
   their benchmark language executables came from tools.json.
 
 Pending
-  The source-built BAML host did not finish its release link within 110 seconds.
-  No runtime, BTEL completion or GC-coverage result from that host is accepted.
-  Finish the release build, then validate off/low/medium/high with local recordings,
-  recording corruption/failure handling and natural GC during sustained work.
-
-  Freeze workload sizes, warmup, repetitions and host conditions after pilot runs.
-  Measure overhead floors before interpreting tiny jobs. Node/Bun GC activity is
+  An idle-machine baseline still requires a quiet host. Node/Bun GC activity is
   unavailable; HTTP service machinery and non-BAML minimal deployment inventories
   are not implemented. A static comparison report has not been built.
+
+BAML probe validation
+  Release optimization is preserved; the successful updated probe build took
+  2 minutes 8 seconds. Build and trial cutoffs are now disabled by default.
+  328 correctness/recording checks passed across seven cases and four BTEL levels.
+  Evidence: measurements/baml-release-verified/.
+
+  Seven recording controls passed: a valid recording, wrong expected count,
+  wrong function mapping, missing data, truncation, inconsistent sequence and
+  an unwritable destination. Evidence: measurements/baml-recording-guardrails/.
+  These controls do not prove detection of every possible bit corruption.
+
+  Allocation pilots used 2048 cells/batch, 128 batches/job, 8 jobs, 1 warmup.
+  Retaining 4 or 64 batches produced respectively 8 or 6 natural full collections
+  during BAML off-mode execution. Go also collected. Shutdown collections are
+  recorded separately. Evidence: measurements/gc-sizing/ and retention-sizing/.
+
+  baseline.json freezes five builds and twenty runtime trials per configuration.
+  Empty array/call cases expose the adapter floor. Host conditions are recorded;
+  background work remains active and cores are not reserved.
+
+Collected comparison
+  measurements/2026-09-29-shared-host/ contains 2420 runtime trials with no failures,
+  105 successful compiler observations and 35 successful published pack/invocation
+  pairs. Every required BAML/Go allocation trial met the three-collection minimum.
+  coverage.json and BASELINE.txt are derived from retained raw records.
+
+  Exported time/RSS values match every raw sample. Enabled recordings have the
+  required root completions; call aggregates match the workload and BTEL level.
+  producer/ preserves the 50 executed source files; producer.json hashes match
+  their recorded provenance, including the original Go counter label.
+
+  A summary-helper filename initially shadowed Python's numbers module after the
+  startup trials completed. Collection resumed without repeating completed builds
+  or trials; collection.json retains that failed reporting attempt. Reporting now
+  runs separately from collection.
+
+  Go HeapAlloc was initially named heap_live_bytes in raw events. It includes
+  unreclaimed garbage. Raw data remains unchanged; exports use heap_alloc_bytes.
+  The corrected adapter passed 82 correctness checks in go-counter-label-checks/.
 
 Retained failures
   measurements/reference-validation/ records a rejected setup with stale source
   provenance. It ran no trials. Rejected inputs must never become successful rows.
+  measurements/baml-release-checks/ preserves an interrupted run whose validator
+  incorrectly expected resolved function names and RecordingEnd. The release's
+  source/tests establish that neither is emitted. The corrected validator joins
+  IDs from the measured engine and checks exact root/function completion totals.

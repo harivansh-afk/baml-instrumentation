@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "07_function_calls",
+  "language": "bun",
+  "backend": "bun",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 4096,
+  "warmup": 16,
+  "artifact_sha256": "616f267a34278ff5ac282df37ffdfba1d7141f4f6926bca99af2cd6ef3ad32b1",
+  "input_sha256": "38b1ec246ea62e1e59e44fe8705c9b4fe1fd7aa7989dfdbd4a06743f06f187cd",
+  "trial_path": "07_function_calls/trials/00089-bun-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 10799253,
+  "process_cpu_ns": 11541000,
+  "peak_rss_bytes": 27013120,
+  "launch_to_ready_ns": 6806401,
+  "execution_wall_ns": 3982532,
+  "execution_cpu_ns": 4557000,
+  "gc_execution": null,
+  "gc_counter": "unavailable; no GC claim",
+  "coverage": "gc_unknown",
+  "scenario": "calls",
+  "trial": 9
+}

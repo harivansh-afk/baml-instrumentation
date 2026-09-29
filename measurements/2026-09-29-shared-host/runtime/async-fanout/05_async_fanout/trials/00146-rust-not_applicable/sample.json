@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "case": "05_async_fanout",
+  "language": "rust",
+  "backend": "rust",
+  "level": "not_applicable",
+  "sink": "not_applicable",
+  "jobs": 16,
+  "warmup": 4,
+  "artifact_sha256": "e998da5f8393cfa40766ec463063a41ae6ff68d546d6330e10c271c98b99c8a3",
+  "input_sha256": "6f638decd94bc8c665d8ec7660cbb94cf86c8ef14bf60f4ffa1a69a4585584eb",
+  "trial_path": "05_async_fanout/trials/00146-rust-not_applicable",
+  "event_order": [
+    "ready",
+    "result"
+  ],
+  "malformed_lines": 0,
+  "status": "ok",
+  "exit_code": 0,
+  "process_wall_ns": 49014512,
+  "process_cpu_ns": 1702000,
+  "peak_rss_bytes": 2052096,
+  "launch_to_ready_ns": 2376604,
+  "execution_cpu_ns": 719184,
+  "execution_wall_ns": 37500728,
+  "gc_counter": "not_applicable; ownership and reference counting",
+  "gc_execution": null,
+  "coverage": "gc_not_applicable",
+  "scenario": "async-fanout",
+  "trial": 16
+}

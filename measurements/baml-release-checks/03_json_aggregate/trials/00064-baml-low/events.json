@@ -1,0 +1,28 @@
+[
+  {
+    "event": "ready",
+    "load_ns": 10119338,
+    "setup_ns": 79038836,
+    "received_ns": 90976053
+  },
+  {
+    "event": "result",
+    "jobs": 1,
+    "execution_wall_ns": 260785,
+    "execution_cpu_ns": 258752,
+    "result": "[{\"account\":\"account_0006\",\"total_cents\":875271},{\"account\":\"account_0007\",\"total_cents\":794272},{\"account\":\"account_0036\",\"total_cents\":217738},{\"account\":\"account_0045\",\"total_cents\":575389},{\"account\":\"account_0046\",\"total_cents\":916274},{\"account\":\"account_0052\",\"total_cents\":652170},{\"account\":\"account_0058\",\"total_cents\":566277},{\"account\":\"account_0063\",\"total_cents\":6029}]",
+    "gc_execution": 0,
+    "gc_warmup": 0,
+    "gc_counter": "full_collections",
+    "workers": 2,
+    "received_ns": 91320966
+  },
+  {
+    "event": "drained",
+    "drain_ns": 2322713,
+    "gc_drain": 1,
+    "telemetry_ok": true,
+    "delivery_loss": 0,
+    "received_ns": 93645424
+  }
+]
