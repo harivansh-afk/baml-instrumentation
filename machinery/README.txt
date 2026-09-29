@@ -1,5 +1,19 @@
 Run on Linux aarch64. Python commands use uv; benchmark Python is separately pinned.
 
+Visual report
+  Open measurements/2026-09-29-shared-host/index.html directly in a browser.
+  Rebuild: uv run machinery/html_report.py measurements/2026-09-29-shared-host
+  The script pins Plotly 6.3.0 and embeds its library, observations and downloads.
+  No server or network is needed to view the report. Rebuilding reads the saved
+  collection; it never reruns benchmarks or changes raw observations.
+  The overview compares each scenario separately. Per-case plots show every
+  successful process observation, its median and observed min-max, with exact
+  values and failures in tables. Min-max is not a confidence interval.
+  Metric selectors preserve unit and lifecycle boundaries; missing counters stay
+  unavailable. Compile targets and size scopes remain explicitly different.
+  The page uses a white reading surface, blue measurement graphics, per-language
+  colors and native controls. No external fonts, images or tracking are loaded.
+
 Setup
   uv run --no-project machinery/setup.py
   Install Rust 1.98.1 with rustup if it is absent. Setup verifies download hashes.

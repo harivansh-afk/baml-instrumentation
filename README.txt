@@ -5,8 +5,9 @@ cases/          Programs and the claim each experiment can support.
 measurements/   Immutable runs: configuration, artifacts, raw trials and summaries.
 machinery/      Pinned tools, adapters, resource observer and validation.
 
-Start with machinery/README.txt. Results are data first: samples.csv and
-summary.csv support a later single-file HTML report without copying numbers.
+Open measurements/2026-09-29-shared-host/index.html for the visual report.
+It works offline and includes per-case charts, BTEL comparisons and CSV downloads.
+Start with machinery/README.txt to reproduce a collection or rebuild the report.
 
 Collected results: measurements/2026-09-29-shared-host/BASELINE.txt.
 The 2420 runtime trials passed; background workloads prevent treating these

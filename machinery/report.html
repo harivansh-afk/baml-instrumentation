@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>BAML baseline · @@RUN@@</title>
+<style>
+:root{--paper:#fff;--ink:#202f42;--muted:#586477;--blue:#244bb0;--line:#dce3ed;--wash:#f3f6fa;--amber:#805900;--amber-bg:#fff4d6}
+*{box-sizing:border-box}html{scroll-padding-top:90px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 "Aptos","Segoe UI",Arial,sans-serif}a{color:var(--blue);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,select:focus-visible,summary:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:4px}button,select{font:inherit}header,main,footer{max-width:1240px;margin:auto;padding-left:42px;padding-right:42px}header{padding-top:54px;padding-bottom:26px}h1{font-size:clamp(34px,5vw,52px);line-height:1.08;letter-spacing:-1.4px;margin:0 0 16px;font-weight:650}h2{font-size:29px;line-height:1.2;margin:0 0 16px;font-weight:650;letter-spacing:-.5px}h3{font-size:19px;margin:28px 0 10px}p{margin:10px 0 16px;max-width:85ch}.subtitle{font-size:20px;color:var(--muted);margin:0 0 20px}.run-name{font-size:14px;color:var(--muted)}.status{padding:14px 18px;background:var(--amber-bg);color:var(--amber);margin:22px 0 18px;max-width:none}.status strong{color:#634600}.counts{font-size:15px;font-variant-numeric:tabular-nums}.nav-wrap{position:sticky;top:0;z-index:10;background:var(--paper);border-block:1px solid var(--line)}nav{max-width:1240px;margin:auto;padding:12px 42px;display:flex;gap:24px;overflow:auto;white-space:nowrap}nav a{text-decoration:none;font-size:15px;font-weight:600}section{padding-top:44px;padding-bottom:32px;border-bottom:1px solid var(--line)}.section-heading{display:flex;align-items:baseline;gap:16px}.case-id{color:var(--muted);font-size:18px;font-variant-numeric:tabular-nums}.question{font-size:21px;margin-top:0}.compiler-path{padding:13px 16px;background:var(--wash);font-size:15px}.compiler-path strong{color:var(--blue);margin-right:10px}.case-jumps{display:flex;flex-wrap:wrap;gap:8px 22px;margin:20px 0}.controls{display:flex;align-items:end;gap:18px;flex-wrap:wrap;margin:24px 0 12px}.controls label{display:flex;flex-direction:column;gap:6px;font-size:14px;color:var(--muted);min-width:135px}select{padding:9px 34px 9px 12px;background:white;color:var(--ink);border:1px solid #aab8ca;border-radius:5px;max-width:100%;min-height:44px}.controls .scenario{min-width:240px}.workload-note{font-size:14px;color:var(--muted)}.metric-note{font-size:15px;min-height:46px}.chart-key,.note{font-size:14px;color:var(--muted)}.chart-key{margin-top:0}.chart-scroll{overflow-x:auto;padding-bottom:8px}.overview-plot{min-width:940px;height:640px}.case-chart{height:380px;width:100%}.build-chart{height:400px;width:100%}.btel-plot{min-width:660px;height:570px}details{border-top:1px solid var(--line);padding:13px 0}summary{cursor:pointer;font-weight:600;width:fit-content}details[open] summary{margin-bottom:15px}.table-scroll{overflow:auto}table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}caption{text-align:left;font-weight:600;margin-bottom:10px}th,td{text-align:right;padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap}th:first-child,td:first-child{text-align:left}thead th{background:var(--wash);font-weight:600}tbody th{font-weight:500}tbody tr:hover{background:var(--wash)}.missing{color:var(--muted)}.coverage-alert{color:#912b2b;font-weight:600}dl{margin:16px 0}dt{font-weight:600}dd{margin:4px 0 16px;max-width:90ch}.references{font-size:14px;padding-left:20px;overflow-wrap:anywhere}.versions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 30px;margin-top:24px}.versions dd{font-size:14px;overflow-wrap:anywhere}.downloads{display:flex;flex-wrap:wrap;gap:14px 24px;padding:12px 0 24px}.hashes{font-size:13px}.hashes code{overflow-wrap:anywhere}.method-list{max-width:92ch;padding-left:21px}.method-list li{margin-bottom:12px}.build-note{max-width:none}.pair{display:grid;grid-template-columns:1fr 1fr;gap:30px}.pair>div{min-width:0}.table-scroll:focus-visible{outline:3px solid var(--blue)}footer{font-size:14px;color:var(--muted);padding-top:24px;padding-bottom:40px}.plot-error{padding:20px;background:var(--amber-bg)}.skip{position:fixed;left:20px;top:-100px;z-index:50;background:white;padding:10px}.skip:focus{top:10px}noscript{display:block;background:var(--amber-bg);padding:15px}.js-plotly-plot .plotly .modebar{top:auto!important;bottom:0!important}
+@media(max-width:700px){header,main,footer{padding-left:18px;padding-right:18px}header{padding-top:30px}nav{padding:11px 18px;gap:20px}h1{letter-spacing:-.8px}h2{font-size:25px}.subtitle{font-size:18px}section{padding-top:32px}.counts{line-height:1.9}.controls{gap:12px}.controls label{flex:1;min-width:135px}.controls label:first-child{flex-basis:100%}.controls label:has(.metric){flex-basis:100%}.controls .scenario{min-width:0;width:100%}.controls select{width:100%}.versions{grid-template-columns:1fr 1fr;gap:0 16px}.pair{grid-template-columns:1fr;gap:12px}.question{font-size:19px}.case-chart{height:390px}.metric-note{min-height:0}.status{padding:12px}.overview-plot{min-width:940px}th,td{padding:8px}.chart-key{line-height:1.5}}
+@media print{.nav-wrap,.controls,.modebar,.downloads{display:none!important}header,main,footer{max-width:none;padding:0}body{font-size:12px}h1{font-size:30px}section{break-inside:avoid;padding:20px 0}.case-chart,.build-chart{height:330px}.chart-scroll{overflow:visible}.overview-plot,.btel-plot{min-width:0}.status{print-color-adjust:exact}.pair{display:block}a{color:inherit}}
+</style>
+</head>
+<body>
+<a class="skip" href="#overview">Skip to measurements</a>
+<header>
+  <h1>BAML baseline</h1>
+  <p class="subtitle">The same work, measured across runtimes and telemetry settings.</p>
+  <div class="run-name">Collection: @@RUN@@</div>
+  <p class="status"><strong>Shared-host measurements.</strong> Other workloads were active on Spark. CPU affinity did not reserve the cores. An idle-machine baseline remains outstanding.</p>
+  <p class="counts">@@COUNTS@@</p>
+</header>
+<div class="nav-wrap"><nav aria-label="Report sections"><a href="#overview">Overview</a><a href="#telemetry">BTEL</a><a href="#builds">Compile & size</a><a href="#cases">Cases</a><a href="#method">Method & versions</a><a href="#data">Data</a></nav></div>
+<main>
+<noscript>Enable JavaScript for interactive charts. The overview table and all case descriptions remain readable below.</noscript>
+<section id="overview">
+  <h2>Execution across the suite</h2>
+  <p>Median execution time in <strong>microseconds per job</strong>. Compare configurations within a row: each row does different work. There is no combined performance score.</p>
+  <p class="note">Color follows a logarithmic time scale; darker means more time. Hover for units and successful sample count. Missing configurations stay blank. On a narrow screen, scroll the chart horizontally.</p>
+  <div class="chart-scroll" tabindex="0" aria-label="Scrollable overview chart"><div id="overview-chart" class="overview-plot" role="img" aria-label="Execution median comparison; exact values in the table below"></div></div>
+  <details><summary>Overview as a table</summary><div class="table-scroll">@@FALLBACK@@</div></details>
+  <p class="note">The startup row measures its one-job execution only. The Startup case below defaults to whole-process wall time, which includes the lifecycle cost.</p>
+</section>
+<section id="telemetry">
+  <h2>What BTEL changes</h2>
+  <p>Change in BAML median execution time relative to BTEL off, for the <strong>same workload and destination</strong>. This is a ratio of separate medians, not a paired causal estimate. Host interference and trial spread still apply.</p>
+  <div class="chart-scroll" tabindex="0" aria-label="Scrollable BTEL comparison"><div id="telemetry-chart" class="btel-plot" role="img" aria-label="BTEL execution overhead by scenario and telemetry level"></div></div>
+  <details><summary>BTEL ratios as a table</summary><div class="table-scroll"><table id="telemetry-table"></table></div></details>
+  <p class="note">Most scenarios record locally. calls-no-sink keeps BTEL processing enabled without a recording destination. Recording size, drain time and whole-process costs are available in each case.</p>
+</section>
+<section id="builds">
+  <h2>Compilation and artifact size</h2>
+  <p>Five clean builds per compiled case. Dependencies were fetched before timing; compilation caches were empty. Filesystem caches were uncontrolled.</p>
+  <div class="controls"><label>Case<select id="build-case"></select></label><label>Build metric<select id="build-metric"><option value="wall">Compiler wall (seconds)</option><option value="cpu">Compiler CPU (seconds)</option><option value="rss">Compiler peak RSS (MiB)</option></select></label></div>
+  <div class="pair"><div><h3>Build process</h3><div id="build-chart" class="build-chart" role="img" aria-label="Compiler observations for the selected case"></div></div><div><h3>Artifact bytes</h3><div id="size-chart" class="build-chart" role="img" aria-label="Artifact sizes for the selected case, logarithmic scale"></div></div></div>
+  <p class="note build-note">BAML source → Program bytecode, Rust native + dependencies, Go native + standard library, and published BAML packaging are distinct tasks. Python, Node and Bun have no separate compilation here; parsing/JIT stays in runtime measurements.</p>
+  <p class="note">Artifact size excludes the shared BAML host or interpreter where applicable. Scripts include their adapters; native binaries include theirs. Packed BAML includes its published musl host. These are not interchangeable deployment totals.</p>
+  <details><summary>All build observations and size scopes</summary><div id="all-builds"></div></details>
+</section>
+<section id="cases">
+  <h2>Read a case in context</h2>
+  <p>Select a workload and metric. Every measured configuration keeps its own observations, failures, input and artifact identity. The charts show the observed spread rather than hiding it behind an average.</p>
+  <div class="case-jumps">@@CASELINKS@@</div>
+  <p class="note">Case 06, HTTP service, is planned and has no measurements in this collection.</p>
+</section>
+@@CASES@@
+<section id="method">
+  <h2>What these numbers establish</h2>
+  <p id="host-description"></p>
+  <ul class="method-list">
+    <li><strong>Timing boundary.</strong> Execution brackets repeated run(state) calls inside the child. Preparation, warmup, stdout, controller checks and shutdown are outside it. Whole-process time includes those lifecycle stages. Empty cases expose a floor; nothing is subtracted.</li>
+    <li><strong>GC evidence.</strong> Every BAML and Go allocation trial must observe at least three natural collections during execution. Shutdown-only GC does not qualify. Python reports cyclic collections only; Rust has no tracing collector; Node/Bun GC coverage is unknown.</li>
+    <li><strong>Memory interpretation.</strong> Peak RSS is a process high-water mark, not retained heap. Higher retention also increases checksum traversal. This experiment does not isolate collector copying or pause cost.</li>
+    <li><strong>Telemetry validity.</strong> Local BAML recordings are checked after the trial for decodability, references, root completions and expected run() counts. High also requires run spans. The pinned release does not emit RecordingEnd or names; IDs are joined from the measured engine.</li>
+    <li><strong>Instrumented host.</strong> BAML runtime trials use a source-built release probe. A metadata snapshot taken after execution supports recording checks and remains in whole-process CPU/RSS. Published packed-executable observations are separate; they are not the runtime-trial distribution.</li>
+    <li><strong>Statistical limits.</strong> Twenty fresh-process trials per configuration, in randomized order, with fixed warmup and work counts. Min–max shows the observed range, not uncertainty bounds. These finite batches do not prove JIT convergence, per-call tail latency or persistent-service behavior.</li>
+    <li><strong>Unmeasured.</strong> HTTP load, cloud telemetry, LLM capture, incremental compilation, non-BAML complete deployment inventories and BAML pause attribution are outside this collection. Source-level calls may be optimized away.</li>
+  </ul>
+  <details><summary>Natural-GC coverage by allocation configuration</summary><div class="table-scroll"><table id="gc-table"></table></div></details>
+  <h3>Measured versions</h3><dl class="versions">@@VERSIONS@@</dl>
+  <p class="note">These are the pinned versions used for this collection, checked on 2026-09-29; this document never silently upgrades them. Source references in each case point to the measured BAML revision.</p>
+</section>
+<section id="data">
+  <h2>Take the data with you</h2>
+  <p>This file contains its charts, plotting library, observations, case notes and downloads. It opens offline without a server. Source links need internet access; the underlying CSV downloads do not.</p>
+  <div class="downloads">@@DOWNLOADS@@</div>
+  <p class="note">Rebuild with <code>uv run machinery/html_report.py measurements/@@RUN@@</code>. The generator reads the collection without changing its observations. Trial logs, source snapshots and BTEL recordings remain in the repository checkout.</p>
+  <details class="hashes"><summary>Input SHA-256 hashes</summary><dl>@@HASHES@@</dl></details>
+  <details><summary>Text report</summary><pre id="text-report" style="white-space:pre-wrap;overflow-wrap:anywhere"></pre></details>
+</section>
+</main>
+<footer>Snapshot @@RUN@@. A measurement records what happened under its stated conditions; it does not establish a product budget or universal language ranking.</footer>
+<script id="report-data" type="application/json">@@DATA@@</script>
+<script>@@PLOTLY@@</script>
+<script>
+'use strict';
+const data = JSON.parse(document.getElementById('report-data').textContent);
+const $ = s => document.querySelector(s);
+const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const number = value => value === null || value === undefined ? 'Unavailable' : new Intl.NumberFormat('en-US',{maximumSignificantDigits:6}).format(value);
+const compact = value => value === null || value === undefined ? '—' : new Intl.NumberFormat('en-US',{maximumSignificantDigits:4}).format(value);
+const plotConfig = {responsive:true,displaylogo:false,scrollZoom:false,modeBarButtonsToRemove:['select2d','lasso2d','autoScale2d'],toImageButtonOptions:{format:'svg',filename:'baml-measurement',scale:1}};
+const baseLayout = {paper_bgcolor:'#ffffff',plot_bgcolor:'#ffffff',font:{family:'Aptos, Segoe UI, Arial, sans-serif',size:13,color:'#202f42'},showlegend:false,margin:{l:126,r:35,t:20,b:55},hoverlabel:{bgcolor:'#ffffff',font:{color:'#202f42'}},xaxis:{gridcolor:'#e6ebf2',zerolinecolor:'#aab8ca',automargin:true},yaxis:{automargin:true}};
+const tasks = [];
+function plot(target,traces,layout){const result=Plotly.react(target,traces,{...baseLayout,...layout},plotConfig);tasks.push(result);return result;}
+function table(headers,rows){return '<thead><tr>'+headers.map(h=>'<th scope="col">'+esc(h)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(row=>'<tr>'+row.map((v,i)=>i===0?'<th scope="row">'+esc(v)+'</th>':'<td>'+esc(v)+'</td>').join('')+'</tr>').join('')+'</tbody>';}
+function distribution(target,entries,title,unit,scale='log'){
+  const populated=entries.filter(e=>e.stat);
+  const hasZero=populated.some(e=>e.stat.min===0);
+  const axis=scale==='log'&&!hasZero?'log':'linear';
+  const traces=[];
+  populated.forEach((e,i)=>{
+    traces.push({type:'scatter',mode:'markers',x:e.stat.values,y:e.stat.values.map((_,n)=>i+((n%5)-2)*.032),marker:{size:5,color:e.color,opacity:.42},customdata:e.stat.values.map((_,n)=>n+1),name:e.label,hovertemplate:esc(e.label)+'<br>Observation %{customdata}: %{x:.6g} '+esc(unit)+'<extra></extra>'});
+    traces.push({type:'scatter',mode:'markers',x:[e.stat.median],y:[i],marker:{size:10,color:e.color,symbol:'diamond',line:{width:1,color:'white'}},error_x:{type:'data',symmetric:false,array:[e.stat.max-e.stat.median],arrayminus:[e.stat.median-e.stat.min],color:e.color,thickness:1.7,width:5},name:e.label,hovertemplate:esc(e.label)+'<br>Median %{x:.6g} '+esc(unit)+'<br>Range '+number(e.stat.min)+'–'+number(e.stat.max)+'<br>n = '+e.stat.n+'<extra></extra>'});
+  });
+  return plot(target,traces,{margin:{l:110,r:30,t:12,b:62},height:Math.max(280,entries.length*34+88),xaxis:{...baseLayout.xaxis,type:axis,dtick:axis==='log'?1:undefined,tickformat:'.4~g',title:{text:unit+(axis==='log'?' · log scale':'')},rangemode:axis==='linear'?'tozero':'normal'},yaxis:{zeroline:false,showgrid:false,tickvals:populated.map((_,i)=>i),ticktext:populated.map(e=>e.label),range:[populated.length-.45,-.65],fixedrange:true},annotations:!populated.length?[{text:'No observations for this metric',showarrow:false,xref:'paper',yref:'paper',x:.5,y:.5}]:hasZero&&scale==='log'?[{text:'Linear scale: includes zero',showarrow:false,xref:'paper',yref:'paper',x:1,y:1.09,font:{size:11,color:'#586477'}}]:[]});
+}
+function overview(){
+  const labels=[];const representatives=[];
+  data.order.forEach(k=>{const c=data.configs[k];if(!labels.includes(c.label)){labels.push(c.label);representatives.push(c);}});
+  const z=[],text=[],hover=[];
+  data.scenarios.forEach(s=>{
+    const values=representatives.map(c=>{const key=Object.keys(s.groups).find(k=>data.configs[k].label===c.label);return key?s.groups[key].metrics.execution_wall_ns:null;});
+    z.push(values.map(v=>v&&v.median>0?Math.log10(v.median):null));text.push(values.map(v=>v?compact(v.median):'—'));
+    hover.push(values.map((v,i)=>v?esc(s.name)+'<br>'+esc(labels[i])+'<br>'+number(v.median)+' µs/job<br>n = '+v.n:'Not measured'));
+  });
+  plot('overview-chart',[{type:'heatmap',z,x:labels,y:data.scenarios.map(s=>s.name),text,texttemplate:'%{text}',textfont:{size:12},customdata:hover,hovertemplate:'%{customdata}<extra></extra>',hoverongaps:false,colorscale:[[0,'#f1f5fc'],[.35,'#c9daf2'],[.65,'#7c9fcf'],[1,'#244b85']],xgap:3,ygap:3,colorbar:{title:{text:'µs/job'},tickvals:[-2,0,2,4,6],ticktext:['0.01','1','100','10k','1M'],thickness:12}}],{height:640,margin:{l:206,r:70,t:65,b:15},xaxis:{side:'top',tickangle:-25,fixedrange:true},yaxis:{autorange:'reversed',fixedrange:true}});
+}
+function telemetry(){
+  const levels=['low','medium','high'],z=[],text=[],hover=[],rows=[];
+  data.scenarios.forEach(s=>{
+    const baseKey=Object.keys(s.groups).find(k=>data.configs[k].language==='baml'&&data.configs[k].level==='off');
+    const base=baseKey?s.groups[baseKey].metrics.execution_wall_ns:null;
+    const vals=levels.map(level=>{
+      const key=Object.keys(s.groups).find(k=>data.configs[k].language==='baml'&&data.configs[k].level===level&&data.configs[k].sink===data.configs[baseKey]?.sink&&data.configs[k].backend===data.configs[baseKey]?.backend);
+      const value=key?s.groups[key].metrics.execution_wall_ns:null;
+      return base&&value&&base.median>0?(value.median/base.median-1)*100:null;
+    });
+    z.push(vals);text.push(vals.map(v=>v===null?'—':(v>=0?'+':'')+v.toFixed(1)+'%'));hover.push(vals.map((v,i)=>esc(s.name)+'<br>'+levels[i]+': '+(v===null?'Not measured':number(v)+'% vs off')));rows.push([s.name,...vals.map(v=>v===null?'Not measured':number(v)+'%')]);
+  });
+  plot('telemetry-chart',[{type:'heatmap',z,x:levels.map(s=>'BTEL '+s),y:data.scenarios.map(s=>s.name),text,texttemplate:'%{text}',customdata:hover,hovertemplate:'%{customdata}<extra></extra>',colorscale:[[0,'#e4f0ee'],[.5,'#f7f8fb'],[1,'#a9bfdc']],zmid:0,xgap:4,ygap:3,showscale:false,hoverongaps:false}],{height:570,margin:{l:205,r:20,t:36,b:10},xaxis:{side:'top',fixedrange:true},yaxis:{autorange:'reversed',fixedrange:true}});
+  $('#telemetry-table').innerHTML=table(['Scenario',...levels.map(l=>l+' vs off')],rows);
+}
+function buildTable(caseId){
+  const info=data.cases[caseId];
+  const rows=info.build.map(b=>[b.label,b.kind,b.wall?number(b.wall.median)+' s (n='+b.wall.n+')':'Not separately compiled',b.bytes?number(b.bytes.median)+' B':'Unavailable',b.shared?number(b.shared.median)+' B host':b.runtime?number(b.runtime.median)+' B interpreter':'No shared runtime counted',b.failed]);
+  const p=info.pack;
+  rows.push(['BAML packed','Published musl host + Program',p.wall?number(p.wall.median)+' s (n='+p.wall.n+')':'Unavailable',p.bytes?number(p.bytes.median)+' B':'Unavailable','Included in executable',p.failed]);
+  return '<div class="table-scroll"><table>'+table(['Target','Artifact scope','Median build wall','Median artifact size','Shared executable','Failed builds'],rows)+'</table></div><p class="note">Published packed invocation: '+(p.process?number(p.process.median)+' ms median whole-process wall, n = '+p.process.n:'unavailable')+'. Uses the packaging fixture, not the runtime scenario above. Shared executable file bytes do not include every library or deployment dependency.</p>';
+}
+function builds(){
+  const caseId=$('#build-case').value,info=data.cases[caseId],metric=$('#build-metric').value,unit=metric==='rss'?'MiB':'s';
+  const entries=info.build.filter(b=>b[metric]).map(b=>({label:b.language==='baml'?'BAML bytecode':b.label,stat:b[metric],color:b.color}));
+  entries.push({label:'BAML pack',stat:info.pack[metric],color:'#50709c'});
+  distribution('build-chart',entries,metric==='wall'?'Compiler wall':metric==='cpu'?'Compiler CPU':'Compiler peak RSS',unit,'linear');
+  const sizes=info.build.filter(b=>b.bytes).map(b=>({label:b.language==='baml'?'BAML bytecode':b.label+(b.runtime?' script':''),stat:{...b.bytes,values:[b.bytes.median],n:1},color:b.color}));
+  if(info.pack.bytes)sizes.push({label:'BAML packed',stat:{...info.pack.bytes,values:[info.pack.bytes.median],n:1},color:'#50709c'});
+  // Size is a deterministic artifact observation; display its recorded median,
+  // never invent runtime-sized sample counts or deployment totals.
+  plot('size-chart',[{type:'scatter',mode:'markers',x:sizes.map(s=>s.stat.median),y:sizes.map(s=>s.label),marker:{size:12,color:sizes.map(s=>s.color)},text:sizes.map(s=>s.label),hovertemplate:'%{text}<br>%{x:,.0f} bytes<extra></extra>'}],{height:330,margin:{l:122,r:20,t:12,b:65},xaxis:{...baseLayout.xaxis,type:'log',dtick:1,tickformat:'.3~s',title:{text:'Artifact bytes · log scale'}},yaxis:{autorange:'reversed',fixedrange:true}});
+}
+function renderCase(section){
+  const scenario=data.scenarios.find(s=>s.name===section.querySelector('.scenario').value);
+  const metric=section.querySelector('.metric').value,meta=data.metrics[metric];
+  const scale=section.querySelector('.scale').value;
+  section.querySelector('.metric-note').textContent=meta.note;
+  const params=['size','variant','batches','retain','fanout','delay_ms'].filter(k=>scenario[k]!==undefined).map(k=>k.replaceAll('_',' ')+' '+scenario[k]);
+  section.querySelector('.workload-note').textContent=scenario.claim+'. '+params.join(' · ')+(params.length?' · ':'')+scenario.jobs+' jobs / process · '+scenario.warmup+' warmup · destination '+(scenario.sink||'local')+' for BAML';
+  const entries=data.order.filter(k=>scenario.groups[k]).map(k=>({key:k,label:data.configs[k].label,color:data.configs[k].color,stat:scenario.groups[k].metrics[metric]}));
+  distribution(section.querySelector('.case-chart'),entries,meta.label,meta.unit,scale);
+  const rows=entries.map(e=>{const g=scenario.groups[e.key],v=e.stat;return [e.label,v?number(v.median):'Unavailable',v?number(v.min):'—',v?number(v.max):'—',v?v.n:0,g.failed,g.observations+' / '+data.protocol.runtime_trials,g.coverage.join(', ')];});
+  section.querySelector('.value-table').innerHTML='<caption>'+esc(scenario.name)+' · '+esc(meta.unit)+'</caption>'+table(['Configuration','Median','Minimum','Maximum','Metric n','Failed','Trials','Coverage'],rows);
+}
+async function start(){
+  overview();telemetry();
+  $('#build-case').innerHTML=Object.entries(data.cases).map(([id,c])=>'<option value="'+esc(id)+'">'+esc(c.title)+'</option>').join('');
+  $('#build-case').addEventListener('change',builds);$('#build-metric').addEventListener('change',builds);builds();
+  $('#all-builds').innerHTML=Object.entries(data.cases).map(([id,c])=>'<h3>'+esc(c.title)+'</h3>'+buildTable(id)).join('');
+  document.querySelectorAll('.case-section').forEach(section=>{renderCase(section);section.querySelectorAll('select').forEach(select=>select.addEventListener('change',()=>renderCase(section)));section.querySelector('.case-build').innerHTML=buildTable(section.dataset.case);});
+  $('#host-description').textContent='Linux aarch64 on Spark. Allowed CPUs: '+data.protocol.cpus+'. Runtime workers where supported: '+data.protocol.workers+'. '+data.protocol.host_isolation+'. Per-trial host.json files record CPU ticks, load, pressure and frequency conditions.';
+  const gc=data.coverage.filter(c=>c.required_gc_minimum!==null);
+  $('#gc-table').innerHTML=table(['Scenario','Configuration','Observed min–max','Required / trial','Trials','Failed','Requirement'],gc.map(c=>[c.scenario,c.configuration,c.gc_minimum+'–'+c.gc_maximum,c.required_gc_minimum,c.observations,c.failed,c.gc_requirement_passed?'Met':'Not met']));
+  const failures=data.counts.failed||data.coverage.some(c=>c.failed||c.observations!==data.protocol.runtime_trials||c.gc_requirement_passed===false);
+  if(failures){const message=document.createElement('p');message.className='coverage-alert';message.textContent='This collection contains failed, missing or insufficient-GC trials. Inspect exact values and coverage before making comparisons.';$('#overview').prepend(message);}
+  const textLink=Array.from(document.querySelectorAll('a[download]')).find(a=>a.download==='BASELINE.txt');
+  $('#text-report').textContent=new TextDecoder().decode(Uint8Array.from(atob(textLink.href.split(',')[1]),c=>c.charCodeAt(0)));
+  await Promise.all(tasks);document.documentElement.dataset.reportReady='true';
+}
+start().catch(error=>{console.error(error);const message=document.createElement('p');message.className='plot-error';message.textContent='The charts could not be rendered. The overview table and downloadable CSVs remain available. '+error.message;$('#overview').prepend(message);document.documentElement.dataset.reportError=error.message;});
+</script>
+</body>
+</html>
