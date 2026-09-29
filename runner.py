@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Linux baseline harness. Run through uv; see README.txt for measurement scope."""
 import argparse
+import ctypes
 import hashlib
 import json
 import os
@@ -19,6 +20,8 @@ from fixtures import CASES, checks, encode, fixture, matches, oracle
 
 ROOT = Path(__file__).resolve().parent
 BUILD = ROOT / '.build'
+SOURCE = next((p/'baml' for p in ROOT.parents if (p/'baml/.git').exists()), None)
+LIBC = ctypes.CDLL(None, use_errno=True)
 LANGUAGES = ('baml', 'rust', 'go', 'python', 'node')
 EXT = {'baml': 'baml', 'rust': 'rs', 'go': 'go', 'python': 'py', 'node': 'ts', 'bun': 'ts'}
 
@@ -99,7 +102,7 @@ def build(args):
                     shutil.copyfile(ROOT / 'drivers/main.go', dest / 'main.go')
                     shutil.copyfile(src, dest / 'workload.go')
                 binary = dest / 'program'
-                command(['go', 'build', '-trimpath', '-o', str(binary), str(dest/'main.go'), str(dest/'workload.go')])
+                command(['go', 'build', '-trimpath', '-ldflags=-s -w', '-o', str(binary), str(dest/'main.go'), str(dest/'workload.go')])
                 invocation = [str(binary)]
             elif lang == 'rust': invocation = [str(BUILD / 'target/release' / case)]
             else:
@@ -117,7 +120,7 @@ def build(args):
                       'executable_sha256': digest(invocation[0]), 'executable_bytes': Path(invocation[0]).stat().st_size}
             if lang == 'rust': record['cargo_lock_sha256'] = digest(ROOT/'Cargo.lock')
             if lang == 'rust': record['build_flags'] = 'cargo build --release; profile in hashed Cargo.toml'
-            if lang == 'go': record['build_flags'] = 'go build -trimpath; default optimization'
+            if lang == 'go': record['build_flags'] = 'go build -trimpath -ldflags="-s -w"; default optimization'
             if lang == 'node': record['runtime_versions'] = json.loads(command([invocation[0],'-p','JSON.stringify(process.versions)']))
             if lang == 'python' and case == '06_http_service':
                 record['packages'] = command(['uv','pip','freeze','--python',invocation[0]]).splitlines()
@@ -132,11 +135,24 @@ def build(args):
 
 
 def proc_sample(pid):
-    """Linux aggregate process CPU includes its threads; ticks are coarse."""
+    """Process CPU clock includes every thread; keep coarse ticks as a cross-check."""
     stat = Path(f'/proc/{pid}/stat').read_text().rsplit(')', 1)[1].split()
     ticks = os.sysconf('SC_CLK_TCK')
-    return {'cpu_s': (int(stat[11]) + int(stat[12])) / ticks,
+    clock_id = ctypes.c_int()
+    error = LIBC.clock_getcpuclockid(pid, ctypes.byref(clock_id))
+    if error: raise ProcessLookupError(error, 'clock_getcpuclockid')
+    return {'cpu_s': time.clock_gettime_ns(clock_id.value) / 1e9,
+            'cpu_s_ticks': (int(stat[11]) + int(stat[12])) / ticks,
             'rss_bytes': int(stat[21]) * os.sysconf('SC_PAGE_SIZE')}
+
+
+def observer():
+    binary = BUILD/'observer'
+    source = ROOT/'observer.c'
+    if not binary.exists() or source.stat().st_mtime_ns > binary.stat().st_mtime_ns:
+        BUILD.mkdir(exist_ok=True)
+        command(['cc','-O2','-Wall','-Wextra','-Werror',str(source),'-o',str(binary)])
+    return str(binary)
 
 
 class Child:
@@ -144,25 +160,35 @@ class Child:
         directory.mkdir(parents=True, exist_ok=False)
         self.stderr_path = directory / 'stderr.txt'
         self.stderr = self.stderr_path.open('wb')
+        self.usage_path = directory/'usage.json'
+        pid_path = directory/'pid.txt'
+        executable = observer()
         self.start = time.perf_counter()
         self.deadline = self.start + timeout
-        self.p = subprocess.Popen(record['command'], cwd=directory, env=environment(mode),
+        self.p = subprocess.Popen([executable, str(pid_path), str(self.usage_path), str(directory),
+                                  ','.join(map(str, record.get('cpu_affinity', []))) or 'inherit',
+                                  *record['command']], cwd=directory, env=environment(mode),
                                   stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=self.stderr,
                                   start_new_session=True)
         self.buffer = b''
         self.samples = []
         self.last_sample = 0.0
         self.first_result_s = None
+        while not pid_path.exists() or not pid_path.read_text().strip():
+            if self.p.poll() is not None or time.perf_counter() > self.deadline:
+                raise RuntimeError(f'observer failed: {self.stderr_path.read_text()}')
+            time.sleep(0.001)
+        self.measure_pid = int(pid_path.read_text())
         self.send(initial)
 
     def sample(self):
         now = time.perf_counter()
         try:
-            value = dict(t_s=now-self.start, **proc_sample(self.p.pid))
+            value = dict(t_s=now-self.start, **proc_sample(self.measure_pid))
             self.samples.append(value)
             self.last_sample = now
             return value
-        except FileNotFoundError:
+        except (FileNotFoundError, ProcessLookupError, OSError):
             return None
 
     def send(self, value):
@@ -203,7 +229,8 @@ class Child:
         for value in values:
             if not matches(json.loads(value), expected):
                 raise AssertionError(f'wrong output: {value[:400]}; expected {str(expected)[:400]}')
-        return {'jobs': count, 'wall_s': elapsed, 'cpu_s_ticks': after['cpu_s']-before['cpu_s'],
+        return {'jobs': count, 'wall_s': elapsed, 'cpu_s': after['cpu_s']-before['cpu_s'],
+                'cpu_s_ticks': after['cpu_s_ticks']-before['cpu_s_ticks'],
                 'completion_offsets_s': arrivals, 'correct': True}
 
     def finish(self):
@@ -223,9 +250,9 @@ class Child:
         if self.p.returncode: raise RuntimeError(f'child exit {self.p.returncode}: {self.stderr_path.read_text()[-4000:]}')
         diagnostic = self.stderr_path.read_text()
         if 'telemetry recording failed' in diagnostic.lower(): raise RuntimeError(diagnostic)
-        return {'wall_s': time.perf_counter()-self.start, 'cpu_s': usage.ru_utime+usage.ru_stime,
-                'user_cpu_s': usage.ru_utime, 'system_cpu_s': usage.ru_stime,
-                'peak_rss_bytes': usage.ru_maxrss*1024,
+        usage = json.loads(self.usage_path.read_text())
+        return {'wall_s': time.perf_counter()-self.start, 'cpu_s': usage['user_cpu_s']+usage['system_cpu_s'],
+                **usage,
                 'first_correct_result_s': self.first_result_s,
                 'shutdown_wall_s': time.perf_counter()-shutdown_start, 'samples': self.samples}
 
@@ -255,8 +282,8 @@ def metadata(args):
             'cpu_affinity': sorted(os.sched_getaffinity(0)), 'cpu_tick_s': 1/os.sysconf('SC_CLK_TCK'),
             'cpuinfo': Path('/proc/cpuinfo').read_text(),
             'env': {k: os.environ.get(k) for k in ('GOGC','GOMEMLIMIT','GOMAXPROCS','NODE_OPTIONS','TOKIO_WORKER_THREADS','RUSTFLAGS')},
-            'source_checkout_head': command(['git','-C',str(ROOT.parent/'baml'),'rev-parse','HEAD']),
-            'source_checkout_dirty': bool(command(['git','-C',str(ROOT.parent/'baml'),'status','--porcelain'])),
+            'source_checkout_head': command(['git','-C',str(SOURCE),'rev-parse','HEAD']),
+            'source_checkout_dirty': bool(command(['git','-C',str(SOURCE),'status','--porcelain'])),
             'note': 'checkout revision describes source references, not binary provenance',
             'runner_sha256': digest(__file__), 'fixtures_sha256': digest(ROOT/'fixtures.py')}
 

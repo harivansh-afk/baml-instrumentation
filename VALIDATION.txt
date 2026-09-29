@@ -1,3 +1,6 @@
+Historical smoke validation. Its old peak-RSS values included launcher memory.
+Use baseline.csv and the corrected observer for performance comparisons.
+
 Validated on Spark, Linux aarch64, 2026-09-29.
 
 All seven cases built for BAML, Rust, Go, Python and TypeScript/Node.

@@ -13,17 +13,16 @@ ready_s: launch -> loaded/prepared child, including fixture delivery.
 batch.wall_s: parent monotonic clock, command delivery -> @done receipt.
   Includes work, output serialization, pipe transfer/backpressure and marker cost.
   NOT a pure VM kernel timer. Small jobs must be batched or treated as harness floor.
-batch.cpu_s_ticks: process-wide /proc CPU delta, all child threads; tick-resolution.
-  Quantization is recorded. A zero/tiny delta does NOT mean zero/free work.
-  Use batches consuming many ticks; do not divide a one-tick observation into
-  apparently precise nanoseconds. Sampling adds overhead; compare unprofiled runs
-  before accepting small differences.
+batch.cpu_s: Linux process CPU clock delta, including all child threads.
+  batch.cpu_s_ticks retains the coarse /proc counter for diagnosis.
+  Baselines use repeated, calibrated batches and the process CPU clock.
 completion_offsets_s: receipt times; useful for observing stalls, NOT GC pauses
   or open-loop request latency. Multiple lines can arrive in one OS read.
 invocation.cpu_s: wait4 user+system CPU for the entire child, including startup,
   warmup, work, protocol and shutdown. Do not label this steady-state CPU/job.
 invocation.wall_s: launch -> reaped exit, including parent validation/idle time.
-invocation.peak_rss_bytes: Linux wait4 high-water RSS for this child, in bytes.
+invocation.peak_rss_bytes: Linux wait4 high-water RSS, collected by observer.c.
+  The small native parent prevents inherited Python launcher RSS from inflating it.
 invocation.samples: ~5ms best-effort process CPU/RSS samples. Peak RSS is not
   the largest sample; use wait4. Neither is live-heap bytes.
 shutdown_wall_s: stop command -> exit, including runtime cleanup/telemetry drain.

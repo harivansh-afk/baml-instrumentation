@@ -11,3 +11,6 @@ BAML behavior: packed bytecode loading, engine/Tokio setup, input conversion,
 Use: a deployment constraint and harness floor, not a representative application.
      The JSON-capable harness is part of this feature bundle, not minimal hello-world.
      Manifest executable_bytes is one file's size, NOT complete deployment size.
+
+Baseline: baseline.csv; individual trials in baseline.samples.csv.
+          Units, size accounting and run settings: ../BASELINE.txt.

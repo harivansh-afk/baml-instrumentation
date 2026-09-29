@@ -4,6 +4,7 @@ import json
 import math
 import resource
 import socket
+import sys
 import time
 
 from runner import Child
@@ -14,14 +15,30 @@ def percentile(values, p):
     return sorted(values)[max(0, math.ceil(p * len(values))-1)] if values else None
 
 
-async def request(port, raw):
+def window_metrics(entries, offered_rate, elapsed, deadline_ms):
+    """Use the scheduled traffic window; expose the subsequent drain separately."""
+    window = len(entries)/offered_rate
+    in_window = [e for e in entries if e['correct'] and e['scheduled_s']+e['latency_s'] <= window]
+    good = [e for e in in_window if e['latency_s'] <= deadline_ms/1000]
+    outcomes = [e['latency_s']*1000 for e in entries]
+    return {'measurement_window_s':window,'drain_s':max(0,elapsed-window),
+            'correct_rps':len(in_window)/window,'goodput_rps':len(good)/window,
+            'p50_ms':percentile(outcomes,.5),'p95_ms':percentile(outcomes,.95),
+            'p99_ms':percentile(outcomes,.99) if len(outcomes)>=1000 else None}
+
+
+async def request(port, raw, progress=None):
+    progress = progress if progress is not None else {}
+    progress['stage'] = 'connect'
     reader, writer = await asyncio.open_connection('127.0.0.1', port)
     try:
+        progress['stage'] = 'write'
         body = raw.encode()
         writer.write((f'POST /aggregate HTTP/1.1\r\nHost: 127.0.0.1\r\n'
                       f'Content-Type: application/json\r\nContent-Length: {len(body)}\r\n'
                       'Connection: close\r\n\r\n').encode()+body)
         await writer.drain()
+        progress['stage'] = 'headers'
         status = int((await reader.readline()).split()[1])
         headers = {}
         while True:
@@ -30,6 +47,7 @@ async def request(port, raw):
             if not line: raise RuntimeError('incomplete HTTP header')
             key, value = line.decode().split(':',1)
             headers[key.lower()] = value.strip()
+        progress['stage'] = 'body'
         if headers.get('transfer-encoding') == 'chunked':
             chunks = []
             while True:
@@ -43,6 +61,8 @@ async def request(port, raw):
         else: payload = await reader.read()
         return status,payload
     finally:
+        if sys.exc_info()[0] is None:
+            progress['stage'] = 'close'
         writer.close()
         await writer.wait_closed()
 
@@ -68,15 +88,17 @@ async def load(child, port, raw, expected, args):
         await asyncio.sleep(max(0,scheduled-time.perf_counter()))
         dispatched = time.perf_counter()
         entry = {'index':index,'scheduled_s':scheduled-start,'dispatch_lag_s':dispatched-scheduled}
+        progress = {}
         try:
-            status,payload = await asyncio.wait_for(request(port,raw),10)
+            status,payload = await asyncio.wait_for(request(port,raw,progress),10)
             completed = time.perf_counter()
             correct = status == expected_status and matches(json.loads(payload), expected)
             entry.update(status=status,correct=correct,latency_s=completed-scheduled,
                          service_observed_s=completed-dispatched,
                          within_deadline=completed-scheduled <= args.deadline_ms/1000)
         except Exception as error:
-            entry.update(correct=False,within_deadline=False,error=str(error),latency_s=time.perf_counter()-scheduled)
+            entry.update(correct=False,within_deadline=False,error=f'{type(error).__name__}: {error}',
+                         error_stage=progress.get('stage'),latency_s=time.perf_counter()-scheduled)
         return entry
 
     sampler = asyncio.create_task(sample())
@@ -96,13 +118,15 @@ async def load(child, port, raw, expected, args):
             'goodput_rps':len(good)/elapsed,'correct_rps':len(correct)/elapsed,
             'p50_ms':percentile(latency,0.50),'p95_ms':percentile(latency,0.95),
             'p99_ms':percentile(latency,0.99) if len(latency) >= 1000 else None,
-            'cpu_s_ticks':cpu_after['cpu_s']-cpu_before['cpu_s'],
+            'cpu_s':cpu_after['cpu_s']-cpu_before['cpu_s'],
+            'cpu_s_ticks':cpu_after['cpu_s_ticks']-cpu_before['cpu_s_ticks'],
             'client_cpu_s':client_after.ru_utime+client_after.ru_stime-client_before.ru_utime-client_before.ru_stime,
             'max_dispatch_lag_ms':max(e['dispatch_lag_s'] for e in entries)*1000,
-            'requests':entries}
+            'requests':entries,
+            **window_metrics(entries,args.rate,elapsed,args.deadline_ms)}
 
 
-def measure(record,raw,expected,mode,directory,args):
+def measure(record,raw,expected,mode,directory,args,on_ready=None):
     # Reserve an uncommon loopback port; fail on a bind race rather than reuse a service.
     with socket.socket() as reservation:
         reservation.bind(('127.0.0.1',0))
@@ -110,11 +134,14 @@ def measure(record,raw,expected,mode,directory,args):
     child = Child(record,f'127.0.0.1:{port}',mode,directory)
     try:
         ready = child.ready()
+        artifact = on_ready(child.measure_pid) if on_ready else None
         data = asyncio.run(load(child,port,raw,expected,args))
         invocation = child.finish()
         if args.action == 'verify' and data['failed_or_incorrect']:
             raise AssertionError(f"{data['failed_or_incorrect']} incorrect HTTP responses")
-        return {'ready_s':ready,'http':data,'invocation':invocation}
+        result = {'ready_s':ready,'http':data,'invocation':invocation}
+        if artifact is not None: result['artifact'] = artifact
+        return result
     except BaseException:
         child.abort()
         raise
