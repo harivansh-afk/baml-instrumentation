@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>BAML baselines</title>
+  <style>
+    :root { --ink:#202c36; --muted:#596874; --line:#dce3e8; --wash:#f4f7f9; --blue:#176a9b; --bar:#6a8293; --selected:#eaf3f9; --warning:#895317; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#fff; color:var(--ink); font:14px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    button,select { font:inherit; color:inherit; }
+    button,a,select,summary { -webkit-tap-highlight-color:transparent; }
+    button { cursor:pointer; }
+    a { color:var(--blue); text-underline-offset:3px; }
+    :focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+    ::selection { background:#cde7f7; color:var(--ink); }
+    [hidden] { display:none !important; }
+    .shell { max-width:1380px; padding:36px 40px 28px; margin:auto; }
+    header { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:30px; }
+    h1 { font-size:28px; line-height:1.2; letter-spacing:-.025em; font-weight:650; margin:0 0 8px; }
+    h2 { font-size:18px; line-height:1.3; font-weight:620; margin:0; }
+    p { margin:0; }
+    .muted,.subtle { color:var(--muted); }
+    .subtle { font-size:12px; }
+    .action { display:inline-flex; align-items:center; justify-content:center; min-height:36px; padding:6px 12px; border:1px solid var(--line); border-radius:6px; background:#fff; text-decoration:none; white-space:nowrap; }
+    .action:hover { background:var(--wash); border-color:var(--bar); }
+    .action:disabled { opacity:.5; cursor:default; }
+    .controls { display:grid; grid-template-columns:minmax(220px,1.2fr) minmax(200px,1fr) minmax(190px,.8fr); gap:20px; padding:0 0 24px; border-bottom:1px solid var(--line); }
+    label { display:block; font-size:12px; font-weight:600; margin-bottom:6px; }
+    select { width:100%; min-height:40px; padding:7px 30px 7px 10px; background:#fff; border:1px solid var(--line); border-radius:6px; }
+    select:disabled { color:var(--muted); background:var(--wash); }
+    .case-info { margin:20px 0 28px; }
+    .case-info p { max-width:85ch; }
+    #parameters { margin-top:5px; }
+    .workspace { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.07fr); gap:40px; align-items:start; }
+    .panel-head { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:18px; }
+    .metric-control { display:flex; align-items:center; gap:14px; margin-bottom:8px; }
+    .metric-control select { width:min(260px,70%); }
+    #direction { font-size:12px; }
+    .chart-labels { display:flex; justify-content:space-between; color:var(--muted); font-size:11px; margin:16px 10px 6px; }
+    .chart-row { display:grid; grid-template-columns:104px minmax(0,1fr) 108px; gap:14px; align-items:center; width:100%; border:0; border-radius:5px; padding:12px 10px; background:transparent; text-align:left; font-variant-numeric:tabular-nums; }
+    .chart-row:hover { background:var(--wash); }
+    .chart-row[aria-pressed="true"] { background:var(--selected); }
+    .runtime { font-weight:560; }
+    .runtime small { display:block; font-size:11px; font-weight:400; color:var(--muted); }
+    .track { display:block; height:12px; position:relative; background:#e8eef2; border-radius:2px; }
+    .fill { display:block; height:100%; width:0; background:var(--bar); border-radius:2px; }
+    .chart-row[aria-pressed="true"] .fill { background:var(--blue); }
+    .value { text-align:right; font-size:15px; font-weight:620; }
+    .value small { display:block; color:var(--muted); font-size:11px; font-weight:400; white-space:nowrap; }
+    .chart-foot { display:flex; justify-content:space-between; gap:16px; margin:12px 10px 18px; }
+    #metric-note { max-width:70ch; margin-top:10px; }
+    #http-note { margin-top:12px; color:var(--warning); }
+    details { border-top:1px solid var(--line); padding-top:14px; margin-top:22px; }
+    summary { cursor:pointer; width:fit-content; font-weight:550; }
+    .table-scroll { overflow:auto; margin-top:12px; }
+    table { width:100%; border-collapse:collapse; font-size:12px; font-variant-numeric:tabular-nums; white-space:nowrap; }
+    th,td { padding:9px 10px; text-align:right; border-bottom:1px solid var(--line); }
+    th { font-weight:560; color:var(--muted); }
+    th:first-child,td:first-child { text-align:left; padding-left:0; }
+    .source-panel { min-width:0; }
+    .source-panel .panel-head { flex-wrap:wrap; gap:6px 16px; }
+    .tabs { display:flex; gap:4px; border-bottom:1px solid var(--line); margin-bottom:16px; }
+    .tab { border:0; border-bottom:2px solid transparent; background:transparent; padding:9px 12px; color:var(--muted); }
+    .tab:hover { color:var(--ink); background:var(--wash); }
+    .tab[aria-selected="true"] { color:var(--blue); border-bottom-color:var(--blue); font-weight:600; }
+    .source-toolbar { display:flex; align-items:end; gap:10px; margin-bottom:10px; }
+    .source-toolbar > div { flex:1; min-width:0; }
+    .source-toolbar select { min-height:36px; font-size:12px; }
+    .source-toolbar label { font-weight:400; color:var(--muted); }
+    pre { margin:0; overflow:auto; white-space:pre; tab-size:4; scrollbar-color:var(--bar) var(--wash); }
+    #code { display:block; margin:0; padding:20px; height:466px; background:var(--wash); border-radius:6px; font:12px/1.7 ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace; }
+    .source-meta { display:flex; justify-content:space-between; align-items:start; gap:12px; margin-top:10px; font-size:11px; color:var(--muted); }
+    #source-version { overflow-wrap:anywhere; max-width:65ch; }
+    #source-status { text-align:right; }
+    .warning { color:var(--warning) !important; }
+    footer { margin-top:36px; }
+    footer details { padding-top:16px; }
+    #notes { white-space:pre-wrap; max-width:90ch; margin:16px 0; font:12px/1.65 system-ui,sans-serif; color:var(--muted); }
+    .notice { padding:28px; background:var(--wash); border-radius:6px; max-width:720px; margin:28px 0; }
+    .notice h2 { margin-bottom:10px; }
+    .notice p { margin-bottom:16px; max-width:65ch; }
+    .notice .actions { display:flex; gap:10px; flex-wrap:wrap; }
+    .loading { color:var(--muted); padding:24px 0; }
+    .sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+    @media (max-width:1050px) { .shell { padding:28px; } .workspace { gap:26px; } .chart-row { grid-template-columns:88px minmax(0,1fr) 94px; gap:10px; } .tab { padding:9px 10px; } }
+    @media (max-width:850px) { .workspace { grid-template-columns:1fr; gap:34px; } .controls { gap:14px; grid-template-columns:1fr 1fr; } .controls > div:last-child { grid-column:1/-1; max-width:260px; } #code { height:440px; } }
+    @media (max-width:480px) { .shell { padding:22px 18px; } header { gap:12px; margin-bottom:24px; } h1 { font-size:25px; } header .action { font-size:12px; padding:6px 9px; } .controls { grid-template-columns:1fr; gap:12px; } .controls > div:last-child { max-width:none; } .case-info { margin:18px 0 24px; } .chart-row { grid-template-columns:89px minmax(0,1fr) 99px; gap:9px; padding:11px 7px; } .tabs { gap:0; } .tab { flex:1; padding:9px 6px; font-size:12px; } .notice { padding:20px; } #code { padding:14px; } .source-meta { flex-direction:column; gap:4px; } #source-status { text-align:left; } }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div>
+        <h1>BAML baselines</h1>
+        <p id="snapshot" class="muted">Measurements and the code behind them.</p>
+      </div>
+      <button class="action" id="choose-folder" type="button">Open folder</button>
+      <input id="folder-input" type="file" webkitdirectory multiple hidden>
+    </header>
+
+    <section class="notice" id="notice" hidden aria-labelledby="notice-title">
+      <h2 id="notice-title">Open the benchmark folder</h2>
+      <p id="notice-text">Choose the instrumentation folder to read its CSVs and source files.</p>
+      <div class="actions">
+        <button class="action" id="notice-folder" type="button">Choose instrumentation folder</button>
+        <button class="action" id="retry" type="button" hidden>Retry</button>
+      </div>
+    </section>
+    <p id="loading" class="loading" role="status">Loading baselines…</p>
+    <noscript><p>Enable JavaScript to read the local CSVs and display the comparisons.</p></noscript>
+
+    <div id="app" hidden>
+      <div class="controls">
+        <div><label for="case-select">Test case</label><select id="case-select"></select></div>
+        <div><label for="scenario-select">Scenario</label><select id="scenario-select"></select></div>
+        <div><label for="telemetry-select">BAML telemetry, requested</label><select id="telemetry-select"><option value="medium">Medium</option><option value="off">Off</option></select></div>
+      </div>
+      <div class="case-info">
+        <p id="purpose"></p>
+        <p id="parameters" class="subtle"></p>
+      </div>
+
+      <div class="workspace">
+        <section aria-labelledby="measurements-title">
+          <div class="panel-head"><h2 id="measurements-title">Measurements</h2><a id="csv-link" class="subtle" download>Download CSV</a></div>
+          <label class="sr-only" for="metric-select">Measurement to compare</label>
+          <div class="metric-control"><select id="metric-select"></select><span id="direction" class="muted"></span></div>
+          <div class="chart-labels"><span>Runtime</span><span id="value-heading"></span></div>
+          <div id="chart" role="group" aria-label="Runtime comparison"></div>
+          <div class="chart-foot subtle"><span id="scale"></span><span id="trial-count"></span></div>
+          <p id="metric-note" class="subtle"></p>
+          <p id="http-note" class="subtle" hidden></p>
+          <details>
+            <summary>All measurements</summary>
+            <div class="table-scroll" tabindex="0" role="region" aria-label="All measurements table"><table id="metrics-table"></table></div>
+          </details>
+        </section>
+
+        <section class="source-panel" aria-labelledby="source-title">
+          <div class="panel-head"><h2 id="source-title">Tested source</h2><span class="subtle">Select a runtime to inspect its code</span></div>
+          <div class="tabs" id="language-tabs" role="tablist" aria-label="Source language"></div>
+          <div id="source-panel" role="tabpanel">
+            <div class="source-toolbar">
+              <div><label for="source-select">Source file</label><select id="source-select"></select></div>
+              <button class="action" id="copy" type="button" disabled>Copy</button>
+            </div>
+            <pre id="code" tabindex="0" role="region" aria-label="Source code"><code id="code-text"></code></pre>
+            <div class="source-meta"><span id="source-version"></span><span id="source-status" role="status"></span></div>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        <p id="scope" class="subtle"></p>
+        <details><summary>Measurement notes</summary><pre id="notes"></pre></details>
+      </footer>
+    </div>
+    <span id="announcement" class="sr-only" role="status" aria-live="polite"></span>
+  </main>
+
+  <script>
+    // This page reads existing files. No benchmark results or source code are embedded.
+    const $ = id => document.getElementById(id);
+    const cases = {
+      '00_startup':'Startup', '01_array_traversal':'Array traversal', '02_merge_sort':'Merge sort',
+      '03_json_aggregate':'JSON aggregation', '04_allocation_retention':'Allocation and retention',
+      '05_async_fanout':'Async fan-out', '06_http_service':'HTTP aggregation'
+    };
+    const runtimes = {
+      baml:{label:'BAML',language:'baml',ext:'baml'}, rust:{label:'Rust',language:'rust',ext:'rs'},
+      go:{label:'Go',language:'go',ext:'go'}, python:{label:'Python',language:'python',ext:'py'},
+      node:{label:'Node / V8',language:'typescript',ext:'ts'}, bun:{label:'Bun / JSC',language:'typescript',ext:'ts'}
+    };
+    const languages = {baml:'BAML',rust:'Rust',go:'Go',python:'Python',typescript:'TypeScript'};
+    const metrics = [
+      {key:'cpu_ms',label:'CPU time',unit:'ms',range:['cpu_min_ms','cpu_max_ms'],note:'Total process CPU across all threads, per useful unit of work. Small text shows the observed range across trials.'},
+      {key:'wall_ms',label:'Wall time',unit:'ms',range:['wall_min_ms','wall_max_ms'],note:'Elapsed time per job, including result encoding and transfer. Startup measures the complete invocation.'},
+      {key:'first_result_ms',label:'First correct result',unit:'ms',note:'Fresh process launch to receipt of its first correct result; OS caches are warm.'},
+      {key:'peak_rss_mib',label:'Peak memory',unit:'MiB',note:'Largest process high-water RSS across the trials. This is resident memory, not live-heap size.'},
+      {key:'bundle_bytes',label:'Bundle size',unit:'MiB',divisor:2**20,note:'Application, interpreter/runtime, and loaded libraries. The observed bundle is uncompressed; it is not a minimal deployment.'},
+      {key:'application_bytes',label:'Application size',unit:'KiB',divisor:2**10,note:'Native executable, or scripts plus their driver. Interpreted languages require the runtime shown under Bundle size.'},
+      {key:'runtime_bytes',label:'Runtime size',unit:'MiB',divisor:2**20,note:'Interpreter and runtime files; Python includes its standard library and dependencies. Zero means no separate runtime files were counted.'},
+      {key:'mapped_libraries_bytes',label:'Shared libraries',unit:'MiB',divisor:2**20,note:'Loaded shared libraries not already counted in the application or runtime.'},
+      {key:'correct_rps',label:'Completed requests',unit:'req/s',higher:true,note:'Correct responses completed inside the scheduled traffic window. The offered load is fixed; this is not maximum server capacity.'},
+      {key:'goodput_rps',label:'Goodput',unit:'req/s',higher:true,note:'Correct responses completed within the test deadline and scheduled traffic window.'},
+      {key:'p50_ms',label:'p50 latency',unit:'ms',note:'Median of each trial’s p50 request-outcome latency. Client scheduling delay and timeouts are included.'},
+      {key:'p95_ms',label:'p95 latency',unit:'ms',note:'Median of each trial’s p95 request-outcome latency. Client scheduling delay and timeouts are included.'},
+      {key:'p99_ms',label:'p99 latency',unit:'ms',range:['p99_min_ms','p99_max_ms'],note:'Median of each trial’s p99 request-outcome latency, including timeouts. Small text shows the range across trials.'},
+      {key:'failures',label:'Failed requests',unit:'requests',total:true,note:'Total failed or incorrect requests across all trials; these have not been removed from the results.'},
+      {key:'late',label:'Late responses',unit:'requests',total:true,note:'Correct responses that exceeded the test deadline, summed across trials.'},
+      {key:'client_max_lag_ms',label:'Client scheduling lag',unit:'ms',note:'Median of the largest client dispatch delay in each trial. This helps identify load-generator limitations.'},
+      {key:'drain_s',label:'Drain time',unit:'s',note:'Time waiting for remaining requests after the scheduled traffic window ended.'}
+    ];
+    const strings = new Set(['scenario','language','telemetry_requested','runtime_version','unit']);
+    const state = {env:{},rows:[],visible:[],case:'03_json_aggregate',scenario:'',runtime:'baml',metric:'cpu_ms',telemetry:'medium',directory:null,files:null,cache:new Map(),source:'',csvURL:null,loadId:0,sourceId:0};
+
+    function element(tag,text,className) {
+      const node = document.createElement(tag);
+      if (text !== undefined) node.textContent = text;
+      if (className) node.className = className;
+      return node;
+    }
+    function safePath(path) {
+      const parts = path.split('/');
+      const rootFile = ['baseline.environment.json','BASELINE.txt'].includes(path);
+      if (!rootFile && !(Object.hasOwn(cases,parts[0]) || parts[0] === 'drivers')) throw new Error('Unexpected file path.');
+      if (parts.some(part => !/^[\w.-]+$/.test(part) || part === '..' || part === '.')) throw new Error('Invalid file path.');
+      return parts;
+    }
+    async function readFile(path) {
+      const parts = safePath(path);
+      if (!state.cache.has(path)) {
+        const promise = (async () => {
+          if (state.directory) {
+            let handle = state.directory;
+            for (const part of parts.slice(0,-1)) handle = await handle.getDirectoryHandle(part);
+            return (await (await handle.getFileHandle(parts.at(-1))).getFile()).text();
+          }
+          if (state.files) {
+            const file = state.files.get(path);
+            if (!file) throw new Error(`Missing ${path}`);
+            return file.text();
+          }
+          const response = await fetch(new URL(path,location.href),{cache:'no-store'});
+          if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+          return response.text();
+        })();
+        state.cache.set(path,promise);
+        promise.catch(() => { if (state.cache.get(path) === promise) state.cache.delete(path); });
+      }
+      return state.cache.get(path);
+    }
+    function parseCSV(text) {
+      const records = []; let row = [],field = '',quoted = false;
+      text = text.replace(/^\uFEFF/,'');
+      for (let i=0;i<text.length;i++) {
+        const c = text[i];
+        if (c === '"') {
+          if (quoted && text[i+1] === '"') { field += '"'; i++; }
+          else quoted = !quoted;
+        } else if (!quoted && (c === ',' || c === '\n' || c === '\r')) {
+          row.push(field); field = '';
+          if (c !== ',') { if (row.some(value => value !== '')) records.push(row); row = []; if (c === '\r' && text[i+1] === '\n') i++; }
+        } else field += c;
+      }
+      if (quoted) throw new Error('Unclosed quoted field in CSV.');
+      if (field !== '' || row.length) { row.push(field); records.push(row); }
+      const header = records.shift();
+      if (!header || !['scenario','language','cpu_ms'].every(key => header.includes(key))) throw new Error('CSV is missing required columns.');
+      return records.map(values => {
+        if (values.length !== header.length) throw new Error('CSV row has the wrong number of columns.');
+        return Object.fromEntries(header.map((key,i) => {
+          if (strings.has(key)) return [key,values[i]];
+          if (values[i].trim() === '') return [key,null];
+          const value = Number(values[i]);
+          if (!Number.isFinite(value)) throw new Error(`Invalid number in ${key}.`);
+          return [key,value];
+        }));
+      });
+    }
+    const number = value => value == null ? '—' : new Intl.NumberFormat('en-US',{maximumSignificantDigits:4}).format(value);
+    const whole = value => new Intl.NumberFormat('en-US').format(value);
+    const human = text => text.replaceAll('_',' ').replace(/^./,c => c.toUpperCase());
+    function options(select,items,value) {
+      select.replaceChildren(...items.map(([id,label]) => new Option(label,id)));
+      if (items.some(([id]) => id === value)) select.value = value;
+    }
+    function paragraph(text,label) {
+      return (text.match(new RegExp(`(?:^|\\n)${label}: ([\\s\\S]*?)(?=\\n\\n|$)`))?.[1] || '').replace(/\s+/g,' ').trim();
+    }
+    function scenarioLabel(id) {
+      const params = state.env.scenarios?.[state.case]?.[id] || {};
+      if (id.endsWith('_records') && params.size != null) return `${whole(params.size)} records`;
+      if (id.endsWith('_rps') && params.rate != null) return `${whole(params.rate)} requests/sec`;
+      if (id.startsWith('retain_') && params.retain != null) return `${whole(params.retain)} retained batches`;
+      if (id.startsWith('fanout_') && params.fanout != null) return `${whole(params.fanout)} tasks`;
+      return human(id);
+    }
+    function updateHash() {
+      try { history.replaceState(null,'','#'+new URLSearchParams({case:state.case,scenario:state.scenario,metric:state.metric,runtime:state.runtime,telemetry:state.telemetry})); } catch {}
+    }
+    function showNotice(title,message,retry=false) {
+      $('notice-title').textContent = title; $('notice-text').textContent = message;
+      $('notice').hidden = false; $('retry').hidden = !retry; $('loading').hidden = true; $('app').hidden = true;
+    }
+    async function initialize() {
+      const id = ++state.loadId; state.sourceId++; state.cache.clear();
+      $('notice').hidden = true; $('app').hidden = true; $('loading').hidden = false;
+      $('loading').textContent = 'Loading baselines…';
+      try {
+        const [env,notes] = await Promise.all([readFile('baseline.environment.json').catch(()=>'{}'),readFile('BASELINE.txt').catch(()=>'Measurement notes are unavailable.')]);
+        if (id !== state.loadId) return;
+        try { state.env = JSON.parse(env); } catch { state.env = {}; }
+        $('notes').textContent = notes;
+        options($('case-select'),Object.entries(cases),state.case);
+        const date = state.env.machine?.timestamp_utc;
+        const stamp = date && !Number.isNaN(Date.parse(date)) ? new Intl.DateTimeFormat('en',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(date)) : '';
+        $('snapshot').textContent = `Measured baselines${stamp ? ' from '+stamp : ''}. Select a case to compare.`;
+        await loadCase();
+      } catch (error) { showNotice('Could not load the baselines',`${error.message} Choose the instrumentation folder or retry.`,true); }
+    }
+    async function loadCase() {
+      const id = ++state.loadId; state.sourceId++;
+      state.case = $('case-select').value;
+      $('loading').textContent = 'Loading '+cases[state.case]+'…'; $('loading').hidden = false;
+      $('app').setAttribute('aria-busy','true');
+      for (const name of ['scenario-select','metric-select','source-select']) $(name).disabled = true;
+      try {
+        const [csv,readme] = await Promise.all([readFile(`${state.case}/baseline.csv`),readFile(`${state.case}/README.txt`).catch(()=>'')]);
+        if (id !== state.loadId) return;
+        state.rows = parseCSV(csv).filter(row => Object.hasOwn(runtimes,row.language));
+        if (!state.rows.length) throw new Error('No supported runtime rows in this CSV.');
+        options($('scenario-select'),[...new Set(state.rows.map(row => row.scenario))].map(key => [key,scenarioLabel(key)]),state.scenario);
+        state.scenario = $('scenario-select').value;
+        options($('metric-select'),metrics.filter(metric => state.rows.some(row => row[metric.key] != null)).map(metric => [metric.key,metric.label]),state.metric);
+        state.metric = $('metric-select').value;
+        $('telemetry-select').value = state.telemetry;
+        $('purpose').textContent = (paragraph(readme,'Why') || cases[state.case]).replace(/^./,c=>c.toUpperCase());
+        if (state.csvURL) URL.revokeObjectURL(state.csvURL);
+        state.csvURL = URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+        $('csv-link').href = state.csvURL; $('csv-link').download = `${state.case}-baseline.csv`;
+        $('app').hidden = false; $('loading').hidden = true; $('notice').hidden = true;
+        render();
+      } catch (error) { if (id === state.loadId) showNotice('Could not read this case',`${error.message} Check the folder and try again.`,true); }
+      finally { if (id === state.loadId) { $('app').removeAttribute('aria-busy'); for (const name of ['scenario-select','metric-select','source-select']) $(name).disabled = false; } }
+    }
+    function render() {
+      state.visible = state.rows.filter(row => row.scenario === state.scenario && (row.language !== 'baml' || row.telemetry_requested === state.telemetry));
+      if (!state.visible.some(row => row.language === state.runtime)) state.runtime = state.visible[0]?.language || 'baml';
+      const params = state.env.scenarios?.[state.case]?.[state.scenario] || {};
+      const sizeLabel = state.case === '04_allocation_retention' ? 'Cells per batch' : state.case === '05_async_fanout' ? 'Payload elements' : ['03_json_aggregate','06_http_service'].includes(state.case) ? 'Records' : 'Elements';
+      const labels = {size:sizeLabel,delay_ms:'Delay (ms)',rate:'Offered requests/sec',retain:'Retained batches',fanout:'Tasks'};
+      $('parameters').textContent = Object.entries(params).map(([key,value]) => `${labels[key] || human(key)}: ${typeof value === 'number' ? whole(value) : human(String(value))}`).join(' / ');
+      const baml = state.visible.find(row => row.language === 'baml');
+      $('scope').textContent = [baml ? `${baml.runtime_version}. Packed VM; telemetry setting requested.` : '',state.env.machine?.machine ? `Shared ${state.env.machine.machine} host.` : ''].filter(Boolean).join(' ');
+      const failures = state.visible.reduce((sum,row) => sum+(row.failures || 0),0);
+      const late = state.visible.reduce((sum,row) => sum+(row.late || 0),0);
+      $('http-note').hidden = !state.visible.some(row => row.offered_rps != null);
+      $('http-note').textContent = `${whole(failures)} failed requests and ${whole(late)} late responses across the displayed trials. Outcomes remain in the latency percentiles.`;
+      renderChart(); renderTable(); renderTabs(); prepareSource(); updateHash();
+      $('announcement').textContent = `${cases[state.case]}, ${scenarioLabel(state.scenario)}. ${state.visible.length} runtimes.`;
+    }
+    function selectedMetric() { return metrics.find(metric => metric.key === state.metric) || metrics[0]; }
+    function valueOf(row,metric) { return row[metric.key] == null ? null : row[metric.key]/(metric.divisor || 1); }
+    function renderChart() {
+      const metric = selectedMetric(); const values = state.visible.map(row => valueOf(row,metric)).filter(value => value != null);
+      const maximum = Math.max(0,...values); const node = state.visible.find(row => row.language === 'node');
+      const reference = node ? valueOf(node,metric) : null;
+      const per = ['cpu_ms','wall_ms'].includes(metric.key) ? ` / ${state.visible[0]?.unit || 'job'}` : '';
+      const statistic = metric.total ? 'Total, ' : metric.key === 'peak_rss_mib' ? 'Maximum, ' : metric.key.endsWith('_bytes') ? '' : 'Median, ';
+      $('value-heading').textContent = `${statistic}${metric.unit}${per}`;
+      $('direction').textContent = metric.higher ? 'Higher is better' : 'Lower is better';
+      $('metric-note').textContent = metric.note;
+      $('scale').textContent = `Linear scale, 0–${number(maximum)} ${metric.unit}`;
+      const count = [...new Set(state.visible.map(row => row.trials))];
+      $('trial-count').textContent = count.length === 1 ? `${count[0]} trials per runtime` : 'Trial counts in CSV';
+      $('chart').replaceChildren(...state.visible.map(row => {
+        const value = valueOf(row,metric); const label = runtimes[row.language].label;
+        const button = element('button',undefined,'chart-row'); button.type = 'button'; button.dataset.runtime = row.language;
+        button.setAttribute('aria-pressed',String(row.language === state.runtime));
+        button.setAttribute('aria-label',`${label}: ${number(value)} ${metric.unit}. View source.`);
+        const name = element('span',label,'runtime');
+        const ratio = reference > 0 && value != null ? `${number(value/reference)}× Node` : row.language === 'baml' ? state.telemetry+' requested' : '';
+        name.append(element('small',ratio));
+        const track = element('span',undefined,'track'); track.setAttribute('aria-hidden','true');
+        const fill = element('span',undefined,'fill'); fill.style.width = `${maximum > 0 && value != null ? value/maximum*100 : 0}%`; track.append(fill);
+        const valueNode = element('span',number(value),'value'); valueNode.title = value == null ? 'Not measured' : `${row[metric.key]} ${metric.key.endsWith('_bytes') ? 'bytes' : metric.unit}`;
+        if (metric.range && metric.range.every(key => row[key] != null)) valueNode.append(element('small',`${number(row[metric.range[0]])}–${number(row[metric.range[1]])}`));
+        button.append(name,track,valueNode);
+        button.addEventListener('click',() => { selectRuntime(row.language); document.querySelector(`[data-runtime="${row.language}"]`).focus({preventScroll:true}); });
+        return button;
+      }));
+    }
+    function renderTable() {
+      const available = metrics.filter(metric => state.visible.some(row => row[metric.key] != null));
+      const head = element('thead'); const header = element('tr');
+      header.append(element('th','Runtime'));
+      for (const metric of available) { const th = element('th',`${metric.label} (${metric.unit})`); th.scope = 'col'; header.append(th); }
+      head.append(header);
+      const body = element('tbody');
+      for (const row of state.visible) {
+        const tr = element('tr'); const name = element('th',runtimes[row.language].label); name.scope = 'row'; tr.append(name);
+        for (const metric of available) tr.append(element('td',number(valueOf(row,metric))));
+        body.append(tr);
+      }
+      const caption = element('caption','All measurements for the selected scenario','sr-only');
+      $('metrics-table').replaceChildren(caption,head,body);
+    }
+    function selectRuntime(runtime) {
+      state.runtime = runtime; renderChart(); renderTabs(); prepareSource(); updateHash();
+    }
+    function renderTabs() {
+      const active = runtimes[state.runtime].language;
+      const available = Object.entries(languages).filter(([key]) => state.visible.some(row => runtimes[row.language].language === key));
+      $('language-tabs').replaceChildren(...available.map(([key,label]) => {
+        const tab = element('button',label,'tab'); tab.type = 'button'; tab.id = `tab-${key}`; tab.setAttribute('role','tab');
+        tab.setAttribute('aria-selected',String(key === active)); tab.setAttribute('aria-controls','source-panel'); tab.tabIndex = key === active ? 0 : -1;
+        tab.addEventListener('click',() => { selectRuntime(state.visible.find(row => runtimes[row.language].language === key).language); $(`tab-${key}`).focus(); });
+        tab.addEventListener('keydown',event => {
+          if (!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
+          event.preventDefault(); const index = available.findIndex(([name]) => name === key);
+          const next = event.key === 'Home' ? 0 : event.key === 'End' ? available.length-1 : (index+(event.key==='ArrowRight'?1:-1)+available.length)%available.length;
+          const nextKey = available[next][0]; selectRuntime(state.visible.find(row => runtimes[row.language].language === nextKey).language); $(`tab-${nextKey}`).focus();
+        });
+        return tab;
+      }));
+      $('source-panel').setAttribute('aria-labelledby',`tab-${active}`);
+    }
+    function prepareSource() {
+      const runtime = runtimes[state.runtime]; const build = state.env.builds?.[`${state.case}/${state.runtime}`];
+      let paths = Object.keys(build?.source_hashes || {}).filter(path => path.endsWith('.'+runtime.ext));
+      if (!paths.length) paths = [`${state.case}/workload.${runtime.ext}`,state.case === '06_http_service' ? `03_json_aggregate/workload.${runtime.ext}` : `drivers/main.${runtime.ext}`];
+      paths = paths.filter(path => { try { safePath(path); return true; } catch { return false; } });
+      options($('source-select'),paths.map(path => [path,path]),'');
+      const row = state.visible.find(row => row.language === state.runtime);
+      $('source-version').textContent = `${row?.runtime_version || runtime.label}${runtime.language === 'typescript' ? ' — shared TypeScript source for Node and Bun' : ''}`;
+      loadSource();
+    }
+    async function loadSource() {
+      const id = ++state.sourceId; const path = $('source-select').value;
+      $('copy').disabled = true; $('code-text').textContent = 'Loading source…'; $('source-status').textContent = ''; $('source-status').className = '';
+      if (!path) { $('code-text').textContent = 'No source file listed for this runtime.'; return; }
+      const expected = state.env.builds?.[`${state.case}/${state.runtime}`]?.source_hashes?.[path];
+      try {
+        const source = await readFile(path);
+        if (id !== state.sourceId) return;
+        state.source = source; $('code-text').textContent = source; $('code').scrollTop = 0; $('code').scrollLeft = 0; $('copy').disabled = false;
+        if (expected && globalThis.crypto?.subtle) {
+          const hash = [...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(source)))].map(byte => byte.toString(16).padStart(2,'0')).join('');
+          if (id !== state.sourceId) return;
+          $('source-status').textContent = hash === expected ? 'Matches measured source' : 'Source changed since measurement';
+          $('source-status').className = hash === expected ? '' : 'warning';
+        } else $('source-status').textContent = 'Source hash not checked';
+      } catch (error) { if (id === state.sourceId) { $('code-text').textContent = `Could not read ${path}.\n${error.message}`; $('source-status').textContent = 'Choose the benchmark folder to retry.'; } }
+    }
+    async function chooseFolder() {
+      if (!window.showDirectoryPicker) { $('folder-input').click(); return; }
+      try {
+        const directory = await window.showDirectoryPicker({mode:'read'});
+        state.directory = directory; state.files = null; await initialize();
+      } catch (error) {
+        if (['SecurityError','NotSupportedError'].includes(error.name)) $('folder-input').click();
+        else if (error.name !== 'AbortError') showNotice('Could not open the folder',error.message,true);
+      }
+    }
+    $('folder-input').addEventListener('change',async event => {
+      if (!event.target.files.length) return;
+      state.directory = null; state.files = new Map();
+      for (const file of event.target.files) {
+        const path = file.webkitRelativePath.split('/').slice(1).join('/');
+        try { safePath(path); state.files.set(path,file); } catch {}
+      }
+      event.target.value = '';
+      await initialize();
+    });
+    $('choose-folder').addEventListener('click',chooseFolder);
+    $('notice-folder').addEventListener('click',chooseFolder);
+    $('retry').addEventListener('click',initialize);
+    $('case-select').addEventListener('change',loadCase);
+    $('scenario-select').addEventListener('change',() => { state.scenario = $('scenario-select').value; render(); });
+    $('telemetry-select').addEventListener('change',() => { state.telemetry = $('telemetry-select').value; render(); });
+    $('metric-select').addEventListener('change',() => { state.metric = $('metric-select').value; renderChart(); updateHash(); });
+    $('source-select').addEventListener('change',loadSource);
+    $('copy').addEventListener('click',async () => {
+      try { await navigator.clipboard.writeText(state.source); $('source-status').textContent = 'Copied source'; }
+      catch { $('source-status').textContent = 'Select the code and copy it manually.'; }
+    });
+    const query = new URLSearchParams(location.hash.slice(1));
+    if (Object.hasOwn(cases,query.get('case'))) state.case = query.get('case');
+    if (Object.hasOwn(runtimes,query.get('runtime'))) state.runtime = query.get('runtime');
+    if (metrics.some(metric => metric.key === query.get('metric'))) state.metric = query.get('metric');
+    if (['medium','off'].includes(query.get('telemetry'))) state.telemetry = query.get('telemetry');
+    state.scenario = query.get('scenario') || '';
+    if (location.protocol === 'file:') { showNotice('Open the benchmark folder','Choose the instrumentation folder to read its CSVs and source files.'); }
+    else initialize();
+  </script>
+</body>
+</html>
