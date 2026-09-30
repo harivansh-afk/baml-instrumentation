@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="612pt" viewBox="0 0 1008 612" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 612 
+L 1008 612 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 45.36 153 
+L 274.68 153 
+L 274.68 110.16 
+L 45.36 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="57.9726" y="134.89125" transform="rotate(-0 57.9726 134.89125)">KPI</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 274.68 153 
+L 504 153 
+L 504 110.16 
+L 274.68 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="287.2926" y="134.89125" transform="rotate(-0 287.2926 134.89125)">Measured reference</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 504 153 
+L 962.64 153 
+L 962.64 110.16 
+L 504 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="529.2252" y="134.89125" transform="rotate(-0 529.2252 134.89125)">What it includes</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 45.36 195.84 
+L 274.68 195.84 
+L 274.68 153 
+L 45.36 153 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="57.9726" y="177.73125" transform="rotate(-0 57.9726 177.73125)">Execution vs Node / V8</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 274.68 195.84 
+L 504 195.84 
+L 504 153 
+L 274.68 153 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="287.2926" y="177.73125" transform="rotate(-0 287.2926 177.73125)">14.07× off / 14.92× high</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 504 195.84 
+L 962.64 195.84 
+L 962.64 153 
+L 504 153 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="529.2252" y="177.73125" transform="rotate(-0 529.2252 177.73125)">Five-workload geometric mean; ratio &gt; 1 is slower</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 45.36 238.68 
+L 274.68 238.68 
+L 274.68 195.84 
+L 45.36 195.84 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="57.9726" y="220.57125" transform="rotate(-0 57.9726 220.57125)">Workflow wall / CPU</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 274.68 238.68 
+L 504 238.68 
+L 504 195.84 
+L 274.68 195.84 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="287.2926" y="220.57125" transform="rotate(-0 287.2926 220.57125)">3.422 / 3.420 ms</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 504 238.68 
+L 962.64 238.68 
+L 962.64 195.84 
+L 504 195.84 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="529.2252" y="220.57125" transform="rotate(-0 529.2252 220.57125)">Per request; BTEL off; collection included</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 45.36 281.52 
+L 274.68 281.52 
+L 274.68 238.68 
+L 45.36 238.68 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="57.9726" y="263.41125" transform="rotate(-0 57.9726 263.41125)">Build workflow</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 274.68 281.52 
+L 504 281.52 
+L 504 238.68 
+L 274.68 238.68 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="287.2926" y="263.41125" transform="rotate(-0 287.2926 263.41125)">659.680 ms</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 504 281.52 
+L 962.64 281.52 
+L 962.64 238.68 
+L 504 238.68 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="529.2252" y="263.41125" transform="rotate(-0 529.2252 263.41125)">Source → packed executable; runtime prebuilt</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 45.36 324.36 
+L 274.68 324.36 
+L 274.68 281.52 
+L 45.36 281.52 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="57.9726" y="306.25125" transform="rotate(-0 57.9726 306.25125)">Packed hello invocation</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 274.68 324.36 
+L 504 324.36 
+L 504 281.52 
+L 274.68 281.52 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="287.2926" y="306.25125" transform="rotate(-0 287.2926 306.25125)">35.033 ms</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 504 324.36 
+L 962.64 324.36 
+L 962.64 281.52 
+L 504 281.52 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="529.2252" y="306.25125" transform="rotate(-0 529.2252 306.25125)">Fresh process through exit; includes shutdown</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 45.36 367.2 
+L 274.68 367.2 
+L 274.68 324.36 
+L 45.36 324.36 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="57.9726" y="349.09125" transform="rotate(-0 57.9726 349.09125)">Native executable</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 274.68 367.2 
+L 504 367.2 
+L 504 324.36 
+L 274.68 324.36 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="287.2926" y="349.09125" transform="rotate(-0 287.2926 349.09125)">32.687 MiB</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 504 367.2 
+L 962.64 367.2 
+L 962.64 324.36 
+L 504 324.36 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="529.2252" y="349.09125" transform="rotate(-0 529.2252 349.09125)">Workflow + published musl runtime host</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 45.36 410.04 
+L 274.68 410.04 
+L 274.68 367.2 
+L 45.36 367.2 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="57.9726" y="391.93125" transform="rotate(-0 57.9726 391.93125)">Allocation peak RSS</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 274.68 410.04 
+L 504 410.04 
+L 504 367.2 
+L 274.68 367.2 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="287.2926" y="391.93125" transform="rotate(-0 287.2926 391.93125)">100.15 / 203.36 MiB</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 504 410.04 
+L 962.64 410.04 
+L 962.64 367.2 
+L 504 367.2 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="529.2252" y="391.93125" transform="rotate(-0 529.2252 391.93125)">Retain 4 / 64; entire measurement process</text>
+    </g>
+    <g id="patch_23">
+     <path d="M 45.36 452.88 
+L 274.68 452.88 
+L 274.68 410.04 
+L 45.36 410.04 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="57.9726" y="434.77125" transform="rotate(-0 57.9726 434.77125)">HTTP aggregate p99</text>
+    </g>
+    <g id="patch_24">
+     <path d="M 274.68 452.88 
+L 504 452.88 
+L 504 410.04 
+L 274.68 410.04 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="287.2926" y="434.77125" transform="rotate(-0 287.2926 434.77125)">5.952 ms</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 504 452.88 
+L 962.64 452.88 
+L 962.64 410.04 
+L 504 410.04 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="529.2252" y="434.77125" transform="rotate(-0 529.2252 434.77125)">BTEL off; 200 offered req/s; 3-second windows</text>
+    </g>
+    <g id="patch_26">
+     <path d="M 45.36 495.72 
+L 274.68 495.72 
+L 274.68 452.88 
+L 45.36 452.88 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="57.9726" y="477.61125" transform="rotate(-0 57.9726 477.61125)">BTEL high recording</text>
+    </g>
+    <g id="patch_27">
+     <path d="M 274.68 495.72 
+L 504 495.72 
+L 504 452.88 
+L 274.68 452.88 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="287.2926" y="477.61125" transform="rotate(-0 287.2926 477.61125)">607.38 KiB/request</text>
+    </g>
+    <g id="patch_28">
+     <path d="M 504 495.72 
+L 962.64 495.72 
+L 962.64 452.88 
+L 504 452.88 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="529.2252" y="477.61125" transform="rotate(-0 529.2252 477.61125)">Whole recording / 768 requests; local sink</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172033" x="45.36" y="36.72" transform="rotate(-0 45.36 36.72)">BAML: the starting reference</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4d5665" x="45.36" y="67.32" transform="rotate(-0 45.36 67.32)">Keep each cost separate. Record candidate absolute values and change versus this reference.</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #4d5665" transform="translate(45.36 564.054281)">Observed medians. Existing batch checks pass; full conformance is unproven.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #4d5665" transform="translate(45.36 579.715187)">One HTTP telemetry recording failed validation elsewhere in this collection.</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b7280" x="45.36" y="596.7" transform="rotate(-0 45.36 596.7)">29 Sep 2026 • shared Linux aarch64 host • historical reference; host isolation unverified</text>
+  </g>
+ </g>
+</svg>

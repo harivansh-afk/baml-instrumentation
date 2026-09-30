@@ -198,3 +198,7 @@ Audit saved numbers
   The first HTML render also freezes case explanations under each collection's
   report-docs/, with content hashes. Later report rebuilds use those snapshots so
   changed case documentation cannot silently reinterpret older measurements.
+
+Board charts: uv run machinery/board_report.py (from the instrumentation root).
+Writes measurements/backend-baseline-v1/board/ as PNG, SVG, HTML and Excalidraw;
+verifies frozen source hashes and trial validity before rendering.

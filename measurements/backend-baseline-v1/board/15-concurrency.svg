@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="612pt" viewBox="0 0 1008 612" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 612 
+L 1008 612 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 45.36 238.68 
+L 467.3088 238.68 
+L 467.3088 110.16 
+L 45.36 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="68.567184" y="178.500469" transform="rotate(-0 68.567184 178.500469)">Scheduling</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 467.3088 238.68 
+L 714.9744 238.68 
+L 714.9744 110.16 
+L 467.3088 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="480.930408" y="178.559062" transform="rotate(-0 480.930408 178.559062)">Wall ms/request</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 714.9744 238.68 
+L 962.64 238.68 
+L 962.64 110.16 
+L 714.9744 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="728.596008" y="178.559062" transform="rotate(-0 728.596008 178.559062)">CPU ms/request</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 45.36 367.2 
+L 467.3088 367.2 
+L 467.3088 238.68 
+L 45.36 238.68 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start" x="68.567184" y="307.079062" transform="rotate(-0 68.567184 307.079062)">Sequential tools</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 467.3088 367.2 
+L 714.9744 367.2 
+L 714.9744 238.68 
+L 467.3088 238.68 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start" x="480.930408" y="307.079062" transform="rotate(-0 480.930408 307.079062)">23.113</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 714.9744 367.2 
+L 962.64 367.2 
+L 962.64 238.68 
+L 714.9744 238.68 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start" x="728.596008" y="307.079062" transform="rotate(-0 728.596008 307.079062)">14.290</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 45.36 495.72 
+L 467.3088 495.72 
+L 467.3088 367.2 
+L 45.36 367.2 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start" x="68.567184" y="435.599062" transform="rotate(-0 68.567184 435.599062)">Four concurrent tools</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 467.3088 495.72 
+L 714.9744 495.72 
+L 714.9744 367.2 
+L 467.3088 367.2 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start" x="480.930408" y="435.599062" transform="rotate(-0 480.930408 435.599062)">16.055</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 714.9744 495.72 
+L 962.64 495.72 
+L 962.64 367.2 
+L 714.9744 367.2 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start" x="728.596008" y="435.599062" transform="rotate(-0 728.596008 435.599062)">14.556</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172033" x="45.36" y="36.72" transform="rotate(-0 45.36 36.72)">Concurrency with waiting</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4d5665" x="45.36" y="67.32" transform="rotate(-0 45.36 67.32)">BAML BTEL off; 192 requests × 512 items; four tools; each timer 1 ms; retain 4</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #4d5665" transform="translate(45.36 564.054281)">Same tool work in both conditions. Wall includes waiting; CPU does not charge idle wait time.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #4d5665" transform="translate(45.36 579.715187)">This does not establish CPU-parallel speedup. True multicore scaling remains unmeasured.</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b7280" x="45.36" y="596.7" transform="rotate(-0 45.36 596.7)">29 Sep 2026 • shared Linux aarch64 host • historical reference; host isolation unverified</text>
+  </g>
+ </g>
+</svg>

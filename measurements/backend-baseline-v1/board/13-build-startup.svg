@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="612pt" viewBox="0 0 1008 612" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 612 
+L 1008 612 
+L 1008 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 45.36 187.272 
+L 228.816 187.272 
+L 228.816 110.16 
+L 45.36 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="55.45008" y="151.980375" transform="rotate(-0 55.45008 151.980375)">Boundary</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 228.816 187.272 
+L 393.9264 187.272 
+L 393.9264 110.16 
+L 228.816 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="237.897072" y="152.02725" transform="rotate(-0 237.897072 152.02725)">Hello median</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 393.9264 187.272 
+L 577.3824 187.272 
+L 577.3824 110.16 
+L 393.9264 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="404.01648" y="152.02725" transform="rotate(-0 404.01648 152.02725)">Workflow median</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 577.3824 187.272 
+L 962.64 187.272 
+L 962.64 110.16 
+L 577.3824 110.16 
+z
+" style="fill: #172033; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #ffffff" x="598.571568" y="152.02725" transform="rotate(-0 598.571568 152.02725)">Scope</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 45.36 264.384 
+L 228.816 264.384 
+L 228.816 187.272 
+L 45.36 187.272 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="55.45008" y="229.13925" transform="rotate(-0 55.45008 229.13925)">Build wall</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 228.816 264.384 
+L 393.9264 264.384 
+L 393.9264 187.272 
+L 228.816 187.272 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="237.897072" y="229.13925" transform="rotate(-0 237.897072 229.13925)">526.086 ms</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 393.9264 264.384 
+L 577.3824 264.384 
+L 577.3824 187.272 
+L 393.9264 187.272 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="404.01648" y="229.13925" transform="rotate(-0 404.01648 229.13925)">659.680 ms</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 577.3824 264.384 
+L 962.64 264.384 
+L 962.64 187.272 
+L 577.3824 187.272 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="598.571568" y="229.13925" transform="rotate(-0 598.571568 229.13925)">Source → runnable; host already built</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 45.36 341.496 
+L 228.816 341.496 
+L 228.816 264.384 
+L 45.36 264.384 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="55.45008" y="306.25125" transform="rotate(-0 55.45008 306.25125)">Build CPU</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 228.816 341.496 
+L 393.9264 341.496 
+L 393.9264 264.384 
+L 228.816 264.384 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="237.897072" y="306.25125" transform="rotate(-0 237.897072 306.25125)">762.841 ms</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 393.9264 341.496 
+L 577.3824 341.496 
+L 577.3824 264.384 
+L 393.9264 264.384 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="404.01648" y="306.25125" transform="rotate(-0 404.01648 306.25125)">806.102 ms</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 577.3824 341.496 
+L 962.64 341.496 
+L 962.64 264.384 
+L 577.3824 264.384 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="598.571568" y="306.25125" transform="rotate(-0 598.571568 306.25125)">CPU used by that pack command</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 45.36 418.608 
+L 228.816 418.608 
+L 228.816 341.496 
+L 45.36 341.496 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="55.45008" y="383.36325" transform="rotate(-0 55.45008 383.36325)">Build peak RSS</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 228.816 418.608 
+L 393.9264 418.608 
+L 393.9264 341.496 
+L 228.816 341.496 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="237.897072" y="383.36325" transform="rotate(-0 237.897072 383.36325)">411.324 MiB</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 393.9264 418.608 
+L 577.3824 418.608 
+L 577.3824 341.496 
+L 393.9264 341.496 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="404.01648" y="383.36325" transform="rotate(-0 404.01648 383.36325)">411.359 MiB</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 577.3824 418.608 
+L 962.64 418.608 
+L 962.64 341.496 
+L 577.3824 341.496 
+z
+" style="fill: #eef2f8; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="598.571568" y="383.36325" transform="rotate(-0 598.571568 383.36325)">Pack command high-water mark</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 45.36 495.72 
+L 228.816 495.72 
+L 228.816 418.608 
+L 45.36 418.608 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="55.45008" y="460.47525" transform="rotate(-0 55.45008 460.47525)">Invocation wall</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 228.816 495.72 
+L 393.9264 495.72 
+L 393.9264 418.608 
+L 228.816 418.608 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="237.897072" y="460.47525" transform="rotate(-0 237.897072 460.47525)">35.033 ms</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 393.9264 495.72 
+L 577.3824 495.72 
+L 577.3824 418.608 
+L 393.9264 418.608 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="404.01648" y="460.47525" transform="rotate(-0 404.01648 460.47525)">441.489 ms</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 577.3824 495.72 
+L 962.64 495.72 
+L 962.64 418.608 
+L 577.3824 418.608 
+z
+" style="fill: #f8f9fb; stroke: #ffffff; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start" x="598.571568" y="460.47525" transform="rotate(-0 598.571568 460.47525)">Case-specific input → exit; includes shutdown</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172033" x="45.36" y="36.72" transform="rotate(-0 45.36 36.72)">Build and startup are separate costs</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4d5665" x="45.36" y="67.32" transform="rotate(-0 45.36 67.32)">BAML packed executables; 5 builds and 5 fresh invocations per case</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #4d5665" transform="translate(45.36 564.054281)">Workflow build range: 559.702–1,578.407 ms. Bytecode cache off; filesystem caches uncontrolled.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #4d5665" transform="translate(45.36 579.715187)">Packed workflow invocation: 8 requests × 64 items, retain 2, sequential 10 ms tools; differs from runtime suite.</text>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6b7280" x="45.36" y="596.7" transform="rotate(-0 45.36 596.7)">29 Sep 2026 • shared Linux aarch64 host • historical reference; host isolation unverified</text>
+  </g>
+ </g>
+</svg>

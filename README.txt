@@ -8,7 +8,8 @@ machinery/      Pinned tools, adapters, resource observer and validation.
 Open measurements/index.html for the combined visual report.
 It works offline: static bar charts, per-case and BTEL comparisons, CSV downloads.
 Start with machinery/README.txt to reproduce a collection or rebuild the report.
-Proposed backend scorecard: measurements/backend-baseline-v1/card.txt.
+Backend scorecard: measurements/backend-baseline-v1/card.txt.
+Excalidraw panels and static gallery: measurements/backend-baseline-v1/board/.
 
 4940 batch trials passed, including stateful workflows, JSON and sorting.
 180 HTTP trials completed; five request timeouts, one incomplete BTEL recording

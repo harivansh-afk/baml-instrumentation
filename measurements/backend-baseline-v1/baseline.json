@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "id": "baml-backend-baseline-v1",
-  "selection_status": "proposed; drawing review pending because scene access requires sign-in",
+  "selection_status": "mapped to supplied MIR-to-Rust mind map and design notes; see board/README.txt",
   "measurements_frozen": true,
   "isolated_machine_baseline_accepted": false,
   "measurement_date": "2026-09-29",

@@ -1,6 +1,6 @@
 BAML backend baseline v1 | 2026-09-29 | shared Linux aarch64 host
 BAML 0.20.2-nightly.20260927.a | 340b9085d9427e6d458f1c700409ffc88c58b050
-Proposed scorecard; mind-map review pending. Values are observed medians.
+Scorecard mapped to supplied mind map and design notes. Values are observed medians.
 
 Build workflow executable      659.680 ms (5 builds; runtime already built)
 Workflow execution, BTEL off   3.422 ms/request wall | 3.420 ms/request CPU

@@ -1,9 +1,9 @@
 Backend comparison scorecard, version 1
 
 Status
-  Frozen measurements; proposed KPI selection. The linked mind map requires
-  sign-in, so its backend branches have not yet been read or mapped to this card.
-  Drawing: https://draw.harivan.sh/s/b3180068c0f5401bb92b
+  Frozen measurements. KPI selection mapped to the supplied MIR-to-Rust mind map
+  and design notes on September 30. Static charts: board/index.html.
+  Drawing snapshot: https://draw.harivan.sh/local#json=2931700bc6a55c2fe6a0,7023hZBs6po8dm2v3qpy_A
   Reference: BAML 0.20.2-nightly.20260927.a, source 340b9085d9427e6d458f1c700409ffc88c58b050.
   Linux aarch64, shared host; measured September 29, 2026. CPU affinity does not
   establish isolation. This is a historical reference, not an accepted idle-host
