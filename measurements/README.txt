@@ -1,4 +1,5 @@
 Open index.html for the combined, static visual report.
+backend-baseline-v1/ freezes a proposed backend scorecard, exact values and sources.
 
 2026-09-29-shared-host/   Original batch suite; raw observations unchanged.
 2026-09-29-extension/     Stateful workflow, JSON hello, sorting distributions,

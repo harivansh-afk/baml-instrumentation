@@ -1,0 +1,28 @@
+BAML backend baseline v1 | 2026-09-29 | shared Linux aarch64 host
+BAML 0.20.2-nightly.20260927.a | 340b9085d9427e6d458f1c700409ffc88c58b050
+Proposed scorecard; mind-map review pending. Values are observed medians.
+
+Build workflow executable      659.680 ms (5 builds; runtime already built)
+Workflow execution, BTEL off   3.422 ms/request wall | 3.420 ms/request CPU
+Allocation peak RSS           100.148 / 203.359 MiB (retain 4 / 64)
+Packed hello invocation       35.033 ms (5 processes; includes shutdown)
+Packed workflow executable    32.687 MiB
+BTEL medium                   +6.37% wall | +8.61% CPU
+BTEL high                     +18.39% wall | +31.59% CPU | 607.382 KiB/request
+
+Gates: required semantic corpus PASS; HTTP telemetry reliability NOT FULLY PASSED.
+Current measurements do not establish an isolated-host baseline or full language conformance.
+Lower cost index is better: 100 * candidate median / reference median.
+Keep absolute costs and separate indices; no overall score. See baseline.json for exact scope.
+
+Copy for each implementation:
+Backend / revision / flags:
+Required semantics: PASS / FAIL / UNSUPPORTED
+Telemetry completeness: PASS / FAIL / UNSUPPORTED
+Measurement validity and GC coverage:
+Build ms:
+Workflow wall / CPU ms per request:
+Allocation RSS MiB, retain 4 / 64:
+Packed startup ms / artifact MiB / required runtime dependencies:
+BTEL low / medium / high absolute cost and overhead:
+Tradeoff / repeatability / link to raw collection:

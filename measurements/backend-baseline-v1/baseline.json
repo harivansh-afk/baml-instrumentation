@@ -1,0 +1,1239 @@
+{
+  "schema": 1,
+  "id": "baml-backend-baseline-v1",
+  "selection_status": "proposed; drawing review pending because scene access requires sign-in",
+  "measurements_frozen": true,
+  "isolated_machine_baseline_accepted": false,
+  "measurement_date": "2026-09-29",
+  "measurement_repository_commit": "5d342694d880b8d69f3bd15e4967a1b7c65cc46f",
+  "baml_version": "0.20.2-nightly.20260927.a",
+  "baml_source_revision": "340b9085d9427e6d458f1c700409ffc88c58b050",
+  "host": "Linux aarch64, shared host, CPUs 15 and 16, two workers where supported",
+  "source_sha256": {
+    "measurements/2026-09-29-shared-host/runtime.csv": "52e771bb53fa4d5eecef7f73ce8c22a30835c621c69b72099ab8ed798ecb021c",
+    "measurements/2026-09-29-extension/runtime.csv": "a854f6908f088abf517d486d05df30757d6f7e91a628f5353cfc53321990105f",
+    "measurements/2026-09-29-extension/compilation.csv": "f3b714e8448e4acb97d9b11e9e198ea844380dbe5d86f2c7991a004d07fc2bc1",
+    "measurements/2026-09-29-http/http.csv": "c6541a0fd34dfef0ee0c431d52ab1fd73bbcbcfa8c170bf84aca3f556312af1d",
+    "measurements/2026-09-29-shared-host/packed/0/pack.csv": "4449523c92f8a1fcb03326d4b6753fb6ba7f5f1674987ea124a7a9ce144128b3",
+    "measurements/2026-09-29-shared-host/packed/1/pack.csv": "6cf811201fe10af7ed76b3fc360acdfd06198a1c200272eb073f9421c06e07a6",
+    "measurements/2026-09-29-shared-host/packed/2/pack.csv": "73876d04103546fe2e73fcca96e239f9eaac707d35bade20f7338cafb1314df0",
+    "measurements/2026-09-29-shared-host/packed/3/pack.csv": "2b9a29fa3a279b6084af01c3451ebcd25c7acf971fc05739172b018eedc2a9e7",
+    "measurements/2026-09-29-shared-host/packed/4/pack.csv": "7e08b6657b2908126ebe7ca1e81496289fa4040b61e9fd0df55f085346a7377c",
+    "measurements/2026-09-29-extension/packed/0/pack.csv": "59dfc5ee0f3d249f4038aa076a130951e236876a1a7684de756ddb5a77f1b40d",
+    "measurements/2026-09-29-extension/packed/1/pack.csv": "e078b9bb4cbbf56f81a3ef2503b08b59b1b4266ecde432b5ed5adb9bb14bba2a",
+    "measurements/2026-09-29-extension/packed/2/pack.csv": "51610d2ad73d30bde87a28ffb217c33caefa8fb5657ce8caed5cd76b10b996fe",
+    "measurements/2026-09-29-extension/packed/3/pack.csv": "40a09682a558778d4434efbe22e40cfe938b101e9c442926bb3ecadc5a512653",
+    "measurements/2026-09-29-extension/packed/4/pack.csv": "78dc88eed523ca1f685e69e4db2fd044fe7d42f3ec80a3d0e04ce28b1a5eaac8",
+    "measurements/2026-09-29-shared-host/protocol.json": "78f7a09e4bb0523535bbce4276ecb3304e9984be708b4009724ef7edd6ab54ca",
+    "measurements/2026-09-29-shared-host/producer.json": "a29d8c71af3f31b8a1e3f3d18cb6074b6ec9070f7a70d6b07b852427e959d0c5",
+    "measurements/2026-09-29-extension/protocol.json": "b46bd1eaa858fc0839eb353e98792de58b68d6614946849e6208d5188355e3c2",
+    "measurements/2026-09-29-extension/producer.json": "63046954c03c37297b7b050fd909e2d8ac0554efa6e8e0dfec5ccedac29757da",
+    "measurements/2026-09-29-http/protocol.json": "f11aefe5c3b8cd06d918d0f6fc44e46fcc0407400263ab2aab9f30eee9b16cc4",
+    "measurements/2026-09-29-http/producer.json": "db85cf29ffb9f364754c47f84bf1f632336220a59cd05a985058403c3954c117"
+  },
+  "metrics": [
+    {
+      "id": "build_runnable_ms",
+      "label": "Workflow source to runnable executable",
+      "tier": "primary",
+      "unit": "ms",
+      "direction": "lower",
+      "median": 659.679535,
+      "minimum": 559.701783,
+      "maximum": 1578.406874,
+      "n": 5,
+      "values": [
+        1578.406874,
+        1006.494749,
+        559.701783,
+        659.679535,
+        561.200053
+      ],
+      "source": "2026-09-29-extension/packed/{0..4}/pack.csv",
+      "selection": {
+        "case": "08_stateful_workflow",
+        "backend": "published-pack"
+      },
+      "column": "compile_wall_ns",
+      "divisor": 1000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [],
+        "source_sha256": [
+          "2479f374e74816c442f2dd0a49eacfa0b5f72dbb2eeb24861a9f749c03468a4d"
+        ],
+        "artifact_sha256": [
+          "c888d0aa9a67e4923343f2469858ce12051b58367304434b3d138089b134b56c"
+        ],
+        "cli_sha256": [
+          "db7ab78e7fcc0388461a48132a8aedc6594af2a724e5910c57bf4586730bcc5e"
+        ],
+        "pack_host_sha256": [
+          "eff923416c6883fac17c5af3210a93c35536aee1025be47f3becc807e22d0ca2"
+        ]
+      },
+      "scope": "Published pack command. Bytecode/diagnostics caches disabled; filesystem caches uncontrolled. Published runtime already built; runtime bootstrap and tool downloads excluded."
+    },
+    {
+      "id": "workflow_wall_ms",
+      "label": "Stateful workflow wall per request",
+      "tier": "primary",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 3.4221189602864586,
+      "minimum": 3.3974211875,
+      "maximum": 3.4824222643229166,
+      "n": 20,
+      "values": [
+        3.410339399739583,
+        3.4209988372395834,
+        3.3974211875,
+        3.4116372109375,
+        3.4270818359375,
+        3.423407830729167,
+        3.4232390833333333,
+        3.4330569596354166,
+        3.428655100260417,
+        3.415884346354167,
+        3.432321203125,
+        3.407239286458333,
+        3.40836002734375,
+        3.4072499765625,
+        3.4398039088541665,
+        3.4197715833333335,
+        3.4318054192708334,
+        3.4281640364583335,
+        3.4824222643229166,
+        3.404071315104167
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "off",
+        "sink": "local"
+      },
+      "column": "execution_wall_ns",
+      "divisor": 768000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "768 requests in one batch, 128 items/request, retain 4, no timers, zero warmup. Includes invalid request handling and GC; batch average, not request latency."
+    },
+    {
+      "id": "workflow_cpu_ms",
+      "label": "Stateful workflow CPU per request",
+      "tier": "primary",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 3.420412364583333,
+      "minimum": 3.3973423958333333,
+      "maximum": 3.4821767291666665,
+      "n": 20,
+      "values": [
+        3.4100754166666665,
+        3.4210044791666667,
+        3.3973423958333333,
+        3.411649166666667,
+        3.4270912916666667,
+        3.42346925,
+        3.4223033125,
+        3.433106395833333,
+        3.4285584583333333,
+        3.4158864166666665,
+        3.43239875,
+        3.405562,
+        3.4080718125,
+        3.4071518958333336,
+        3.4393489791666667,
+        3.41982025,
+        3.41448075,
+        3.428088041666667,
+        3.4821767291666665,
+        3.4039137916666666
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "off",
+        "sink": "local"
+      },
+      "column": "execution_cpu_ns",
+      "divisor": 768000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "768 requests in one batch, 128 items/request, retain 4, no timers, zero warmup. Includes invalid request handling and GC; batch average, not request latency."
+    },
+    {
+      "id": "allocation_rss_retain_4_mib",
+      "label": "Allocation peak RSS, retain 4",
+      "tier": "primary",
+      "unit": "MiB",
+      "direction": "lower",
+      "median": 100.1484375,
+      "minimum": 99.83203125,
+      "maximum": 100.19140625,
+      "n": 20,
+      "values": [
+        100.19140625,
+        100.19140625,
+        100.00390625,
+        99.97265625,
+        100.19140625,
+        100.00390625,
+        100.1875,
+        100.19140625,
+        99.83203125,
+        100.0,
+        100.05078125,
+        100.00390625,
+        100.00390625,
+        100.1796875,
+        100.19140625,
+        100.00390625,
+        100.1796875,
+        100.1171875,
+        100.19140625,
+        100.19140625
+      ],
+      "source": "2026-09-29-shared-host/runtime.csv",
+      "selection": {
+        "scenario": "allocation-low-retention",
+        "language": "baml",
+        "level": "off",
+        "sink": "local"
+      },
+      "column": "peak_rss_bytes",
+      "divisor": 1048576,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "1ba95f9c9cb3ea4188fb71c582eae473a40ee6772d9ccccf6cab65645475ef64"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "757b2480d4d5db66acb672a7123ba38ef4df7dfd6663ecd13995e42e143055c5"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "2048 cells/batch, 128 batches/job, 8 jobs plus 1 warmup. Whole-process peak includes runtime and diagnostics; not live heap or isolated GC cost."
+    },
+    {
+      "id": "allocation_rss_retain_64_mib",
+      "label": "Allocation peak RSS, retain 64",
+      "tier": "primary",
+      "unit": "MiB",
+      "direction": "lower",
+      "median": 203.359375,
+      "minimum": 203.26171875,
+      "maximum": 203.41796875,
+      "n": 20,
+      "values": [
+        203.359375,
+        203.359375,
+        203.30859375,
+        203.3046875,
+        203.35546875,
+        203.35546875,
+        203.359375,
+        203.37109375,
+        203.41796875,
+        203.36328125,
+        203.3515625,
+        203.37109375,
+        203.3671875,
+        203.3515625,
+        203.36328125,
+        203.36328125,
+        203.3828125,
+        203.3515625,
+        203.26171875,
+        203.35546875
+      ],
+      "source": "2026-09-29-shared-host/runtime.csv",
+      "selection": {
+        "scenario": "allocation-high-retention",
+        "language": "baml",
+        "level": "off",
+        "sink": "local"
+      },
+      "column": "peak_rss_bytes",
+      "divisor": 1048576,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "39b7d5be58793ff9b0991ecd32296e3d83fb4a4d0383bc9f1f6f11e91569020c"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "757b2480d4d5db66acb672a7123ba38ef4df7dfd6663ecd13995e42e143055c5"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "2048 cells/batch, 128 batches/job, 8 jobs plus 1 warmup. Whole-process peak includes runtime and diagnostics; not live heap or isolated GC cost."
+    },
+    {
+      "id": "packed_startup_ms",
+      "label": "Packed startup invocation",
+      "tier": "primary",
+      "unit": "ms",
+      "direction": "lower",
+      "median": 35.033258,
+      "minimum": 33.702971,
+      "maximum": 35.912949,
+      "n": 5,
+      "values": [
+        35.248134,
+        35.912949,
+        33.702971,
+        35.033258,
+        34.430558
+      ],
+      "source": "2026-09-29-shared-host/packed/{0..4}/pack.csv",
+      "selection": {
+        "case": "00_startup",
+        "backend": "published-pack"
+      },
+      "column": "process_wall_ns",
+      "divisor": 1000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [],
+        "source_sha256": [
+          "dc6e3a713cff19941f0ed8e5aecfa7431b806a9b0cd1946a3c0d1b4a602d6de3"
+        ],
+        "artifact_sha256": [
+          "6a421d6e672cae33e4c8c0658df04df414130e92c6004dc4aa8ebac1aff72b88"
+        ],
+        "cli_sha256": [
+          "db7ab78e7fcc0388461a48132a8aedc6594af2a724e5910c57bf4586730bcc5e"
+        ],
+        "pack_host_sha256": [
+          "eff923416c6883fac17c5af3210a93c35536aee1025be47f3becc807e22d0ca2"
+        ]
+      },
+      "scope": "Fresh published executable, BTEL off, arguments/JSON output and shutdown included. Whole-process time, not launch-to-ready. Runtime artifact differs from source-built measurement probe."
+    },
+    {
+      "id": "packed_workflow_mib",
+      "label": "Packed workflow executable size",
+      "tier": "primary",
+      "unit": "MiB",
+      "direction": "lower",
+      "median": 32.687339782714844,
+      "minimum": 32.687339782714844,
+      "maximum": 32.687339782714844,
+      "n": 5,
+      "values": [
+        32.687339782714844,
+        32.687339782714844,
+        32.687339782714844,
+        32.687339782714844,
+        32.687339782714844
+      ],
+      "source": "2026-09-29-extension/packed/{0..4}/pack.csv",
+      "selection": {
+        "case": "08_stateful_workflow",
+        "backend": "published-pack"
+      },
+      "column": "packed_bytes",
+      "divisor": 1048576,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [],
+        "source_sha256": [
+          "2479f374e74816c442f2dd0a49eacfa0b5f72dbb2eeb24861a9f749c03468a4d"
+        ],
+        "artifact_sha256": [
+          "c888d0aa9a67e4923343f2469858ce12051b58367304434b3d138089b134b56c"
+        ],
+        "cli_sha256": [
+          "db7ab78e7fcc0388461a48132a8aedc6594af2a724e5910c57bf4586730bcc5e"
+        ],
+        "pack_host_sha256": [
+          "eff923416c6883fac17c5af3210a93c35536aee1025be47f3becc807e22d0ca2"
+        ]
+      },
+      "scope": "Published musl host plus Program in one executable; no external BAML runtime. Repeats verify artifact identity, not independent size variation."
+    },
+    {
+      "id": "btel_low_wall_ms",
+      "label": "BTEL low workflow wall per request",
+      "tier": "primary",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 3.4185665013020836,
+      "minimum": 3.4050063385416665,
+      "maximum": 3.458950157552083,
+      "n": 20,
+      "values": [
+        3.4077071119791666,
+        3.4211138984375,
+        3.4288639036458335,
+        3.43978455859375,
+        3.4050063385416665,
+        3.458950157552083,
+        3.41253010546875,
+        3.417377338541667,
+        3.41378907421875,
+        3.4083196432291665,
+        3.4211184270833335,
+        3.4250626354166664,
+        3.4190552265625,
+        3.4147080859375,
+        3.4187553229166667,
+        3.4275980494791667,
+        3.414121514322917,
+        3.4183776796875,
+        3.414667984375,
+        3.4294516145833334
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "low",
+        "sink": "local"
+      },
+      "column": "execution_wall_ns",
+      "divisor": 768000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Same workload as off-mode workflow. Report absolute cost and ratio of medians; no paired-trial or causal attribution claim."
+    },
+    {
+      "id": "btel_low_cpu_ms",
+      "label": "BTEL low workflow cpu per request",
+      "tier": "primary",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 3.417995385416667,
+      "minimum": 3.4046277291666667,
+      "maximum": 3.4582045833333335,
+      "n": 20,
+      "values": [
+        3.407825229166667,
+        3.4204147083333334,
+        3.4283908541666666,
+        3.426725145833333,
+        3.4046277291666667,
+        3.4582045833333335,
+        3.412517916666667,
+        3.4133760208333332,
+        3.4093693541666665,
+        3.408086604166667,
+        3.4211420208333334,
+        3.422946083333333,
+        3.418374666666667,
+        3.4065278958333334,
+        3.4185461875,
+        3.4197492291666665,
+        3.4142015833333335,
+        3.4176161041666666,
+        3.4147724166666666,
+        3.4293967916666666
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "low",
+        "sink": "local"
+      },
+      "column": "execution_cpu_ns",
+      "divisor": 768000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Same workload as off-mode workflow. Report absolute cost and ratio of medians; no paired-trial or causal attribution claim."
+    },
+    {
+      "id": "btel_low_kib_per_request",
+      "label": "BTEL low recording bytes per request",
+      "tier": "primary",
+      "unit": "KiB/request",
+      "direction": "lower",
+      "median": 0.000762939453125,
+      "minimum": 0.000762939453125,
+      "maximum": 0.0007654825846354166,
+      "n": 20,
+      "values": [
+        0.0007654825846354166,
+        0.0007654825846354166,
+        0.000762939453125,
+        0.0007654825846354166,
+        0.000762939453125,
+        0.000762939453125,
+        0.000762939453125,
+        0.000762939453125,
+        0.000762939453125,
+        0.000762939453125,
+        0.0007654825846354166,
+        0.000762939453125,
+        0.000762939453125,
+        0.000762939453125,
+        0.000762939453125,
+        0.000762939453125,
+        0.000762939453125,
+        0.0007654825846354166,
+        0.000762939453125,
+        0.0007654825846354166
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "low",
+        "sink": "local"
+      },
+      "column": "recording_bytes",
+      "divisor": 786432,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Whole-process local recording divided by 768 requests. Not network bytes or an individual request trace size."
+    },
+    {
+      "id": "btel_medium_wall_ms",
+      "label": "BTEL medium workflow wall per request",
+      "tier": "primary",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 3.640170630208333,
+      "minimum": 3.61356797265625,
+      "maximum": 3.7742341640625,
+      "n": 20,
+      "values": [
+        3.6328304388020833,
+        3.6574361848958334,
+        3.6212163424479167,
+        3.6417737916666666,
+        3.6358964479166667,
+        3.6294687864583333,
+        3.6278652434895835,
+        3.6207983958333334,
+        3.7096098046875,
+        3.6181887825520835,
+        3.64590283984375,
+        3.6941901236979167,
+        3.643049703125,
+        3.6141331223958333,
+        3.63856746875,
+        3.7742341640625,
+        3.662124583333333,
+        3.6676592578125,
+        3.6463541015625,
+        3.61356797265625
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "medium",
+        "sink": "local"
+      },
+      "column": "execution_wall_ns",
+      "divisor": 768000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Same workload as off-mode workflow. Report absolute cost and ratio of medians; no paired-trial or causal attribution claim."
+    },
+    {
+      "id": "btel_medium_cpu_ms",
+      "label": "BTEL medium workflow cpu per request",
+      "tier": "primary",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 3.7149264791666665,
+      "minimum": 3.701886291666667,
+      "maximum": 3.788792625,
+      "n": 20,
+      "values": [
+        3.7028275625,
+        3.720996583333333,
+        3.7064984375,
+        3.7082760416666667,
+        3.725633833333333,
+        3.7154557291666666,
+        3.7175251875,
+        3.714182625,
+        3.780115625,
+        3.715377875,
+        3.7099319166666667,
+        3.7249546875,
+        3.723804,
+        3.7143406041666664,
+        3.701886291666667,
+        3.788792625,
+        3.7175273958333332,
+        3.7080651458333334,
+        3.7144750833333333,
+        3.7106593333333335
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "medium",
+        "sink": "local"
+      },
+      "column": "execution_cpu_ns",
+      "divisor": 768000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Same workload as off-mode workflow. Report absolute cost and ratio of medians; no paired-trial or causal attribution claim."
+    },
+    {
+      "id": "btel_medium_kib_per_request",
+      "label": "BTEL medium recording bytes per request",
+      "tier": "primary",
+      "unit": "KiB/request",
+      "direction": "lower",
+      "median": 0.005713144938151042,
+      "minimum": 0.005713144938151042,
+      "maximum": 0.005715688069661458,
+      "n": 20,
+      "values": [
+        0.005715688069661458,
+        0.005713144938151042,
+        0.005715688069661458,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005715688069661458,
+        0.005713144938151042,
+        0.005715688069661458,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005713144938151042,
+        0.005715688069661458
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "medium",
+        "sink": "local"
+      },
+      "column": "recording_bytes",
+      "divisor": 786432,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Whole-process local recording divided by 768 requests. Not network bytes or an individual request trace size."
+    },
+    {
+      "id": "btel_high_wall_ms",
+      "label": "BTEL high workflow wall per request",
+      "tier": "primary",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 4.051353643229167,
+      "minimum": 3.9561805859375,
+      "maximum": 4.326477963541667,
+      "n": 20,
+      "values": [
+        4.00218625,
+        3.9561805859375,
+        4.0665945859375,
+        3.9813883502604166,
+        4.0361127005208335,
+        4.1079117578125,
+        3.984538140625,
+        3.978686829427083,
+        4.018309053385416,
+        4.0181840325520835,
+        4.000009356770834,
+        4.101461173177083,
+        3.9938513671875,
+        4.1435333515625,
+        4.166531434895833,
+        4.326477963541667,
+        4.218890794270833,
+        4.15195221875,
+        4.136811140625,
+        4.079022555989583
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "high",
+        "sink": "local"
+      },
+      "column": "execution_wall_ns",
+      "divisor": 768000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Same workload as off-mode workflow. Report absolute cost and ratio of medians; no paired-trial or causal attribution claim."
+    },
+    {
+      "id": "btel_high_cpu_ms",
+      "label": "BTEL high workflow cpu per request",
+      "tier": "primary",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 4.50108134375,
+      "minimum": 4.447120333333333,
+      "maximum": 4.9039726041666665,
+      "n": 20,
+      "values": [
+        4.449028625,
+        4.553046875,
+        4.747127,
+        4.473034604166667,
+        4.465109395833333,
+        4.9039726041666665,
+        4.4988630625,
+        4.511377875,
+        4.4965908125,
+        4.5125735,
+        4.503299625,
+        4.6557259166666665,
+        4.462803770833333,
+        4.483067125,
+        4.863571291666666,
+        4.527974354166667,
+        4.559037375,
+        4.451119916666666,
+        4.447120333333333,
+        4.461300708333333
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "high",
+        "sink": "local"
+      },
+      "column": "execution_cpu_ns",
+      "divisor": 768000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Same workload as off-mode workflow. Report absolute cost and ratio of medians; no paired-trial or causal attribution claim."
+    },
+    {
+      "id": "btel_high_kib_per_request",
+      "label": "BTEL high recording bytes per request",
+      "tier": "primary",
+      "unit": "KiB/request",
+      "direction": "lower",
+      "median": 607.3822758992513,
+      "minimum": 607.3822580973307,
+      "maximum": 607.3822784423828,
+      "n": 20,
+      "values": [
+        607.3822784423828,
+        607.3822758992513,
+        607.3822784423828,
+        607.3822758992513,
+        607.3822784423828,
+        607.3822758992513,
+        607.3822758992513,
+        607.3822758992513,
+        607.3822784423828,
+        607.3822580973307,
+        607.3822758992513,
+        607.3822746276855,
+        607.3822746276855,
+        607.3822758992513,
+        607.3822758992513,
+        607.3822784423828,
+        607.3822758992513,
+        607.3822758992513,
+        607.3822758992513,
+        607.3822758992513
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-retain-4",
+        "language": "baml",
+        "level": "high",
+        "sink": "local"
+      },
+      "column": "recording_bytes",
+      "divisor": 786432,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "fc325ff0894256279f7e0dba94b51aa56bad0e1ba95f2af27169d0b7eb0f07d9"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Whole-process local recording divided by 768 requests. Not network bytes or an individual request trace size."
+    },
+    {
+      "id": "bytecode_compile_ms",
+      "label": "Probe source to bytecode",
+      "tier": "diagnostic",
+      "unit": "ms",
+      "direction": "lower",
+      "median": 697.541357,
+      "minimum": 677.475702,
+      "maximum": 763.121811,
+      "n": 5,
+      "values": [
+        677.475702,
+        697.541357,
+        763.121811,
+        701.455078,
+        680.009631
+      ],
+      "source": "2026-09-29-extension/compilation.csv",
+      "selection": {
+        "case": "08_stateful_workflow",
+        "language": "baml"
+      },
+      "column": "process_wall_ns",
+      "divisor": 1000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Source-built compiler probe; bytecode output, not a native executable. Host already built."
+    },
+    {
+      "id": "array-iterator_ms",
+      "label": "8192-element array-iterator",
+      "tier": "diagnostic",
+      "unit": "ms/job",
+      "direction": "lower",
+      "median": 1.70458699609375,
+      "minimum": 1.6940896015625,
+      "maximum": 1.7281538359375,
+      "n": 20,
+      "values": [
+        1.704238375,
+        1.71166603125,
+        1.70272434375,
+        1.7158517890625,
+        1.70535146875,
+        1.7281538359375,
+        1.7039394453125,
+        1.7127393671875,
+        1.6958446484375,
+        1.700423296875,
+        1.707757953125,
+        1.7109476015625,
+        1.695206859375,
+        1.6940896015625,
+        1.6987995078125,
+        1.708045421875,
+        1.7020311171875,
+        1.7125798046875,
+        1.69963921875,
+        1.7049356171875
+      ],
+      "source": "2026-09-29-shared-host/runtime.csv",
+      "selection": {
+        "scenario": "array-iterator",
+        "language": "baml",
+        "level": "off",
+        "sink": "local"
+      },
+      "column": "execution_wall_ns",
+      "divisor": 1000000.0,
+      "divide_by_jobs": true,
+      "identities": {
+        "input_sha256": [
+          "6d12a9781d10bbb76fe14bf5dee00914d3f1c48ade09ef371a0c3cd1009fff02"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "0b16e3775422840b4b3e5736cabb701f0d320bc714bb3e51c73a79d342e782ad"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "8192 prepared integers, timed batches of 128 jobs, 4 warmup jobs. Same input values."
+    },
+    {
+      "id": "array-indexed_ms",
+      "label": "8192-element array-indexed",
+      "tier": "diagnostic",
+      "unit": "ms/job",
+      "direction": "lower",
+      "median": 0.28446258203124997,
+      "minimum": 0.2814948125,
+      "maximum": 0.3053746953125,
+      "n": 20,
+      "values": [
+        0.283879203125,
+        0.2871464765625,
+        0.290290234375,
+        0.28709634375,
+        0.282870828125,
+        0.289283609375,
+        0.2823759453125,
+        0.2855200859375,
+        0.3053746953125,
+        0.2850459609375,
+        0.289320359375,
+        0.2862698359375,
+        0.2823356875,
+        0.2827783203125,
+        0.2889223515625,
+        0.2828355703125,
+        0.2814948125,
+        0.2820430625,
+        0.2826360703125,
+        0.2816851796875
+      ],
+      "source": "2026-09-29-shared-host/runtime.csv",
+      "selection": {
+        "scenario": "array-indexed",
+        "language": "baml",
+        "level": "off",
+        "sink": "local"
+      },
+      "column": "execution_wall_ns",
+      "divisor": 1000000.0,
+      "divide_by_jobs": true,
+      "identities": {
+        "input_sha256": [
+          "589fc86743faf04d6d8d6e05ac046c123207b7cfc8066c04e3daf473efc33615"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "0b16e3775422840b4b3e5736cabb701f0d320bc714bb3e51c73a79d342e782ad"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "8192 prepared integers, timed batches of 128 jobs, 4 warmup jobs. Same input values."
+    },
+    {
+      "id": "workflow_tools_1_ms",
+      "label": "Workflow timers, fanout 1",
+      "tier": "diagnostic",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 23.113478143229166,
+      "minimum": 22.705376625,
+      "maximum": 24.917558421875,
+      "n": 20,
+      "values": [
+        23.315019067708334,
+        23.570804286458333,
+        23.0411119375,
+        23.062802229166667,
+        23.366658270833334,
+        22.820210817708332,
+        22.896721786458333,
+        23.678823942708334,
+        23.205979916666667,
+        22.705376625,
+        23.173419166666665,
+        23.240239395833335,
+        23.019015020833333,
+        23.088251630208333,
+        24.917558421875,
+        23.17278116145833,
+        22.966066786458335,
+        22.966302916666667,
+        23.131019864583333,
+        23.095936421875
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-tools-1",
+        "language": "baml",
+        "level": "off",
+        "sink": "local"
+      },
+      "column": "execution_wall_ns",
+      "divisor": 192000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "701cc7ee7b8ee5554ec740e19eacaa777007e170c82997f76047d78ed00d114c"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "512 items/request, 192 requests, four tools, 1 ms timers. Measures concurrent waiting plus application CPU; not CPU parallel scaling."
+    },
+    {
+      "id": "workflow_tools_4_ms",
+      "label": "Workflow timers, fanout 4",
+      "tier": "diagnostic",
+      "unit": "ms/request",
+      "direction": "lower",
+      "median": 16.0554617421875,
+      "minimum": 15.779742848958334,
+      "maximum": 16.296382401041665,
+      "n": 20,
+      "values": [
+        16.147224119791666,
+        16.007216421875,
+        16.14239665625,
+        16.05801553125,
+        16.149132869791668,
+        16.124219989583334,
+        16.113546041666666,
+        15.963413020833332,
+        16.052907953125,
+        16.112743447916667,
+        16.296382401041665,
+        16.16372691666667,
+        15.881841885416666,
+        16.021142505208335,
+        15.894712119791667,
+        15.779742848958334,
+        16.069015104166667,
+        16.009025890625,
+        15.818968015625,
+        15.980076609375
+      ],
+      "source": "2026-09-29-extension/runtime.csv",
+      "selection": {
+        "scenario": "workflow-tools-4",
+        "language": "baml",
+        "level": "off",
+        "sink": "local"
+      },
+      "column": "execution_wall_ns",
+      "divisor": 192000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "6e4d4958650f5f7b033f3a7d1161160d68b015aef20817e555ee9c3362fd3e4f"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "69a24980729887075424aee836419c3d4362d6771c6fa554ae58b7ab615c1ab9"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "512 items/request, 192 requests, four tools, 1 ms timers. Measures concurrent waiting plus application CPU; not CPU parallel scaling."
+    },
+    {
+      "id": "http_aggregate_p99_ms",
+      "label": "HTTP aggregate p99 at 200 requests/s",
+      "tier": "diagnostic",
+      "unit": "ms",
+      "direction": "lower",
+      "median": 5.951602,
+      "minimum": 5.418256,
+      "maximum": 8.246063,
+      "n": 5,
+      "values": [
+        8.246063,
+        5.418256,
+        5.951602,
+        5.671417,
+        6.344281
+      ],
+      "source": "2026-09-29-http/http.csv",
+      "selection": {
+        "scenario": "http-aggregate-200",
+        "language": "baml",
+        "level": "off",
+        "client_schedule_valid": "True"
+      },
+      "column": "latency_p99_ns",
+      "divisor": 1000000.0,
+      "divide_by_jobs": false,
+      "identities": {
+        "input_sha256": [
+          "472ee2f40e01fd6b75a979494f635c984756fced0481637c29a33193edd4849d"
+        ],
+        "source_sha256": [],
+        "artifact_sha256": [
+          "85c3c8990d246bbc92de5f0e3f9c29f80efec17e61abb0eb8bcdacd642440976"
+        ],
+        "cli_sha256": [],
+        "pack_host_sha256": []
+      },
+      "scope": "Median of five per-process successful-response p99 values. Scheduled arrival to full body; includes driver delay. Zero failed requests in these five trials. Three-second loopback connection-close load; not sustained capacity."
+    }
+  ],
+  "derived_ratios": [
+    {
+      "id": "btel_low_wall_overhead_pct",
+      "numerator": "btel_low_wall_ms",
+      "denominator": "workflow_wall_ms",
+      "formula": "100 * (median(numerator) / median(denominator) - 1)",
+      "value": -0.10380875199258455
+    },
+    {
+      "id": "btel_low_cpu_overhead_pct",
+      "numerator": "btel_low_cpu_ms",
+      "denominator": "workflow_cpu_ms",
+      "formula": "100 * (median(numerator) / median(denominator) - 1)",
+      "value": -0.07066338525999472
+    },
+    {
+      "id": "btel_medium_wall_overhead_pct",
+      "numerator": "btel_medium_wall_ms",
+      "denominator": "workflow_wall_ms",
+      "formula": "100 * (median(numerator) / median(denominator) - 1)",
+      "value": 6.371831968799291
+    },
+    {
+      "id": "btel_medium_cpu_overhead_pct",
+      "numerator": "btel_medium_cpu_ms",
+      "denominator": "workflow_cpu_ms",
+      "formula": "100 * (median(numerator) / median(denominator) - 1)",
+      "value": 8.61048561374882
+    },
+    {
+      "id": "btel_high_wall_overhead_pct",
+      "numerator": "btel_high_wall_ms",
+      "denominator": "workflow_wall_ms",
+      "formula": "100 * (median(numerator) / median(denominator) - 1)",
+      "value": 18.387282565128473
+    },
+    {
+      "id": "btel_high_cpu_overhead_pct",
+      "numerator": "btel_high_cpu_ms",
+      "denominator": "workflow_cpu_ms",
+      "formula": "100 * (median(numerator) / median(denominator) - 1)",
+      "value": 31.594698649684936
+    }
+  ],
+  "quality_gates": {
+    "correctness": "Same required semantic corpus and output/state contract must pass; no unsupported case silently omitted. Existing passing corpus is not complete language conformance.",
+    "telemetry": "Every required level must preserve expected roots/spans and report zero delivery loss. Current HTTP baseline contains one telemetry failure; gate not fully passed.",
+    "measurement_validity": "Same input/work counts and lifecycle boundaries; fresh artifact/source identities; all failures retained; exclusion rules declared before execution.",
+    "gc_coverage": "GC count is coverage, not an optimization target. Baseline allocation/workflow trials observed required collections. A collector-free backend is not required to collect; a collecting backend needs separate sustained-GC coverage if the fixed workload no longer triggers it."
+  },
+  "comparison_rules": [
+    "Report each KPI independently; no weighted aggregate winner score.",
+    "For positive baseline costs, index = 100 * candidate median / reference median; smaller is lower cost.",
+    "Run the frozen BAML backend alongside each candidate on the same host, alternating or randomizing trials. Keep the original historical value and the fresh control distinct.",
+    "Claim improvement beyond measured repeatability; no fixed 5 percent gate or product SLO inferred from this shared-host run.",
+    "Preserve workload semantics, optimization profile, compiler-cache policy and declared runtime/bootstrap/deployment scope. Record backend-specific differences.",
+    "Unsupported required capabilities are unsupported, not zero cost or correctness success.",
+    "Diagnostic/profiling builds remain separate from release timing."
+  ],
+  "missing_measurements": [
+    "BAML per-cycle GC pause and parking attribution",
+    "Payload-inclusive live-heap size and long-duration memory plateau",
+    "Incremental edit-to-ready compilation and project-size scaling",
+    "Sustained HTTP capacity and long-duration tail latency",
+    "Full backend conformance, cancellation and complete cleanup/exception semantics"
+  ]
+}
